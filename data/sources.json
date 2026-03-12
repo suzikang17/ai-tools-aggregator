@@ -1,0 +1,94 @@
+{
+  "sources": [
+    {
+      "url": "https://www.producthunt.com/topics/artificial-intelligence",
+      "name": "Product Hunt AI",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://news.ycombinator.com",
+      "name": "Hacker News",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://www.reddit.com/r/artificial",
+      "name": "Reddit r/artificial",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://www.reddit.com/r/ChatGPT",
+      "name": "Reddit r/ChatGPT",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://www.reddit.com/r/singularity",
+      "name": "Reddit r/singularity",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://www.reddit.com/r/LocalLLaMA",
+      "name": "Reddit r/LocalLLaMA",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://theresanaiforthat.com",
+      "name": "There's An AI For That",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://www.futuretools.io",
+      "name": "Future Tools",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://bensbites.com",
+      "name": "Ben's Bites",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    },
+    {
+      "url": "https://x.com/search?q=AI%20tool",
+      "name": "X/Twitter AI (best-effort)",
+      "type": "seed",
+      "lastChecked": null,
+      "toolsFound": 0,
+      "timesChecked": 0,
+      "qualityScore": 0
+    }
+  ]
+}
