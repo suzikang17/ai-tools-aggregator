@@ -1,5 +1,7 @@
 ---
 import toolsData from "../../data/tools.json";
+import ToolsGrid from "../components/ToolsGrid";
+import "../styles/global.css";
 
 const { metadata, tools } = toolsData;
 ---
@@ -11,7 +13,16 @@ const { metadata, tools } = toolsData;
   <title>AI Tools Aggregator</title>
 </head>
 <body>
-  <h1>AI Tools Aggregator</h1>
-  <p>{metadata.totalTools} tools tracked</p>
+  <div class="container">
+    <header>
+      <h1>AI Tools Aggregator</h1>
+    </header>
+    <ToolsGrid
+      client:load
+      tools={tools}
+      lastUpdated={metadata.lastUpdated}
+      trendingCount={metadata.trendingCount}
+    />
+  </div>
 </body>
 </html>
