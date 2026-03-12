@@ -43,6 +43,11 @@ describe("shouldSkipSource", () => {
     const source: Source = { url: "", name: "", type: "discovered", lastChecked: null, toolsFound: 0, timesChecked: 5, qualityScore: 0 };
     expect(shouldSkipSource(source)).toBe(false);
   });
+
+  it("skips discovered source at exactly 10 checks with low score", () => {
+    const source: Source = { url: "", name: "", type: "discovered", lastChecked: null, toolsFound: 0, timesChecked: 10, qualityScore: 0.05 };
+    expect(shouldSkipSource(source)).toBe(true);
+  });
 });
 
 describe("updateQualityScore", () => {

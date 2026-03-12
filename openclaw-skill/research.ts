@@ -1,4 +1,5 @@
-import { readFileSync, writeFileSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, unlinkSync } from "fs";
+import { join } from "path";
 import { execSync } from "child_process";
 import type { Tool, ToolsData, Source, SourcesData } from "../data/schema";
 import { isDuplicate } from "../data/validate";
@@ -9,9 +10,9 @@ export const MAX_DEPTH = 2;
 export const TRENDING_EXPIRY_DAYS = 7;
 
 const REPO_ROOT = process.env.REPO_ROOT || ".";
-const TOOLS_PATH = `${REPO_ROOT}/data/tools.json`;
-const SOURCES_PATH = `${REPO_ROOT}/data/sources.json`;
-const CHECKPOINT_PATH = `${REPO_ROOT}/data/.research-checkpoint.json`;
+const TOOLS_PATH = join(REPO_ROOT, "data/tools.json");
+const SOURCES_PATH = join(REPO_ROOT, "data/sources.json");
+const CHECKPOINT_PATH = join(REPO_ROOT, "data/.research-checkpoint.json");
 
 export interface ResearchResult {
   newTools: Tool[];
@@ -124,16 +125,15 @@ function saveCheckpoint(sourceIndex: number): void {
 
 function clearCheckpoint(): void {
   if (existsSync(CHECKPOINT_PATH)) {
-    writeFileSync(CHECKPOINT_PATH, "");
+    unlinkSync(CHECKPOINT_PATH);
   }
 }
 
 function commitAndPush(): void {
-  execSync(`cd ${REPO_ROOT} && git add data/tools.json data/sources.json`);
-  execSync(
-    `cd ${REPO_ROOT} && git commit -m "chore: update tools data [automated]"`,
-  );
-  execSync(`cd ${REPO_ROOT} && git push`);
+  const opts = { cwd: REPO_ROOT };
+  execSync("git add data/tools.json data/sources.json", opts);
+  execSync('git commit -m "chore: update tools data [automated]"', opts);
+  execSync("git push", opts);
 }
 
 // Main research function — called by OpenClaw when the skill is triggered.
@@ -144,7 +144,7 @@ export async function runResearch(): Promise<string> {
 
   // Resume from checkpoint if a previous run was interrupted
   const checkpoint = loadCheckpoint();
-  const startIndex = checkpoint ? checkpoint.lastSourceIndex + 1 : 0;
+  const startIndex = checkpoint ? checkpoint.lastSourceIndex : 0;
 
   const result: ResearchResult = {
     newTools: [],
@@ -161,7 +161,7 @@ export async function runResearch(): Promise<string> {
     const source = sorted[i];
 
     if (result.pagesVisited >= MAX_PAGES || Date.now() - startTime >= MAX_DURATION_MS) {
-      saveCheckpoint(i - 1);
+      saveCheckpoint(i);
       hitBudget = true;
       break;
     }
@@ -191,8 +191,11 @@ export async function runResearch(): Promise<string> {
     clearCheckpoint();
   }
 
-  saveData(tools, sources);
-  commitAndPush();
+  const hasChanges = result.newTools.length > 0 || result.updatedTools.length > 0 || result.newSources.length > 0;
+  if (hasChanges) {
+    saveData(tools, sources);
+    commitAndPush();
+  }
 
   return formatDiscordSummary(result);
 }
