@@ -8,7 +8,12 @@ const REQUIRED_FIELDS: (keyof Tool)[] = [
 export function validateTool(tool: unknown): tool is Tool {
   if (!tool || typeof tool !== "object") return false;
   const obj = tool as Record<string, unknown>;
-  return REQUIRED_FIELDS.every((field) => field in obj);
+  return (
+    REQUIRED_FIELDS.every((field) => field in obj && obj[field] != null) &&
+    Array.isArray(obj.features) &&
+    Array.isArray(obj.sourceUrls) &&
+    typeof obj.trending === "boolean"
+  );
 }
 
 export function normalizeDomain(url: string): string {

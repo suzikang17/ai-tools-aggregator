@@ -22,6 +22,19 @@ describe("validateTool", () => {
     const tool = { name: "TestTool" };
     expect(validateTool(tool)).toBe(false);
   });
+
+  it("rejects null input", () => {
+    expect(validateTool(null)).toBe(false);
+  });
+
+  it("rejects tool with null field values", () => {
+    const tool = {
+      name: null, url: null, category: null, description: null,
+      features: null, pricing: null, dateAdded: null, dateUpdated: null,
+      trending: null, sourceUrls: null,
+    };
+    expect(validateTool(tool)).toBe(false);
+  });
 });
 
 describe("normalizeDomain", () => {
@@ -57,5 +70,13 @@ describe("isDuplicate", () => {
 
   it("allows different tools", () => {
     expect(isDuplicate({ name: "OtherTool", url: "https://othertool.com" }, existing)).toBe(false);
+  });
+
+  it("does not flag same name on different domain as duplicate", () => {
+    expect(isDuplicate({ name: "TestTool", url: "https://otherdomain.com" }, existing)).toBe(false);
+  });
+
+  it("does not flag same domain with different name as duplicate", () => {
+    expect(isDuplicate({ name: "DifferentTool", url: "https://testtool.com" }, existing)).toBe(false);
   });
 });
