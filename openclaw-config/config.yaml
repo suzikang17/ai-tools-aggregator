@@ -1,0 +1,32 @@
+# OpenClaw Agent Configuration
+# See: https://docs.openclaw.ai/configuration
+
+name: ai-tools-aggregator
+
+# LLM provider
+model:
+  provider: anthropic
+  model: claude-sonnet-4-6
+  temperature: 0.3
+
+# Gateway — connects to Discord
+gateway:
+  discord:
+    enabled: true
+    token: ${DISCORD_BOT_TOKEN}
+    channels:
+      - ${DISCORD_CHANNEL_ID}
+
+# Skills
+skills:
+  - path: ./openclaw-skill
+
+# Environment
+env:
+  REPO_ROOT: ${REPO_PATH}
+  GITHUB_TOKEN: ${GITHUB_TOKEN}
+
+# Memory — persistent across runs
+memory:
+  enabled: true
+  provider: local
