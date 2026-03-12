@@ -13,7 +13,7 @@ export interface Tool {
 
 export interface ToolsData {
   metadata: {
-    lastUpdated: string;
+    lastUpdated: string | null;
     totalTools: number;
     trendingCount: number;
   };

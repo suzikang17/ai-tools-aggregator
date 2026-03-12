@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useCallback } from "react";
 import { AgGridReact } from "ag-grid-react";
 import { AllCommunityModule, ModuleRegistry } from "ag-grid-community";
 import type { ColDef, ICellRendererParams } from "ag-grid-community";
@@ -9,7 +9,6 @@ ModuleRegistry.registerModules([AllCommunityModule]);
 interface Props {
   tools: Tool[];
   lastUpdated: string | null;
-  trendingCount: number;
 }
 
 const CATEGORY_COLORS: Record<string, { bg: string; text: string }> = {
@@ -34,8 +33,10 @@ function isNew(dateAdded: string): boolean {
   return added >= sevenDaysAgo;
 }
 
-export default function ToolsGrid({ tools, lastUpdated, trendingCount }: Props) {
+export default function ToolsGrid({ tools, lastUpdated }: Props) {
   const [activeCategory, setActiveCategory] = useState("All");
+
+  const trendingCount = useMemo(() => tools.filter((t) => t.trending).length, [tools]);
 
   const categories = useMemo(() => {
     const cats = [...new Set(tools.map((t) => t.category))].sort();
@@ -60,7 +61,12 @@ export default function ToolsGrid({ tools, lastUpdated, trendingCount }: Props) 
       cellRenderer: (params: ICellRendererParams<Tool>) => {
         const tool = params.data;
         if (!tool) return null;
-        return `<a href="${tool.url}" target="_blank" rel="noopener" style="color:#2563eb;text-decoration:none;font-weight:600">${tool.name}</a>`;
+        return (
+          <a href={tool.url} target="_blank" rel="noopener noreferrer"
+             style={{ color: "#2563eb", textDecoration: "none", fontWeight: 600 }}>
+            {tool.name}
+          </a>
+        );
       },
       width: 160,
     },
@@ -71,7 +77,11 @@ export default function ToolsGrid({ tools, lastUpdated, trendingCount }: Props) 
       cellRenderer: (params: ICellRendererParams<Tool>) => {
         const cat = params.value as string;
         const colors = CATEGORY_COLORS[cat] || CATEGORY_COLORS.Other;
-        return `<span style="background:${colors.bg};color:${colors.text};padding:2px 8px;border-radius:4px;font-size:11px">${cat}</span>`;
+        return (
+          <span style={{ background: colors.bg, color: colors.text, padding: "2px 8px", borderRadius: "4px", fontSize: "11px" }}>
+            {cat}
+          </span>
+        );
       },
       width: 130,
     },
@@ -121,12 +131,12 @@ export default function ToolsGrid({ tools, lastUpdated, trendingCount }: Props) 
     },
   ], []);
 
-  const getRowStyle = (params: { data?: Tool }) => {
+  const getRowStyle = useCallback((params: { data?: Tool }) => {
     if (params.data && isNew(params.data.dateAdded)) {
       return { background: "#fefce8" };
     }
     return undefined;
-  };
+  }, []);
 
   return (
     <>
