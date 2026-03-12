@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+.superpowers/
+.DS_Store
+data/.research-checkpoint.json
