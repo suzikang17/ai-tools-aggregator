@@ -4,3 +4,6 @@ dist/
 .superpowers/
 .DS_Store
 data/.research-checkpoint.json
+.vercel
+.astro/
+.openclaw/
