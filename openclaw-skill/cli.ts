@@ -104,6 +104,7 @@ switch (command) {
         sourceUrls: input.sourceUrls || [],
         buzzScore: input.buzzScore ?? null,
         reviewRating: input.reviewRating ?? null,
+        parentPlatform: input.parentPlatform ?? undefined,
         buzzSources: input.buzzSources ?? [],
         ratingSources: input.ratingSources ?? [],
       };

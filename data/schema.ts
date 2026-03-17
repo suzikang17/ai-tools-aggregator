@@ -13,6 +13,7 @@ export interface Tool {
   sourceUrls: string[];
   buzzScore: number | null;
   reviewRating: number | null;
+  parentPlatform?: string;
   buzzSources?: BuzzSource[];
   ratingSources?: RatingSource[];
 }

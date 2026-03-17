@@ -74,6 +74,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       <DetailRow
         description={tool.description}
         features={tool.features}
+        parentPlatform={tool.parentPlatform}
         buzzScore={tool.buzzScore}
         reviewRating={tool.reviewRating}
         buzzSources={tool.buzzSources}

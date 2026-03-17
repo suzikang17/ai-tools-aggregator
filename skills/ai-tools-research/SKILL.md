@@ -9,6 +9,7 @@ description: |
   (4) User says "research <tool>" to deep-dive a specific tool
   (5) User says "research <category>" to scan a category
   (6) User says "find <query>" to do fuzzy search/research
+  (7) User says "compare <platform> vs <platform>" to compare platforms
 ---
 
 # AI Tools Research
@@ -21,6 +22,7 @@ Research and catalog trending AI tools from across the web.
 - `research <tool>` — Deep-dive research on a specific tool
 - `research <category>` — Scan an entire category for tools
 - `find <query>` — Fuzzy search and research (e.g., "find AI video editors", "find alternatives to Copilot")
+- `compare <platform> vs <platform>` — Compare platforms side-by-side (e.g., "compare Google vs Microsoft")
 - `status` — Report current stats
 - `pulse status` — Show Market Pulse leaderboard
 - `add source <url>` — Add a new URL to monitored sources
@@ -328,6 +330,74 @@ Found 6 matches (2 already tracked, 4 new):
 
 **Recommendation:** Brief take on which tools stand out and why.
 ```
+
+## Compare Command (`compare <platform> vs <platform>`)
+
+When a user says "compare X vs Y" (e.g., "compare Google vs Microsoft"):
+
+### Step 1: Identify tools under each platform
+```
+npx tsx openclaw-skill/cli.ts load-tools
+npx tsx openclaw-skill/pulse-cli.ts pulse-load
+```
+Filter tools by `parentPlatform` for each platform. If a platform has no tools yet, research it first (see Platform Crawling below).
+
+### Step 2: Research any gaps
+If either platform has few or no tracked tools, crawl the platform's AI product pages to discover and save sub-tools before comparing.
+
+### Step 3: Report comparison
+```
+⚔️ **Compare: Google vs Microsoft**
+
+**Google** (8 tools tracked)
+• NotebookLM — Research — Buzz: 82 ▲
+• Gemini — Coding — Buzz: 90 ▲
+• AI Studio — Coding — Buzz: 65 —
+• Illuminate — Research — Buzz: 58 —
+...
+Avg Buzz: 72 | Avg Rating: ★★★★ (4.1)
+Categories: Coding (3), Research (3), Productivity (2)
+
+**Microsoft** (7 tools tracked)
+• Copilot — Coding — Buzz: 88 ▲
+• Azure OpenAI — Coding — Buzz: 75 —
+• Designer — Design — Buzz: 55 —
+...
+Avg Buzz: 68 | Avg Rating: ★★★½ (3.8)
+Categories: Coding (3), Productivity (2), Design (2)
+
+**Verdict:** Brief comparison of strengths, coverage, and momentum.
+```
+
+## Platform Crawling
+
+When researching tools, check if a tool belongs to a larger platform. If so, set `parentPlatform` and crawl the platform for sibling tools.
+
+### Known platforms to crawl into
+- **Google**: Google Labs, Google AI, Google Cloud AI — look for NotebookLM, Gemini, AI Studio, Illuminate, Veo, Imagen, MusicFX, etc.
+- **Microsoft**: Azure AI, Microsoft 365 Copilot, Bing AI — look for Copilot, Azure OpenAI Service, Designer, Recall, etc.
+- **Meta**: Meta AI — look for Llama, Segment Anything, AudioCraft, Make-A-Video, etc.
+- **Amazon**: AWS AI/ML — look for Bedrock, CodeWhisperer, Titan, Rekognition, Polly, etc.
+- **Apple**: Apple Intelligence — look for on-device AI tools
+- **Adobe**: Adobe Sensei, Firefly — look for Firefly, Podcast, Enhance Speech, etc.
+- **Salesforce**: Einstein AI — look for Einstein GPT, Einstein Copilot, etc.
+
+### How to tag platform tools
+When saving a tool that belongs to a platform, include `parentPlatform`:
+```
+echo '{"name":"NotebookLM","url":"https://notebooklm.google.com","category":"Research","parentPlatform":"Google","description":"AI research assistant","features":["notebook","sources"],"pricing":"Free","buzzScore":82,"reviewRating":4.5,"sourceUrls":["https://source.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
+```
+
+For Market Pulse:
+```
+echo '{"name":"NotebookLM","url":"https://notebooklm.google.com","parentPlatform":"Google","buzzScore":82,"reviewRating":4.5,"sourceCount":6}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
+```
+
+### During full research cycles
+In Step 2 (Browse each source), when you encounter a tool that belongs to a known platform:
+1. Tag it with `parentPlatform`
+2. If you haven't crawled that platform yet in this cycle, visit the platform's AI products page and extract all sub-tools
+3. Save each sub-tool with the same `parentPlatform`
 
 ## Trending Detection
 

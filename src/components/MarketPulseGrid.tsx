@@ -95,6 +95,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
     return (
       <DetailRow
         description={tool.description}
+        parentPlatform={tool.parentPlatform}
         buzzScore={tool.buzzScore}
         reviewRating={tool.reviewRating}
         buzzSources={tool.buzzSources}

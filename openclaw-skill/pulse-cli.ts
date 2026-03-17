@@ -145,6 +145,7 @@ switch (command) {
       if (input.description !== undefined) existing.description = input.description;
       if (input.pricing !== undefined) existing.pricing = input.pricing;
       if (input.sourceCount !== undefined) existing.sourceCount = input.sourceCount;
+      if (input.parentPlatform !== undefined) existing.parentPlatform = input.parentPlatform;
       if (input.buzzSources !== undefined) existing.buzzSources = input.buzzSources;
       if (input.ratingSources !== undefined) existing.ratingSources = input.ratingSources;
       existing.lastRefreshed = new Date().toISOString();
@@ -163,6 +164,7 @@ switch (command) {
         rank: null,
         sentimentTrend: null,
         history: [],
+        parentPlatform: input.parentPlatform ?? undefined,
         buzzSources: input.buzzSources ?? [],
         ratingSources: input.ratingSources ?? [],
         dateTracked: now,

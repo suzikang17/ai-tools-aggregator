@@ -4,6 +4,7 @@ import type { BuzzSource, RatingSource } from "../../data/market-pulse-schema";
 interface Props {
   description?: string;
   features?: string[];
+  parentPlatform?: string;
   buzzScore: number | null;
   reviewRating: number | null;
   buzzSources?: BuzzSource[];
@@ -27,7 +28,7 @@ function Stars({ rating }: { rating: number }) {
   return <span style={{ fontSize: "13px", letterSpacing: "1px" }}>{stars}</span>;
 }
 
-export default function DetailRow({ description, features, buzzScore, reviewRating, buzzSources, ratingSources, lastRefreshed, toolName, onCollapse }: Props) {
+export default function DetailRow({ description, features, parentPlatform, buzzScore, reviewRating, buzzSources, ratingSources, lastRefreshed, toolName, onCollapse }: Props) {
   const hasBuzzSources = buzzSources && buzzSources.length > 0;
   const hasRatingSources = ratingSources && ratingSources.length > 0;
   const hasFeatures = features && features.length > 0;
@@ -61,13 +62,26 @@ export default function DetailRow({ description, features, buzzScore, reviewRati
       cursor: "pointer",
     }} onClick={onCollapse}>
       {/* Description + Features row */}
-      {(description || hasFeatures) && (
+      {(description || hasFeatures || parentPlatform) && (
         <div style={{ display: "flex", gap: "32px" }}>
-          {description && (
-            <div style={{ flex: 1, lineHeight: "1.5", color: "#475569" }}>
-              {description}
-            </div>
-          )}
+          <div style={{ flex: 1, lineHeight: "1.5", color: "#475569" }}>
+            {parentPlatform && (
+              <span style={{
+                display: "inline-block",
+                padding: "2px 8px",
+                borderRadius: "4px",
+                fontSize: "11px",
+                fontWeight: 600,
+                background: "#f0fdf4",
+                color: "#166534",
+                marginBottom: "4px",
+                marginRight: "8px",
+              }}>
+                {parentPlatform}
+              </span>
+            )}
+            {description}
+          </div>
           {hasFeatures && (
             <div style={{ flex: 1 }}>
               <div style={{ fontWeight: 600, marginBottom: "4px", color: "#0f172a" }}>Features</div>
