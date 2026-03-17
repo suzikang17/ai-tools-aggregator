@@ -2,6 +2,7 @@ import React from "react";
 import type { BuzzSource, RatingSource } from "../../data/market-pulse-schema";
 
 interface Props {
+  description?: string;
   buzzScore: number | null;
   reviewRating: number | null;
   buzzSources?: BuzzSource[];
@@ -24,15 +25,15 @@ function Stars({ rating }: { rating: number }) {
   return <span style={{ fontSize: "13px", letterSpacing: "1px" }}>{stars}</span>;
 }
 
-export default function DetailRow({ buzzScore, reviewRating, buzzSources, ratingSources, lastRefreshed, onCollapse }: Props) {
+export default function DetailRow({ description, buzzScore, reviewRating, buzzSources, ratingSources, lastRefreshed, onCollapse }: Props) {
   const hasBuzzSources = buzzSources && buzzSources.length > 0;
   const hasRatingSources = ratingSources && ratingSources.length > 0;
-  const hasAnyData = hasBuzzSources || hasRatingSources;
 
   return (
     <div style={{
       display: "flex",
-      gap: "32px",
+      flexDirection: "column",
+      gap: "12px",
       padding: "16px 24px",
       background: "#f8fafc",
       borderBottom: "1px solid #e2e8f0",
@@ -40,6 +41,12 @@ export default function DetailRow({ buzzScore, reviewRating, buzzSources, rating
       color: "#334155",
       cursor: "pointer",
     }} onClick={onCollapse}>
+      {description && (
+        <div style={{ lineHeight: "1.5", color: "#475569" }}>
+          {description}
+        </div>
+      )}
+      <div style={{ display: "flex", gap: "32px" }}>
       {/* Buzz breakdown */}
       <div style={{ flex: 1 }}>
         <div style={{ fontWeight: 600, marginBottom: "8px", color: "#0f172a" }}>
@@ -113,6 +120,7 @@ export default function DetailRow({ buzzScore, reviewRating, buzzSources, rating
         <div style={{ color: "#94a3b8", fontSize: "11px", marginTop: "4px" }}>
           Click to collapse
         </div>
+      </div>
       </div>
     </div>
   );

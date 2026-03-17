@@ -80,7 +80,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
   }, []);
 
   const getRowHeight = useCallback((params: { data?: PulseRow }) => {
-    return params.data?._isDetail ? 120 : undefined;
+    return params.data?._isDetail ? 150 : undefined;
   }, []);
 
   const onRowClicked = useCallback((event: RowClickedEvent<PulseRow>) => {
@@ -94,6 +94,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
     if (!tool) return null;
     return (
       <DetailRow
+        description={tool.description}
         buzzScore={tool.buzzScore}
         reviewRating={tool.reviewRating}
         buzzSources={tool.buzzSources}
