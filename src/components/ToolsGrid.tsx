@@ -167,8 +167,8 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       field: "description",
       sortable: false,
       filter: false,
-      flex: 3,
-      minWidth: 250,
+      flex: 4,
+      minWidth: 300,
       tooltipField: "description",
       cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
     },
@@ -176,15 +176,17 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       headerName: "Pricing",
       field: "pricing",
       sortable: true,
-      minWidth: 100,
+      minWidth: 120,
+      suppressSizeToFit: true,
+      width: 120,
     },
     {
       headerName: "Features",
       field: "features",
       sortable: false,
       filter: false,
-      flex: 1,
-      minWidth: 120,
+      flex: 2,
+      minWidth: 180,
       cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         if (params.data?._isDetail) return null;
         const features = params.value as string[];
