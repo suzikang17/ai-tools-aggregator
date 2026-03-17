@@ -63,12 +63,14 @@ Look for mentions of AI tools, products, or services. For each tool found, extra
 - **description**: One sentence describing what it does
 - **features**: Key features as a list of short strings
 - **pricing**: Pricing info (e.g., "Free", "Freemium", "$20/mo", "Enterprise")
+- **buzzScore**: Public buzz score 0-100 based on mentions, upvotes, comments, and excitement level across sources. Consider: volume of mentions (more = higher), tone of discussion (excited vs neutral vs negative), recency of buzz. Use null if insufficient data.
+- **reviewRating**: Star rating 1.0-5.0 (half-star increments: 1.0, 1.5, 2.0, ..., 5.0). Pull actual ratings from Product Hunt, G2, or similar review sites when available. Estimate from user review text when no structured rating exists. Use null if no reviews found.
 
 ### Step 3: Save each tool found
 
 For each tool extracted, pipe it to the CLI:
 ```
-echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1","feat2"],"pricing":"Free","sourceUrls":["https://source-url.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
+echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1","feat2"],"pricing":"Free","buzzScore":72,"reviewRating":4.5,"sourceUrls":["https://source-url.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
 ```
 
 The CLI handles deduplication automatically — if a tool with the same name and domain already exists, it updates instead of duplicating.

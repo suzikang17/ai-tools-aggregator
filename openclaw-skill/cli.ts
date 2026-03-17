@@ -76,7 +76,11 @@ switch (command) {
     const tools = loadTools();
 
     // Check for duplicate
-    const dup = tools.tools.find((existing) => isDuplicate(input, existing));
+    const dupIndex = tools.tools.findIndex((t) =>
+      t.name.toLowerCase().trim() === input.name.toLowerCase().trim() &&
+      normalizeDomain(t.url) === normalizeDomain(input.url)
+    );
+    const dup = dupIndex >= 0 ? tools.tools[dupIndex] : undefined;
     if (dup) {
       // Update existing tool
       Object.assign(dup, {
@@ -98,6 +102,8 @@ switch (command) {
         dateUpdated: now,
         trending: false,
         sourceUrls: input.sourceUrls || [],
+        buzzScore: input.buzzScore ?? null,
+        reviewRating: input.reviewRating ?? null,
       };
       tools.tools.push(newTool);
       console.log(JSON.stringify({ action: "added", name: newTool.name }));

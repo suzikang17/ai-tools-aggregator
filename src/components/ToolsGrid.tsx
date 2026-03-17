@@ -119,6 +119,54 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       sort: "desc",
     },
     {
+      headerName: "Buzz",
+      field: "buzzScore",
+      sortable: true,
+      filter: false,
+      width: 100,
+      cellRenderer: (params: ICellRendererParams<Tool>) => {
+        const score = params.value as number | null;
+        if (score == null) return <span style={{ color: "#9ca3af" }}>—</span>;
+        const color = score >= 70 ? "#16a34a" : score >= 40 ? "#ca8a04" : "#dc2626";
+        return (
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+            <span style={{
+              width: "40px", height: "6px", borderRadius: "3px", background: "#e5e7eb",
+              display: "inline-block", position: "relative", overflow: "hidden",
+            }}>
+              <span style={{
+                width: `${score}%`, height: "100%", borderRadius: "3px",
+                background: color, position: "absolute", left: 0, top: 0,
+              }} />
+            </span>
+            <span style={{ color, fontWeight: 600, fontSize: "12px" }}>{score}</span>
+          </span>
+        );
+      },
+    },
+    {
+      headerName: "Rating",
+      field: "reviewRating",
+      sortable: true,
+      filter: false,
+      width: 110,
+      cellRenderer: (params: ICellRendererParams<Tool>) => {
+        const rating = params.value as number | null;
+        if (rating == null) return <span style={{ color: "#9ca3af" }}>—</span>;
+        const stars: React.ReactNode[] = [];
+        for (let i = 1; i <= 5; i++) {
+          if (rating >= i) {
+            stars.push(<span key={i} style={{ color: "#f59e0b" }}>&#9733;</span>);
+          } else if (rating >= i - 0.5) {
+            stars.push(<span key={i} style={{ color: "#f59e0b", opacity: 0.5 }}>&#9733;</span>);
+          } else {
+            stars.push(<span key={i} style={{ color: "#d1d5db" }}>&#9733;</span>);
+          }
+        }
+        return <span style={{ fontSize: "14px", letterSpacing: "1px" }}>{stars}</span>;
+      },
+    },
+    {
       headerName: "Trend",
       field: "trending",
       sortable: true,

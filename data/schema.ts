@@ -9,6 +9,8 @@ export interface Tool {
   dateUpdated: string;
   trending: boolean;
   sourceUrls: string[];
+  buzzScore: number | null;
+  reviewRating: number | null;
 }
 
 export interface ToolsData {
