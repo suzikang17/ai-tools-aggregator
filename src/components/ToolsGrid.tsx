@@ -96,10 +96,11 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
   const columnDefs: ColDef<ToolRow>[] = useMemo(() => [
     {
       headerName: "",
-      width: 36,
+      maxWidth: 36,
       sortable: false,
       filter: false,
       resizable: false,
+      suppressSizeToFit: true,
       cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         if (!params.data || params.data._isDetail) return null;
         const isExpanded = expandedName === params.data.name;
@@ -130,7 +131,8 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
           </span>
         );
       },
-      width: 160,
+      minWidth: 140,
+      flex: 1,
     },
     {
       headerName: "Category",
@@ -146,14 +148,14 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
           </span>
         );
       },
-      width: 130,
+      minWidth: 110,
     },
     {
       headerName: "Description",
       field: "description",
       sortable: false,
       filter: false,
-      flex: 1,
+      flex: 2,
       minWidth: 200,
       cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
     },
@@ -161,7 +163,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       headerName: "Pricing",
       field: "pricing",
       sortable: true,
-      width: 150,
+      minWidth: 100,
     },
     {
       headerName: "Features",
@@ -173,13 +175,13 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
         const features = params.value as string[];
         return features ? features.join(", ") : "";
       },
-      width: 200,
+      minWidth: 150,
     },
     {
       headerName: "Updated",
       field: "dateUpdated",
       sortable: true,
-      width: 110,
+      minWidth: 100,
       sort: "desc",
     },
     {
@@ -187,7 +189,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       field: "buzzScore",
       sortable: true,
       filter: false,
-      width: 100,
+      minWidth: 100,
       cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         if (params.data?._isDetail) return null;
         const score = params.value as number | null;
@@ -214,7 +216,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       field: "reviewRating",
       sortable: true,
       filter: false,
-      width: 110,
+      minWidth: 110,
       cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         if (params.data?._isDetail) return null;
         const rating = params.value as number | null;
@@ -237,7 +239,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       field: "trending",
       sortable: true,
       filter: false,
-      width: 80,
+      minWidth: 60,
       cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         if (params.data?._isDetail) return null;
         return params.value ? "\uD83D\uDD25" : "";
@@ -294,6 +296,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
           isFullWidthRow={isFullWidthRow}
           fullWidthCellRenderer={fullWidthCellRenderer}
           onRowClicked={onRowClicked}
+          autoSizeStrategy={{ type: "fitGridWidth" }}
           domLayout="normal"
           suppressCellFocus={true}
           animateRows={true}

@@ -118,10 +118,11 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
   const columnDefs: ColDef<PulseRow>[] = useMemo(() => [
     {
       headerName: "",
-      width: 36,
+      maxWidth: 36,
       sortable: false,
       filter: false,
       resizable: false,
+      suppressSizeToFit: true,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         if (!params.data || params.data._isDetail) return null;
         const isExpanded = expandedName === params.data.name;
@@ -134,7 +135,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
     },
     {
       headerName: "#",
-      width: 60,
+      minWidth: 50,
       sortable: true,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         const tool = params.data;
@@ -166,7 +167,8 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       headerName: "Name",
       field: "name",
       sortable: true,
-      width: 160,
+      minWidth: 140,
+      flex: 1,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         const tool = params.data;
         if (!tool || tool._isDetail) return null;
@@ -188,7 +190,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       headerName: "Category",
       field: "category",
       sortable: true,
-      width: 130,
+      minWidth: 110,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         if (params.data?._isDetail) return null;
         const cat = params.value as string;
@@ -204,7 +206,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       headerName: "Buzz",
       field: "buzzScore",
       sortable: true,
-      width: 100,
+      minWidth: 100,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         if (params.data?._isDetail) return null;
         const score = params.value as number | null;
@@ -230,7 +232,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       headerName: "Rating",
       field: "reviewRating",
       sortable: true,
-      width: 110,
+      minWidth: 110,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         if (params.data?._isDetail) return null;
         const rating = params.value as number | null;
@@ -252,7 +254,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       headerName: "Score",
       field: "popularityScore",
       sortable: true,
-      width: 80,
+      minWidth: 70,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         if (params.data?._isDetail) return null;
         const score = params.value as number | null;
@@ -264,7 +266,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       headerName: "Trend",
       field: "sentimentTrend",
       sortable: true,
-      width: 70,
+      minWidth: 60,
       cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         if (params.data?._isDetail) return null;
         const trend = params.value as string | null;
@@ -334,6 +336,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
           isFullWidthRow={isFullWidthRow}
           fullWidthCellRenderer={fullWidthCellRenderer}
           onRowClicked={onRowClicked}
+          autoSizeStrategy={{ type: "fitGridWidth" }}
           domLayout="normal"
           suppressCellFocus={true}
           animateRows={true}
