@@ -104,6 +104,8 @@ switch (command) {
         sourceUrls: input.sourceUrls || [],
         buzzScore: input.buzzScore ?? null,
         reviewRating: input.reviewRating ?? null,
+        buzzSources: input.buzzSources ?? [],
+        ratingSources: input.ratingSources ?? [],
       };
       tools.tools.push(newTool);
       console.log(JSON.stringify({ action: "added", name: newTool.name }));
