@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastRefreshed": null,
+    "lastRefreshed": "2026-03-17T22:33:03.109Z",
     "totalTracked": 46
   },
   "tools": [
@@ -8,737 +8,1059 @@
       "name": "ChatGPT",
       "url": "https://chat.openai.com",
       "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "OpenAI's conversational AI assistant, now on GPT-5",
+      "pricing": "Free / $20 Plus / $200 Pro",
+      "buzzScore": 95,
+      "reviewRating": 4.5,
+      "popularityScore": 81,
+      "rank": 1,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 95,
+          "reviewRating": 4.5,
+          "popularityScore": 81
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.559Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Claude",
-      "url": "https://claude.ai",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.561Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "GitHub Copilot",
-      "url": "https://github.com/features/copilot",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Cursor",
-      "url": "https://cursor.com",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Replit",
-      "url": "https://replit.com",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Cody",
-      "url": "https://sourcegraph.com/cody",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Tabnine",
-      "url": "https://www.tabnine.com",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Windsurf",
-      "url": "https://codeium.com/windsurf",
-      "category": "Coding",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:31:47.715Z",
+      "sourceCount": 8
     },
     {
       "name": "Midjourney",
       "url": "https://www.midjourney.com",
       "category": "Image Gen",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "Leading AI image generation, just launched v8 Alpha",
+      "pricing": "$10-120/mo",
+      "buzzScore": 92,
+      "reviewRating": 4.5,
+      "popularityScore": 78,
+      "rank": 2,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 92,
+          "reviewRating": 4.5,
+          "popularityScore": 78
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:31:59.693Z",
+      "sourceCount": 7
     },
     {
-      "name": "DALL-E",
-      "url": "https://openai.com/dall-e-3",
-      "category": "Image Gen",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "category": "Coding",
+      "description": "Anthropic's AI assistant known for long context and safety",
+      "pricing": "Free / $20 Pro / $100 Team",
+      "buzzScore": 90,
+      "reviewRating": 4.5,
+      "popularityScore": 77,
+      "rank": 3,
       "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 90,
+          "reviewRating": 4.5,
+          "popularityScore": 77
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.561Z",
+      "lastRefreshed": "2026-03-17T22:31:49.264Z",
+      "sourceCount": 7
     },
     {
-      "name": "Stable Diffusion",
-      "url": "https://stability.ai",
-      "category": "Image Gen",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "name": "Cursor",
+      "url": "https://cursor.com",
+      "category": "Coding",
+      "description": "AI-first code editor with deep codebase understanding",
+      "pricing": "Free / $20 Pro / $40 Business",
+      "buzzScore": 88,
+      "reviewRating": 4.5,
+      "popularityScore": 76,
+      "rank": 4,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 88,
+          "reviewRating": 4.5,
+          "popularityScore": 76
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Leonardo AI",
-      "url": "https://leonardo.ai",
-      "category": "Image Gen",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Ideogram",
-      "url": "https://ideogram.ai",
-      "category": "Image Gen",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Flux",
-      "url": "https://flux.ai",
-      "category": "Image Gen",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Runway",
-      "url": "https://runwayml.com",
-      "category": "Video",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Pika",
-      "url": "https://pika.art",
-      "category": "Video",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Kling",
-      "url": "https://klingai.com",
-      "category": "Video",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Sora",
-      "url": "https://openai.com/sora",
-      "category": "Video",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "HeyGen",
-      "url": "https://www.heygen.com",
-      "category": "Video",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "ElevenLabs",
-      "url": "https://elevenlabs.io",
-      "category": "Audio",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Suno",
-      "url": "https://suno.com",
-      "category": "Audio",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Udio",
-      "url": "https://www.udio.com",
-      "category": "Audio",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Murf",
-      "url": "https://murf.ai",
-      "category": "Audio",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Jasper",
-      "url": "https://www.jasper.ai",
-      "category": "Writing",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Copy.ai",
-      "url": "https://www.copy.ai",
-      "category": "Writing",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Grammarly AI",
-      "url": "https://www.grammarly.com",
-      "category": "Writing",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Writesonic",
-      "url": "https://writesonic.com",
-      "category": "Writing",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Notion AI",
-      "url": "https://www.notion.so/product/ai",
-      "category": "Productivity",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Otter.ai",
-      "url": "https://otter.ai",
-      "category": "Productivity",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Mem",
-      "url": "https://mem.ai",
-      "category": "Productivity",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Reclaim AI",
-      "url": "https://reclaim.ai",
-      "category": "Productivity",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:31:52.321Z",
+      "sourceCount": 7
     },
     {
       "name": "Perplexity",
       "url": "https://www.perplexity.ai",
       "category": "Research",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "AI-powered search engine with cited answers",
+      "pricing": "Free / $20 Pro",
+      "buzzScore": 88,
+      "reviewRating": 4.5,
+      "popularityScore": 76,
+      "rank": 4,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 88,
+          "reviewRating": 4.5,
+          "popularityScore": 76
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:34.835Z",
+      "sourceCount": 7
     },
     {
-      "name": "Elicit",
-      "url": "https://elicit.com",
-      "category": "Research",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "category": "Audio",
+      "description": "Leading AI voice synthesis and cloning platform",
+      "pricing": "Free / $5 Starter / $22 Creator",
+      "buzzScore": 82,
+      "reviewRating": 4.5,
+      "popularityScore": 72,
+      "rank": 5,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 82,
+          "reviewRating": 4.5,
+          "popularityScore": 72
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:16.428Z",
+      "sourceCount": 6
     },
     {
-      "name": "Consensus",
-      "url": "https://consensus.app",
-      "category": "Research",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "category": "Coding",
+      "description": "AI pair programmer integrated into VS Code and IDEs",
+      "pricing": "$10/mo Individual / $19 Business",
+      "buzzScore": 82,
+      "reviewRating": 4,
+      "popularityScore": 69,
+      "rank": 6,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 82,
+          "reviewRating": 4,
+          "popularityScore": 69
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:31:50.730Z",
+      "sourceCount": 6
     },
     {
-      "name": "Semantic Scholar",
-      "url": "https://www.semanticscholar.org",
-      "category": "Research",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "name": "Sora",
+      "url": "https://openai.com/sora",
+      "category": "Video",
+      "description": "OpenAI's text-to-video generation model, Sora 2 released",
+      "pricing": "Included in ChatGPT Plus/Pro",
+      "buzzScore": 80,
+      "reviewRating": 4,
+      "popularityScore": 68,
+      "rank": 7,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 80,
+          "reviewRating": 4,
+          "popularityScore": 68
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:13.488Z",
+      "sourceCount": 6
+    },
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "category": "Video",
+      "description": "AI video generation and editing platform for creators",
+      "pricing": "Free / $15 Standard / $35 Pro",
+      "buzzScore": 75,
+      "reviewRating": 4,
+      "popularityScore": 64,
+      "rank": 8,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 75,
+          "reviewRating": 4,
+          "popularityScore": 64
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:09.014Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Suno",
+      "url": "https://suno.com",
+      "category": "Audio",
+      "description": "AI music generation from text prompts",
+      "pricing": "Free / $10 Pro / $30 Premier",
+      "buzzScore": 75,
+      "reviewRating": 4,
+      "popularityScore": 64,
+      "rank": 8,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 75,
+          "reviewRating": 4,
+          "popularityScore": 64
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:17.939Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
+      "category": "Coding",
+      "description": "AI-powered IDE from Codeium with agentic capabilities",
+      "pricing": "Free / $15 Pro",
+      "buzzScore": 72,
+      "reviewRating": 4,
+      "popularityScore": 63,
+      "rank": 9,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 72,
+          "reviewRating": 4,
+          "popularityScore": 63
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:31:58.238Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "DALL-E",
+      "url": "https://openai.com/dall-e-3",
+      "category": "Image Gen",
+      "description": "OpenAI's image generation model integrated into ChatGPT",
+      "pricing": "Included in ChatGPT Plus",
+      "buzzScore": 70,
+      "reviewRating": 4,
+      "popularityScore": 62,
+      "rank": 10,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 70,
+          "reviewRating": 4,
+          "popularityScore": 62
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:01.251Z",
+      "sourceCount": 5
     },
     {
       "name": "Figma AI",
       "url": "https://www.figma.com",
       "category": "Design",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "AI-powered design features in Figma's collaborative platform",
+      "pricing": "Free / $15 Pro / $25 Org",
+      "buzzScore": 70,
+      "reviewRating": 4,
+      "popularityScore": 62,
+      "rank": 10,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 70,
+          "reviewRating": 4,
+          "popularityScore": 62
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Canva AI",
-      "url": "https://www.canva.com",
-      "category": "Design",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Looka",
-      "url": "https://looka.com",
-      "category": "Design",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Uizard",
-      "url": "https://uizard.io",
-      "category": "Design",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Julius AI",
-      "url": "https://julius.ai",
-      "category": "Data",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "Obviously AI",
-      "url": "https://www.obviously.ai",
-      "category": "Data",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "AutoGPT",
-      "url": "https://autogpt.net",
-      "category": "Agents",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
-    },
-    {
-      "name": "CrewAI",
-      "url": "https://www.crewai.com",
-      "category": "Agents",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
-      "sentimentTrend": null,
-      "history": [],
-      "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:41.031Z",
+      "sourceCount": 5
     },
     {
       "name": "LangChain",
       "url": "https://www.langchain.com",
       "category": "Agents",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "Framework for building LLM-powered applications",
+      "pricing": "Free (open source) / LangSmith pricing",
+      "buzzScore": 70,
+      "reviewRating": 4,
+      "popularityScore": 62,
+      "rank": 10,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 70,
+          "reviewRating": 4,
+          "popularityScore": 62
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:53.232Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Notion AI",
+      "url": "https://www.notion.so/product/ai",
+      "category": "Productivity",
+      "description": "AI features integrated into Notion workspace",
+      "pricing": "$10/member add-on",
+      "buzzScore": 68,
+      "reviewRating": 4,
+      "popularityScore": 61,
+      "rank": 11,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 68,
+          "reviewRating": 4,
+          "popularityScore": 61
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:28.530Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Canva AI",
+      "url": "https://www.canva.com",
+      "category": "Design",
+      "description": "AI tools integrated into Canva's design platform",
+      "pricing": "Free / $13 Pro / $18 Teams",
+      "buzzScore": 65,
+      "reviewRating": 4,
+      "popularityScore": 60,
+      "rank": 12,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 65,
+          "reviewRating": 4,
+          "popularityScore": 60
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:42.594Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "category": "Image Gen",
+      "description": "Open-source image generation model for local deployment",
+      "pricing": "Free (open source) / API pricing",
+      "buzzScore": 60,
+      "reviewRating": 4,
+      "popularityScore": 58,
+      "rank": 13,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 60,
+          "reviewRating": 4,
+          "popularityScore": 58
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:02.811Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Ideogram",
+      "url": "https://ideogram.ai",
+      "category": "Image Gen",
+      "description": "AI image generation with strong text rendering capabilities",
+      "pricing": "Free / $8 Plus",
+      "buzzScore": 65,
+      "reviewRating": 4,
+      "popularityScore": 58,
+      "rank": 13,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 65,
+          "reviewRating": 4,
+          "popularityScore": 58
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:05.948Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "HeyGen",
+      "url": "https://www.heygen.com",
+      "category": "Video",
+      "description": "AI video generation with realistic avatars and translation",
+      "pricing": "Free / $29 Creator",
+      "buzzScore": 65,
+      "reviewRating": 4,
+      "popularityScore": 58,
+      "rank": 13,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 65,
+          "reviewRating": 4,
+          "popularityScore": 58
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:14.942Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Udio",
+      "url": "https://www.udio.com",
+      "category": "Audio",
+      "description": "AI music generation with high-quality audio output",
+      "pricing": "Free / $10 Standard",
+      "buzzScore": 65,
+      "reviewRating": 4,
+      "popularityScore": 58,
+      "rank": 13,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 65,
+          "reviewRating": 4,
+          "popularityScore": 58
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:19.392Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "CrewAI",
+      "url": "https://www.crewai.com",
+      "category": "Agents",
+      "description": "Framework for orchestrating multi-agent AI systems",
+      "pricing": "Free (open source) / Enterprise",
+      "buzzScore": 62,
+      "reviewRating": 4,
+      "popularityScore": 57,
+      "rank": 14,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 62,
+          "reviewRating": 4,
+          "popularityScore": 57
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:51.691Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Grammarly AI",
+      "url": "https://www.grammarly.com",
+      "category": "Writing",
+      "description": "AI writing assistant for grammar, clarity, and tone",
+      "pricing": "Free / $12 Premium / $15 Business",
+      "buzzScore": 55,
+      "reviewRating": 4,
+      "popularityScore": 56,
+      "rank": 15,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 55,
+          "reviewRating": 4,
+          "popularityScore": 56
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:25.421Z",
+      "sourceCount": 5
+    },
+    {
+      "name": "Replit",
+      "url": "https://replit.com",
+      "category": "Coding",
+      "description": "Cloud IDE with AI-powered code generation and deployment",
+      "pricing": "Free / $25 Pro",
+      "buzzScore": 65,
+      "reviewRating": 3.5,
+      "popularityScore": 55,
+      "rank": 16,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 65,
+          "reviewRating": 3.5,
+          "popularityScore": 55
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:31:53.851Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Leonardo AI",
+      "url": "https://leonardo.ai",
+      "category": "Image Gen",
+      "description": "AI image generation platform for creative professionals",
+      "pricing": "Free / $12 Pro",
+      "buzzScore": 55,
+      "reviewRating": 4,
+      "popularityScore": 54,
+      "rank": 17,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 55,
+          "reviewRating": 4,
+          "popularityScore": 54
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:04.376Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Kling",
+      "url": "https://klingai.com",
+      "category": "Video",
+      "description": "Kuaishou's AI video generation competing with Sora",
+      "pricing": "Free tier available",
+      "buzzScore": 62,
+      "reviewRating": 3.5,
+      "popularityScore": 54,
+      "rank": 17,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 62,
+          "reviewRating": 3.5,
+          "popularityScore": 54
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:12.038Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Otter.ai",
+      "url": "https://otter.ai",
+      "category": "Productivity",
+      "description": "AI meeting transcription and note-taking assistant",
+      "pricing": "Free / $17 Pro / $30 Business",
+      "buzzScore": 55,
+      "reviewRating": 4,
+      "popularityScore": 54,
+      "rank": 17,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 55,
+          "reviewRating": 4,
+          "popularityScore": 54
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:30.129Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.art",
+      "category": "Video",
+      "description": "AI video generation from text and images",
+      "pricing": "Free / $10 Standard",
+      "buzzScore": 60,
+      "reviewRating": 3.5,
+      "popularityScore": 53,
+      "rank": 18,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 60,
+          "reviewRating": 3.5,
+          "popularityScore": 53
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:10.598Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org",
+      "category": "Research",
+      "description": "AI-powered academic paper search from Allen AI",
+      "pricing": "Free",
+      "buzzScore": 50,
+      "reviewRating": 4,
+      "popularityScore": 52,
+      "rank": 19,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 50,
+          "reviewRating": 4,
+          "popularityScore": 52
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:39.504Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Flux",
+      "url": "https://flux.ai",
+      "category": "Image Gen",
+      "description": "Fast AI image generation model from Black Forest Labs",
+      "pricing": "Free / API pricing",
+      "buzzScore": 58,
+      "reviewRating": 3.5,
+      "popularityScore": 50,
+      "rank": 20,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 58,
+          "reviewRating": 3.5,
+          "popularityScore": 50
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:07.513Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Julius AI",
+      "url": "https://julius.ai",
+      "category": "Data",
+      "description": "AI data analysis assistant for visualizations and insights",
+      "pricing": "Free / $20 Pro",
+      "buzzScore": 48,
+      "reviewRating": 4,
+      "popularityScore": 49,
+      "rank": 21,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 48,
+          "reviewRating": 4,
+          "popularityScore": 49
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:47.310Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Reclaim AI",
+      "url": "https://reclaim.ai",
+      "category": "Productivity",
+      "description": "AI calendar scheduling and time management",
+      "pricing": "Free / $10 Starter / $15 Business",
+      "buzzScore": 45,
+      "reviewRating": 4,
+      "popularityScore": 48,
+      "rank": 22,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 45,
+          "reviewRating": 4,
+          "popularityScore": 48
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:33.236Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Elicit",
+      "url": "https://elicit.com",
+      "category": "Research",
+      "description": "AI research assistant for scientific literature analysis",
+      "pricing": "Free / $10 Plus",
+      "buzzScore": 45,
+      "reviewRating": 4,
+      "popularityScore": 48,
+      "rank": 22,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 45,
+          "reviewRating": 4,
+          "popularityScore": 48
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:36.380Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Cody",
+      "url": "https://sourcegraph.com/cody",
+      "category": "Coding",
+      "description": "Sourcegraph's AI coding assistant with codebase context",
+      "pricing": "Free / $9 Pro / Enterprise",
+      "buzzScore": 50,
+      "reviewRating": 3.5,
+      "popularityScore": 47,
+      "rank": 23,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 50,
+          "reviewRating": 3.5,
+          "popularityScore": 47
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:31:55.374Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Jasper",
+      "url": "https://www.jasper.ai",
+      "category": "Writing",
+      "description": "AI writing assistant for marketing teams",
+      "pricing": "$49 Creator / $125 Pro",
+      "buzzScore": 45,
+      "reviewRating": 3.5,
+      "popularityScore": 47,
+      "rank": 23,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 45,
+          "reviewRating": 3.5,
+          "popularityScore": 47
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:22.311Z",
+      "sourceCount": 4
     },
     {
       "name": "AdCreative.ai",
       "url": "https://www.adcreative.ai",
       "category": "Marketing",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "AI-powered ad creative generation for marketing",
+      "pricing": "From $29/mo",
+      "buzzScore": 45,
+      "reviewRating": 3.5,
+      "popularityScore": 45,
+      "rank": 24,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 45,
+          "reviewRating": 3.5,
+          "popularityScore": 45
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:54.742Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Murf",
+      "url": "https://murf.ai",
+      "category": "Audio",
+      "description": "AI voice generator for voiceovers and narration",
+      "pricing": "Free / $26 Creator",
+      "buzzScore": 42,
+      "reviewRating": 3.5,
+      "popularityScore": 44,
+      "rank": 25,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 42,
+          "reviewRating": 3.5,
+          "popularityScore": 44
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:20.833Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Tabnine",
+      "url": "https://www.tabnine.com",
+      "category": "Coding",
+      "description": "AI code completions with privacy-first approach",
+      "pricing": "Free / $12 Pro",
+      "buzzScore": 40,
+      "reviewRating": 3.5,
+      "popularityScore": 43,
+      "rank": 26,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 40,
+          "reviewRating": 3.5,
+          "popularityScore": 43
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:31:56.809Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Copy.ai",
+      "url": "https://www.copy.ai",
+      "category": "Writing",
+      "description": "AI-powered copywriting and workflow automation",
+      "pricing": "Free / $49 Pro",
+      "buzzScore": 40,
+      "reviewRating": 3.5,
+      "popularityScore": 43,
+      "rank": 26,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 40,
+          "reviewRating": 3.5,
+          "popularityScore": 43
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:23.822Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Consensus",
+      "url": "https://consensus.app",
+      "category": "Research",
+      "description": "AI search engine for scientific research papers",
+      "pricing": "Free / $10 Premium",
+      "buzzScore": 40,
+      "reviewRating": 3.5,
+      "popularityScore": 43,
+      "rank": 26,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 40,
+          "reviewRating": 3.5,
+          "popularityScore": 43
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:37.960Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://autogpt.net",
+      "category": "Agents",
+      "description": "Open-source autonomous AI agent framework",
+      "pricing": "Free (open source)",
+      "buzzScore": 40,
+      "reviewRating": 3,
+      "popularityScore": 42,
+      "rank": 27,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 40,
+          "reviewRating": 3,
+          "popularityScore": 42
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:50.230Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Writesonic",
+      "url": "https://writesonic.com",
+      "category": "Writing",
+      "description": "AI writing tool for content creation and SEO",
+      "pricing": "Free / $20 Pro",
+      "buzzScore": 35,
+      "reviewRating": 3.5,
+      "popularityScore": 41,
+      "rank": 28,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 35,
+          "reviewRating": 3.5,
+          "popularityScore": 41
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:27.020Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Uizard",
+      "url": "https://uizard.io",
+      "category": "Design",
+      "description": "AI-powered UI/UX design tool for rapid prototyping",
+      "pricing": "Free / $12 Pro",
+      "buzzScore": 35,
+      "reviewRating": 3.5,
+      "popularityScore": 39,
+      "rank": 29,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 35,
+          "reviewRating": 3.5,
+          "popularityScore": 39
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:45.706Z",
+      "sourceCount": 2
+    },
+    {
+      "name": "Looka",
+      "url": "https://looka.com",
+      "category": "Design",
+      "description": "AI logo and brand design generator",
+      "pricing": "From $20 one-time",
+      "buzzScore": 30,
+      "reviewRating": 3.5,
+      "popularityScore": 37,
+      "rank": 30,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 30,
+          "reviewRating": 3.5,
+          "popularityScore": 37
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:44.153Z",
+      "sourceCount": 2
+    },
+    {
+      "name": "Mem",
+      "url": "https://mem.ai",
+      "category": "Productivity",
+      "description": "AI-powered note-taking and knowledge management",
+      "pricing": "Free / $15 Pro",
+      "buzzScore": 30,
+      "reviewRating": 3,
+      "popularityScore": 34,
+      "rank": 31,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 30,
+          "reviewRating": 3,
+          "popularityScore": 34
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:31.673Z",
+      "sourceCount": 2
+    },
+    {
+      "name": "Obviously AI",
+      "url": "https://www.obviously.ai",
+      "category": "Data",
+      "description": "No-code AI model building for business predictions",
+      "pricing": "Enterprise pricing",
+      "buzzScore": 25,
+      "reviewRating": 3,
+      "popularityScore": 32,
+      "rank": 32,
+      "sentimentTrend": null,
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 25,
+          "reviewRating": 3,
+          "popularityScore": 32
+        }
+      ],
+      "dateTracked": "2026-03-17T03:40:00.562Z",
+      "lastRefreshed": "2026-03-17T22:32:48.759Z",
+      "sourceCount": 2
     },
     {
       "name": "Lately AI",
       "url": "https://www.lately.ai",
       "category": "Marketing",
-      "description": "",
-      "pricing": "",
-      "buzzScore": null,
-      "reviewRating": null,
-      "popularityScore": null,
-      "rank": null,
+      "description": "AI social media content repurposing platform",
+      "pricing": "Enterprise pricing",
+      "buzzScore": 25,
+      "reviewRating": 3,
+      "popularityScore": 32,
+      "rank": 32,
       "sentimentTrend": null,
-      "history": [],
+      "history": [
+        {
+          "week": "2026-W12",
+          "buzzScore": 25,
+          "reviewRating": 3,
+          "popularityScore": 32
+        }
+      ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
-      "lastRefreshed": null,
-      "sourceCount": 0
+      "lastRefreshed": "2026-03-17T22:32:56.311Z",
+      "sourceCount": 2
     }
   ]
 }

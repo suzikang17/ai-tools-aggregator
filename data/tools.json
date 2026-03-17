@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-17T01:22:50.468Z",
-    "totalTools": 31,
+    "lastUpdated": "2026-03-17T22:30:34.128Z",
+    "totalTools": 54,
     "trendingCount": 0
   },
   "tools": [
@@ -630,6 +630,483 @@
       "dateUpdated": "2026-03-17T01:22:50.468Z",
       "trending": false,
       "buzzScore": null,
+      "reviewRating": null
+    },
+    {
+      "name": "Midjourney v8 Alpha",
+      "url": "https://www.midjourney.com",
+      "category": "Image Gen",
+      "description": "AI-powered image generation with v8 bringing stronger prompt adherence, better aesthetics, and 5x faster generation.",
+      "features": [
+        "v8 model with better prompt adherence",
+        "Personalization and style references",
+        "Conversation mode for flow-based prompting",
+        "Native 2K HD renders",
+        "Text rendering improvements"
+      ],
+      "pricing": "From $10/mo",
+      "dateAdded": "2026-03-17T22:30:00.875Z",
+      "dateUpdated": "2026-03-17T22:30:00.875Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 92,
+      "reviewRating": 4.5
+    },
+    {
+      "name": "Unsloth Studio",
+      "url": "https://unsloth.ai",
+      "category": "Coding",
+      "description": "Apache-licensed local LLM runner compatible with llama.cpp for fine-tuning and running models locally.",
+      "features": [
+        "Apache-licensed",
+        "llama.cpp compatible",
+        "Local model runner",
+        "Fine-tuning support",
+        "GGUF ecosystem"
+      ],
+      "pricing": "Free",
+      "dateAdded": "2026-03-17T22:30:02.350Z",
+      "dateUpdated": "2026-03-17T22:30:02.350Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com",
+        "https://www.reddit.com/r/LocalLLaMA"
+      ],
+      "buzzScore": 78,
+      "reviewRating": 4
+    },
+    {
+      "name": "comma openpilot",
+      "url": "https://comma.ai/openpilot",
+      "category": "Other",
+      "description": "Open-source driver assistance system that makes long drives easier.",
+      "features": [
+        "Open-source",
+        "Driver assistance",
+        "Long drive support"
+      ],
+      "pricing": "Free (hardware required)",
+      "dateAdded": "2026-03-17T22:30:03.835Z",
+      "dateUpdated": "2026-03-17T22:30:03.835Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 45,
+      "reviewRating": 4
+    },
+    {
+      "name": "Unblur Image.io",
+      "url": "https://unblur-image.io",
+      "category": "Image Gen",
+      "description": "AI tool to unblur and enhance any image in seconds.",
+      "features": [
+        "Image unblurring",
+        "AI enhancement",
+        "Quick processing"
+      ],
+      "pricing": "Free + from $9.9/mo",
+      "dateAdded": "2026-03-17T22:30:05.349Z",
+      "dateUpdated": "2026-03-17T22:30:05.349Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 30,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "AI Humanizer.io",
+      "url": "https://aihumanizer.io",
+      "category": "Writing",
+      "description": "Transforms AI-generated text into undetectable human-sounding content.",
+      "features": [
+        "AI text humanization",
+        "Detection bypass",
+        "Free tier"
+      ],
+      "pricing": "Free",
+      "dateAdded": "2026-03-17T22:30:06.876Z",
+      "dateUpdated": "2026-03-17T22:30:06.876Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3
+    },
+    {
+      "name": "Wandercrafted",
+      "url": "https://wandercrafted.app",
+      "category": "Productivity",
+      "description": "AI crafts personalized travel itineraries based on your preferences.",
+      "features": [
+        "AI itinerary generation",
+        "Personalized travel plans",
+        "Budget-friendly options"
+      ],
+      "pricing": "Free + from $6.58/mo",
+      "dateAdded": "2026-03-17T22:30:08.422Z",
+      "dateUpdated": "2026-03-17T22:30:08.422Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 28,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "ArchRender",
+      "url": "https://www.archrender.ai",
+      "category": "Design",
+      "description": "Transforms 3D models into photorealistic architectural renders in seconds.",
+      "features": [
+        "3D to photorealistic render",
+        "Architectural focus",
+        "Fast processing"
+      ],
+      "pricing": "Free + from $29/mo",
+      "dateAdded": "2026-03-17T22:30:09.872Z",
+      "dateUpdated": "2026-03-17T22:30:09.872Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 32,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "FineVoice",
+      "url": "https://finevoice.ai",
+      "category": "Audio",
+      "description": "Text-to-speech converter with lifelike AI voices.",
+      "features": [
+        "Text to speech",
+        "Lifelike voices",
+        "Multiple languages"
+      ],
+      "pricing": "Free + from $5.99/mo",
+      "dateAdded": "2026-03-17T22:30:11.343Z",
+      "dateUpdated": "2026-03-17T22:30:11.343Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 30,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "WebZum",
+      "url": "https://webzum.com",
+      "category": "Coding",
+      "description": "Conversational AI that builds complete websites in under 5 minutes with custom images and logos.",
+      "features": [
+        "AI website builder",
+        "Custom image generation",
+        "Logo creation",
+        "CDN hosting",
+        "Mobile-optimized"
+      ],
+      "pricing": "From $5/mo",
+      "dateAdded": "2026-03-17T22:30:12.757Z",
+      "dateUpdated": "2026-03-17T22:30:12.757Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 40,
+      "reviewRating": 4
+    },
+    {
+      "name": "ClickClaw.AI",
+      "url": "https://clickclaw.ai",
+      "category": "Agents",
+      "description": "Deploy autonomous AI agents in seconds with one click.",
+      "features": [
+        "One-click agent deployment",
+        "Autonomous agents",
+        "Quick setup"
+      ],
+      "pricing": "From $15/mo",
+      "dateAdded": "2026-03-17T22:30:14.275Z",
+      "dateUpdated": "2026-03-17T22:30:14.275Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "LiveToka",
+      "url": "https://livetoka.com",
+      "category": "Audio",
+      "description": "Real-time AI voice translation and transcription in 100+ languages.",
+      "features": [
+        "Real-time translation",
+        "100+ languages",
+        "Voice transcription",
+        "Live mode"
+      ],
+      "pricing": "Free + from $5.9/mo",
+      "dateAdded": "2026-03-17T22:30:15.803Z",
+      "dateUpdated": "2026-03-17T22:30:15.803Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 38,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "Deployables.ai",
+      "url": "https://www.deployables.ai",
+      "category": "Agents",
+      "description": "Deploy AI employees for business tasks in 2 minutes.",
+      "features": [
+        "AI employees",
+        "2-minute deployment",
+        "Business automation"
+      ],
+      "pricing": "From $49/mo",
+      "dateAdded": "2026-03-17T22:30:17.329Z",
+      "dateUpdated": "2026-03-17T22:30:17.329Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 42,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "GA4.so",
+      "url": "https://www.ga4.so",
+      "category": "Data",
+      "description": "AI agent that automates Google Analytics 4 reports and insights.",
+      "features": [
+        "GA4 automation",
+        "AI-powered insights",
+        "Automated reports"
+      ],
+      "pricing": "Free + from $0.01",
+      "dateAdded": "2026-03-17T22:30:18.917Z",
+      "dateUpdated": "2026-03-17T22:30:18.917Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 30,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "Seed by ByteDance",
+      "url": "https://seed.bytedance.com",
+      "category": "Agents",
+      "description": "ByteDance's frontier AI model with strong real-world task automation and GUI agent capabilities.",
+      "features": [
+        "Real-world task automation",
+        "GUI agent",
+        "Science discovery",
+        "Vibe coding",
+        "Tool orchestration"
+      ],
+      "pricing": "Free",
+      "dateAdded": "2026-03-17T22:30:20.368Z",
+      "dateUpdated": "2026-03-17T22:30:20.368Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 65,
+      "reviewRating": 4
+    },
+    {
+      "name": "GoFaceless",
+      "url": "https://www.gofaceless.ai",
+      "category": "Video",
+      "description": "Turn any idea into a short-form faceless video for social media.",
+      "features": [
+        "Faceless video creation",
+        "Short-form content",
+        "Social media optimized"
+      ],
+      "pricing": "Freemium",
+      "dateAdded": "2026-03-17T22:30:21.822Z",
+      "dateUpdated": "2026-03-17T22:30:21.822Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 55,
+      "reviewRating": 4
+    },
+    {
+      "name": "CodingFleet",
+      "url": "https://codingfleet.com",
+      "category": "Coding",
+      "description": "AI code generator supporting latest flagship models with image gen, diagram tools, and MCP integrations.",
+      "features": [
+        "Multi-model support",
+        "Image generation",
+        "Diagram-to-code",
+        "Code execution sandbox",
+        "MCP integrations"
+      ],
+      "pricing": "Free + from $7/mo",
+      "dateAdded": "2026-03-17T22:30:23.300Z",
+      "dateUpdated": "2026-03-17T22:30:23.300Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 48,
+      "reviewRating": 4
+    },
+    {
+      "name": "Koli",
+      "url": "https://getkoli.co",
+      "category": "Marketing",
+      "description": "AI-powered influencer marketing platform for creator-led growth.",
+      "features": [
+        "Influencer discovery",
+        "AI campaign execution",
+        "Creator-led growth"
+      ],
+      "pricing": "From $199/mo",
+      "dateAdded": "2026-03-17T22:30:24.824Z",
+      "dateUpdated": "2026-03-17T22:30:24.824Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 30,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "NextDocs.io",
+      "url": "https://www.nextdocs.io",
+      "category": "Productivity",
+      "description": "AI-native editor for docs, slides, and presentations with motion animations and video export.",
+      "features": [
+        "AI slide generation",
+        "Motion animations",
+        "Video export",
+        "Full-screen presentation"
+      ],
+      "pricing": "Freemium",
+      "dateAdded": "2026-03-17T22:30:26.450Z",
+      "dateUpdated": "2026-03-17T22:30:26.450Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 45,
+      "reviewRating": 4
+    },
+    {
+      "name": "Metal",
+      "url": "https://www.metal.so",
+      "category": "Productivity",
+      "description": "AI-powered fundraising platform that helps startup founders raise capital.",
+      "features": [
+        "AI fundraising",
+        "Investor matching",
+        "Startup focused"
+      ],
+      "pricing": "Free + from $150/mo",
+      "dateAdded": "2026-03-17T22:30:27.974Z",
+      "dateUpdated": "2026-03-17T22:30:27.974Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3.5
+    },
+    {
+      "name": "Trainn AI",
+      "url": "https://trainn.co",
+      "category": "Video",
+      "description": "Turns screen recordings into videos, interactive tours, and product guides with one-click translation.",
+      "features": [
+        "Screen recording to video",
+        "Interactive walkthroughs",
+        "One-click translation",
+        "Engagement analytics"
+      ],
+      "pricing": "Free + from $19/mo",
+      "dateAdded": "2026-03-17T22:30:29.480Z",
+      "dateUpdated": "2026-03-17T22:30:29.480Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 40,
+      "reviewRating": 4
+    },
+    {
+      "name": "Get Shit Done (GSD)",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "category": "Coding",
+      "description": "Meta-prompting, context engineering, and spec-driven AI development system.",
+      "features": [
+        "Meta-prompting framework",
+        "Context engineering",
+        "Spec-driven development",
+        "Open source"
+      ],
+      "pricing": "Free",
+      "dateAdded": "2026-03-17T22:30:31.084Z",
+      "dateUpdated": "2026-03-17T22:30:31.084Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null
+    },
+    {
+      "name": "Antfly",
+      "url": "https://github.com/antflydb/antfly",
+      "category": "Data",
+      "description": "Distributed multimodal search, memory, and graph database written in Go.",
+      "features": [
+        "Multimodal search",
+        "Memory system",
+        "Graph database",
+        "Distributed",
+        "Written in Go"
+      ],
+      "pricing": "Free",
+      "dateAdded": "2026-03-17T22:30:32.615Z",
+      "dateUpdated": "2026-03-17T22:30:32.615Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "buzzScore": 40,
+      "reviewRating": null
+    },
+    {
+      "name": "Kita",
+      "url": "https://kita.ai",
+      "category": "Data",
+      "description": "YC W26 startup automating credit review in emerging markets with AI.",
+      "features": [
+        "Credit review automation",
+        "Emerging markets",
+        "YC-backed"
+      ],
+      "pricing": "Enterprise",
+      "dateAdded": "2026-03-17T22:30:34.126Z",
+      "dateUpdated": "2026-03-17T22:30:34.126Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "buzzScore": 25,
       "reviewRating": null
     }
   ]
