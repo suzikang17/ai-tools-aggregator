@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-17T22:30:34.128Z",
-    "totalTools": 54,
+    "lastUpdated": "2026-03-17T23:22:56.736Z",
+    "totalTools": 65,
     "trendingCount": 0
   },
   "tools": [
@@ -412,21 +412,22 @@
       "name": "VidFlux",
       "url": "https://vidflux.ai",
       "category": "Video",
-      "description": "Transform any image into stunning videos with AI",
+      "description": "Transform photos into cinematic videos with multiple AI generation models.",
       "features": [
-        "Image to video",
-        "Concurrent generation",
-        "AI video"
+        "Photo to video",
+        "Multiple AI models",
+        "Free trial",
+        "Cinematic output"
       ],
-      "pricing": "From $9/mo",
+      "pricing": "From $6.75/mo",
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T23:22:41.168Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 35,
+      "reviewRating": 3.7
     },
     {
       "name": "OutBid",
@@ -1108,6 +1109,259 @@
       ],
       "buzzScore": 25,
       "reviewRating": null
+    },
+    {
+      "name": "ShakespeareAI",
+      "url": "https://shakespeareai.braintastic.ca",
+      "category": "Writing",
+      "description": "Generate professional books with AI — write, design covers, narrate audiobooks, and publish to Amazon KDP.",
+      "features": [
+        "25+ AI models",
+        "AI audiobook generation",
+        "One-click KDP publishing",
+        "AI book cover generation",
+        "Chapter-by-chapter editing"
+      ],
+      "pricing": "Free + from $9.99/mo",
+      "dateAdded": "2026-03-17T23:22:32.243Z",
+      "dateUpdated": "2026-03-17T23:22:32.243Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 45,
+      "reviewRating": 4.5,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "remio",
+      "url": "https://www.remio.ai",
+      "category": "Productivity",
+      "description": "Personal ChatGPT with knowledge bases, podcast transcription, and voice input across all apps.",
+      "features": [
+        "Personal knowledge base",
+        "Podcast library",
+        "Global voice input",
+        "Shareable notes",
+        "Multi-model support"
+      ],
+      "pricing": "Free + from $8.25/mo",
+      "dateAdded": "2026-03-17T23:22:34.437Z",
+      "dateUpdated": "2026-03-17T23:22:34.437Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 42,
+      "reviewRating": 4.2,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "MicroClipz",
+      "url": "https://microclipzai.studio",
+      "category": "Video",
+      "description": "Generate cinematic AI video clips from images, prompts, or existing video.",
+      "features": [
+        "Image-to-video",
+        "Text-to-video",
+        "Video-to-video",
+        "Cinematic style"
+      ],
+      "pricing": "From $25",
+      "dateAdded": "2026-03-17T23:22:36.721Z",
+      "dateUpdated": "2026-03-17T23:22:36.721Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "VoooAI",
+      "url": "https://voooai.com",
+      "category": "Productivity",
+      "description": "Generate rich multimedia workflows from a single sentence prompt.",
+      "features": [
+        "Multi-modal workflow",
+        "One-sentence generation",
+        "Simultaneous task handling"
+      ],
+      "pricing": "Free + from $20/mo",
+      "dateAdded": "2026-03-17T23:22:38.932Z",
+      "dateUpdated": "2026-03-17T23:22:38.932Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 40,
+      "reviewRating": 4,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "Wispr Flow",
+      "url": "https://www.flowvoice.ai",
+      "category": "Writing",
+      "description": "Voice-to-text dictation that lets you speak naturally and write 4x faster.",
+      "features": [
+        "Natural speech input",
+        "4x faster writing",
+        "Works across all apps",
+        "AI text polishing"
+      ],
+      "pricing": "Free + from $12/mo",
+      "dateAdded": "2026-03-17T23:22:43.396Z",
+      "dateUpdated": "2026-03-17T23:22:43.396Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 55,
+      "reviewRating": 4,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "Automateed",
+      "url": "https://automateed.com",
+      "category": "Writing",
+      "description": "AI-powered eBook creation tool for generating and selling books online.",
+      "features": [
+        "eBook generation",
+        "Multiple formats",
+        "Sell online",
+        "AI writing"
+      ],
+      "pricing": "Free + from $11.25/mo",
+      "dateAdded": "2026-03-17T23:22:45.716Z",
+      "dateUpdated": "2026-03-17T23:22:45.716Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 50,
+      "reviewRating": 4.5,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "illumi",
+      "url": "https://www.illumi.one",
+      "category": "Design",
+      "description": "Multiplayer AI canvas for team collaboration and creative work.",
+      "features": [
+        "Multiplayer canvas",
+        "AI-powered creation",
+        "Team collaboration",
+        "Free to use"
+      ],
+      "pricing": "Free",
+      "dateAdded": "2026-03-17T23:22:47.969Z",
+      "dateUpdated": "2026-03-17T23:22:47.969Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 38,
+      "reviewRating": 5,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "Werd",
+      "url": "https://werd.ai",
+      "category": "Writing",
+      "description": "Multi-agent AI vibe writing tool with SEO optimization for content creators.",
+      "features": [
+        "Multi-agent writing",
+        "SEO optimized",
+        "Vibe writing",
+        "Cost-effective"
+      ],
+      "pricing": "Free + from $7/mo",
+      "dateAdded": "2026-03-17T23:22:50.098Z",
+      "dateUpdated": "2026-03-17T23:22:50.098Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 42,
+      "reviewRating": 4.7,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "BlogSEO",
+      "url": "https://www.blogseo.io",
+      "category": "Marketing",
+      "description": "AI autopilot for ranking #1 on Google and ChatGPT with SEO-optimized blog content.",
+      "features": [
+        "SEO autopilot",
+        "Google ranking",
+        "ChatGPT SEO",
+        "Blog generation"
+      ],
+      "pricing": "Free + from $97/mo",
+      "dateAdded": "2026-03-17T23:22:52.294Z",
+      "dateUpdated": "2026-03-17T23:22:52.294Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 40,
+      "reviewRating": 5,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "CraftedCourses",
+      "url": "https://craftedcourses.io",
+      "category": "Productivity",
+      "description": "Create and share high-quality online courses in minutes with AI.",
+      "features": [
+        "Course creation",
+        "AI-generated content",
+        "Quick publishing",
+        "Shareable courses"
+      ],
+      "pricing": "From $13.34/mo",
+      "dateAdded": "2026-03-17T23:22:54.453Z",
+      "dateUpdated": "2026-03-17T23:22:54.453Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3.6,
+      "buzzSources": [],
+      "ratingSources": []
+    },
+    {
+      "name": "Format Magic",
+      "url": "https://formatmagic.ai",
+      "category": "Writing",
+      "description": "Instantly format plain text into professional documents with AI.",
+      "features": [
+        "Document formatting",
+        "Plain text to professional",
+        "Instant conversion"
+      ],
+      "pricing": "Free + from $4.95/mo",
+      "dateAdded": "2026-03-17T23:22:56.734Z",
+      "dateUpdated": "2026-03-17T23:22:56.734Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "buzzScore": 32,
+      "reviewRating": 4.1,
+      "buzzSources": [],
+      "ratingSources": []
     }
   ]
 }
