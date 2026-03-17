@@ -167,8 +167,9 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       field: "description",
       sortable: false,
       filter: false,
-      flex: 2,
-      minWidth: 150,
+      flex: 3,
+      minWidth: 250,
+      tooltipField: "description",
       cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
     },
     {
@@ -187,6 +188,10 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         if (params.data?._isDetail) return null;
         const features = params.value as string[];
+        return features ? features.join(", ") : "";
+      },
+      tooltipValueGetter: (params) => {
+        const features = params.data?.features;
         return features ? features.join(", ") : "";
       },
       cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
@@ -327,6 +332,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
           fullWidthCellRenderer={fullWidthCellRenderer}
           onRowClicked={onRowClicked}
           autoSizeStrategy={{ type: "fitGridWidth" }}
+          tooltipShowDelay={300}
           domLayout="normal"
           suppressCellFocus={true}
           animateRows={true}
