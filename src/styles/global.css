@@ -79,3 +79,54 @@ footer {
   color: #94a3b8;
   border-top: 1px solid #e2e8f0;
 }
+
+.tab-nav {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #e2e8f0;
+  margin-bottom: 24px;
+}
+
+.tab-button {
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #94a3b8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.tab-button.active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+  font-weight: 600;
+}
+
+.tab-button:hover:not(.active) {
+  color: #475569;
+}
+
+.view-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.view-pill {
+  padding: 4px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  cursor: pointer;
+  border: none;
+  background: #f1f5f9;
+  color: #475569;
+}
+
+.view-pill.active {
+  background: #2563eb;
+  color: white;
+}
