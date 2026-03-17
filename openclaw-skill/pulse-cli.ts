@@ -163,7 +163,7 @@ switch (command) {
         history: [],
         dateTracked: now,
         lastRefreshed: now,
-        sourceCount: input.sourceCount || 0,
+        sourceCount: input.sourceCount ?? 0,
       };
       data.tools.push(newTool);
       console.log(JSON.stringify({ action: "added", name: newTool.name }));
