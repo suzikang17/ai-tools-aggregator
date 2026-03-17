@@ -92,20 +92,48 @@ If a source page links to other pages that look like AI tool directories, lists,
   npx tsx openclaw-skill/cli.ts add-source https://new-source.com/ai-tools
   ```
 
-### Step 6: Commit and push
+### Step 6: Refresh Market Pulse sentiment
+
+After discovery is complete, refresh sentiment data for tracked tools:
+
+1. Run `npx tsx openclaw-skill/pulse-cli.ts pulse-load` to get the Market Pulse tool list
+2. For each tracked tool (batch by visiting relevant sources rather than one-by-one):
+   - Check the tool's URL for current status, pricing, description
+   - Search Reddit, HN, Product Hunt for recent mentions and sentiment
+   - Estimate buzzScore (0-100) based on mention volume and excitement level
+   - Estimate reviewRating (1.0-5.0) from user reviews and ratings found
+   - Count distinct sources mentioning the tool
+   - If you cannot find sentiment data for a tool, skip it (preserve existing values)
+3. For each tool with updated data, pipe it to the CLI:
+   ```
+   echo '{"name":"ToolName","url":"https://example.com","buzzScore":75,"reviewRating":4.0,"sourceCount":5}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
+   ```
+
+### Step 7: Snapshot and graduate
+
+After refreshing sentiment:
+```
+npx tsx openclaw-skill/pulse-cli.ts pulse-graduate
+npx tsx openclaw-skill/pulse-cli.ts pulse-snapshot
+```
+
+### Step 8: Commit and push
 
 After processing all sources:
 ```
 npx tsx openclaw-skill/cli.ts commit-push
 ```
 
-### Step 7: Report
+This now stages `data/tools.json`, `data/sources.json`, and `data/market-pulse.json`.
+
+### Step 9: Report
 
 Summarize what you found in Discord:
 - How many new tools were added
 - How many existing tools were updated
 - Any new sources discovered
 - List the most interesting finds by name and category
+- Market Pulse summary: how many tools refreshed, any rank changes
 
 ## Budget Limits
 
@@ -136,6 +164,25 @@ When a user says "add source <url>":
 npx tsx openclaw-skill/cli.ts add-source <url>
 ```
 Report whether it was added or already exists.
+
+## Market Pulse Commands
+
+- `pulse status` — Show Market Pulse leaderboard summary in Discord. Run:
+  ```
+  npx tsx openclaw-skill/pulse-cli.ts pulse-status
+  ```
+  Format the JSON into a readable Discord message:
+  ```
+  📊 **Market Pulse**
+  Tools tracked: X
+  Last refreshed: <date>
+  Movers: ▲ X up, ▼ Y down this week
+
+  **Top 5:**
+  #1 ToolName (score) ▲
+  #2 ToolName (score) —
+  ...
+  ```
 
 ## Trending Detection
 
