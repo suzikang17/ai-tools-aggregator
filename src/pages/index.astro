@@ -1,9 +1,11 @@
 ---
 import toolsData from "../../data/tools.json";
-import ToolsGrid from "../components/ToolsGrid";
+import pulseData from "../../data/market-pulse.json";
+import App from "../components/App";
 import "../styles/global.css";
 
-const { metadata, tools } = toolsData;
+const { metadata: toolsMeta, tools } = toolsData;
+const { metadata: pulseMeta, tools: pulseTools } = pulseData;
 ---
 
 <html lang="en">
@@ -17,10 +19,12 @@ const { metadata, tools } = toolsData;
     <header>
       <h1>AI Tools Aggregator</h1>
     </header>
-    <ToolsGrid
+    <App
       client:load
       tools={tools}
-      lastUpdated={metadata.lastUpdated}
+      toolsLastUpdated={toolsMeta.lastUpdated}
+      pulseTools={pulseTools}
+      pulseLastRefreshed={pulseMeta.lastRefreshed}
     />
   </div>
 </body>
