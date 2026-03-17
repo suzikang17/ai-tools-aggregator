@@ -24,6 +24,7 @@ function isNew(dateAdded: string): boolean {
 
 export default function ToolsGrid({ tools, lastUpdated }: Props) {
   const [activeCategory, setActiveCategory] = useState("All");
+  const [searchQuery, setSearchQuery] = useState("");
   const [expandedName, setExpandedName] = useState<string | null>(null);
 
   const trendingCount = useMemo(() => tools.filter((t) => t.trending).length, [tools]);
@@ -34,9 +35,20 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
   }, [tools]);
 
   const filteredTools = useMemo(() => {
-    if (activeCategory === "All") return tools;
-    return tools.filter((t) => t.category === activeCategory);
-  }, [tools, activeCategory]);
+    let filtered = activeCategory === "All" ? tools : tools.filter((t) => t.category === activeCategory);
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      filtered = filtered.filter((t) =>
+        t.name.toLowerCase().includes(q) ||
+        t.description.toLowerCase().includes(q) ||
+        t.category.toLowerCase().includes(q) ||
+        t.pricing.toLowerCase().includes(q) ||
+        t.features.some((f) => f.toLowerCase().includes(q)) ||
+        (t.parentPlatform && t.parentPlatform.toLowerCase().includes(q))
+      );
+    }
+    return filtered;
+  }, [tools, activeCategory, searchQuery]);
 
   const rowData: ToolRow[] = useMemo(() => {
     const rows: ToolRow[] = [];
@@ -151,31 +163,10 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       minWidth: 110,
     },
     {
-      headerName: "Description",
-      field: "description",
-      sortable: false,
-      filter: false,
-      flex: 2,
-      minWidth: 200,
-      cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
-    },
-    {
       headerName: "Pricing",
       field: "pricing",
       sortable: true,
       minWidth: 100,
-    },
-    {
-      headerName: "Features",
-      field: "features",
-      sortable: false,
-      filter: false,
-      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
-        if (params.data?._isDetail) return null;
-        const features = params.value as string[];
-        return features ? features.join(", ") : "";
-      },
-      minWidth: 150,
     },
     {
       headerName: "Updated",
@@ -183,6 +174,12 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       sortable: true,
       minWidth: 100,
       sort: "desc",
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
+        const val = params.value as string | null;
+        if (!val) return <span style={{ color: "#9ca3af" }}>{"\u2014"}</span>;
+        return new Date(val).toLocaleDateString();
+      },
     },
     {
       headerName: "Buzz",
@@ -271,6 +268,16 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
             🔥 <strong style={{ color: "#dc2626" }}>{trendingCount}</strong> trending today
           </span>
         )}
+      </div>
+
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Search tools..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="search-input"
+        />
       </div>
 
       <div className="category-pills">

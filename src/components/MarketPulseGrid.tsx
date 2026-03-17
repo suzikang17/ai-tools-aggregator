@@ -31,6 +31,7 @@ function getScoreDelta(tool: TrackedTool): number | null {
 export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [viewMode, setViewMode] = useState<"ranked" | "movers">("ranked");
+  const [searchQuery, setSearchQuery] = useState("");
   const [expandedName, setExpandedName] = useState<string | null>(null);
 
   const upCount = useMemo(() => tools.filter((t) => t.sentimentTrend === "up").length, [tools]);
@@ -43,6 +44,17 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
 
   const sortedTools = useMemo(() => {
     let filtered = activeCategory === "All" ? [...tools] : tools.filter((t) => t.category === activeCategory);
+
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      filtered = filtered.filter((t) =>
+        t.name.toLowerCase().includes(q) ||
+        t.description.toLowerCase().includes(q) ||
+        t.category.toLowerCase().includes(q) ||
+        t.pricing.toLowerCase().includes(q) ||
+        (t.parentPlatform && t.parentPlatform.toLowerCase().includes(q))
+      );
+    }
 
     if (viewMode === "movers") {
       const withDelta = filtered.map((t) => ({ tool: t, delta: getScoreDelta(t) }));
@@ -58,7 +70,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
     }
 
     return filtered;
-  }, [tools, activeCategory, viewMode]);
+  }, [tools, activeCategory, viewMode, searchQuery]);
 
   const rowData: PulseRow[] = useMemo(() => {
     const rows: PulseRow[] = [];
@@ -312,6 +324,16 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
         >
           Biggest Movers
         </button>
+      </div>
+
+      <div className="search-bar">
+        <input
+          type="text"
+          placeholder="Search tools..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="search-input"
+        />
       </div>
 
       <div className="category-pills">
