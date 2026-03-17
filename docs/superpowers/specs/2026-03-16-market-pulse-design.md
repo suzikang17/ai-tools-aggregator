@@ -71,7 +71,8 @@ popularityScore = (buzzScore * 0.4)
 - Buzz score: 40% weight — public excitement and mention volume
 - Review rating: 30% weight — normalized from 1-5 scale to 0-100
 - Source count: 20% weight — capped at 10 sources, normalized to 0-100
-- Trending bonus: 10 points if tool is also trending on Discovery tab
+- Trending bonus: 10 points if tool is also trending on Discovery tab. Resolved by matching name (case-insensitive) + domain against `tools.json` and checking `trending === true`.
+- If buzzScore or reviewRating is null, that component contributes 0 to the score.
 
 ### Sentiment Trend Calculation
 
@@ -116,6 +117,8 @@ Tools on the Discovery tab are automatically promoted to Market Pulse when they 
 
 Graduation is checked during each `research now` run. The tool is copied to `market-pulse.json` (not moved — it stays on Discovery too). If a tool with the same name+domain already exists in Market Pulse, it's skipped.
 
+When graduating, `sourceCount` is initialized from `sourceUrls.length` of the Discovery tool. During subsequent sentiment refreshes, the agent updates `sourceCount` based on how many distinct sources it finds mentioning the tool.
+
 ## Frontend
 
 ### Tab Navigation
@@ -153,7 +156,7 @@ New React component `src/components/MarketPulseGrid.tsx` using AG Grid (same set
 Same columns, but:
 - Sort by absolute change in popularityScore vs last week (descending)
 - Rank column shows delta badge instead: "+8" green or "-5" red
-- Tools with no history show "NEW" badge
+- Tools with no history show "NEW" badge and sort after all tools with deltas
 
 **Category filter pills:** Same as Discovery tab, filters the Market Pulse grid.
 
@@ -175,12 +178,21 @@ New commands in `openclaw-skill/cli.ts`:
 | `pulse-graduate` | Check Discovery tools for graduation criteria, promote eligible ones |
 | `pulse-status` | Output Market Pulse stats as JSON |
 
+### `commit-push` update:
+The existing `commit-push` command must be updated to stage `data/market-pulse.json` in addition to `data/tools.json` and `data/sources.json`.
+
+### `pulse-seed` command:
+A one-time `pulse-seed` command generates the initial `market-pulse.json` with ~50 well-known tools. Each entry has the tool name, URL, and category populated; all sentiment fields start as null. This command is idempotent — it skips tools already present.
+
+### `pulse-save-tool` input:
+Accepts a JSON object via stdin with these fields: `name` (required), `url` (required), `category`, `description`, `pricing`, `buzzScore`, `reviewRating`, `sourceCount`. Missing optional fields preserve existing values on update, or default to null/0 on insert.
+
 ### `pulse-snapshot` logic:
 1. Get current ISO week string
 2. For each tool: push/overwrite snapshot for current week
 3. Trim history arrays to max 52 entries
 4. Recalculate `popularityScore` for all tools using the formula
-5. Sort by popularity score, assign ranks
+5. Sort by popularity score descending, assign ranks. Tie-breaking: same score = same rank (dense ranking, e.g., 1, 2, 2, 3)
 6. Calculate `sentimentTrend` (current vs 4-week average)
 7. Save to file
 
@@ -195,19 +207,26 @@ New commands in `openclaw-skill/cli.ts`:
 
 Add to the research cycle:
 
-### After Discovery steps (existing Steps 1-7):
+### Ordering within the research cycle:
 
-**Step 8: Refresh Market Pulse sentiment**
+The existing SKILL.md has: Steps 1-5 (browse sources, save tools, update sources, follow links), Step 6 (commit-push), Step 7 (report). The new steps are inserted **before** commit-push:
+
+- Steps 1-5: Discovery (unchanged)
+- **Step 6: Refresh Market Pulse sentiment** (new)
+- **Step 7: Snapshot and graduate** (new)
+- Step 8: Commit and push (previously Step 6 — now stages `data/tools.json`, `data/sources.json`, AND `data/market-pulse.json`)
+- Step 9: Report (previously Step 7)
+
+**Step 6: Refresh Market Pulse sentiment**
 For each tracked tool in Market Pulse, the agent:
 1. Runs `npx tsx openclaw-skill/cli.ts pulse-load` to get the list
 2. For each tool, visits its URL + checks Reddit/HN/Product Hunt for current mentions
 3. Estimates buzzScore (0-100) and reviewRating (1.0-5.0) from what it finds
 4. Pipes updated tool data to `pulse-save-tool`
 
-**Step 9: Snapshot and graduate**
+**Step 7: Snapshot and graduate**
 1. Runs `pulse-graduate` to promote eligible Discovery tools
 2. Runs `pulse-snapshot` to take weekly snapshot and recalculate ranks
-3. Both Market Pulse and Discovery data are committed together in the final `commit-push`
 
 ### New SKILL.md commands:
 
