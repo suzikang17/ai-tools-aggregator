@@ -12,7 +12,7 @@ const HELP_TEXT = `*Available Commands:*
 \`/compare <platform> vs <platform>\` — Compare platforms side-by-side
 \`/newcategory <name>\` — Create a category, reclassify tools, research new ones
 \`/status\` — Current stats
-\`/pulsestatus\` — Market Pulse leaderboard
+\`/leaders\` — Market Pulse leaderboard
 \`/help\` — Show this message`;
 
 // Slash commands are sent as application/x-www-form-urlencoded
@@ -69,7 +69,7 @@ export const POST: APIRoute = async ({ request }) => {
     case "status":
       botMessage = "status";
       break;
-    case "pulsestatus":
+    case "leaders":
       botMessage = "pulse status";
       break;
     default:
