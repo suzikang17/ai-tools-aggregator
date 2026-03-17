@@ -1,8 +1,574 @@
 {
   "metadata": {
-    "lastUpdated": null,
-    "totalTools": 0,
+    "lastUpdated": "2026-03-17T01:22:50.468Z",
+    "totalTools": 31,
     "trendingCount": 0
   },
-  "tools": []
+  "tools": [
+    {
+      "name": "WowTok",
+      "url": "https://www.wowtok.com",
+      "category": "Video",
+      "description": "From prompt to viral TikTok in minutes",
+      "features": [
+        "AI video generation",
+        "TikTok optimization",
+        "Prompt-to-video"
+      ],
+      "pricing": "From $29/mo",
+      "dateAdded": "2026-03-17T01:19:10.498Z",
+      "dateUpdated": "2026-03-17T01:19:10.498Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ]
+    },
+    {
+      "name": "Bulk BG Remove",
+      "url": "https://bulkbgremove.com",
+      "category": "Image Gen",
+      "description": "Remove backgrounds from hundreds of images at once",
+      "features": [
+        "Bulk processing",
+        "AI background removal",
+        "Batch export"
+      ],
+      "pricing": "Freemium - from $9/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "HousesDecorate",
+      "url": "https://housesdecorate.com",
+      "category": "Design",
+      "description": "AI home design for interiors and exteriors",
+      "features": [
+        "Interior design",
+        "Exterior visualization",
+        "AI rendering"
+      ],
+      "pricing": "Freemium - from $19.90/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "NemoClaw",
+      "url": "https://www.nvidia.com/en-us/ai/nemoclaw/",
+      "category": "Agents",
+      "description": "NVIDIA open-source platform for enterprise-grade autonomous AI agents at scale",
+      "features": [
+        "Open source",
+        "Enterprise agents",
+        "Scalable deployment",
+        "NVIDIA ecosystem"
+      ],
+      "pricing": "Free",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Adaptive AI",
+      "url": "https://adaptive.ai",
+      "category": "Productivity",
+      "description": "An AI that works on a computer so you don't have to",
+      "features": [
+        "Computer use",
+        "Task automation",
+        "Desktop agent"
+      ],
+      "pricing": "Freemium - from $20/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "My Computer by Manus",
+      "url": "https://manus.im/desktop",
+      "category": "Agents",
+      "description": "AI that manages your computer and automates workflows",
+      "features": [
+        "Desktop automation",
+        "Workflow management",
+        "Computer agent"
+      ],
+      "pricing": "Unknown",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Knowlify",
+      "url": "https://www.knowlify.com",
+      "category": "Video",
+      "description": "Turn documents into professional animated videos instantly",
+      "features": [
+        "Document to video",
+        "Animation",
+        "Explainer videos"
+      ],
+      "pricing": "Freemium - from $5",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Piqo AI",
+      "url": "https://piqoai.co",
+      "category": "Productivity",
+      "description": "AI-powered business assistant via chat",
+      "features": [
+        "Chat interface",
+        "Business tasks",
+        "Personal assistant"
+      ],
+      "pricing": "Freemium - from $14/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Termzy AI",
+      "url": "https://www.termzyai.com",
+      "category": "Productivity",
+      "description": "Instantly understand what you are really agreeing to in legal terms",
+      "features": [
+        "Legal analysis",
+        "Terms of service",
+        "Privacy policy review"
+      ],
+      "pricing": "Freemium - from $3.40",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "SpacePrompts",
+      "url": "https://www.spaceprompts.com",
+      "category": "Productivity",
+      "description": "Your prompts enhanced by AI, ready to run anywhere",
+      "features": [
+        "Prompt enhancement",
+        "Cross-platform",
+        "Prompt library"
+      ],
+      "pricing": "Freemium - from $5/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Komos",
+      "url": "https://www.komos.ai",
+      "category": "Productivity",
+      "description": "Turn a 5-minute screen demo into automation - no-code UI automation",
+      "features": [
+        "Screen recording to automation",
+        "No-code",
+        "MCP integration",
+        "Browser automation"
+      ],
+      "pricing": "Unknown",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Resum8",
+      "url": "https://resum8.org",
+      "category": "Productivity",
+      "description": "AI resume writer that tailors CVs for every job",
+      "features": [
+        "Resume tailoring",
+        "Job matching",
+        "CV optimization"
+      ],
+      "pricing": "Freemium - from $9.99/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "OnCallClerk",
+      "url": "https://oncallclerk.com",
+      "category": "Agents",
+      "description": "Launch AI phone agents in minutes",
+      "features": [
+        "Phone agents",
+        "Virtual receptionist",
+        "Voice AI"
+      ],
+      "pricing": "Freemium - from $29/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "MascotVibe",
+      "url": "https://www.mascotvibe.com",
+      "category": "Image Gen",
+      "description": "Create animated mascots from any image or AI prompt",
+      "features": [
+        "Image to mascot",
+        "AI animation",
+        "Custom characters"
+      ],
+      "pricing": "Freemium - from $14.99/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Base44 Superagents",
+      "url": "https://base44.com",
+      "category": "Agents",
+      "description": "Build your own AI agent in minutes, not days - no coding required",
+      "features": [
+        "No-code agent builder",
+        "App deployment",
+        "Task automation"
+      ],
+      "pricing": "Freemium - from $20/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Denovo",
+      "url": "https://www.denovo.dev",
+      "category": "Productivity",
+      "description": "Turn your idea into a real business in 8 minutes",
+      "features": [
+        "Business planning",
+        "Startup tools",
+        "1000 SaaS integrations",
+        "Chat agent"
+      ],
+      "pricing": "Freemium - from $25/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Citable",
+      "url": "https://getcitable.com",
+      "category": "Marketing",
+      "description": "Be in AI answers before your competitors - answer engine optimization",
+      "features": [
+        "AEO",
+        "AI search visibility",
+        "Brand monitoring"
+      ],
+      "pricing": "Freemium - from $99/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Nafy AI",
+      "url": "https://nafy.ai",
+      "category": "Audio",
+      "description": "Transform ideas into royalty-free, studio-quality tracks instantly",
+      "features": [
+        "AI music generation",
+        "Royalty-free",
+        "Studio quality"
+      ],
+      "pricing": "Unknown",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Notra",
+      "url": "https://www.usenotra.com",
+      "category": "Writing",
+      "description": "Turn your daily work into publish-ready content",
+      "features": [
+        "Work-to-content",
+        "Writing assistant",
+        "Publishing"
+      ],
+      "pricing": "Freemium - from $50/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Linkly AI",
+      "url": "https://linkly.ai",
+      "category": "Research",
+      "description": "Local search engine built for AI agents",
+      "features": [
+        "Agent search",
+        "Knowledge base",
+        "Local search"
+      ],
+      "pricing": "Free",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "VidFlux",
+      "url": "https://vidflux.ai",
+      "category": "Video",
+      "description": "Transform any image into stunning videos with AI",
+      "features": [
+        "Image to video",
+        "Concurrent generation",
+        "AI video"
+      ],
+      "pricing": "From $9/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "OutBid",
+      "url": "https://useoutbid.com",
+      "category": "Productivity",
+      "description": "Win Upwork jobs with instant alerts and AI proposals",
+      "features": [
+        "Job alerts",
+        "AI proposals",
+        "Upwork optimization"
+      ],
+      "pricing": "Freemium - from $9.99/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Askiva AI",
+      "url": "https://askiva.io",
+      "category": "Research",
+      "description": "Automated user research interviews that run and analyze themselves",
+      "features": [
+        "AI interviews",
+        "User research",
+        "Auto-analysis"
+      ],
+      "pricing": "Freemium - from $49/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "AutoReach",
+      "url": "https://www.autoreach.work",
+      "category": "Marketing",
+      "description": "Autonomous AI agent that finds and qualifies leads",
+      "features": [
+        "Lead generation",
+        "AI outbound",
+        "Lead qualification"
+      ],
+      "pricing": "Freemium - from $5",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "VideoVibe",
+      "url": "https://videovibe.io",
+      "category": "Data",
+      "description": "Instantly analyze YouTube community sentiment and generate audience insights",
+      "features": [
+        "Sentiment analysis",
+        "YouTube analytics",
+        "Audience insights"
+      ],
+      "pricing": "Freemium - from $12/mo",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "MarketAlerts.ai",
+      "url": "https://www.marketalerts.ai",
+      "category": "Data",
+      "description": "Invest smarter with AI-powered stock market alerts",
+      "features": [
+        "Stock alerts",
+        "AI analysis",
+        "Market monitoring"
+      ],
+      "pricing": "Unknown",
+      "sourceUrls": [
+        "https://theresanaiforthat.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Leanstral",
+      "url": "https://mistral.ai/news/leanstral",
+      "category": "Coding",
+      "description": "Open-source agent for trustworthy coding and formal proof engineering by Mistral",
+      "features": [
+        "Open source",
+        "Formal proofs",
+        "Code verification",
+        "Lean integration"
+      ],
+      "pricing": "Free",
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Voygr",
+      "url": "https://voygr.com",
+      "category": "Data",
+      "description": "A better maps API for agents and AI apps (YC W26)",
+      "features": [
+        "Maps API",
+        "Agent-friendly",
+        "Location data",
+        "YC backed"
+      ],
+      "pricing": "Unknown",
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Apideck CLI",
+      "url": "https://www.apideck.com",
+      "category": "Coding",
+      "description": "AI-agent interface with much lower context consumption than MCP",
+      "features": [
+        "CLI interface",
+        "Low context usage",
+        "MCP alternative",
+        "API integration"
+      ],
+      "pricing": "Unknown",
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "Godogen",
+      "url": "https://github.com/htdt/godogen",
+      "category": "Coding",
+      "description": "Claude Code skills that build complete Godot games",
+      "features": [
+        "Game development",
+        "Godot engine",
+        "Claude Code",
+        "Open source"
+      ],
+      "pricing": "Free",
+      "sourceUrls": [
+        "https://news.ycombinator.com"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    },
+    {
+      "name": "MiroThinker",
+      "url": "https://github.com/mirothinker",
+      "category": "Agents",
+      "description": "A tool to plan and execute multi-step AI workflows",
+      "features": [
+        "Multi-step workflows",
+        "Open source",
+        "AI planning"
+      ],
+      "pricing": "Free",
+      "sourceUrls": [
+        "https://futuretools.io"
+      ],
+      "dateAdded": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "trending": false
+    }
+  ]
 }

@@ -13,10 +13,10 @@
       "url": "https://news.ycombinator.com",
       "name": "Hacker News",
       "type": "seed",
-      "lastChecked": null,
-      "toolsFound": 0,
-      "timesChecked": 0,
-      "qualityScore": 0
+      "lastChecked": "2026-03-17T01:23:17.399Z",
+      "toolsFound": 4,
+      "timesChecked": 1,
+      "qualityScore": 4
     },
     {
       "url": "https://www.reddit.com/r/artificial",
@@ -58,19 +58,19 @@
       "url": "https://theresanaiforthat.com",
       "name": "There's An AI For That",
       "type": "seed",
-      "lastChecked": null,
-      "toolsFound": 0,
-      "timesChecked": 0,
-      "qualityScore": 0
+      "lastChecked": "2026-03-17T01:23:15.876Z",
+      "toolsFound": 25,
+      "timesChecked": 1,
+      "qualityScore": 25
     },
     {
       "url": "https://www.futuretools.io",
       "name": "Future Tools",
       "type": "seed",
-      "lastChecked": null,
-      "toolsFound": 0,
-      "timesChecked": 0,
-      "qualityScore": 0
+      "lastChecked": "2026-03-17T01:23:18.911Z",
+      "toolsFound": 1,
+      "timesChecked": 1,
+      "qualityScore": 1
     },
     {
       "url": "https://bensbites.com",
