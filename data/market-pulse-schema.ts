@@ -33,9 +33,12 @@ export interface TrackedTool {
   sentimentTrend: "up" | "down" | "stable" | null;
 
   parentPlatform?: string;         // e.g. "Google Labs", "Microsoft Azure AI"
+  logoUrl?: string;                // relative path: /logos/tool-name.png
 
   buzzSources?: BuzzSource[];
   ratingSources?: RatingSource[];
+  buzzSummary?: string;            // synthesized paragraph about buzz
+  ratingSummary?: string;          // synthesized paragraph about reviews
 
   history: WeeklySnapshot[];
 

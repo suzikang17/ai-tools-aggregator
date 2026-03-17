@@ -5,10 +5,13 @@ interface Props {
   description?: string;
   features?: string[];
   parentPlatform?: string;
+  logoUrl?: string;
   buzzScore: number | null;
   reviewRating: number | null;
   buzzSources?: BuzzSource[];
   ratingSources?: RatingSource[];
+  buzzSummary?: string;
+  ratingSummary?: string;
   lastRefreshed?: string | null;
   toolName: string;
   onCollapse: () => void;
@@ -28,7 +31,7 @@ function Stars({ rating }: { rating: number }) {
   return <span style={{ fontSize: "13px", letterSpacing: "1px" }}>{stars}</span>;
 }
 
-export default function DetailRow({ description, features, parentPlatform, buzzScore, reviewRating, buzzSources, ratingSources, lastRefreshed, toolName, onCollapse }: Props) {
+export default function DetailRow({ description, features, parentPlatform, logoUrl, buzzScore, reviewRating, buzzSources, ratingSources, buzzSummary, ratingSummary, lastRefreshed, toolName, onCollapse }: Props) {
   const hasBuzzSources = buzzSources && buzzSources.length > 0;
   const hasRatingSources = ratingSources && ratingSources.length > 0;
   const hasFeatures = features && features.length > 0;
@@ -61,9 +64,16 @@ export default function DetailRow({ description, features, parentPlatform, buzzS
       color: "#334155",
       cursor: "pointer",
     }} onClick={onCollapse}>
-      {/* Description + Features row */}
-      {(description || hasFeatures || parentPlatform) && (
-        <div style={{ display: "flex", gap: "32px" }}>
+      {/* Header: logo + description + features */}
+      {(description || hasFeatures || parentPlatform || logoUrl) && (
+        <div style={{ display: "flex", gap: "16px" }}>
+          {logoUrl && (
+            <img
+              src={logoUrl}
+              alt={`${toolName} logo`}
+              style={{ width: "32px", height: "32px", borderRadius: "6px", objectFit: "contain", flexShrink: 0 }}
+            />
+          )}
           <div style={{ flex: 1, lineHeight: "1.5", color: "#475569" }}>
             {parentPlatform && (
               <span style={{
@@ -110,6 +120,11 @@ export default function DetailRow({ description, features, parentPlatform, buzzS
           <div style={{ fontWeight: 600, marginBottom: "8px", color: "#0f172a" }}>
             Buzz: {buzzScore != null ? `${buzzScore}/100` : "\u2014"}
           </div>
+          {buzzSummary && (
+            <div style={{ lineHeight: "1.5", color: "#475569", marginBottom: "8px" }}>
+              {buzzSummary}
+            </div>
+          )}
           {hasBuzzSources ? (
             <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
               {buzzSources.map((src, i) => (
@@ -138,7 +153,7 @@ export default function DetailRow({ description, features, parentPlatform, buzzS
                 </div>
               ))}
             </div>
-          ) : (
+          ) : !buzzSummary && (
             <div style={{ color: "#94a3b8", fontStyle: "italic" }}>No source data yet</div>
           )}
         </div>
@@ -148,6 +163,11 @@ export default function DetailRow({ description, features, parentPlatform, buzzS
           <div style={{ fontWeight: 600, marginBottom: "8px", color: "#0f172a" }}>
             Rating: {reviewRating != null ? <><Stars rating={reviewRating} /> ({reviewRating})</> : "\u2014"}
           </div>
+          {ratingSummary && (
+            <div style={{ lineHeight: "1.5", color: "#475569", marginBottom: "8px" }}>
+              {ratingSummary}
+            </div>
+          )}
           {hasRatingSources ? (
             <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
               {ratingSources.map((src, i) => (
@@ -163,7 +183,7 @@ export default function DetailRow({ description, features, parentPlatform, buzzS
                 </div>
               ))}
             </div>
-          ) : (
+          ) : !ratingSummary && (
             <div style={{ color: "#94a3b8", fontStyle: "italic" }}>No review data yet</div>
           )}
         </div>

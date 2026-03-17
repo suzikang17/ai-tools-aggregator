@@ -146,8 +146,11 @@ switch (command) {
       if (input.pricing !== undefined) existing.pricing = input.pricing;
       if (input.sourceCount !== undefined) existing.sourceCount = input.sourceCount;
       if (input.parentPlatform !== undefined) existing.parentPlatform = input.parentPlatform;
+      if (input.logoUrl !== undefined) existing.logoUrl = input.logoUrl;
       if (input.buzzSources !== undefined) existing.buzzSources = input.buzzSources;
       if (input.ratingSources !== undefined) existing.ratingSources = input.ratingSources;
+      if (input.buzzSummary !== undefined) existing.buzzSummary = input.buzzSummary;
+      if (input.ratingSummary !== undefined) existing.ratingSummary = input.ratingSummary;
       existing.lastRefreshed = new Date().toISOString();
       console.log(JSON.stringify({ action: "updated", name: existing.name }));
     } else {
@@ -165,8 +168,11 @@ switch (command) {
         sentimentTrend: null,
         history: [],
         parentPlatform: input.parentPlatform ?? undefined,
+        logoUrl: input.logoUrl ?? undefined,
         buzzSources: input.buzzSources ?? [],
         ratingSources: input.ratingSources ?? [],
+        buzzSummary: input.buzzSummary ?? undefined,
+        ratingSummary: input.ratingSummary ?? undefined,
         dateTracked: now,
         lastRefreshed: now,
         sourceCount: input.sourceCount ?? 0,

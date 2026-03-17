@@ -80,7 +80,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
   }, []);
 
   const getRowHeight = useCallback((params: { data?: PulseRow }) => {
-    return params.data?._isDetail ? 150 : undefined;
+    return params.data?._isDetail ? 200 : undefined;
   }, []);
 
   const onRowClicked = useCallback((event: RowClickedEvent<PulseRow>) => {
@@ -96,10 +96,13 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       <DetailRow
         description={tool.description}
         parentPlatform={tool.parentPlatform}
+        logoUrl={tool.logoUrl}
         buzzScore={tool.buzzScore}
         reviewRating={tool.reviewRating}
         buzzSources={tool.buzzSources}
         ratingSources={tool.ratingSources}
+        buzzSummary={tool.buzzSummary}
+        ratingSummary={tool.ratingSummary}
         lastRefreshed={tool.lastRefreshed}
         toolName={tool.name}
         onCollapse={() => setExpandedName(null)}
@@ -168,11 +171,16 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
         const tool = params.data;
         if (!tool || tool._isDetail) return null;
         return (
-          <a href={tool.url} target="_blank" rel="noopener noreferrer"
-             onClick={(e) => e.stopPropagation()}
-             style={{ color: "#2563eb", textDecoration: "none", fontWeight: 600 }}>
-            {tool.name}
-          </a>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
+            {tool.logoUrl && (
+              <img src={tool.logoUrl} alt="" style={{ width: "16px", height: "16px", borderRadius: "3px", objectFit: "contain" }} />
+            )}
+            <a href={tool.url} target="_blank" rel="noopener noreferrer"
+               onClick={(e) => e.stopPropagation()}
+               style={{ color: "#2563eb", textDecoration: "none", fontWeight: 600 }}>
+              {tool.name}
+            </a>
+          </span>
         );
       },
     },

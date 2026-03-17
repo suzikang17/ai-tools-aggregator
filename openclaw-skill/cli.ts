@@ -105,8 +105,11 @@ switch (command) {
         buzzScore: input.buzzScore ?? null,
         reviewRating: input.reviewRating ?? null,
         parentPlatform: input.parentPlatform ?? undefined,
+        logoUrl: input.logoUrl ?? undefined,
         buzzSources: input.buzzSources ?? [],
         ratingSources: input.ratingSources ?? [],
+        buzzSummary: input.buzzSummary ?? undefined,
+        ratingSummary: input.ratingSummary ?? undefined,
       };
       tools.tools.push(newTool);
       console.log(JSON.stringify({ action: "added", name: newTool.name }));

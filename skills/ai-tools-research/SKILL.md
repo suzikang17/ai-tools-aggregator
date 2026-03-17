@@ -74,6 +74,10 @@ Look for mentions of AI tools, products, or services. For each tool found, extra
 - **pricing**: Pricing info (e.g., "Free", "Freemium", "$20/mo", "Enterprise")
 - **buzzScore**: Public buzz score 0-100 based on mentions, upvotes, comments, and excitement level across sources. Consider: volume of mentions (more = higher), tone of discussion (excited vs neutral vs negative), recency of buzz. Use null if insufficient data.
 - **reviewRating**: Star rating 1.0-5.0 (half-star increments: 1.0, 1.5, 2.0, ..., 5.0). Pull actual ratings from Product Hunt, G2, or similar review sites when available. Estimate from user review text when no structured rating exists. Use null if no reviews found.
+- **parentPlatform**: If the tool belongs to a larger platform (e.g., "Google", "Microsoft", "Meta"), set this field. See Platform Crawling section.
+- **logoUrl**: Download the tool's logo/favicon and save to `public/logos/`. See Logo Collection section.
+- **buzzSummary**: 1-2 sentence synthesis of what people are saying about this tool across sources. Focus on specifics — mention actual threads, launches, features discussed, controversies. Not generic fluff.
+- **ratingSummary**: 1-2 sentence synthesis of review sentiment. What do reviewers praise? What do they criticize? Any patterns across platforms?
 
 ### Step 3: Save each tool found
 
@@ -398,6 +402,25 @@ In Step 2 (Browse each source), when you encounter a tool that belongs to a know
 1. Tag it with `parentPlatform`
 2. If you haven't crawled that platform yet in this cycle, visit the platform's AI products page and extract all sub-tools
 3. Save each sub-tool with the same `parentPlatform`
+
+## Logo Collection
+
+When researching a tool, download its logo and save it to `public/logos/`:
+
+### How to get logos
+1. Visit the tool's homepage
+2. Look for the logo in these locations (in order of preference):
+   - Open Graph image: `<meta property="og:image">`
+   - Apple touch icon: `<link rel="apple-touch-icon">`
+   - Favicon: `<link rel="icon">` or `/favicon.ico`
+3. Download the image and save to `public/logos/<slug>.png` where slug is the tool name lowercased with spaces replaced by hyphens (e.g., `github-copilot.png`)
+4. Set `logoUrl` to `/logos/<slug>.png` when saving the tool
+
+### Logo specs
+- Prefer square images (icons/favicons) over wide banners
+- Save as PNG
+- Target size: 64x64 or larger (will be displayed at 16px and 32px)
+- If no logo is found, skip it (don't set logoUrl)
 
 ## Trending Detection
 

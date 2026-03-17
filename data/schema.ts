@@ -14,8 +14,11 @@ export interface Tool {
   buzzScore: number | null;
   reviewRating: number | null;
   parentPlatform?: string;
+  logoUrl?: string;
   buzzSources?: BuzzSource[];
   ratingSources?: RatingSource[];
+  buzzSummary?: string;
+  ratingSummary?: string;
 }
 
 export interface ToolsData {
