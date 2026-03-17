@@ -100,6 +100,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
         buzzSources={tool.buzzSources}
         ratingSources={tool.ratingSources}
         lastRefreshed={tool.lastRefreshed}
+        toolName={tool.name}
         onCollapse={() => setExpandedName(null)}
       />
     );

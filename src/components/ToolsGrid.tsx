@@ -73,10 +73,12 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
     return (
       <DetailRow
         description={tool.description}
+        features={tool.features}
         buzzScore={tool.buzzScore}
         reviewRating={tool.reviewRating}
         buzzSources={tool.buzzSources}
         ratingSources={tool.ratingSources}
+        toolName={tool.name}
         onCollapse={() => setExpandedName(null)}
       />
     );
