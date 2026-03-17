@@ -28,6 +28,7 @@ Research and catalog trending AI tools from across the web.
 - `status` — Report current stats
 - `pulse status` — Show Market Pulse leaderboard
 - `add source <url>` — Add a new URL to monitored sources
+- `help` — List all available commands
 
 ## CLI Helper
 
@@ -173,6 +174,23 @@ Tools tracked: X
 Sources monitored: Y (Z seeds, W discovered)
 Last research run: <date>
 Trending: N tools
+```
+
+## Help Command
+
+When a user says "help", reply with the list of available commands:
+```
+📋 **Available Commands**
+• `research now` — Run a full research cycle
+• `research <tool>` — Deep-dive on a specific tool
+• `research <category>` — Scan a category for tools
+• `find <query>` — Fuzzy search (e.g., "AI video editors", "alternatives to Copilot")
+• `compare <platform> vs <platform>` — Compare platforms side-by-side
+• `new category <name>` — Create a category, reclassify tools, research new ones
+• `status` — Current stats
+• `pulse status` — Market Pulse leaderboard
+• `add source <url>` — Add a new monitoring source
+• `help` — Show this message
 ```
 
 ## Add Source Command
