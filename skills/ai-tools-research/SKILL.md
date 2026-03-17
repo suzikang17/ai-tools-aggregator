@@ -10,6 +10,7 @@ description: |
   (5) User says "research <category>" to scan a category
   (6) User says "find <query>" to do fuzzy search/research
   (7) User says "compare <platform> vs <platform>" to compare platforms
+  (8) User says "new category <name>" to create a category, reclassify tools, and research new ones
 ---
 
 # AI Tools Research
@@ -23,6 +24,7 @@ Research and catalog trending AI tools from across the web.
 - `research <category>` — Scan an entire category for tools
 - `find <query>` — Fuzzy search and research (e.g., "find AI video editors", "find alternatives to Copilot")
 - `compare <platform> vs <platform>` — Compare platforms side-by-side (e.g., "compare Google vs Microsoft")
+- `new category <name>` — Create a category, reclassify existing tools, and research new ones
 - `status` — Report current stats
 - `pulse status` — Show Market Pulse leaderboard
 - `add source <url>` — Add a new URL to monitored sources
@@ -373,6 +375,64 @@ Categories: Coding (3), Productivity (2), Design (2)
 **Verdict:** Brief comparison of strengths, coverage, and momentum.
 ```
 
+## New Category Command (`new category <name>`)
+
+When a user says "new category <name>" (e.g., "new category Education", "new category 3D Modeling"):
+
+### Step 1: Validate the category name
+- Check it doesn't already exist in the valid categories list
+- If it does, tell the user and suggest using `research <category>` instead
+
+### Step 2: Add to valid categories
+Update the Category Rules section of this skill (mentally — the bot should treat the new name as a valid category going forward).
+
+Also add it to `src/components/categoryColors.ts` by piping a command:
+```
+# The bot should suggest a color pair for the new category and update the file
+```
+
+### Step 3: Scan existing tools for reclassification
+```
+npx tsx openclaw-skill/cli.ts load-tools
+npx tsx openclaw-skill/pulse-cli.ts pulse-load
+```
+
+For each tool in both datasets, evaluate:
+- Does this tool fit the new category better than its current one?
+- Consider the tool's name, description, features, and what it actually does
+- Only reclassify if the new category is clearly a better fit — don't force it
+
+For each tool that should be reclassified:
+```
+echo '{"name":"ToolName","url":"https://example.com","category":"NewCategory"}' | npx tsx openclaw-skill/cli.ts save-tool
+echo '{"name":"ToolName","url":"https://example.com","category":"NewCategory"}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
+```
+
+### Step 4: Research new tools for this category
+- Search for "best AI <category> tools 2026", "top AI <category> tools", "<category> AI tools"
+- Visit 5-10 relevant sources
+- Extract and save new tools with the new category
+- Follow the standard research flow (Steps 2-5 from Research Cycle)
+
+### Step 5: Report
+```
+🆕 **New Category: Education**
+
+**Reclassified** (3 tools moved):
+• Elicit — was Research → now Education
+• Consensus — was Research → now Education
+• Quizlet AI — was Productivity → now Education
+
+**New tools found** (5 added):
+• Khanmigo — AI tutoring ($44/yr) — Buzz: 70
+• Duolingo Max — AI language practice (Freemium) — Buzz: 65
+• Photomath — Math solver (Free) — Buzz: 55
+• Gradescope — AI grading (Enterprise) — Buzz: 45
+• Socratic — Homework help (Free) — Buzz: 40
+
+Total tools in Education: 8
+```
+
 ## Platform Crawling
 
 When researching tools, check if a tool belongs to a larger platform. If so, set `parentPlatform` and crawl the platform for sibling tools.
@@ -429,7 +489,9 @@ Trending flag clears after 7 days without new appearances.
 
 ## Category Rules
 
-Valid categories: Writing, Image Gen, Coding, Audio, Video, Productivity, Data, Agents, Marketing, Design, Research, Other.
+Default categories: Writing, Image Gen, Coding, Audio, Video, Productivity, Data, Agents, Marketing, Design, Research, Other.
+
+Users can add new categories via the `new category <name>` command. When a new category is added, update `src/components/categoryColors.ts` with a new color pair.
 
 Assign the most specific category that fits. Use "Other" only when nothing else applies.
 
