@@ -70,7 +70,7 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
   }, []);
 
   const getRowHeight = useCallback((params: { data?: ToolRow }) => {
-    return params.data?._isDetail ? 200 : undefined;
+    return params.data?._isDetail ? 100 : undefined;
   }, []);
 
   const onRowClicked = useCallback((event: RowClickedEvent<ToolRow>) => {
@@ -163,10 +163,33 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       minWidth: 110,
     },
     {
+      headerName: "Description",
+      field: "description",
+      sortable: false,
+      filter: false,
+      flex: 2,
+      minWidth: 150,
+      cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
+    },
+    {
       headerName: "Pricing",
       field: "pricing",
       sortable: true,
       minWidth: 100,
+    },
+    {
+      headerName: "Features",
+      field: "features",
+      sortable: false,
+      filter: false,
+      flex: 1,
+      minWidth: 120,
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
+        const features = params.value as string[];
+        return features ? features.join(", ") : "";
+      },
+      cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
     },
     {
       headerName: "Updated",

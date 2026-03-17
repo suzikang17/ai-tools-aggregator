@@ -28,13 +28,24 @@ function Stars({ rating }: { rating: number }) {
       stars.push(<span key={i} style={{ color: "#d1d5db" }}>&#9733;</span>);
     }
   }
-  return <span style={{ fontSize: "13px", letterSpacing: "1px" }}>{stars}</span>;
+  return <span style={{ fontSize: "12px", letterSpacing: "1px" }}>{stars}</span>;
+}
+
+function SentimentBadge({ sentiment }: { sentiment: string }) {
+  const bg = sentiment === "positive" ? "#dcfce7" :
+             sentiment === "negative" ? "#fee2e2" :
+             sentiment === "mixed" ? "#fef9c3" : "#f1f5f9";
+  const color = sentiment === "positive" ? "#166534" :
+                sentiment === "negative" ? "#991b1b" :
+                sentiment === "mixed" ? "#854d0e" : "#475569";
+  return (
+    <span style={{ padding: "1px 5px", borderRadius: "3px", fontSize: "10px", background: bg, color }}>{sentiment}</span>
+  );
 }
 
 export default function DetailRow({ description, features, parentPlatform, logoUrl, buzzScore, reviewRating, buzzSources, ratingSources, buzzSummary, ratingSummary, lastRefreshed, toolName, onCollapse }: Props) {
   const hasBuzzSources = buzzSources && buzzSources.length > 0;
   const hasRatingSources = ratingSources && ratingSources.length > 0;
-  const hasFeatures = features && features.length > 0;
   const [researchStatus, setResearchStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
   const handleResearch = (e: React.MouseEvent) => {
@@ -56,175 +67,108 @@ export default function DetailRow({ description, features, parentPlatform, logoU
   };
 
   return (
-    <div style={{
-      display: "flex",
-      flexDirection: "column",
-      gap: "12px",
-      padding: "16px 24px",
-      background: "#f8fafc",
-      borderBottom: "1px solid #e2e8f0",
-      fontSize: "13px",
-      color: "#334155",
-      cursor: "pointer",
-    }} onClick={onCollapse}>
-      {/* Header: logo + description + features */}
-      {(description || hasFeatures || parentPlatform || logoUrl) && (
-        <div style={{ display: "flex", gap: "16px" }}>
-          {logoUrl && (
-            <img
-              src={logoUrl}
-              alt={`${toolName} logo`}
-              style={{ width: "32px", height: "32px", borderRadius: "6px", objectFit: "contain", flexShrink: 0 }}
-            />
-          )}
-          <div style={{ flex: 1, lineHeight: "1.5", color: "#475569" }}>
-            {parentPlatform && (
-              <span style={{
-                display: "inline-block",
-                padding: "2px 8px",
-                borderRadius: "4px",
-                fontSize: "11px",
-                fontWeight: 600,
-                background: "#f0fdf4",
-                color: "#166534",
-                marginBottom: "4px",
-                marginRight: "8px",
-              }}>
-                {parentPlatform}
+    <div
+      style={{
+        padding: "12px 20px",
+        background: "#f8fafc",
+        borderBottom: "1px solid #e2e8f0",
+        fontSize: "12px",
+        color: "#334155",
+        cursor: "pointer",
+        display: "flex",
+        gap: "24px",
+        alignItems: "flex-start",
+      }}
+      onClick={onCollapse}
+    >
+      {/* Left: Buzz detail */}
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ fontWeight: 600, fontSize: "11px", color: "#64748b", textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: "4px" }}>
+          Buzz {buzzScore != null ? `${buzzScore}/100` : ""}
+        </div>
+        {buzzSummary && (
+          <div style={{ color: "#475569", lineHeight: "1.4", marginBottom: "4px" }}>{buzzSummary}</div>
+        )}
+        {hasBuzzSources ? (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+            {buzzSources.map((src, i) => (
+              <span key={i} style={{ display: "inline-flex", alignItems: "center", gap: "4px", color: "#64748b" }}>
+                <span style={{ fontWeight: 500, color: "#334155" }}>{src.platform}</span>
+                {src.mentions != null && <span>{src.mentions}</span>}
+                {src.detail && <span>{src.detail}</span>}
+                {src.sentiment && <SentimentBadge sentiment={src.sentiment} />}
+                {i < buzzSources.length - 1 && <span style={{ color: "#d1d5db" }}>|</span>}
               </span>
-            )}
-            {description}
+            ))}
           </div>
-          {hasFeatures && (
-            <div style={{ flex: 1 }}>
-              <div style={{ fontWeight: 600, marginBottom: "4px", color: "#0f172a" }}>Features</div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "4px" }}>
-                {features.map((f, i) => (
-                  <span key={i} style={{
-                    padding: "2px 8px",
-                    borderRadius: "4px",
-                    fontSize: "11px",
-                    background: "#e0e7ff",
-                    color: "#3730a3",
-                  }}>
-                    {f}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
-      )}
+        ) : !buzzSummary && (
+          <span style={{ color: "#94a3b8", fontStyle: "italic" }}>No buzz data yet</span>
+        )}
+      </div>
 
-      {/* Buzz + Rating + Meta row */}
-      <div style={{ display: "flex", gap: "32px" }}>
-        {/* Buzz breakdown */}
-        <div style={{ flex: 1 }}>
-          <div style={{ fontWeight: 600, marginBottom: "8px", color: "#0f172a" }}>
-            Buzz: {buzzScore != null ? `${buzzScore}/100` : "\u2014"}
-          </div>
-          {buzzSummary && (
-            <div style={{ lineHeight: "1.5", color: "#475569", marginBottom: "8px" }}>
-              {buzzSummary}
-            </div>
-          )}
-          {hasBuzzSources ? (
-            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              {buzzSources.map((src, i) => (
-                <div key={i} style={{ display: "flex", justifyContent: "space-between", maxWidth: "320px" }}>
-                  <span style={{ color: "#64748b" }}>{src.platform}</span>
-                  <span>
-                    {src.mentions != null && <span style={{ fontWeight: 500 }}>{src.mentions} mentions</span>}
-                    {src.detail && <span style={{ fontWeight: 500 }}>{src.detail}</span>}
-                    {src.sentiment && (
-                      <span style={{
-                        marginLeft: "8px",
-                        padding: "1px 6px",
-                        borderRadius: "3px",
-                        fontSize: "11px",
-                        background: src.sentiment === "positive" ? "#dcfce7" :
-                                    src.sentiment === "negative" ? "#fee2e2" :
-                                    src.sentiment === "mixed" ? "#fef9c3" : "#f1f5f9",
-                        color: src.sentiment === "positive" ? "#166534" :
-                               src.sentiment === "negative" ? "#991b1b" :
-                               src.sentiment === "mixed" ? "#854d0e" : "#475569",
-                      }}>
-                        {src.sentiment}
-                      </span>
-                    )}
-                  </span>
-                </div>
-              ))}
-            </div>
-          ) : !buzzSummary && (
-            <div style={{ color: "#94a3b8", fontStyle: "italic" }}>No source data yet</div>
-          )}
+      {/* Middle: Rating detail */}
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ fontWeight: 600, fontSize: "11px", color: "#64748b", textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: "4px" }}>
+          Rating {reviewRating != null && <><Stars rating={reviewRating} /> ({reviewRating})</>}
         </div>
+        {ratingSummary && (
+          <div style={{ color: "#475569", lineHeight: "1.4", marginBottom: "4px" }}>{ratingSummary}</div>
+        )}
+        {hasRatingSources ? (
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "6px" }}>
+            {ratingSources.map((src, i) => (
+              <span key={i} style={{ display: "inline-flex", alignItems: "center", gap: "4px", color: "#64748b" }}>
+                <span style={{ fontWeight: 500, color: "#334155" }}>{src.platform}</span>
+                <Stars rating={src.rating} />
+                <span>{src.rating}</span>
+                {src.reviewCount != null && <span>({src.reviewCount})</span>}
+                {i < ratingSources.length - 1 && <span style={{ color: "#d1d5db" }}>|</span>}
+              </span>
+            ))}
+          </div>
+        ) : !ratingSummary && (
+          <span style={{ color: "#94a3b8", fontStyle: "italic" }}>No review data yet</span>
+        )}
+      </div>
 
-        {/* Rating breakdown */}
-        <div style={{ flex: 1 }}>
-          <div style={{ fontWeight: 600, marginBottom: "8px", color: "#0f172a" }}>
-            Rating: {reviewRating != null ? <><Stars rating={reviewRating} /> ({reviewRating})</> : "\u2014"}
-          </div>
-          {ratingSummary && (
-            <div style={{ lineHeight: "1.5", color: "#475569", marginBottom: "8px" }}>
-              {ratingSummary}
-            </div>
-          )}
-          {hasRatingSources ? (
-            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              {ratingSources.map((src, i) => (
-                <div key={i} style={{ display: "flex", justifyContent: "space-between", maxWidth: "320px" }}>
-                  <span style={{ color: "#64748b" }}>{src.platform}</span>
-                  <span>
-                    <Stars rating={src.rating} />
-                    <span style={{ fontWeight: 500, marginLeft: "6px" }}>{src.rating}</span>
-                    {src.reviewCount != null && (
-                      <span style={{ color: "#94a3b8", marginLeft: "6px" }}>({src.reviewCount} reviews)</span>
-                    )}
-                  </span>
-                </div>
-              ))}
-            </div>
-          ) : !ratingSummary && (
-            <div style={{ color: "#94a3b8", fontStyle: "italic" }}>No review data yet</div>
-          )}
-        </div>
-
-        {/* Meta + Research button */}
-        <div style={{ minWidth: "160px", textAlign: "right", display: "flex", flexDirection: "column", gap: "8px", alignItems: "flex-end" }}>
-          {lastRefreshed && (
-            <div style={{ color: "#94a3b8", fontSize: "12px" }}>
-              Last refreshed: {new Date(lastRefreshed).toLocaleDateString()}
-            </div>
-          )}
-          <button
-            onClick={handleResearch}
-            disabled={researchStatus === "sending" || researchStatus === "sent"}
-            style={{
-              padding: "6px 14px",
-              borderRadius: "6px",
-              fontSize: "12px",
-              fontWeight: 600,
-              border: "none",
-              cursor: researchStatus === "sending" || researchStatus === "sent" ? "default" : "pointer",
-              background: researchStatus === "sent" ? "#dcfce7" :
-                          researchStatus === "error" ? "#fee2e2" :
-                          researchStatus === "sending" ? "#e0e7ff" : "#2563eb",
-              color: researchStatus === "sent" ? "#166534" :
-                     researchStatus === "error" ? "#991b1b" :
-                     researchStatus === "sending" ? "#3730a3" : "#ffffff",
-            }}
-          >
-            {researchStatus === "idle" && "Research"}
-            {researchStatus === "sending" && "Sending..."}
-            {researchStatus === "sent" && "Sent!"}
-            {researchStatus === "error" && "Failed"}
-          </button>
-          <div style={{ color: "#94a3b8", fontSize: "11px" }}>
-            Click to collapse
-          </div>
-        </div>
+      {/* Right: Meta + actions */}
+      <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: "6px", flexShrink: 0 }}>
+        {parentPlatform && (
+          <span style={{
+            padding: "2px 6px", borderRadius: "3px", fontSize: "10px", fontWeight: 600,
+            background: "#f0fdf4", color: "#166534",
+          }}>
+            {parentPlatform}
+          </span>
+        )}
+        {lastRefreshed && (
+          <span style={{ color: "#94a3b8", fontSize: "11px" }}>
+            {new Date(lastRefreshed).toLocaleDateString()}
+          </span>
+        )}
+        <button
+          onClick={handleResearch}
+          disabled={researchStatus === "sending" || researchStatus === "sent"}
+          style={{
+            padding: "4px 12px",
+            borderRadius: "5px",
+            fontSize: "11px",
+            fontWeight: 600,
+            border: "none",
+            cursor: researchStatus === "sending" || researchStatus === "sent" ? "default" : "pointer",
+            background: researchStatus === "sent" ? "#dcfce7" :
+                        researchStatus === "error" ? "#fee2e2" :
+                        researchStatus === "sending" ? "#e0e7ff" : "#2563eb",
+            color: researchStatus === "sent" ? "#166534" :
+                   researchStatus === "error" ? "#991b1b" :
+                   researchStatus === "sending" ? "#3730a3" : "#ffffff",
+          }}
+        >
+          {researchStatus === "idle" && "Research"}
+          {researchStatus === "sending" && "Sending..."}
+          {researchStatus === "sent" && "Sent!"}
+          {researchStatus === "error" && "Failed"}
+        </button>
       </div>
     </div>
   );
