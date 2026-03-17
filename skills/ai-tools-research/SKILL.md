@@ -6,6 +6,9 @@ description: |
   (1) User says "research now" to run a full research cycle
   (2) User asks for "status" of tracked tools
   (3) User says "add source <url>" to add a new monitoring source
+  (4) User says "research <tool>" to deep-dive a specific tool
+  (5) User says "research <category>" to scan a category
+  (6) User says "find <query>" to do fuzzy search/research
 ---
 
 # AI Tools Research
@@ -15,7 +18,11 @@ Research and catalog trending AI tools from across the web.
 ## Commands
 
 - `research now` — Run a full research cycle
+- `research <tool>` — Deep-dive research on a specific tool
+- `research <category>` — Scan an entire category for tools
+- `find <query>` — Fuzzy search and research (e.g., "find AI video editors", "find alternatives to Copilot")
 - `status` — Report current stats
+- `pulse status` — Show Market Pulse leaderboard
 - `add source <url>` — Add a new URL to monitored sources
 
 ## CLI Helper
@@ -183,6 +190,141 @@ Report whether it was added or already exists.
   #2 ToolName (score) —
   ...
   ```
+
+## Research Tool Command (`research <tool>`)
+
+When a user says "research <tool name>", do a deep-dive on that specific tool:
+
+### Step 1: Check if tool already exists
+```
+npx tsx openclaw-skill/cli.ts load-tools
+npx tsx openclaw-skill/pulse-cli.ts pulse-load
+```
+Search both datasets for the tool by name (case-insensitive).
+
+### Step 2: Research the tool
+- Visit the tool's homepage to get current info (description, pricing, features)
+- Search Reddit, Hacker News, Product Hunt, and X/Twitter for recent mentions
+- Check G2, Capterra, or TrustRadius for ratings and reviews
+- Look for comparisons with similar tools
+- Estimate buzzScore (0-100) and reviewRating (1.0-5.0)
+
+### Step 3: Save or update the tool
+If the tool exists, update it:
+```
+echo '{"name":"ToolName","url":"https://example.com","buzzScore":75,"reviewRating":4.0,"description":"Updated desc","pricing":"Freemium","sourceCount":8}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
+```
+
+If the tool is new, add it to Discovery first:
+```
+echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1"],"pricing":"Free","buzzScore":72,"reviewRating":4.5,"sourceUrls":["https://source.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
+```
+
+### Step 4: Report findings
+Reply with a summary:
+```
+🔍 **Research: ToolName**
+Category: X
+Pricing: Y
+Buzz: 75/100 | Rating: ★★★★☆ (4.0)
+Status: [New — added to Discovery | Updated — buzz ↑15]
+
+**Summary:** One paragraph about what the tool does, its strengths, weaknesses, and how it compares to alternatives.
+
+**Recent buzz:** What people are saying (Reddit threads, HN discussions, Product Hunt launch, etc.)
+```
+
+## Research Category Command (`research <category>`)
+
+When a user says "research <category>", scan that entire category:
+
+Valid categories: Writing, Image Gen, Coding, Audio, Video, Productivity, Data, Agents, Marketing, Design, Research, Other.
+
+If the user provides a fuzzy category name (e.g., "code", "images", "music"), map it to the closest valid category.
+
+### Step 1: Load current tools in that category
+```
+npx tsx openclaw-skill/cli.ts load-tools
+npx tsx openclaw-skill/pulse-cli.ts pulse-load
+```
+Filter both datasets to the target category.
+
+### Step 2: Research the category
+- Search for "best AI <category> tools 2026", "top <category> AI tools", "new <category> AI tools"
+- Visit 5-10 relevant sources (blogs, directories, Reddit threads, comparison articles)
+- For each tool found, extract: name, url, category, description, features, pricing, buzzScore, reviewRating
+- Cross-reference with existing tools — note which are new vs already tracked
+
+### Step 3: Save new and updated tools
+Save each tool found using the appropriate CLI (same as full research cycle Steps 3-4).
+
+### Step 4: Report findings
+Reply with a category summary:
+```
+🔍 **Category Scan: Coding**
+Tools tracked: 8 (3 new, 5 updated)
+
+**New finds:**
+• ToolA — Does X ($20/mo) — Buzz: 82
+• ToolB — Does Y (Free) — Buzz: 65
+• ToolC — Does Z (Freemium) — Buzz: 58
+
+**Updated:**
+• Cursor — Buzz: 90 → 92 ▲
+• Copilot — Buzz: 88 → 85 ▼
+
+**Trends:** Brief observation about what's happening in this category.
+```
+
+## Find Command (`find <query>`)
+
+When a user says "find <query>", do an open-ended fuzzy search. The query can be anything:
+- "find AI video editors" — search for tools matching a use case
+- "find alternatives to Copilot" — search for competitors to a known tool
+- "find cheap image generators" — search with constraints
+- "find tools for podcast editing" — search for a niche
+
+### Step 1: Interpret the query
+Parse what the user is looking for:
+- **Use case search**: "find AI video editors" → search for tools that do video editing
+- **Alternative search**: "find alternatives to X" → identify what X does, find competitors
+- **Constrained search**: "find cheap X" → search with pricing filter
+- **Niche search**: "find tools for Y" → explore a specific niche
+
+### Step 2: Check existing tools first
+```
+npx tsx openclaw-skill/cli.ts load-tools
+npx tsx openclaw-skill/pulse-cli.ts pulse-load
+```
+Search both datasets for matches. Report any existing tools that match the query.
+
+### Step 3: Research the web
+- Search for terms derived from the query (e.g., "best AI video editing tools 2026")
+- Visit 3-5 top results
+- Extract tool information from each
+- For "alternatives to X" queries, also check alternativeto.net and similar comparison sites
+
+### Step 4: Save any new tools found
+Save each new tool using the appropriate CLI.
+
+### Step 5: Report findings
+Reply with results tailored to the query:
+```
+🔍 **Find: "AI video editors"**
+Found 6 matches (2 already tracked, 4 new):
+
+**Already tracking:**
+• Runway — Buzz: 85 | ★★★★½
+• Pika — Buzz: 72 | ★★★★
+
+**New finds:**
+• ToolA — Does X ($15/mo) — Added to Discovery
+• ToolB — Does Y (Free tier) — Added to Discovery
+• ToolC — Does Z (Enterprise) — Added to Discovery
+• ToolD — Does W (Freemium) — Added to Discovery
+
+**Recommendation:** Brief take on which tools stand out and why.
+```
 
 ## Trending Detection
 
