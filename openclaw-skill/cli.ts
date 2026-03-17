@@ -174,12 +174,13 @@ switch (command) {
 
   case "commit-push": {
     const opts = { cwd: REPO_ROOT };
+    const dataFiles = "data/tools.json data/sources.json data/market-pulse.json";
     try {
-      execSync("git diff --quiet data/tools.json data/sources.json", opts);
+      execSync(`git diff --quiet ${dataFiles}`, opts);
       console.log(JSON.stringify({ action: "no_changes" }));
     } catch {
       // There are changes to commit
-      execSync("git add data/tools.json data/sources.json", opts);
+      execSync(`git add ${dataFiles}`, opts);
       execSync('git commit -m "chore: update tools data [automated]"', opts);
       execSync("git push", opts);
       console.log(JSON.stringify({ action: "pushed" }));
