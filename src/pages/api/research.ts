@@ -4,8 +4,46 @@ import type { APIRoute } from "astro";
 
 const SLACK_CHANNEL = "C0AM1FQUSAF";
 const MAX_TOOL_NAME_LENGTH = 100;
+const RATE_LIMIT_WINDOW_MS = 60_000; // 1 minute
+const RATE_LIMIT_MAX = 5; // 5 requests per minute
+
+// In-memory rate limit (resets on cold start, which is fine for serverless)
+const requestLog: number[] = [];
+
+function isRateLimited(): boolean {
+  const now = Date.now();
+  // Remove entries outside the window
+  while (requestLog.length > 0 && requestLog[0] <= now - RATE_LIMIT_WINDOW_MS) {
+    requestLog.shift();
+  }
+  if (requestLog.length >= RATE_LIMIT_MAX) {
+    return true;
+  }
+  requestLog.push(now);
+  return false;
+}
 
 export const POST: APIRoute = async ({ request }) => {
+  // API key check
+  const apiKey = import.meta.env.RESEARCH_API_KEY;
+  if (apiKey) {
+    const provided = request.headers.get("x-api-key");
+    if (provided !== apiKey) {
+      return new Response(JSON.stringify({ error: "Unauthorized" }), {
+        status: 401,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+  }
+
+  // Rate limiting
+  if (isRateLimited()) {
+    return new Response(JSON.stringify({ error: "Too many requests. Try again in a minute." }), {
+      status: 429,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+
   const token = import.meta.env.SLACK_BOT_TOKEN;
   if (!token) {
     return new Response(JSON.stringify({ error: "Slack not configured" }), {

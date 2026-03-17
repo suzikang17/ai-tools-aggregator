@@ -40,9 +40,12 @@ export default function DetailRow({ description, features, parentPlatform, logoU
   const handleResearch = (e: React.MouseEvent) => {
     e.stopPropagation();
     setResearchStatus("sending");
+    const headers: Record<string, string> = { "Content-Type": "application/json" };
+    const apiKey = (import.meta as any).env?.PUBLIC_RESEARCH_API_KEY;
+    if (apiKey) headers["x-api-key"] = apiKey;
     fetch("/api/research", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers,
       body: JSON.stringify({ tool: toolName }),
     })
       .then((res) => {
