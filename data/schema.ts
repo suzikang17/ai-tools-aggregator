@@ -1,3 +1,5 @@
+import type { BuzzSource, RatingSource } from "./market-pulse-schema";
+
 export interface Tool {
   name: string;
   url: string;
@@ -11,6 +13,8 @@ export interface Tool {
   sourceUrls: string[];
   buzzScore: number | null;
   reviewRating: number | null;
+  buzzSources?: BuzzSource[];
+  ratingSources?: RatingSource[];
 }
 
 export interface ToolsData {

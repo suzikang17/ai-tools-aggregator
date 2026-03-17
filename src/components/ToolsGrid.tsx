@@ -1,9 +1,10 @@
 import React, { useState, useMemo, useCallback } from "react";
 import { AgGridReact } from "ag-grid-react";
 import { AllCommunityModule, ModuleRegistry } from "ag-grid-community";
-import type { ColDef, ICellRendererParams } from "ag-grid-community";
+import type { ColDef, ICellRendererParams, RowClickedEvent, IsFullWidthRowParams, GetRowIdParams } from "ag-grid-community";
 import type { Tool } from "../../data/schema";
 import { CATEGORY_COLORS } from "./categoryColors";
+import DetailRow from "./DetailRow";
 
 ModuleRegistry.registerModules([AllCommunityModule]);
 
@@ -11,6 +12,8 @@ interface Props {
   tools: Tool[];
   lastUpdated: string | null;
 }
+
+type ToolRow = Tool & { _isDetail?: boolean };
 
 function isNew(dateAdded: string): boolean {
   const added = new Date(dateAdded);
@@ -21,6 +24,7 @@ function isNew(dateAdded: string): boolean {
 
 export default function ToolsGrid({ tools, lastUpdated }: Props) {
   const [activeCategory, setActiveCategory] = useState("All");
+  const [expandedName, setExpandedName] = useState<string | null>(null);
 
   const trendingCount = useMemo(() => tools.filter((t) => t.trending).length, [tools]);
 
@@ -34,21 +38,81 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
     return tools.filter((t) => t.category === activeCategory);
   }, [tools, activeCategory]);
 
+  const rowData: ToolRow[] = useMemo(() => {
+    const rows: ToolRow[] = [];
+    for (const tool of filteredTools) {
+      rows.push(tool);
+      if (expandedName === tool.name) {
+        rows.push({ ...tool, _isDetail: true });
+      }
+    }
+    return rows;
+  }, [filteredTools, expandedName]);
+
+  const isFullWidthRow = useCallback((params: IsFullWidthRowParams<ToolRow>) => {
+    return params.rowNode.data?._isDetail === true;
+  }, []);
+
+  const getRowId = useCallback((params: GetRowIdParams<ToolRow>) => {
+    return params.data._isDetail ? `detail-${params.data.name}` : params.data.name;
+  }, []);
+
+  const getRowHeight = useCallback((params: { data?: ToolRow }) => {
+    return params.data?._isDetail ? 120 : undefined;
+  }, []);
+
+  const onRowClicked = useCallback((event: RowClickedEvent<ToolRow>) => {
+    const data = event.data;
+    if (!data || data._isDetail) return;
+    setExpandedName((prev) => prev === data.name ? null : data.name);
+  }, []);
+
+  const fullWidthCellRenderer = useCallback((params: ICellRendererParams<ToolRow>) => {
+    const tool = params.data;
+    if (!tool) return null;
+    return (
+      <DetailRow
+        buzzScore={tool.buzzScore}
+        reviewRating={tool.reviewRating}
+        buzzSources={tool.buzzSources}
+        ratingSources={tool.ratingSources}
+        onCollapse={() => setExpandedName(null)}
+      />
+    );
+  }, []);
+
   const defaultColDef: ColDef = useMemo(() => ({
     resizable: true,
     filter: true,
   }), []);
 
-  const columnDefs: ColDef<Tool>[] = useMemo(() => [
+  const columnDefs: ColDef<ToolRow>[] = useMemo(() => [
+    {
+      headerName: "",
+      width: 36,
+      sortable: false,
+      filter: false,
+      resizable: false,
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (!params.data || params.data._isDetail) return null;
+        const isExpanded = expandedName === params.data.name;
+        return (
+          <span style={{ color: "#94a3b8", fontSize: "10px", cursor: "pointer" }}>
+            {isExpanded ? "\u25BC" : "\u25B6"}
+          </span>
+        );
+      },
+    },
     {
       headerName: "Name",
       field: "name",
       sortable: true,
-      cellRenderer: (params: ICellRendererParams<Tool>) => {
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
         const tool = params.data;
-        if (!tool) return null;
+        if (!tool || tool._isDetail) return null;
         return (
           <a href={tool.url} target="_blank" rel="noopener noreferrer"
+             onClick={(e) => e.stopPropagation()}
              style={{ color: "#2563eb", textDecoration: "none", fontWeight: 600 }}>
             {tool.name}
           </a>
@@ -60,7 +124,8 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       headerName: "Category",
       field: "category",
       sortable: true,
-      cellRenderer: (params: ICellRendererParams<Tool>) => {
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
         const cat = params.value as string;
         const colors = CATEGORY_COLORS[cat] || CATEGORY_COLORS.Other;
         return (
@@ -91,7 +156,8 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       field: "features",
       sortable: false,
       filter: false,
-      cellRenderer: (params: ICellRendererParams<Tool>) => {
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
         const features = params.value as string[];
         return features ? features.join(", ") : "";
       },
@@ -110,7 +176,8 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       sortable: true,
       filter: false,
       width: 100,
-      cellRenderer: (params: ICellRendererParams<Tool>) => {
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
         const score = params.value as number | null;
         if (score == null) return <span style={{ color: "#9ca3af" }}>—</span>;
         const color = score >= 70 ? "#16a34a" : score >= 40 ? "#ca8a04" : "#dc2626";
@@ -136,7 +203,8 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       sortable: true,
       filter: false,
       width: 110,
-      cellRenderer: (params: ICellRendererParams<Tool>) => {
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
         const rating = params.value as number | null;
         if (rating == null) return <span style={{ color: "#9ca3af" }}>—</span>;
         const stars: React.ReactNode[] = [];
@@ -158,15 +226,16 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       sortable: true,
       filter: false,
       width: 80,
-      cellRenderer: (params: ICellRendererParams<Tool>) => {
-        return params.value ? "🔥" : "";
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
+        return params.value ? "\uD83D\uDD25" : "";
       },
       cellStyle: { textAlign: "center" },
     },
-  ], []);
+  ], [expandedName]);
 
-  const getRowStyle = useCallback((params: { data?: Tool }) => {
-    if (params.data && isNew(params.data.dateAdded)) {
+  const getRowStyle = useCallback((params: { data?: ToolRow }) => {
+    if (params.data && !params.data._isDetail && isNew(params.data.dateAdded)) {
       return { background: "#fefce8" };
     }
     return undefined;
@@ -203,11 +272,16 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       </div>
 
       <div style={{ width: "100%", height: "calc(100vh - 240px)" }}>
-        <AgGridReact<Tool>
-          rowData={filteredTools}
+        <AgGridReact<ToolRow>
+          rowData={rowData}
           columnDefs={columnDefs}
           defaultColDef={defaultColDef}
+          getRowId={getRowId}
+          getRowHeight={getRowHeight}
           getRowStyle={getRowStyle}
+          isFullWidthRow={isFullWidthRow}
+          fullWidthCellRenderer={fullWidthCellRenderer}
+          onRowClicked={onRowClicked}
           domLayout="normal"
           suppressCellFocus={true}
           animateRows={true}

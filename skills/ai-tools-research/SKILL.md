@@ -111,10 +111,13 @@ After discovery is complete, refresh sentiment data for tracked tools:
    - Estimate reviewRating (1.0-5.0) from user reviews and ratings found
    - Count distinct sources mentioning the tool
    - If you cannot find sentiment data for a tool, skip it (preserve existing values)
-3. For each tool with updated data, pipe it to the CLI:
+3. For each tool with updated data, pipe it to the CLI. Include `buzzSources` and `ratingSources` arrays to show where the data came from:
    ```
-   echo '{"name":"ToolName","url":"https://example.com","buzzScore":75,"reviewRating":4.0,"sourceCount":5}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
+   echo '{"name":"ToolName","url":"https://example.com","buzzScore":75,"reviewRating":4.0,"sourceCount":5,"buzzSources":[{"platform":"Reddit","mentions":15,"sentiment":"positive"},{"platform":"HN","detail":"2 threads, 89 comments","sentiment":"mixed"},{"platform":"Product Hunt","mentions":850,"sentiment":"positive"}],"ratingSources":[{"platform":"G2","rating":4.2,"reviewCount":150},{"platform":"Product Hunt","rating":4.5,"reviewCount":80}]}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
    ```
+
+   **buzzSources** fields: `platform` (required), `mentions` (count), `sentiment` ("positive"/"mixed"/"negative"/"neutral"), `detail` (freeform text)
+   **ratingSources** fields: `platform` (required), `rating` (required, 1.0-5.0), `reviewCount` (number of reviews)
 
 ### Step 7: Snapshot and graduate
 

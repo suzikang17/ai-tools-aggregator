@@ -1,3 +1,16 @@
+export interface BuzzSource {
+  platform: string;            // "Reddit", "HN", "Product Hunt", "X/Twitter", etc.
+  mentions?: number;
+  sentiment?: string;          // "positive", "mixed", "negative", "neutral"
+  detail?: string;             // freeform, e.g. "2 threads, 145 comments"
+}
+
+export interface RatingSource {
+  platform: string;            // "G2", "Product Hunt", "Capterra", "TrustRadius"
+  rating: number;
+  reviewCount?: number;
+}
+
 export interface WeeklySnapshot {
   week: string;                // ISO week: "2026-W12"
   buzzScore: number | null;
@@ -18,6 +31,9 @@ export interface TrackedTool {
   rank: number | null;
 
   sentimentTrend: "up" | "down" | "stable" | null;
+
+  buzzSources?: BuzzSource[];
+  ratingSources?: RatingSource[];
 
   history: WeeklySnapshot[];
 

@@ -1,9 +1,10 @@
 import React, { useState, useMemo, useCallback } from "react";
 import { AgGridReact } from "ag-grid-react";
 import { AllCommunityModule, ModuleRegistry } from "ag-grid-community";
-import type { ColDef, ICellRendererParams } from "ag-grid-community";
+import type { ColDef, ICellRendererParams, RowClickedEvent, IsFullWidthRowParams, GetRowIdParams } from "ag-grid-community";
 import type { TrackedTool } from "../../data/market-pulse-schema";
 import { CATEGORY_COLORS } from "./categoryColors";
+import DetailRow from "./DetailRow";
 
 ModuleRegistry.registerModules([AllCommunityModule]);
 
@@ -11,6 +12,8 @@ interface Props {
   tools: TrackedTool[];
   lastRefreshed: string | null;
 }
+
+type PulseRow = TrackedTool & { _isDetail?: boolean };
 
 const RANK_COLORS: Record<number, string> = {
   1: "#f59e0b", // gold
@@ -28,6 +31,7 @@ function getScoreDelta(tool: TrackedTool): number | null {
 export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
   const [activeCategory, setActiveCategory] = useState("All");
   const [viewMode, setViewMode] = useState<"ranked" | "movers">("ranked");
+  const [expandedName, setExpandedName] = useState<string | null>(null);
 
   const upCount = useMemo(() => tools.filter((t) => t.sentimentTrend === "up").length, [tools]);
   const downCount = useMemo(() => tools.filter((t) => t.sentimentTrend === "down").length, [tools]);
@@ -37,7 +41,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
     return ["All", ...cats];
   }, [tools]);
 
-  const filteredTools = useMemo(() => {
+  const sortedTools = useMemo(() => {
     let filtered = activeCategory === "All" ? [...tools] : tools.filter((t) => t.category === activeCategory);
 
     if (viewMode === "movers") {
@@ -50,26 +54,85 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       });
       filtered = withDelta.map((w) => w.tool);
     } else {
-      // Top Ranked: sort by rank ascending, unranked last
       filtered.sort((a, b) => (a.rank ?? 9999) - (b.rank ?? 9999));
     }
 
     return filtered;
   }, [tools, activeCategory, viewMode]);
 
+  const rowData: PulseRow[] = useMemo(() => {
+    const rows: PulseRow[] = [];
+    for (const tool of sortedTools) {
+      rows.push(tool);
+      if (expandedName === tool.name) {
+        rows.push({ ...tool, _isDetail: true });
+      }
+    }
+    return rows;
+  }, [sortedTools, expandedName]);
+
+  const isFullWidthRow = useCallback((params: IsFullWidthRowParams<PulseRow>) => {
+    return params.rowNode.data?._isDetail === true;
+  }, []);
+
+  const getRowId = useCallback((params: GetRowIdParams<PulseRow>) => {
+    return params.data._isDetail ? `detail-${params.data.name}` : params.data.name;
+  }, []);
+
+  const getRowHeight = useCallback((params: { data?: PulseRow }) => {
+    return params.data?._isDetail ? 120 : undefined;
+  }, []);
+
+  const onRowClicked = useCallback((event: RowClickedEvent<PulseRow>) => {
+    const data = event.data;
+    if (!data || data._isDetail) return;
+    setExpandedName((prev) => prev === data.name ? null : data.name);
+  }, []);
+
+  const fullWidthCellRenderer = useCallback((params: ICellRendererParams<PulseRow>) => {
+    const tool = params.data;
+    if (!tool) return null;
+    return (
+      <DetailRow
+        buzzScore={tool.buzzScore}
+        reviewRating={tool.reviewRating}
+        buzzSources={tool.buzzSources}
+        ratingSources={tool.ratingSources}
+        lastRefreshed={tool.lastRefreshed}
+        onCollapse={() => setExpandedName(null)}
+      />
+    );
+  }, []);
+
   const defaultColDef: ColDef = useMemo(() => ({
     resizable: true,
     filter: true,
   }), []);
 
-  const columnDefs: ColDef<TrackedTool>[] = useMemo(() => [
+  const columnDefs: ColDef<PulseRow>[] = useMemo(() => [
+    {
+      headerName: "",
+      width: 36,
+      sortable: false,
+      filter: false,
+      resizable: false,
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
+        if (!params.data || params.data._isDetail) return null;
+        const isExpanded = expandedName === params.data.name;
+        return (
+          <span style={{ color: "#94a3b8", fontSize: "10px", cursor: "pointer" }}>
+            {isExpanded ? "\u25BC" : "\u25B6"}
+          </span>
+        );
+      },
+    },
     {
       headerName: "#",
       width: 60,
       sortable: true,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         const tool = params.data;
-        if (!tool) return null;
+        if (!tool || tool._isDetail) return null;
 
         if (viewMode === "movers") {
           const delta = getScoreDelta(tool);
@@ -85,6 +148,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
         return <span style={{ color, fontWeight: 700 }}>{rank}</span>;
       },
       valueGetter: (params) => {
+        if (params.data?._isDetail) return -2;
         if (viewMode === "movers") {
           const delta = params.data ? getScoreDelta(params.data) : null;
           return delta != null ? Math.abs(delta) : -1;
@@ -97,11 +161,12 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       field: "name",
       sortable: true,
       width: 160,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
         const tool = params.data;
-        if (!tool) return null;
+        if (!tool || tool._isDetail) return null;
         return (
           <a href={tool.url} target="_blank" rel="noopener noreferrer"
+             onClick={(e) => e.stopPropagation()}
              style={{ color: "#2563eb", textDecoration: "none", fontWeight: 600 }}>
             {tool.name}
           </a>
@@ -113,7 +178,8 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       field: "category",
       sortable: true,
       width: 130,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
+        if (params.data?._isDetail) return null;
         const cat = params.value as string;
         const colors = CATEGORY_COLORS[cat] || CATEGORY_COLORS.Other;
         return (
@@ -128,7 +194,8 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       field: "buzzScore",
       sortable: true,
       width: 100,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
+        if (params.data?._isDetail) return null;
         const score = params.value as number | null;
         if (score == null) return <span style={{ color: "#9ca3af" }}>—</span>;
         const color = score >= 70 ? "#16a34a" : score >= 40 ? "#ca8a04" : "#dc2626";
@@ -153,7 +220,8 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       field: "reviewRating",
       sortable: true,
       width: 110,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
+        if (params.data?._isDetail) return null;
         const rating = params.value as number | null;
         if (rating == null) return <span style={{ color: "#9ca3af" }}>—</span>;
         const stars: React.ReactNode[] = [];
@@ -174,7 +242,8 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       field: "popularityScore",
       sortable: true,
       width: 80,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
+        if (params.data?._isDetail) return null;
         const score = params.value as number | null;
         if (score == null) return <span style={{ color: "#9ca3af" }}>—</span>;
         return <span style={{ fontWeight: 700 }}>{score}</span>;
@@ -185,7 +254,8 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       field: "sentimentTrend",
       sortable: true,
       width: 70,
-      cellRenderer: (params: ICellRendererParams<TrackedTool>) => {
+      cellRenderer: (params: ICellRendererParams<PulseRow>) => {
+        if (params.data?._isDetail) return null;
         const trend = params.value as string | null;
         if (trend === "up") return <span style={{ color: "#16a34a", fontWeight: 700 }}>&#9650;</span>;
         if (trend === "down") return <span style={{ color: "#dc2626", fontWeight: 700 }}>&#9660;</span>;
@@ -193,7 +263,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       },
       cellStyle: { textAlign: "center" },
     },
-  ], [viewMode]);
+  ], [viewMode, expandedName]);
 
   return (
     <>
@@ -244,10 +314,15 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
       </div>
 
       <div style={{ width: "100%", height: "calc(100vh - 300px)" }}>
-        <AgGridReact<TrackedTool>
-          rowData={filteredTools}
+        <AgGridReact<PulseRow>
+          rowData={rowData}
           columnDefs={columnDefs}
           defaultColDef={defaultColDef}
+          getRowId={getRowId}
+          getRowHeight={getRowHeight}
+          isFullWidthRow={isFullWidthRow}
+          fullWidthCellRenderer={fullWidthCellRenderer}
+          onRowClicked={onRowClicked}
           domLayout="normal"
           suppressCellFocus={true}
           animateRows={true}
@@ -256,7 +331,7 @@ export default function MarketPulseGrid({ tools, lastRefreshed }: Props) {
 
       <footer>
         <span>
-          Showing {filteredTools.length} of {tools.length} tools
+          Showing {sortedTools.length} of {tools.length} tools
         </span>
         <span>Powered by OpenClaw 🦞</span>
       </footer>
