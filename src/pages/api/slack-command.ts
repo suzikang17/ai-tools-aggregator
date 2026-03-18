@@ -92,7 +92,8 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 
-  // Post the message to Slack so the OpenClaw bot picks it up
+  // Respond to Slack immediately (must be within 3 seconds)
+  // then fire-and-forget the message to the channel for the bot to pick up
   const botToken = import.meta.env.SLACK_BOT_TOKEN;
   if (!botToken) {
     return new Response(JSON.stringify({
@@ -104,7 +105,8 @@ export const POST: APIRoute = async ({ request }) => {
     });
   }
 
-  const slackRes = await fetch("https://slack.com/api/chat.postMessage", {
+  // Fire and forget — don't await
+  fetch("https://slack.com/api/chat.postMessage", {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${botToken}`,
@@ -114,19 +116,7 @@ export const POST: APIRoute = async ({ request }) => {
       channel: channelId,
       text: botMessage,
     }),
-  });
-
-  const slackData = await slackRes.json();
-
-  if (!slackData.ok) {
-    return new Response(JSON.stringify({
-      response_type: "ephemeral",
-      text: `Failed to send command: ${slackData.error}`,
-    }), {
-      status: 200,
-      headers: { "Content-Type": "application/json" },
-    });
-  }
+  }).catch(() => {});
 
   return new Response(JSON.stringify({
     response_type: "in_channel",
