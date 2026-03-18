@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T01:12:38.780Z",
+    "lastUpdated": "2026-03-18T01:32:52.474Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -514,10 +514,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:23:19.623Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on TAAFT as a quick business-planning AI. Very new with no Reddit, HN, or Twitter buzz found. Niche tool for aspiring founders who want rapid idea validation.",
+      "ratingSummary": "No ratings on G2, Product Hunt, or Capterra. Too early-stage for independent reviews. Site claims 1000+ SaaS integrations but no third-party verification.",
+      "freeTier": "Freemium — free tier available with paid plans from $25/mo",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as business planning AI tool"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Citable",
@@ -534,10 +546,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:23:31.737Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on TAAFT as a GEO/AEO (Generative Engine Optimization) tool. Emerging category with growing interest as AI search engines gain market share. No significant social media buzz yet.",
+      "ratingSummary": "No structured ratings on G2, Product Hunt, or Capterra. JS-heavy site made independent verification difficult. Still early-stage in a nascent market category.",
+      "freeTier": "Freemium — free tier available with paid plans from $99/mo",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI brand visibility and AEO platform"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Nafy AI",
@@ -554,10 +578,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:23:40.135Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on TAAFT as an AI music generator. Competes in a crowded space (Suno, Udio, etc). Site is well-built with detailed feature pages. No notable Reddit or HN discussion found.",
+      "ratingSummary": "No G2, Product Hunt, or Capterra ratings found. Site has detailed FAQ and transparent pricing tiers. Offers commercial rights on paid plans. Free tier lacks commercial licensing.",
+      "freeTier": "Yes — free tier available (no commercial rights); paid subscriptions from Basic to Pro, plus Pay As You Go credits with no expiration",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as free AI music generator"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Notra",
@@ -574,10 +610,28 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:23:50.340Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on TAAFT. Has real social proof — used by teams at Consent, Upstash, stagewise, and Stack Auth. Connects to GitHub, Linear, and Slack to auto-generate changelogs, blog posts, and social updates from shipped work.",
+      "ratingSummary": "No G2 or Capterra ratings. Has a testimonial from Will De Ath (Head of Growth, Consent) praising the tool. Early-stage but with real enterprise users, which is promising.",
+      "freeTier": "Yes — free plan at $0/mo includes 2 team members and 15 AI credits; paid plans from $50/mo",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as work-to-content automation tool"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Website testimonial",
+          "rating": null,
+          "detail": "Positive testimonial from Head of Growth at Consent"
+        }
+      ]
     },
     {
       "name": "Linkly AI",
@@ -594,10 +648,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:23:58.399Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on TAAFT as a local document search engine for AI agents. Niche developer tool supporting PDF, DOCX, HTML, Markdown. Targets the agentic AI workflow space. No Reddit/HN discussion found.",
+      "ratingSummary": "No ratings on G2, Product Hunt, or Capterra. Very early-stage tool. Minimal web presence beyond the homepage. Positioned as free local-first software.",
+      "freeTier": "Yes — free download, no pricing tiers listed. Appears to be fully free local software",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as local search engine for AI agents"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "VidFlux",
@@ -615,10 +681,19 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T23:22:41.168Z",
+      "dateUpdated": "2026-03-18T01:32:13.891Z",
       "trending": false,
       "buzzScore": 35,
-      "reviewRating": 3.7
+      "reviewRating": 3.7,
+      "buzzSummary": "Niche photo-to-video tool with multiple AI model options. Gets moderate mentions on AI directories but limited community discussion. Free trial available lowers barrier to entry.",
+      "ratingSummary": "Listed on TAIFT with decent reception. Users appreciate multi-model approach and affordable pricing starting at $6.75/mo. Limited independent reviews available.",
+      "freeTier": true,
+      "buzzSources": [
+        "https://theresanaiforthat.com"
+      ],
+      "ratingSources": [
+        "https://vidflux.ai"
+      ]
     },
     {
       "name": "OutBid",
@@ -635,10 +710,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:32:24.536Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 40,
+      "reviewRating": 4,
+      "buzzSummary": "Growing buzz among Upwork freelancers. Featured on TAIFT. Telegram-based alerts with AI proposal generation fills a real pain point. User testimonials claim doubled response rates and faster first-client acquisition.",
+      "ratingSummary": "Early user testimonials are positive — freelancers report landing clients within 24 hours. AI proposals described as usable with minimal editing. War Room mode adds strategic depth. No major independent review sites yet.",
+      "freeTier": true,
+      "buzzSources": [
+        "https://theresanaiforthat.com/ai/outbid/",
+        "https://useoutbid.com"
+      ],
+      "ratingSources": [
+        "https://theresanaiforthat.com/ai/outbid/",
+        "https://useoutbid.com"
+      ]
     },
     {
       "name": "Askiva AI",
@@ -655,10 +741,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:32:33.442Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 45,
+      "reviewRating": 4.1,
+      "buzzSummary": "Y Combinator-backed AI research platform gaining traction in UX/product research circles. Automates the full interview pipeline from scheduling to transcription to theme extraction. Supports 10+ languages.",
+      "ratingSummary": "Listed on TAIFT as a user interview automation tool. Founder-led with clear product vision. Zoom integration and multilingual support are strong differentiators. Still early-stage with limited third-party reviews.",
+      "freeTier": true,
+      "buzzSources": [
+        "https://theresanaiforthat.com/ai/askiva/",
+        "https://askiva.io"
+      ],
+      "ratingSources": [
+        "https://theresanaiforthat.com/ai/askiva/",
+        "https://askiva.io"
+      ]
     },
     {
       "name": "AutoReach",
@@ -675,10 +772,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:32:43.534Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 42,
+      "reviewRating": 3.9,
+      "buzzSummary": "Autonomous lead gen agent with a 6-stage pipeline. Pay-per-use model (from $0.07/lead) differentiates from subscription competitors. MCP integration for Claude Desktop is a unique technical angle. Listed on TAIFT.",
+      "ratingSummary": "TAIFT listing highlights autonomous operation and feedback-driven learning. 25 free credits to start. Dashboard and real-time tracking get praise. Early-stage product with limited independent reviews but strong feature set for the price.",
+      "freeTier": true,
+      "buzzSources": [
+        "https://theresanaiforthat.com/ai/autoreach/",
+        "https://www.autoreach.work"
+      ],
+      "ratingSources": [
+        "https://theresanaiforthat.com/ai/autoreach/",
+        "https://www.autoreach.work"
+      ]
     },
     {
       "name": "VideoVibe",
@@ -695,10 +803,19 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:32:52.472Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 20,
+      "reviewRating": 3.5,
+      "buzzSummary": "YouTube sentiment analysis tool in a niche category. Minimal web presence — site is largely a single-page app with limited crawlable content. Not yet listed on major AI directories beyond initial sources.",
+      "ratingSummary": "Freemium model from $12/mo. Concept is compelling for YouTubers and marketers but very few independent reviews available. Too early to assess user satisfaction reliably.",
+      "freeTier": true,
+      "buzzSources": [
+        "https://videovibe.io"
+      ],
+      "ratingSources": [
+        "https://videovibe.io"
+      ]
     },
     {
       "name": "MarketAlerts.ai",
