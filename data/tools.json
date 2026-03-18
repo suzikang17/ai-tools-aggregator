@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T17:09:53.939Z",
-    "totalTools": 82,
+    "lastUpdated": "2026-03-18T21:08:26.368Z",
+    "totalTools": 88,
     "trendingCount": 2
   },
   "tools": [
@@ -2317,43 +2317,50 @@
     },
     {
       "name": "Mistral Forge",
-      "url": "https://mistral.ai/news/forge",
+      "url": "https://mistral.ai/products/forge",
       "category": "Coding",
-      "description": "Enterprise platform to train custom AI models from scratch on your own data",
+      "description": "Enterprise platform for training custom AI models from scratch on company data, going beyond fine-tuning and RAG approaches",
       "features": [
-        "Custom model training",
-        "Enterprise data",
-        "Fine-tuning alternative",
-        "NVIDIA partnership"
+        "Train models from scratch",
+        "Open-weight model library",
+        "Forward-deployed engineers",
+        "Synthetic data pipelines",
+        "On-prem deployment",
+        "Reinforcement learning for agents"
       ],
       "pricing": "Enterprise",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T17:07:25.713Z",
+      "dateUpdated": "2026-03-18T21:06:44.821Z",
       "trending": true,
       "sourceUrls": [
-        "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
-        "https://mistral.ai/news/forge"
+        "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/"
       ],
       "buzzScore": 82,
-      "reviewRating": null,
-      "buzzSummary": "Major launch at NVIDIA GTC, covered by TechCrunch exclusive and HN front page on March 17-18, 2026. Positioned as Mistral's enterprise play against OpenAI and Anthropic — lets companies train custom AI models from scratch on their own data rather than fine-tuning. Continued strong coverage across tech media.",
-      "ratingSummary": "Enterprise-focused so limited consumer reviews. TechCrunch coverage highlights the bold build-your-own approach as differentiated from fine-tuning rivals. Developers on HN are cautiously optimistic but want to see real benchmarks vs. fine-tuned GPT/Claude.",
-      "freeTier": "No free tier — enterprise sales only with custom pricing",
+      "reviewRating": 4,
+      "buzzSummary": "Announced at Nvidia GTC on Mar 17 with exclusive TechCrunch coverage. Mistral on track to surpass $1B ARR this year. Partners include Ericsson, European Space Agency, ASML. Differentiated from OpenAI/Anthropic by enabling full model training from scratch rather than just fine-tuning, with forward-deployed engineers embedded at customer sites.",
+      "ratingSummary": "Early enterprise adopters praise the depth of customization vs competitors. Compared favorably to Palantir/IBM consulting model. Some skepticism about whether training from scratch delivers meaningful advantages over RAG for most use cases.",
+      "freeTier": "No free tier; enterprise contracts with FDE support",
       "buzzSources": [
         {
           "platform": "TechCrunch",
           "mentions": 2,
           "sentiment": "positive",
-          "detail": "Exclusive launch coverage + GTC tie-in"
+          "detail": "GTC launch exclusive, $1B ARR trajectory"
         },
         {
           "platform": "HN",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Front page discussion"
+          "mentions": 3,
+          "sentiment": "mixed",
+          "detail": "Discussion about enterprise AI model ownership"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Enterprise partners",
+          "rating": 4,
+          "reviewCount": 5
+        }
+      ]
     },
     {
       "name": "Angy",
@@ -2989,6 +2996,229 @@
       "buzzSummary": "Active on Product Hunt March 17-18, 2026 with fresh listing. Positioned as knowledge layer for AI tools — stores documents once, search and cite from any MCP client. Works with Claude, ChatGPT, Cursor, OpenClaw.",
       "ratingSummary": "Product Hunt reception is positive for the developer-focused approach. Users appreciate MCP integration, git-based version control of knowledge, and semantic search with citations. Too new for G2/Capterra reviews.",
       "freeTier": "Free and open source — npm install -g @getlore/cli. MCP integration included. No paid tiers currently visible."
+    },
+    {
+      "name": "Genie by Databox",
+      "url": "https://databox.com",
+      "category": "Data",
+      "description": "AI analyst for business performance monitoring and reporting by Databox",
+      "features": [
+        "AI business analysis",
+        "Performance monitoring",
+        "Data visualization",
+        "Automated reporting"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free plan with 3 data sources and basic dashboards",
+      "dateAdded": "2026-03-18T21:07:11.404Z",
+      "dateUpdated": "2026-03-18T21:07:11.404Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/databox"
+      ],
+      "buzzScore": 45,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "G2",
+          "rating": 4.4,
+          "reviewCount": 450
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 9 as an AI analyst layer on top of Databox analytics platform. Positioned as an AI-powered business intelligence assistant that can answer questions about your performance data.",
+      "ratingSummary": "Databox itself has solid reviews (4.4 on G2) but Genie as a standalone AI feature is too new for independent ratings. Users praise the simplicity of connecting data sources."
+    },
+    {
+      "name": "Elisym",
+      "url": "https://elisym.io",
+      "category": "Agents",
+      "description": "Open protocol for AI agents to discover, communicate with, and pay each other autonomously",
+      "features": [
+        "Agent discovery",
+        "Inter-agent payments",
+        "Open protocol",
+        "Decentralized agent marketplace"
+      ],
+      "pricing": "Free",
+      "freeTier": "Open protocol, free to implement",
+      "dateAdded": "2026-03-18T21:07:30.715Z",
+      "dateUpdated": "2026-03-18T21:07:30.715Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47425889"
+      ],
+      "buzzScore": 40,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Show HN post"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Show HN launch on Mar 18. Addresses the emerging need for AI agents to transact with each other. Part of the growing agent-to-agent economy narrative.",
+      "ratingSummary": "No reviews; protocol-level project. The concept is forward-looking but adoption depends on the broader AI agent ecosystem maturing."
+    },
+    {
+      "name": "Comet Browser",
+      "url": "https://comet.perplexity.ai",
+      "category": "Research",
+      "description": "Perplexity AI secure browser built for enterprise teams with built-in AI search",
+      "features": [
+        "AI-powered browsing",
+        "Enterprise security",
+        "Built-in Perplexity search",
+        "Team management"
+      ],
+      "pricing": "Enterprise",
+      "freeTier": "No free tier; enterprise product",
+      "dateAdded": "2026-03-18T21:07:57.613Z",
+      "dateUpdated": "2026-03-18T21:07:57.613Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/perplexity-ai"
+      ],
+      "buzzScore": 68,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Perplexity overall",
+          "rating": 4.6,
+          "reviewCount": 500
+        }
+      ],
+      "buzzSummary": "Comet for Enterprise launched on Product Hunt Mar 17 as Perplexitys secure AI browser for teams. Extends Perplexitys consumer success into enterprise market. Part of broader trend of AI-native browsers replacing traditional ones.",
+      "ratingSummary": "Early enterprise product with limited public reviews. Perplexity itself well-reviewed (4.6 on various platforms) but Comet enterprise browser untested at scale. Enterprise security focus could be differentiator."
+    },
+    {
+      "name": "Lore",
+      "url": "https://www.producthunt.com/products/lore-4",
+      "category": "Productivity",
+      "description": "Cursor for your memory - open-source, private, AI-powered personal knowledge management",
+      "features": [
+        "AI memory management",
+        "Privacy-first",
+        "Open-source",
+        "Local-first"
+      ],
+      "pricing": "Free",
+      "freeTier": "100% free and open-source",
+      "dateAdded": "2026-03-18T21:08:14.362Z",
+      "dateUpdated": "2026-03-18T21:08:14.362Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/lore-4"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 17 as Cursor for your memory. Positioned as 100% private and open-source personal AI knowledge tool. Part of growing trend of local-first AI tools that keep data on device.",
+      "ratingSummary": "No formal reviews yet. Product Hunt launch is fresh. The open-source and privacy-first angle resonates with privacy-conscious users."
+    },
+    {
+      "name": "Stripe MPP",
+      "url": "https://stripe.com/blog/machine-payments-protocol",
+      "category": "Agents",
+      "description": "Stripe Machine Payments Protocol enabling autonomous AI agent-to-agent and agent-to-service payments",
+      "features": [
+        "Machine-to-machine payments",
+        "Agent payment protocol",
+        "Stripe integration",
+        "Autonomous transactions"
+      ],
+      "pricing": "Transaction-based",
+      "freeTier": "Free to integrate; standard Stripe transaction fees apply",
+      "dateAdded": "2026-03-18T21:08:14.469Z",
+      "dateUpdated": "2026-03-18T21:08:14.469Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47426936"
+      ],
+      "buzzScore": 75,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Front page, active discussion"
+        },
+        {
+          "platform": "Stripe Blog",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Stripe overall",
+          "rating": 4.5,
+          "reviewCount": 1000
+        }
+      ],
+      "buzzSummary": "Announced on Stripe blog and trending on HN front page Mar 18. Part of the emerging agent economy infrastructure. Stripe positioning itself as the payments rails for AI agents. Significant because it legitimizes the agent-to-agent commerce concept with a major fintech player.",
+      "ratingSummary": "No reviews yet as this is infrastructure/protocol. Stripe overall has strong developer reputation (4.5+ across platforms). MPP adoption will depend on AI agent ecosystem maturity."
+    },
+    {
+      "name": "Permit.io MCP Gateway",
+      "url": "https://permit.io",
+      "category": "Agents",
+      "description": "Drop-in MCP security gateway for AI agents with fine-grained authorization",
+      "features": [
+        "MCP protocol security",
+        "Fine-grained authorization",
+        "CISO-friendly controls",
+        "Drop-in integration"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free tier for up to 1000 monthly active users",
+      "dateAdded": "2026-03-18T21:08:26.366Z",
+      "dateUpdated": "2026-03-18T21:08:26.366Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/permit-io"
+      ],
+      "buzzScore": 48,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "G2",
+          "rating": 4.3,
+          "reviewCount": 50
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 16. Addresses growing concern about MCP protocol security for AI agents. Positioned as developer-friendly security that CISOs can trust.",
+      "ratingSummary": "Permit.io itself has solid developer reviews. The MCP Gateway is a new extension targeting the booming AI agent security space."
     }
   ]
 }
