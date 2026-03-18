@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T02:45:41.677Z",
+    "lastUpdated": "2026-03-18T02:55:15.465Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -2158,15 +2158,31 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T23:22:47.969Z",
-      "dateUpdated": "2026-03-17T23:22:47.969Z",
+      "dateUpdated": "2026-03-18T02:54:34.447Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 38,
       "reviewRating": 5,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI canvas for team work"
+        },
+        {
+          "platform": "Somi.ai",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Featured product badge"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Listed on TAAFT and Somi.ai as a multiplayer AI canvas for teams. Currently in beta. Niche positioning as the context layer between teams and AI — not a direct competitor to Notion or Miro, but a collaborative knowledge canvas. Minimal public discussion so far.",
+      "ratingSummary": "No structured ratings on G2, Product Hunt, or review sites yet. Beta-stage product with no independent reviews found. Site emphasizes team brainstorming and alignment use cases but lacks social proof beyond badges.",
+      "freeTier": "Currently in beta — free access during beta period (no paid plans listed yet)"
     },
     {
       "name": "Werd",
@@ -2181,15 +2197,25 @@
       ],
       "pricing": "Free + from $7/mo",
       "dateAdded": "2026-03-17T23:22:50.098Z",
-      "dateUpdated": "2026-03-17T23:22:50.098Z",
+      "dateUpdated": "2026-03-18T02:54:45.302Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 42,
       "reviewRating": 4.7,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as multi-agent AI writing tool"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Positioning as a multi-agent AI writing tool with \"vibe writing\" approach. Found on TAAFT directory. Limited public buzz — no Reddit or HN threads discovered. Targets content marketers and SEO writers with multi-agent team concept.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt found. Site highlights SEO optimization, multi-language support, and Pexels integration but lacks independent user reviews.",
+      "freeTier": "7-day free trial available, no permanent free tier"
     },
     {
       "name": "BlogSEO",
@@ -2204,15 +2230,25 @@
       ],
       "pricing": "Free + from $97/mo",
       "dateAdded": "2026-03-17T23:22:52.294Z",
-      "dateUpdated": "2026-03-17T23:22:52.294Z",
+      "dateUpdated": "2026-03-18T02:54:54.367Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 40,
       "reviewRating": 5,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI SEO blog content tool"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "SEO auto-blogging tool claiming 150+ satisfied customers. Positions itself as a 360° content engine that auto-publishes SEO articles. Found on TAAFT. No significant Reddit/HN discussion found. Niche appeal for hands-off SEO content generation.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt discovered. Site mentions 150+ customers and shows testimonials wall of love, but no independent review aggregation. Claims to rank content on both Google and ChatGPT.",
+      "freeTier": "Free 3-day trial, no permanent free tier — cancel anytime"
     },
     {
       "name": "CraftedCourses",
@@ -2227,15 +2263,25 @@
       ],
       "pricing": "From $13.34/mo",
       "dateAdded": "2026-03-17T23:22:54.453Z",
-      "dateUpdated": "2026-03-17T23:22:54.453Z",
+      "dateUpdated": "2026-03-18T02:55:04.343Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 35,
       "reviewRating": 3.6,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI course creation platform"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "AI-powered course creation platform (also branded SparklingPeach). Targets educators and corporate trainers. Found on TAAFT. Minimal public buzz — no Reddit or HN threads found. Offers business admin dashboard for enterprise training management.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt found. Site shows user testimonials praising speed of course creation (\"complete programming course in under an hour\"). No independent reviews discovered.",
+      "freeTier": "Free trial available, no credit card required — no permanent free tier listed"
     },
     {
       "name": "Format Magic",
@@ -2249,15 +2295,25 @@
       ],
       "pricing": "Free + from $4.95/mo",
       "dateAdded": "2026-03-17T23:22:56.734Z",
-      "dateUpdated": "2026-03-17T23:22:56.734Z",
+      "dateUpdated": "2026-03-18T02:55:15.463Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 32,
       "reviewRating": 4.1,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI document formatting tool"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "AI document formatter that converts raw text into styled PDFs and documents. Supports custom formatting via trigger symbols, cover pages, table of contents, and color scheme customization. Found on TAAFT. Very little public discussion — utility tool with niche appeal.",
+      "ratingSummary": "No structured ratings on G2, Product Hunt, or review sites found. Site documents detailed formatting features (bold, highlight blocks, color schemes, TOC generation) but has no visible user reviews or testimonials.",
+      "freeTier": "No free tier information found on homepage — pricing details not publicly listed"
     },
     {
       "name": "Mistral Forge",
