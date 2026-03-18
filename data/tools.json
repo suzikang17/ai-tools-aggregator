@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-17T23:22:56.736Z",
-    "totalTools": 65,
-    "trendingCount": 0
+    "lastUpdated": "2026-03-18T00:52:46.466Z",
+    "totalTools": 75,
+    "trendingCount": 2
   },
   "tools": [
     {
@@ -17,13 +17,25 @@
       ],
       "pricing": "From $29/mo",
       "dateAdded": "2026-03-17T01:19:10.498Z",
-      "dateUpdated": "2026-03-17T01:19:10.498Z",
+      "dateUpdated": "2026-03-18T00:52:02.441Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on There's An AI For That as a TikTok video generator. New tool with limited public buzz — no Reddit or HN threads found yet. Niche appeal for short-form content creators.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt yet. User testimonials on the site praise ease of use and ElevenLabs voice integration, but independent reviews are scarce.",
+      "freeTier": "No free tier found — paid plans only starting from $29/mo with launch discount",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI TikTok video generator"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Bulk BG Remove",
@@ -40,10 +52,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T00:52:15.229Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Niche tool for batch background removal. Testimonials from e-commerce sellers and designers praise the bulk processing and ZIP download workflow. No significant Reddit/HN presence.",
+      "ratingSummary": "Site testimonials highlight clean edge detection and time savings vs Photoshop. No G2 or Product Hunt ratings found. Users praise it for Shopify product photos and batch headshot processing.",
+      "freeTier": "3 images per batch, unlimited batches",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "HousesDecorate",
@@ -60,10 +83,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T00:52:26.653Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on TAAFT as an AI home design tool. Low overall buzz — no Reddit or HN threads. Competes in the growing AI interior design space alongside tools like Reimagine Home and Interior AI.",
+      "ratingSummary": "No structured ratings on review platforms. The tool offers room-specific design (kitchen, bedroom, bathroom, office) with style options like modern and Scandinavian, plus a paint color visualizer feature.",
+      "freeTier": "Pricing page did not render details — likely requires sign-up to see free tier limits",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed under home design category"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "NemoClaw",
@@ -81,10 +116,27 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T00:52:36.967Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 40,
+      "reviewRating": null,
+      "buzzSummary": "Mentioned in r/LocalLLaMA for local inference success stories with RTX 5090.",
+      "ratingSummary": "No formal ratings on G2 or Product Hunt. Developer community reception is positive — praised for adding security guardrails to OpenClaw with sandboxed execution, policy-based controls, and local Nemotron model support. Early preview stage limits adoption.",
+      "freeTier": "Fully free and open source — install via CLI with optional NVIDIA cloud API for inference",
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 3,
+          "sentiment": "positive",
+          "detail": "r/LocalLLaMA discussions about local inference with RTX GPUs"
+        },
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Adaptive AI",
@@ -101,10 +153,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T00:52:46.464Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "AI agent platform with no-code workflow builder. CASA Tier 2 certified for enterprise use. Limited public buzz on Reddit/HN — positioned as a productivity-focused agent builder competing with Zapier AI and Make.",
+      "ratingSummary": "No G2 or Product Hunt ratings found yet. The platform emphasizes enterprise security (CASA Tier 2, scoped access controls, auditable operations) and covers marketing, operations, and personal productivity use cases.",
+      "freeTier": "1,000 credits on sign-up plus 100 credits/day (max 500/mo), 8GB computer storage, 8GB file storage",
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Self-described as AI agent platform for workflows"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "My Computer by Manus",
@@ -121,10 +185,11 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
       "trending": false,
-      "buzzScore": null,
-      "reviewRating": null
+      "buzzScore": 50,
+      "reviewRating": null,
+      "buzzSummary": "Featured on Product Hunt (Mar 17). Desktop automation agent."
     },
     {
       "name": "Knowlify",
@@ -669,14 +734,15 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:02.350Z",
-      "dateUpdated": "2026-03-17T22:30:02.350Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com",
         "https://www.reddit.com/r/LocalLLaMA"
       ],
-      "buzzScore": 78,
-      "reviewRating": 4
+      "buzzScore": 82,
+      "reviewRating": 4,
+      "buzzSummary": "Front page HN (Mar 17). Growing interest in local fine-tuning."
     },
     {
       "name": "comma openpilot",
@@ -1060,13 +1126,14 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:31.084Z",
-      "dateUpdated": "2026-03-17T22:30:31.084Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com"
       ],
-      "buzzScore": 55,
-      "reviewRating": null
+      "buzzScore": 65,
+      "reviewRating": null,
+      "buzzSummary": "Front page HN (Mar 17). Meta-prompting + spec-driven dev system gaining traction."
     },
     {
       "name": "Antfly",
@@ -1102,13 +1169,14 @@
       ],
       "pricing": "Enterprise",
       "dateAdded": "2026-03-17T22:30:34.126Z",
-      "dateUpdated": "2026-03-17T22:30:34.126Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com"
       ],
-      "buzzScore": 25,
-      "reviewRating": null
+      "buzzScore": 45,
+      "reviewRating": null,
+      "buzzSummary": "Launch HN (YC W26, Mar 17). Automate credit review in emerging markets."
     },
     {
       "name": "ShakespeareAI",
@@ -1362,6 +1430,191 @@
       "reviewRating": 4.1,
       "buzzSources": [],
       "ratingSources": []
+    },
+    {
+      "name": "Mistral Forge",
+      "url": "https://mistral.ai/news/forge",
+      "category": "Coding",
+      "description": "Enterprise platform to train custom AI models from scratch on your own data",
+      "features": [
+        "Custom model training",
+        "Enterprise data",
+        "Fine-tuning alternative",
+        "NVIDIA partnership"
+      ],
+      "pricing": "Enterprise",
+      "dateAdded": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "trending": true,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+        "https://news.ycombinator.com/item?id=47418295"
+      ],
+      "buzzScore": 75,
+      "reviewRating": null,
+      "buzzSummary": "Launched at NVIDIA GTC. TechCrunch exclusive + HN front page (Mar 17). Takes on OpenAI/Anthropic in enterprise."
+    },
+    {
+      "name": "Angy",
+      "url": "https://www.producthunt.com/products/angy",
+      "category": "Agents",
+      "description": "Multi-agent pipelines with AI-driven scheduling and safety checks",
+      "features": [
+        "Multi-agent pipelines",
+        "AI scheduling",
+        "Safety checks",
+        "Workflow automation"
+      ],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/angy"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSummary": "Launched on Product Hunt (Mar 17)."
+    },
+    {
+      "name": "Ocean Orchestrator",
+      "url": "https://www.producthunt.com/products/ocean-orchestrator",
+      "category": "Coding",
+      "description": "Run AI jobs from your IDE with a one-click workflow",
+      "features": [
+        "IDE integration",
+        "One-click AI jobs",
+        "Workflow orchestration"
+      ],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/ocean-orchestrator"
+      ],
+      "buzzScore": 25,
+      "reviewRating": null,
+      "buzzSummary": "Launched on Product Hunt (Mar 17)."
+    },
+    {
+      "name": "Lore",
+      "url": "https://www.reddit.com/r/LocalLLaMA/",
+      "category": "Productivity",
+      "description": "AI personal knowledge management agent powered by local models",
+      "features": [
+        "Personal knowledge management",
+        "Local models",
+        "AI agent",
+        "Privacy-first"
+      ],
+      "pricing": "Free (Open Source)",
+      "dateAdded": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.reddit.com/r/LocalLLaMA/"
+      ],
+      "buzzScore": 20,
+      "reviewRating": null,
+      "buzzSummary": "Spotted on r/LocalLLaMA (Mar 17). Local-first PKM agent."
+    },
+    {
+      "name": "Google Personal Intelligence",
+      "url": "https://blog.google/products/gemini/personal-intelligence/",
+      "category": "Productivity",
+      "description": "Google AI assistant that taps into your Google ecosystem for tailored responses",
+      "features": [
+        "Gmail integration",
+        "Google Photos integration",
+        "Personalized AI",
+        "Cross-Google ecosystem"
+      ],
+      "pricing": "Free (with Google account)",
+      "dateAdded": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "trending": true,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/"
+      ],
+      "buzzScore": 70,
+      "reviewRating": null,
+      "buzzSummary": "Expanding to all US users (Mar 17). TechCrunch coverage. Major Google AI push."
+    },
+    {
+      "name": "mTarsier (MCP360)",
+      "category": "Developer Tools",
+      "description": "Open-source platform for managing MCP (Model Context Protocol) servers and clients. Provides a centralized dashboard to discover, configure, and monitor MCP integrations.",
+      "url": "https://www.producthunt.com/products/mcp360",
+      "source": "Product Hunt RSS",
+      "dateAdded": "2026-03-17",
+      "status": "new",
+      "tags": [
+        "mcp",
+        "open-source",
+        "developer-tools",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "Kipps.AI",
+      "category": "Sales & Marketing",
+      "description": "AI-powered lead qualification, bulk outreach, and anniversary reminder automation platform for sales teams.",
+      "url": "https://www.producthunt.com/products/kipps-ai",
+      "source": "Product Hunt RSS",
+      "dateAdded": "2026-03-17",
+      "status": "new",
+      "tags": [
+        "sales",
+        "lead-qualification",
+        "outreach",
+        "automation"
+      ]
+    },
+    {
+      "name": "Codex Subagents (OpenAI)",
+      "category": "Agents",
+      "description": "OpenAI's parallel custom agents for complex tasks. Enables spawning multiple specialized sub-agents that work concurrently on different parts of a problem.",
+      "url": "https://www.producthunt.com/products/openai",
+      "source": "Product Hunt RSS",
+      "dateAdded": "2026-03-17",
+      "status": "new",
+      "tags": [
+        "agents",
+        "openai",
+        "parallel-execution",
+        "coding"
+      ]
+    },
+    {
+      "name": "discli",
+      "category": "Developer Tools",
+      "description": "Discord CLI for AI agents and humans. Command-line interface for interacting with Discord, designed for both automated AI workflows and human use.",
+      "url": "https://www.producthunt.com/products/discli",
+      "source": "Product Hunt RSS",
+      "dateAdded": "2026-03-17",
+      "status": "new",
+      "tags": [
+        "discord",
+        "cli",
+        "agents",
+        "developer-tools"
+      ]
+    },
+    {
+      "name": "Lightning Rod",
+      "category": "Data & Training",
+      "description": "Turn real-world data into training datasets fast. Helps ML teams generate structured training data from unstructured sources.",
+      "url": "https://www.producthunt.com/products/training-data-generator",
+      "source": "Product Hunt RSS",
+      "dateAdded": "2026-03-17",
+      "status": "new",
+      "tags": [
+        "training-data",
+        "ml",
+        "datasets",
+        "data-generation"
+      ]
     }
   ]
 }
