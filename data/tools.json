@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T01:52:56.412Z",
+    "lastUpdated": "2026-03-18T02:15:27.634Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -1213,13 +1213,31 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:06.876Z",
-      "dateUpdated": "2026-03-17T22:30:06.876Z",
+      "dateUpdated": "2026-03-18T02:05:03.665Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 35,
-      "reviewRating": 3
+      "reviewRating": 3,
+      "buzzSummary": "Listed on TAAFT and various AI tool directories. Marketed as a free AI-to-human text converter that bypasses Turnitin and GPTZero. Moderate SEO presence but limited organic discussion on Reddit or HN — most mentions are promotional.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt. Site claims to beat all major AI detectors with a 0% detection score, but independent verification is scarce. Users appreciate the no-login free access.",
+      "freeTier": "Free unlimited usage with no login required — paste text and humanize instantly",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI text humanizer"
+        },
+        {
+          "platform": "AI directories",
+          "mentions": 3,
+          "sentiment": "positive",
+          "detail": "Featured on multiple AI tool aggregator sites"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Wandercrafted",
@@ -1233,13 +1251,25 @@
       ],
       "pricing": "Free + from $6.58/mo",
       "dateAdded": "2026-03-17T22:30:08.422Z",
-      "dateUpdated": "2026-03-17T22:30:08.422Z",
+      "dateUpdated": "2026-03-18T02:08:23.646Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 28,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Niche AI travel planner app with minimal public buzz. No Reddit threads or HN discussions found. Listed on a few AI directories. The app is a JS-heavy SPA so content is hard to index — likely very early stage.",
+      "ratingSummary": "No reviews found on G2, Product Hunt, or app stores. Too new for independent user feedback. Pricing suggests a freemium model starting at $6.58/mo but details are locked behind the app.",
+      "freeTier": "Free tier available (details behind app login) — paid plans from $6.58/mo",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI travel itinerary planner"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "ArchRender",
@@ -1253,13 +1283,31 @@
       ],
       "pricing": "Free + from $29/mo",
       "dateAdded": "2026-03-17T22:30:09.872Z",
-      "dateUpdated": "2026-03-17T22:30:09.872Z",
+      "dateUpdated": "2026-03-18T02:08:36.167Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 32,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Growing presence in the architecture/design AI space. Site claims \"loved by thousands of designers.\" Supports OBJ/FBX/GPL imports with season, time-of-day, and environment controls. No Reddit or HN threads found yet, but the feature set is competitive with tools like Veras and Lookx.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt. On-site testimonials are positive, praising speed and ease of use vs traditional rendering software. Independent reviews are not yet available.",
+      "freeTier": "Free tier available with limited renders — paid plans from $29/mo",
+      "buzzSources": [
+        {
+          "platform": "Product site",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims thousands of designer users"
+        },
+        {
+          "platform": "AI directories",
+          "mentions": 2,
+          "sentiment": "neutral",
+          "detail": "Listed as AI architecture renderer"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "FineVoice",
@@ -1273,13 +1321,31 @@
       ],
       "pricing": "Free + from $5.99/mo",
       "dateAdded": "2026-03-17T22:30:11.343Z",
-      "dateUpdated": "2026-03-17T22:30:11.343Z",
+      "dateUpdated": "2026-03-18T02:08:45.749Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 30,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Claims 10M+ users worldwide and 500+ media features. Comprehensive AI voice platform with TTS, voice cloning, voice changer, and sound effects. Positioned as a serious ElevenLabs competitor with lower pricing. Some presence on AI directories but limited organic Reddit/HN discussion.",
+      "ratingSummary": "No G2 or Product Hunt ratings accessible. The platform offers a detailed free tier with clear limitations (2,000 TTS chars/mo, preview-only downloads, 5 instant clones). Pricing is competitive starting at $5.99/mo annually. User testimonials on-site are positive but unverified.",
+      "freeTier": "Free tier: 2,000 TTS characters/mo (preview only, no download), 3 min voice changer, 5 instant voice clones, 5 voice designs, 30 sound effects",
+      "buzzSources": [
+        {
+          "platform": "Product site",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims 10M+ users and 500+ media features"
+        },
+        {
+          "platform": "AI directories",
+          "mentions": 2,
+          "sentiment": "neutral",
+          "detail": "Listed as AI voice generator"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "WebZum",
@@ -1295,13 +1361,31 @@
       ],
       "pricing": "From $5/mo",
       "dateAdded": "2026-03-17T22:30:12.757Z",
-      "dateUpdated": "2026-03-17T22:30:12.757Z",
+      "dateUpdated": "2026-03-18T02:08:55.171Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 40,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "AI website builder promising sites in under 5 minutes. The homepage is JS-heavy with minimal static content. Positioned in the crowded AI website builder space alongside Wix AI, Framer, and Durable. No Reddit or HN discussions found — appears to be early-stage.",
+      "ratingSummary": "No reviews found on G2, Product Hunt, or independent review sites. The tool is too new for meaningful user feedback. Pricing starts at $5/mo which is competitive for the space.",
+      "freeTier": "No free tier found — paid plans only starting from $5/mo",
+      "buzzSources": [
+        {
+          "platform": "AI directories",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI website builder"
+        },
+        {
+          "platform": "Product site",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims website creation in under 5 minutes"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "ClickClaw.AI",
@@ -1315,13 +1399,25 @@
       ],
       "pricing": "From $15/mo",
       "dateAdded": "2026-03-17T22:30:14.275Z",
-      "dateUpdated": "2026-03-17T22:30:14.275Z",
+      "dateUpdated": "2026-03-18T02:14:43.853Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 35,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "One-click autonomous AI agent deployment platform listed on TAAFT. Positions itself as the anti-DevOps solution — no servers, no coding, no setup. Targets non-technical users who want to run agents without infrastructure hassles. No Reddit or HN discussion found yet.",
+      "ratingSummary": "No ratings on G2, Product Hunt, or Capterra. TAAFT listing highlights OpenClaw integration, WhatsApp/Slack/Telegram/Messenger connectivity. Too new for independent reviews — early-stage product with clear pricing but unverified claims.",
+      "freeTier": "No free tier — paid plans only starting from $15/mo (Starter), $49/mo (Pro), $299/mo (Max)",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as one-click AI agent deployment platform"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "LiveToka",
@@ -1336,13 +1432,31 @@
       ],
       "pricing": "Free + from $5.9/mo",
       "dateAdded": "2026-03-17T22:30:15.803Z",
-      "dateUpdated": "2026-03-17T22:30:15.803Z",
+      "dateUpdated": "2026-03-18T02:14:58.214Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 38,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Real-time AI voice translation and transcription tool supporting 100+ languages. Listed on TAAFT. Integrates with Zoom, Teams, Meet, Webex, YouTube Live, and LINE. Positive testimonials from EdTech PMs, SaaS support leads, and event producers. No Reddit or HN threads found.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt. On-site testimonials praise low-latency translation, bilingual transcript export, and seamless meeting platform integration. Privacy-first approach (data deleted after processing) is a differentiator.",
+      "freeTier": "Free tier available with basic features — paid plans from $5.90/mo",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI real-time voice translation tool"
+        },
+        {
+          "platform": "Website testimonials",
+          "mentions": 6,
+          "sentiment": "positive",
+          "detail": "Testimonials from EdTech, SaaS, university, media, HR, and church users"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Deployables.ai",
@@ -1356,13 +1470,31 @@
       ],
       "pricing": "From $49/mo",
       "dateAdded": "2026-03-17T22:30:17.329Z",
-      "dateUpdated": "2026-03-17T22:30:17.329Z",
+      "dateUpdated": "2026-03-18T02:15:09.772Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 42,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "AI agent hosting platform that gives each agent a dedicated machine (Linux now, Windows/Mac coming). Listed on TAAFT. Differentiates with live screen view — watch your agent browse, draft emails, and fill forms in real time. Powered by OpenClaw for Linux agents, with Bland AI voice calling included. No significant Reddit or HN discussion found.",
+      "ratingSummary": "No G2, Product Hunt, or Capterra ratings. TAAFT listing highlights dedicated infrastructure, persistent memory, and pay-per-use billing. The live agent observability and governance features (spending caps, approved contacts, call limits) are unique in the space.",
+      "freeTier": "No free tier — $49/mo base includes $10 in AI credits; additional credits available as add-on",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI employee deployment platform"
+        },
+        {
+          "platform": "Homepage",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims equivalent of $4,000+/mo human employee at $49/mo"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "GA4.so",
@@ -1376,13 +1508,25 @@
       ],
       "pricing": "Free + from $0.01",
       "dateAdded": "2026-03-17T22:30:18.917Z",
-      "dateUpdated": "2026-03-17T22:30:18.917Z",
+      "dateUpdated": "2026-03-18T02:15:17.880Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 30,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "AI agent for Google Analytics 4 that automates report generation and data insights. Listed on TAAFT with 46 karma. Niche tool for marketers who want automated GA4 reporting without writing code. No Reddit or HN discussion found — very focused product.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt. TAAFT listing highlights scheduled reports, AI data analysis, and built-in chart generation (bar, pie, line). Pay-as-you-go pricing from $0.01/unit with 30-day free trial is low-risk entry point.",
+      "freeTier": "30-day free trial, then pay-as-you-go from $0.01/unit",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI agent for GA4 with 46 karma"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Seed by ByteDance",
@@ -1398,13 +1542,31 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:20.368Z",
-      "dateUpdated": "2026-03-17T22:30:20.368Z",
+      "dateUpdated": "2026-03-18T02:15:27.632Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 65,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "ByteDance's frontier AI research division behind models powering TikTok, Douyin, and other ByteDance products. Listed on TAAFT. Features include GUI agent capabilities, real-world task automation, vibe coding, and science discovery. Notable as a major Chinese tech company's public-facing AI model effort — competes with Qwen, DeepSeek, and Kimi.",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt. The platform is primarily a research showcase rather than a standalone consumer product. GUI agent and tool orchestration capabilities position it as a developer/enterprise play. Site is JS-heavy with minimal crawlable content.",
+      "freeTier": "Free — research models and demos available at no cost",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as ByteDance frontier AI model"
+        },
+        {
+          "platform": "Homepage",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Showcases GUI agent, vibe coding, and science discovery capabilities"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "GoFaceless",
