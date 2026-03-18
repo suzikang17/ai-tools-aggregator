@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T02:15:27.634Z",
+    "lastUpdated": "2026-03-18T02:26:01.344Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -1580,13 +1580,32 @@
       ],
       "pricing": "Freemium",
       "dateAdded": "2026-03-17T22:30:21.822Z",
-      "dateUpdated": "2026-03-17T22:30:21.822Z",
+      "dateUpdated": "2026-03-18T02:25:13.260Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 55,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "Growing traction with 2,500+ creators on the platform. Claims $127K earned by creators monthly. Positioned in the crowded faceless YouTube/TikTok video niche alongside AutoShorts and InVideo. No major Reddit or HN threads found.",
+      "ratingSummary": "On-site testimonials praise script quality and speed (47s per video). Creators with 45K-120K subs featured. No independent reviews on G2 or Product Hunt yet — rely on self-reported satisfaction (89% report revenue increase).",
+      "freeTier": "First video free, no credit card required. Paid plans start at $29/mo (Starter).",
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "2,500+ creators, $127K monthly creator earnings claimed"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Website",
+          "rating": 4.5,
+          "reviewCount": 3,
+          "detail": "Self-reported testimonials from creators"
+        }
+      ]
     },
     {
       "name": "CodingFleet",
@@ -1602,13 +1621,25 @@
       ],
       "pricing": "Free + from $7/mo",
       "dateAdded": "2026-03-17T22:30:23.300Z",
-      "dateUpdated": "2026-03-17T22:30:23.300Z",
+      "dateUpdated": "2026-03-18T02:25:24.304Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 48,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "Steady user base with 65,300+ users and 1.27M+ generations. Supports 90+ languages. Austin-based LLC. Moderate visibility — listed on AI directories but no viral HN or Reddit moments found.",
+      "ratingSummary": "No independent reviews on G2 or Product Hunt. The homepage highlights user count but no structured ratings. Feature set (code gen, converter, explainer, unit tests) is competitive but crowded market with Copilot, Cursor, etc.",
+      "freeTier": "Free tier available — use tools with no sign-up required. Paid plans from $7/mo for additional features.",
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "65,305 users, 1.27M generations"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Koli",
@@ -1622,13 +1653,25 @@
       ],
       "pricing": "From $199/mo",
       "dateAdded": "2026-03-17T22:30:24.824Z",
-      "dateUpdated": "2026-03-17T22:30:24.824Z",
+      "dateUpdated": "2026-03-18T02:25:36.538Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 30,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Positions itself as the first agentic system for creator marketing. Claims 20x faster activation and 10x ROI. Early-stage B2B SaaS targeting growth teams. No Reddit, HN, or Product Hunt buzz found yet.",
+      "ratingSummary": "No independent reviews found on G2, Capterra, or Product Hunt. Marketing-heavy landing page with bold claims but no user testimonials or case studies visible. Too new to have a review track record.",
+      "freeTier": "No free tier — Starter plan at $199/mo, campaign packages from $2,199/campaign. Custom pricing for monthly budget allocation.",
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Self-described as 1st agentic creator marketing system"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "NextDocs.io",
@@ -1643,13 +1686,32 @@
       ],
       "pricing": "Freemium",
       "dateAdded": "2026-03-17T22:30:26.450Z",
-      "dateUpdated": "2026-03-17T22:30:26.450Z",
+      "dateUpdated": "2026-03-18T02:25:48.006Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 45,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "Growing user base with 10K+ users across 50+ countries, 10K+ documents created. Featured testimonials from startup founders, students, and professionals. Competes with Gamma and Beautiful.ai in the AI presentations space.",
+      "ratingSummary": "Positive on-site testimonials praise flawless AI output and free tier generosity. Users highlight AI editing, one-click download, and contract/proposal generation. No G2 or Product Hunt structured ratings found yet.",
+      "freeTier": "Free forever plan available — no credit card required. Includes AI doc and slide generation with basic features.",
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "10K+ users, 50+ countries, free forever plan"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Website",
+          "rating": 4.5,
+          "reviewCount": 7,
+          "detail": "On-site testimonials from diverse user base"
+        }
+      ]
     },
     {
       "name": "Metal",
@@ -1663,13 +1725,32 @@
       ],
       "pricing": "Free + from $150/mo",
       "dateAdded": "2026-03-17T22:30:27.974Z",
-      "dateUpdated": "2026-03-17T22:30:27.974Z",
+      "dateUpdated": "2026-03-18T02:26:01.342Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 35,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Used by funded startups raising $1M-$30M rounds. Strong founder testimonials from YC-adjacent companies. Positioned as high-precision fundraising intelligence, replacing manual investor research. Niche but targeted audience.",
+      "ratingSummary": "Glowing founder testimonials citing data-driven investor matching and warm intro path discovery. Users include CEOs of Littio ($4.5M), Steno AI ($1M), Kidsy ($4.4M), Hummingbirds ($3.35M), and Aescape ($15.3M). No G2 or Product Hunt ratings found.",
+      "freeTier": "Free tier available for basic access. Paid pricing is usage-based (not flat monthly), calculated by amount raising and hourly rate.",
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Testimonials from 6+ funded startup CEOs"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Website",
+          "rating": 4.5,
+          "reviewCount": 6,
+          "detail": "CEO testimonials from startups raising $1M-$30M"
+        }
+      ]
     },
     {
       "name": "Trainn AI",
