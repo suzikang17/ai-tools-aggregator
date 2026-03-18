@@ -176,9 +176,9 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       headerName: "Pricing",
       field: "pricing",
       sortable: true,
-      minWidth: 120,
+      minWidth: 160,
       suppressSizeToFit: true,
-      width: 120,
+      width: 160,
     },
     {
       headerName: "Features",
