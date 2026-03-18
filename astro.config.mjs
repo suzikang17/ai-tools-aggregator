@@ -7,4 +7,7 @@ export default defineConfig({
   integrations: [react()],
   adapter: vercel(),
   output: "static",
+  security: {
+    checkOrigin: false,
+  },
 });
