@@ -173,12 +173,50 @@ export default function ToolsGrid({ tools, lastUpdated }: Props) {
       cellStyle: { overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" },
     },
     {
+      headerName: "Free Tier",
+      sortable: true,
+      minWidth: 120,
+      suppressSizeToFit: true,
+      width: 130,
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
+        const tool = params.data;
+        if (!tool) return null;
+        if (tool.freeTier) return <span style={{ color: "#16a34a", fontWeight: 600, fontSize: "12px" }}>{tool.freeTier}</span>;
+        const p = tool.pricing.toLowerCase();
+        if (p === "unknown") return <span style={{ color: "#9ca3af" }}>—</span>;
+        if (p === "enterprise" || p.startsWith("from ")) return <span style={{ color: "#dc2626", fontSize: "12px" }}>No</span>;
+        if (p === "free" || p === "free (hardware required)") return <span style={{ color: "#16a34a", fontWeight: 600, fontSize: "12px" }}>Yes</span>;
+        if (p.startsWith("free") || p.startsWith("freemium")) return <span style={{ color: "#16a34a", fontWeight: 600, fontSize: "12px" }}>Yes (limited)</span>;
+        return <span style={{ color: "#9ca3af" }}>—</span>;
+      },
+      valueGetter: (params) => {
+        if (!params.data || params.data._isDetail) return "";
+        if (params.data.freeTier) return params.data.freeTier;
+        const p = params.data.pricing.toLowerCase();
+        if (p === "free" || p === "free (hardware required)") return "Yes";
+        if (p.startsWith("free") || p.startsWith("freemium")) return "Yes (limited)";
+        if (p === "enterprise" || p.startsWith("from ")) return "No";
+        return "";
+      },
+    },
+    {
       headerName: "Pricing",
       field: "pricing",
       sortable: true,
-      minWidth: 160,
+      minWidth: 130,
       suppressSizeToFit: true,
-      width: 160,
+      width: 140,
+      cellRenderer: (params: ICellRendererParams<ToolRow>) => {
+        if (params.data?._isDetail) return null;
+        const p = params.value as string;
+        if (!p || p === "Unknown") return <span style={{ color: "#9ca3af" }}>—</span>;
+        if (p === "Free" || p === "Free (hardware required)") return <span style={{ color: "#16a34a" }}>Free</span>;
+        if (p === "Freemium") return <span style={{ color: "#9ca3af" }}>—</span>;
+        const match = p.match(/from \$[\d,.]+(?:\/\w+)?/i);
+        if (match) return <span>{match[0]}</span>;
+        return <span>{p}</span>;
+      },
     },
     {
       headerName: "Features",

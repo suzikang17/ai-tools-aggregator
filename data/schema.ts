@@ -7,6 +7,7 @@ export interface Tool {
   description: string;
   features: string[];
   pricing: string;
+  freeTier?: string;
   dateAdded: string;
   dateUpdated: string;
   trending: boolean;

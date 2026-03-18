@@ -98,6 +98,7 @@ switch (command) {
         description: input.description || "",
         features: input.features || [],
         pricing: input.pricing || "Unknown",
+        freeTier: input.freeTier ?? undefined,
         dateAdded: now,
         dateUpdated: now,
         trending: false,

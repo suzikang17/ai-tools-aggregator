@@ -74,7 +74,8 @@ Look for mentions of AI tools, products, or services. For each tool found, extra
 - **category**: One of: Writing, Image Gen, Coding, Audio, Video, Productivity, Data, Agents, Marketing, Design, Research, Other
 - **description**: One sentence describing what it does
 - **features**: Key features as a list of short strings
-- **pricing**: Pricing info (e.g., "Free", "Freemium", "$20/mo", "Enterprise")
+- **pricing**: Paid tier pricing (e.g., "From $20/mo", "Enterprise", "From $5"). Use "Free" only if entirely free with no paid plans.
+- **freeTier**: Describe the free tier if one exists (e.g., "5 exports/day", "Basic features, 1 project", "10GB storage", "Unlimited with watermark"). Be specific about limits. Omit if no free tier.
 - **buzzScore**: Public buzz score 0-100 based on mentions, upvotes, comments, and excitement level across sources. Consider: volume of mentions (more = higher), tone of discussion (excited vs neutral vs negative), recency of buzz. Use null if insufficient data.
 - **reviewRating**: Star rating 1.0-5.0 (half-star increments: 1.0, 1.5, 2.0, ..., 5.0). Pull actual ratings from Product Hunt, G2, or similar review sites when available. Estimate from user review text when no structured rating exists. Use null if no reviews found.
 - **parentPlatform**: If the tool belongs to a larger platform (e.g., "Google", "Microsoft", "Meta"), set this field. See Platform Crawling section.
@@ -86,7 +87,7 @@ Look for mentions of AI tools, products, or services. For each tool found, extra
 
 For each tool extracted, pipe it to the CLI:
 ```
-echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1","feat2"],"pricing":"Free","buzzScore":72,"reviewRating":4.5,"sourceUrls":["https://source-url.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
+echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1","feat2"],"pricing":"Free","freeTier":"Unlimited basic features","buzzScore":72,"reviewRating":4.5,"sourceUrls":["https://source-url.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
 ```
 
 The CLI handles deduplication automatically — if a tool with the same name and domain already exists, it updates instead of duplicating.
@@ -241,12 +242,12 @@ Search both datasets for the tool by name (case-insensitive).
 ### Step 3: Save or update the tool
 If the tool exists, update it:
 ```
-echo '{"name":"ToolName","url":"https://example.com","buzzScore":75,"reviewRating":4.0,"description":"Updated desc","pricing":"Freemium","sourceCount":8}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
+echo '{"name":"ToolName","url":"https://example.com","buzzScore":75,"reviewRating":4.0,"description":"Updated desc","pricing":"From $20/mo","freeTier":"Basic features, 3 projects","sourceCount":8}' | npx tsx openclaw-skill/pulse-cli.ts pulse-save-tool
 ```
 
 If the tool is new, add it to Discovery first:
 ```
-echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1"],"pricing":"Free","buzzScore":72,"reviewRating":4.5,"sourceUrls":["https://source.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
+echo '{"name":"ToolName","url":"https://example.com","category":"Coding","description":"Does X","features":["feat1"],"pricing":"Free","freeTier":"Unlimited basic features","buzzScore":72,"reviewRating":4.5,"sourceUrls":["https://source.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
 ```
 
 ### Step 4: Report findings
@@ -467,7 +468,7 @@ When researching tools, check if a tool belongs to a larger platform. If so, set
 ### How to tag platform tools
 When saving a tool that belongs to a platform, include `parentPlatform`:
 ```
-echo '{"name":"NotebookLM","url":"https://notebooklm.google.com","category":"Research","parentPlatform":"Google","description":"AI research assistant","features":["notebook","sources"],"pricing":"Free","buzzScore":82,"reviewRating":4.5,"sourceUrls":["https://source.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
+echo '{"name":"NotebookLM","url":"https://notebooklm.google.com","category":"Research","parentPlatform":"Google","description":"AI research assistant","features":["notebook","sources"],"pricing":"Free","freeTier":"Unlimited notebooks and sources","buzzScore":82,"reviewRating":4.5,"sourceUrls":["https://source.com"]}' | npx tsx openclaw-skill/cli.ts save-tool
 ```
 
 For Market Pulse:
