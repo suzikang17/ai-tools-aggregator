@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T02:55:15.465Z",
+    "lastUpdated": "2026-03-18T03:06:27.329Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -2328,7 +2328,7 @@
       ],
       "pricing": "Enterprise",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T03:05:41.101Z",
       "trending": true,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
@@ -2336,7 +2336,30 @@
       ],
       "buzzScore": 75,
       "reviewRating": null,
-      "buzzSummary": "Launched at NVIDIA GTC. TechCrunch exclusive + HN front page (Mar 17). Takes on OpenAI/Anthropic in enterprise."
+      "buzzSummary": "Launched at NVIDIA GTC. TechCrunch exclusive + HN front page (Mar 17). Takes on OpenAI/Anthropic in enterprise.",
+      "ratingSummary": "Too new for structured reviews — launched at GTC Mar 17. Enterprise-only so no public G2/Product Hunt ratings yet. Early partner testimonials (ASML, ESA, Ericsson) suggest strong domain performance but no independent benchmarks available.",
+      "freeTier": "No free tier — enterprise sales only with custom pricing",
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Exclusive launch coverage at GTC"
+        },
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Front page Mar 17"
+        },
+        {
+          "platform": "NVIDIA GTC",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Announced at GTC keynote"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Angy",
@@ -2351,14 +2374,25 @@
       ],
       "pricing": "Unknown",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T03:05:53.449Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/angy"
       ],
       "buzzScore": 30,
       "reviewRating": null,
-      "buzzSummary": "Launched on Product Hunt (Mar 17)."
+      "buzzSummary": "Launched on Product Hunt (Mar 17).",
+      "ratingSummary": "Just launched on Product Hunt (Mar 17). No structured ratings on G2 or Capterra yet. Product Hunt page is the only review surface so far — too early for meaningful rating data.",
+      "freeTier": "Unknown — Product Hunt listing does not specify pricing details; homepage not accessible",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Launch day listing Mar 17"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Ocean Orchestrator",
@@ -2372,14 +2406,25 @@
       ],
       "pricing": "Unknown",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T03:06:05.925Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/ocean-orchestrator"
       ],
       "buzzScore": 25,
       "reviewRating": null,
-      "buzzSummary": "Launched on Product Hunt (Mar 17)."
+      "buzzSummary": "Launched on Product Hunt (Mar 17).",
+      "ratingSummary": "Launched on Product Hunt (Mar 17). No independent reviews found. Homepage domain not resolvable — may be very early stage or PH-exclusive launch. No G2 or Capterra presence.",
+      "freeTier": "Unknown — no accessible homepage or pricing page found",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Launch day listing Mar 17"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Lore",
@@ -2394,14 +2439,25 @@
       ],
       "pricing": "Free (Open Source)",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T03:06:16.375Z",
       "trending": false,
       "sourceUrls": [
         "https://www.reddit.com/r/LocalLLaMA/"
       ],
       "buzzScore": 20,
       "reviewRating": null,
-      "buzzSummary": "Spotted on r/LocalLLaMA (Mar 17). Local-first PKM agent."
+      "buzzSummary": "Spotted on r/LocalLLaMA (Mar 17). Local-first PKM agent.",
+      "ratingSummary": "No structured ratings yet. The tool (getlore.ai) is a developer-focused CLI/MCP knowledge layer — too niche and new for G2/Product Hunt reviews. Positive reception on r/LocalLLaMA for local-first approach.",
+      "freeTier": "Free and open source CLI tool — npm install -g @getlore/cli. No paid tier visible.",
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "r/LocalLLaMA thread Mar 17, positive comments on local-first PKM"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Google Personal Intelligence",
@@ -2416,14 +2472,31 @@
       ],
       "pricing": "Free (with Google account)",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T03:06:27.327Z",
       "trending": true,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/"
       ],
       "buzzScore": 70,
       "reviewRating": null,
-      "buzzSummary": "Expanding to all US users (Mar 17). TechCrunch coverage. Major Google AI push."
+      "buzzSummary": "Expanding to all US users (Mar 17). TechCrunch coverage. Major Google AI push.",
+      "ratingSummary": "Part of Gemini ecosystem — Gemini overall has mixed reviews (praised for Google integration, criticized for hallucinations). Personal Intelligence feature is too new for standalone reviews. Expanding to all US users as of Mar 17.",
+      "freeTier": "Free for all Google users — integrated into Gemini app at no extra cost",
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Coverage of US-wide rollout Mar 17"
+        },
+        {
+          "platform": "Google Blog",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Official announcement"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "mTarsier (MCP360)",
