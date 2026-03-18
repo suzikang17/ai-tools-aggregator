@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T17:07:51.425Z",
+    "lastUpdated": "2026-03-18T17:09:53.939Z",
     "totalTools": 82,
     "trendingCount": 2
   },
@@ -2766,7 +2766,7 @@
       ],
       "pricing": "Enterprise (7-figure contracts)",
       "dateAdded": "2026-03-18T17:06:31.871Z",
-      "dateUpdated": "2026-03-18T17:06:31.871Z",
+      "dateUpdated": "2026-03-18T17:09:37.803Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/"
@@ -2789,7 +2789,8 @@
         }
       ],
       "buzzSummary": "TechCrunch coverage of $16M Series A on March 18, 2026. Founded by ex-Etsy ML leader who drove $1B GMV increase. Fetch Rewards reported 20% net revenue lift in 11 days. Positioned as making TikTok-level personalization accessible to Fortune 500.",
-      "ratingSummary": "Very early-stage with limited public reviews. Customer case studies are impressive — 7% revenue lift for furniture company (vs 0.4% baseline) and 20% lift for Fetch Rewards. Enterprise pricing puts it out of reach for smaller companies."
+      "ratingSummary": "Very early-stage with limited public reviews. Customer case studies are impressive — 7% revenue lift for furniture company (vs 0.4% baseline) and 20% lift for Fetch Rewards. Enterprise pricing puts it out of reach for smaller companies.",
+      "freeTier": "No free tier — enterprise-only with demo/consultation required"
     },
     {
       "name": "Stripe MPP",
@@ -2918,7 +2919,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-18T17:07:15.572Z",
-      "dateUpdated": "2026-03-18T17:07:15.572Z",
+      "dateUpdated": "2026-03-18T17:09:45.447Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47427027"
@@ -2931,6 +2932,12 @@
           "mentions": 1,
           "sentiment": "mixed",
           "detail": "44 points, 17 comments, front page"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 3,
+          "sentiment": "positive",
+          "detail": "r/LocalLLaMA discussions about local inference with RTX GPUs"
         }
       ],
       "ratingSources": [
@@ -2941,7 +2948,8 @@
         }
       ],
       "buzzSummary": "Hit HN front page on March 18, 2026 with 44 points and 17 comments. Discussion focused on NVIDIA routing inference through their cloud as a compute acquisition strategy. Debate about whether it solves real problems vs. OpenClaw Docker UX issues. Some impressed by early-career engineer shipping it.",
-      "ratingSummary": "Mixed HN reception. Praised for security-first approach and sandboxed inference routing. Criticized for Docker setup pain (shared with OpenClaw ecosystem broadly) and questioned whether wrapping OpenClaw adds enough value."
+      "ratingSummary": "Mixed HN reception. Praised for security-first approach and sandboxed inference routing. Criticized for Docker setup pain (shared with OpenClaw ecosystem broadly) and questioned whether wrapping OpenClaw adds enough value.",
+      "freeTier": "Fully free and open source — install via curl script, uses NVIDIA Cloud API for inference (free tier available via build.nvidia.com)"
     },
     {
       "name": "Lore",
@@ -2951,7 +2959,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-18T17:07:34.009Z",
-      "dateUpdated": "2026-03-18T17:07:34.009Z",
+      "dateUpdated": "2026-03-18T17:09:53.937Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/lore-4"
@@ -2963,6 +2971,12 @@
           "platform": "Product Hunt",
           "mentions": 1,
           "sentiment": "positive"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "r/LocalLLaMA thread Mar 17, positive on local-first PKM"
         }
       ],
       "ratingSources": [
@@ -2972,8 +2986,9 @@
           "reviewCount": 6
         }
       ],
-      "buzzSummary": "Active on Product Hunt March 17-18, 2026 with fresh listing. Positioned as \"Cursor for your memory\" — 100% private, open-source, and free. Appeals to privacy-conscious users wanting AI-powered personal knowledge management without cloud dependency.",
-      "ratingSummary": "Product Hunt reception is positive for the privacy-first approach and open-source model. Users note it fills a gap between note-taking apps and AI assistants. Free pricing removes adoption friction."
+      "buzzSummary": "Active on Product Hunt March 17-18, 2026 with fresh listing. Positioned as knowledge layer for AI tools — stores documents once, search and cite from any MCP client. Works with Claude, ChatGPT, Cursor, OpenClaw.",
+      "ratingSummary": "Product Hunt reception is positive for the developer-focused approach. Users appreciate MCP integration, git-based version control of knowledge, and semantic search with citations. Too new for G2/Capterra reviews.",
+      "freeTier": "Free and open source — npm install -g @getlore/cli. MCP integration included. No paid tiers currently visible."
     }
   ]
 }
