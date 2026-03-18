@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T01:44:13.234Z",
+    "lastUpdated": "2026-03-18T01:52:56.412Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -24,9 +24,9 @@
       ],
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on There's An AI For That as a TikTok video generator. New tool with limited public buzz \u2014 no Reddit or HN threads found yet. Niche appeal for short-form content creators.",
+      "buzzSummary": "Listed on There's An AI For That as a TikTok video generator. New tool with limited public buzz — no Reddit or HN threads found yet. Niche appeal for short-form content creators.",
       "ratingSummary": "No structured ratings on G2 or Product Hunt yet. User testimonials on the site praise ease of use and ElevenLabs voice integration, but independent reviews are scarce.",
-      "freeTier": "No free tier found \u2014 paid plans only starting from $29/mo with launch discount",
+      "freeTier": "No free tier found — paid plans only starting from $29/mo with launch discount",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -87,9 +87,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on TAAFT as an AI home design tool. Low overall buzz \u2014 no Reddit or HN threads. Competes in the growing AI interior design space alongside tools like Reimagine Home and Interior AI.",
+      "buzzSummary": "Listed on TAAFT as an AI home design tool. Low overall buzz — no Reddit or HN threads. Competes in the growing AI interior design space alongside tools like Reimagine Home and Interior AI.",
       "ratingSummary": "No structured ratings on review platforms. The tool offers room-specific design (kitchen, bedroom, bathroom, office) with style options like modern and Scandinavian, plus a paint color visualizer feature.",
-      "freeTier": "Pricing page did not render details \u2014 likely requires sign-up to see free tier limits",
+      "freeTier": "Pricing page did not render details — likely requires sign-up to see free tier limits",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -121,8 +121,8 @@
       "buzzScore": 40,
       "reviewRating": null,
       "buzzSummary": "Mentioned in r/LocalLLaMA for local inference success stories with RTX 5090.",
-      "ratingSummary": "No formal ratings on G2 or Product Hunt. Developer community reception is positive \u2014 praised for adding security guardrails to OpenClaw with sandboxed execution, policy-based controls, and local Nemotron model support. Early preview stage limits adoption.",
-      "freeTier": "Fully free and open source \u2014 install via CLI with optional NVIDIA cloud API for inference",
+      "ratingSummary": "No formal ratings on G2 or Product Hunt. Developer community reception is positive — praised for adding security guardrails to OpenClaw with sandboxed execution, policy-based controls, and local Nemotron model support. Early preview stage limits adoption.",
+      "freeTier": "Fully free and open source — install via CLI with optional NVIDIA cloud API for inference",
       "buzzSources": [
         {
           "platform": "Reddit",
@@ -157,7 +157,7 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI agent platform with no-code workflow builder. CASA Tier 2 certified for enterprise use. Limited public buzz on Reddit/HN \u2014 positioned as a productivity-focused agent builder competing with Zapier AI and Make.",
+      "buzzSummary": "AI agent platform with no-code workflow builder. CASA Tier 2 certified for enterprise use. Limited public buzz on Reddit/HN — positioned as a productivity-focused agent builder competing with Zapier AI and Make.",
       "ratingSummary": "No G2 or Product Hunt ratings found yet. The platform emphasizes enterprise security (CASA Tier 2, scoped access controls, auditable operations) and covers marketing, operations, and personal productivity use cases.",
       "freeTier": "1,000 credits on sign-up plus 100 credits/day (max 500/mo), 8GB computer storage, 8GB file storage",
       "buzzSources": [
@@ -191,7 +191,7 @@
       "reviewRating": null,
       "buzzSummary": "Featured on Product Hunt (Mar 17). Desktop automation agent from Manus that manages local files, executes commands, and works across devices. Listed on TAAFT as computer management AI.",
       "ratingSummary": "No independent reviews found yet. Very new product (Mar 2026 launch). No ratings on G2, Capterra, or Product Hunt for this specific desktop feature.",
-      "freeTier": "Unknown \u2014 Manus platform access required; desktop feature availability depends on Manus account tier",
+      "freeTier": "Unknown — Manus platform access required; desktop feature availability depends on Manus account tier",
       "buzzSources": [
         {
           "platform": "Product Hunt",
@@ -227,9 +227,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on Product Hunt as an AI animated explainer video generator for companies and professionals. Minimal public buzz \u2014 no Reddit or HN threads found. Niche B2B tool for creating animated explainer content.",
+      "buzzSummary": "Listed on Product Hunt as an AI animated explainer video generator for companies and professionals. Minimal public buzz — no Reddit or HN threads found. Niche B2B tool for creating animated explainer content.",
       "ratingSummary": "No structured ratings on G2, Capterra, or Product Hunt yet. Too new for independent reviews. Site mentions it is for companies and professionals but lacks user testimonials.",
-      "freeTier": "Freemium \u2014 free tier available with limited features; paid plans from $5/mo",
+      "freeTier": "Freemium — free tier available with limited features; paid plans from $5/mo",
       "buzzSources": [
         {
           "platform": "Product Hunt",
@@ -260,8 +260,8 @@
       "buzzScore": null,
       "reviewRating": null,
       "buzzSummary": "AI-powered business assistant operating via WhatsApp, Slack, and Telegram. Claims 95%+ AI accuracy with GPT-4o and Whisper integration. Targets small business expense tracking and document management. No significant Reddit or HN buzz found.",
-      "ratingSummary": "No ratings on G2, Capterra, or Product Hunt. Site highlights GDPR compliance, 256-bit AES encryption, and multi-channel support. No independent reviews found yet \u2014 too new for established review platforms.",
-      "freeTier": "Free tier available \u2014 no credit card required, basic features with 10-second setup",
+      "ratingSummary": "No ratings on G2, Capterra, or Product Hunt. Site highlights GDPR compliance, 256-bit AES encryption, and multi-channel support. No independent reviews found yet — too new for established review platforms.",
+      "freeTier": "Free tier available — no credit card required, basic features with 10-second setup",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -291,9 +291,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Chrome extension that analyzes privacy policies and T&Cs using AI. Scores documents on 4 indicators: protection, compliance, transparency, and balance. All processing happens locally in the browser. No Reddit or HN buzz found \u2014 very niche privacy tool.",
+      "buzzSummary": "Chrome extension that analyzes privacy policies and T&Cs using AI. Scores documents on 4 indicators: protection, compliance, transparency, and balance. All processing happens locally in the browser. No Reddit or HN buzz found — very niche privacy tool.",
       "ratingSummary": "No ratings on G2, Product Hunt, or Chrome Web Store reviews found. Unique value proposition with local-only processing for privacy-conscious users, but too new for independent reviews.",
-      "freeTier": "Freemium \u2014 free tier available with basic policy scanning; paid plans from $3.40",
+      "freeTier": "Freemium — free tier available with basic policy scanning; paid plans from $3.40",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -324,8 +324,8 @@
       "buzzScore": null,
       "reviewRating": null,
       "buzzSummary": "Chrome extension and web app for AI prompt management with version control and cross-platform execution. Positive testimonials on PeerPush and social media. Multiple user endorsements praising its simplicity and Chrome extension convenience.",
-      "ratingSummary": "No G2 or Capterra ratings yet. User testimonials on the site are positive \u2014 praised for solving prompt organization, version control, and cross-LLM portability. Called a \"must-have tool\" by early adopters on PeerPush.",
-      "freeTier": "Free plan includes up to 25 prompts \u2014 no credit card required; Pro plan from $5/mo for unlimited prompts",
+      "ratingSummary": "No G2 or Capterra ratings yet. User testimonials on the site are positive — praised for solving prompt organization, version control, and cross-LLM portability. Called a \"must-have tool\" by early adopters on PeerPush.",
+      "freeTier": "Free plan includes up to 25 prompts — no credit card required; Pro plan from $5/mo for unlimited prompts",
       "buzzSources": [
         {
           "platform": "PeerPush",
@@ -393,9 +393,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI resume writer and CV tailoring tool. Very limited public presence \u2014 site renders as a single-page app with minimal crawlable content. No significant Reddit, HN, or social media discussion found.",
+      "buzzSummary": "AI resume writer and CV tailoring tool. Very limited public presence — site renders as a single-page app with minimal crawlable content. No significant Reddit, HN, or social media discussion found.",
       "ratingSummary": "No reviews found on Product Hunt, G2, or other review platforms. Too new or too niche to have generated structured user feedback yet.",
-      "freeTier": "Unknown \u2014 site requires JavaScript to render pricing details",
+      "freeTier": "Unknown — site requires JavaScript to render pricing details",
       "buzzSources": [
         {
           "platform": "Homepage",
@@ -424,7 +424,7 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "No-code AI phone agent platform for small businesses and call centers. Positions itself as a quick-setup alternative to building custom telephony AI. Limited public buzz \u2014 no major Reddit threads or HN discussions found, but the product appears functional with a live demo.",
+      "buzzSummary": "No-code AI phone agent platform for small businesses and call centers. Positions itself as a quick-setup alternative to building custom telephony AI. Limited public buzz — no major Reddit threads or HN discussions found, but the product appears functional with a live demo.",
       "ratingSummary": "No structured reviews on G2, Product Hunt, or Capterra yet. The platform emphasizes GDPR compliance and 99.9% uptime SLA, but independent verification is lacking.",
       "freeTier": "No credit card required to start, 5-minute setup with live demo available",
       "buzzSources": [
@@ -520,7 +520,7 @@
       "reviewRating": null,
       "buzzSummary": "Listed on TAAFT as a quick business-planning AI. Very new with no Reddit, HN, or Twitter buzz found. Niche tool for aspiring founders who want rapid idea validation.",
       "ratingSummary": "No ratings on G2, Product Hunt, or Capterra. Too early-stage for independent reviews. Site claims 1000+ SaaS integrations but no third-party verification.",
-      "freeTier": "Freemium \u2014 free tier available with paid plans from $25/mo",
+      "freeTier": "Freemium — free tier available with paid plans from $25/mo",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -552,7 +552,7 @@
       "reviewRating": null,
       "buzzSummary": "Listed on TAAFT as a GEO/AEO (Generative Engine Optimization) tool. Emerging category with growing interest as AI search engines gain market share. No significant social media buzz yet.",
       "ratingSummary": "No structured ratings on G2, Product Hunt, or Capterra. JS-heavy site made independent verification difficult. Still early-stage in a nascent market category.",
-      "freeTier": "Freemium \u2014 free tier available with paid plans from $99/mo",
+      "freeTier": "Freemium — free tier available with paid plans from $99/mo",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -584,7 +584,7 @@
       "reviewRating": null,
       "buzzSummary": "Listed on TAAFT as an AI music generator. Competes in a crowded space (Suno, Udio, etc). Site is well-built with detailed feature pages. No notable Reddit or HN discussion found.",
       "ratingSummary": "No G2, Product Hunt, or Capterra ratings found. Site has detailed FAQ and transparent pricing tiers. Offers commercial rights on paid plans. Free tier lacks commercial licensing.",
-      "freeTier": "Yes \u2014 free tier available (no commercial rights); paid subscriptions from Basic to Pro, plus Pay As You Go credits with no expiration",
+      "freeTier": "Yes — free tier available (no commercial rights); paid subscriptions from Basic to Pro, plus Pay As You Go credits with no expiration",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -614,9 +614,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on TAAFT. Has real social proof \u2014 used by teams at Consent, Upstash, stagewise, and Stack Auth. Connects to GitHub, Linear, and Slack to auto-generate changelogs, blog posts, and social updates from shipped work.",
+      "buzzSummary": "Listed on TAAFT. Has real social proof — used by teams at Consent, Upstash, stagewise, and Stack Auth. Connects to GitHub, Linear, and Slack to auto-generate changelogs, blog posts, and social updates from shipped work.",
       "ratingSummary": "No G2 or Capterra ratings. Has a testimonial from Will De Ath (Head of Growth, Consent) praising the tool. Early-stage but with real enterprise users, which is promising.",
-      "freeTier": "Yes \u2014 free plan at $0/mo includes 2 team members and 15 AI credits; paid plans from $50/mo",
+      "freeTier": "Yes — free plan at $0/mo includes 2 team members and 15 AI credits; paid plans from $50/mo",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -654,7 +654,7 @@
       "reviewRating": null,
       "buzzSummary": "Listed on TAAFT as a local document search engine for AI agents. Niche developer tool supporting PDF, DOCX, HTML, Markdown. Targets the agentic AI workflow space. No Reddit/HN discussion found.",
       "ratingSummary": "No ratings on G2, Product Hunt, or Capterra. Very early-stage tool. Minimal web presence beyond the homepage. Positioned as free local-first software.",
-      "freeTier": "Yes \u2014 free download, no pricing tiers listed. Appears to be fully free local software",
+      "freeTier": "Yes — free download, no pricing tiers listed. Appears to be fully free local software",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -715,7 +715,7 @@
       "buzzScore": 40,
       "reviewRating": 4,
       "buzzSummary": "Growing buzz among Upwork freelancers. Featured on TAIFT. Telegram-based alerts with AI proposal generation fills a real pain point. User testimonials claim doubled response rates and faster first-client acquisition.",
-      "ratingSummary": "Early user testimonials are positive \u2014 freelancers report landing clients within 24 hours. AI proposals described as usable with minimal editing. War Room mode adds strategic depth. No major independent review sites yet.",
+      "ratingSummary": "Early user testimonials are positive — freelancers report landing clients within 24 hours. AI proposals described as usable with minimal editing. War Room mode adds strategic depth. No major independent review sites yet.",
       "freeTier": true,
       "buzzSources": [
         "https://theresanaiforthat.com/ai/outbid/",
@@ -807,7 +807,7 @@
       "trending": false,
       "buzzScore": 20,
       "reviewRating": 3.5,
-      "buzzSummary": "YouTube sentiment analysis tool in a niche category. Minimal web presence \u2014 site is largely a single-page app with limited crawlable content. Not yet listed on major AI directories beyond initial sources.",
+      "buzzSummary": "YouTube sentiment analysis tool in a niche category. Minimal web presence — site is largely a single-page app with limited crawlable content. Not yet listed on major AI directories beyond initial sources.",
       "ratingSummary": "Freemium model from $12/mo. Concept is compelling for YouTubers and marketers but very few independent reviews available. Too early to assess user satisfaction reliably.",
       "freeTier": true,
       "buzzSources": [
@@ -836,9 +836,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on TAAFT and Product Hunt as an AI stock monitoring tool. Niche product for retail investors \u2014 limited broader buzz on HN or Reddit. Has mobile apps on iOS and Android.",
+      "buzzSummary": "Listed on TAAFT and Product Hunt as an AI stock monitoring tool. Niche product for retail investors — limited broader buzz on HN or Reddit. Has mobile apps on iOS and Android.",
       "ratingSummary": "Featured on Product Hunt with a top-post badge. No structured G2 or Capterra ratings found. TAAFT listing shows it as a solo-dev product from Slovenia with 89+ AI features claimed.",
-      "freeTier": "Free tier available (Freemium model) \u2014 paid plans from $11.90/mo",
+      "freeTier": "Free tier available (Freemium model) — paid plans from $11.90/mo",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -876,14 +876,14 @@
       "buzzScore": null,
       "reviewRating": null,
       "buzzSummary": "Major HN buzz with 741 points and 179 comments. First open-source code agent designed for Lean 4 formal proofs, released by Mistral AI under Apache 2.0. Discussion centered on formal verification potential and whether it can shift coding from debugging to specification.",
-      "ratingSummary": "No structured ratings on G2 or Product Hunt. HN comments are enthusiastic about the formal proof angle but note it is early-stage and niche \u2014 useful primarily for Lean 4 practitioners and math proof engineering rather than general coding.",
-      "freeTier": "Completely free \u2014 open-source (Apache 2.0), free API endpoint, and available in Mistral Vibe",
+      "ratingSummary": "No structured ratings on G2 or Product Hunt. HN comments are enthusiastic about the formal proof angle but note it is early-stage and niche — useful primarily for Lean 4 practitioners and math proof engineering rather than general coding.",
+      "freeTier": "Completely free — open-source (Apache 2.0), free API endpoint, and available in Mistral Vibe",
       "buzzSources": [
         {
           "platform": "HN",
           "mentions": 1,
           "sentiment": "positive",
-          "detail": "741 points, 179 comments \u2014 front page"
+          "detail": "741 points, 179 comments — front page"
         },
         {
           "platform": "Mistral",
@@ -914,9 +914,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Strong HN traction with 133 points and 121 comments on their blog post about MCP context window bloat. Sparked debate between MCP maintainers and CLI advocates about the best agent-tool interface pattern. The core argument \u2014 CLI uses 4-32x fewer tokens than MCP for identical tasks \u2014 resonated widely.",
-      "ratingSummary": "No standalone ratings for the CLI tool specifically. Apideck as a platform has enterprise traction (unified API for accounting integrations). HN discussion was mixed \u2014 MCP maintainers pushed back on the framing, but developers appreciated the practical token savings data.",
-      "freeTier": "Free trial available for the Apideck platform \u2014 CLI tool itself is open for use with Apideck accounts",
+      "buzzSummary": "Strong HN traction with 133 points and 121 comments on their blog post about MCP context window bloat. Sparked debate between MCP maintainers and CLI advocates about the best agent-tool interface pattern. The core argument — CLI uses 4-32x fewer tokens than MCP for identical tasks — resonated widely.",
+      "ratingSummary": "No standalone ratings for the CLI tool specifically. Apideck as a platform has enterprise traction (unified API for accounting integrations). HN discussion was mixed — MCP maintainers pushed back on the framing, but developers appreciated the practical token savings data.",
+      "freeTier": "Free trial available for the Apideck platform — CLI tool itself is open for use with Apideck accounts",
       "buzzSources": [
         {
           "platform": "HN",
@@ -953,9 +953,9 @@
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Show HN hit with 296 points and 191 comments \u2014 strong engagement for an open-source game dev tool. 901 GitHub stars. The creator spent a year and four major rewrites building a pipeline that turns text prompts into complete Godot 4 projects with AI-generated art, code, and visual QA. Discussion focused on the impressive demo videos and practical GDScript challenges.",
-      "ratingSummary": "No structured ratings on review platforms. GitHub community response is positive \u2014 901 stars and 61 forks in about 6 weeks. HN commenters praised the engineering depth (custom GDScript reference, visual QA loop) but noted it requires Claude Code + Gemini API keys, making it developer-oriented rather than consumer-ready.",
-      "freeTier": "Completely free and open-source \u2014 requires your own Claude Code and Gemini API keys",
+      "buzzSummary": "Show HN hit with 296 points and 191 comments — strong engagement for an open-source game dev tool. 901 GitHub stars. The creator spent a year and four major rewrites building a pipeline that turns text prompts into complete Godot 4 projects with AI-generated art, code, and visual QA. Discussion focused on the impressive demo videos and practical GDScript challenges.",
+      "ratingSummary": "No structured ratings on review platforms. GitHub community response is positive — 901 stars and 61 forks in about 6 weeks. HN commenters praised the engineering depth (custom GDScript reference, visual QA loop) but noted it requires Claude Code + Gemini API keys, making it developer-oriented rather than consumer-ready.",
+      "freeTier": "Completely free and open-source — requires your own Claude Code and Gemini API keys",
       "buzzSources": [
         {
           "platform": "HN",
@@ -987,10 +987,21 @@
         "https://futuretools.io"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:52:14.129Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Minimal presence online. GitHub profile returns 404; no significant community discussion, Reddit threads, or Product Hunt listings found.",
+      "ratingSummary": "No user reviews found on any platform. Tool appears to be very early-stage or inactive with no public feedback.",
+      "freeTier": "Fully free and open source",
+      "buzzSources": [
+        {
+          "platform": "GitHub",
+          "detail": "Profile page returns 404",
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Midjourney v8 Alpha",
@@ -1006,13 +1017,45 @@
       ],
       "pricing": "From $10/mo",
       "dateAdded": "2026-03-17T22:30:00.875Z",
-      "dateUpdated": "2026-03-17T22:30:00.875Z",
+      "dateUpdated": "2026-03-18T01:52:24.883Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 92,
-      "reviewRating": 4.5
+      "reviewRating": 4.5,
+      "buzzSummary": "Massive buzz around v8 Alpha launch. Widely discussed on Reddit r/midjourney and HN for improved prompt adherence, better aesthetics, and 5x faster generation. One of the most anticipated image gen updates.",
+      "ratingSummary": "Highly rated by creative professionals. Praised for photorealism and artistic quality improvements in v8. Some criticism around closed-source nature and Discord-only access being limiting.",
+      "freeTier": "Limited free trial for new accounts (approx 25 generations)",
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 200,
+          "sentiment": "positive"
+        },
+        {
+          "platform": "HN",
+          "detail": "Multiple front page threads on v8 launch",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Twitter/X",
+          "mentions": 500,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "G2",
+          "rating": 4.4,
+          "reviewCount": 120
+        },
+        {
+          "platform": "Product Hunt",
+          "rating": 4.6,
+          "reviewCount": 300
+        }
+      ]
     },
     {
       "name": "Unsloth Studio",
@@ -1028,7 +1071,7 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:02.350Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T01:52:35.353Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com",
@@ -1036,7 +1079,38 @@
       ],
       "buzzScore": 82,
       "reviewRating": 4,
-      "buzzSummary": "Front page HN (Mar 17). Growing interest in local fine-tuning."
+      "buzzSummary": "Front page HN (Mar 17). Growing interest in local fine-tuning. Studio app praised for no-code training, model arena, and data recipes. Strong open-source community on GitHub with 20k+ stars.",
+      "ratingSummary": "Highly regarded in ML community for 2x training speed gains. Users praise the free Colab notebooks and Apache license. Desktop app (Mac/Windows) praised for offline inference and side-by-side model comparison.",
+      "freeTier": "Fully free open-source version for Google Colab/Kaggle. Desktop Studio app free for inference; training features available locally.",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Front page Mar 17, 150+ comments",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "GitHub",
+          "mentions": 20000,
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Reddit",
+          "detail": "Regular posts in r/LocalLLaMA",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "GitHub",
+          "rating": 4.8,
+          "reviewCount": 20000
+        },
+        {
+          "platform": "Reddit",
+          "rating": 4.5,
+          "reviewCount": 50
+        }
+      ]
     },
     {
       "name": "comma openpilot",
@@ -1050,13 +1124,45 @@
       ],
       "pricing": "Free (hardware required)",
       "dateAdded": "2026-03-17T22:30:03.835Z",
-      "dateUpdated": "2026-03-17T22:30:03.835Z",
+      "dateUpdated": "2026-03-18T01:52:46.523Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 45,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "Steady niche following in self-driving and car enthusiast communities. 300M+ miles driven, 20k+ active users. comma four hardware device actively sold. Regular discussion on r/comma_ai and HN.",
+      "ratingSummary": "Users praise the dramatic improvement over stock ADAS. Lane centering and adaptive cruise rated highly. Criticism around limited car compatibility for some brands and learning curve for installation. Hardware cost (~$999 for comma four) seen as reasonable by enthusiasts.",
+      "freeTier": "Software is fully free and open source. Requires comma hardware device (~$999) or DIY setup with compatible phone.",
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "detail": "Active r/comma_ai community",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "HN",
+          "detail": "Periodic threads on comma.ai progress",
+          "sentiment": "mixed"
+        },
+        {
+          "platform": "GitHub",
+          "mentions": 5000,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Reddit",
+          "rating": 4,
+          "reviewCount": 200
+        },
+        {
+          "platform": "GitHub",
+          "rating": 4.2,
+          "reviewCount": 5000
+        }
+      ]
     },
     {
       "name": "Unblur Image.io",
@@ -1070,13 +1176,30 @@
       ],
       "pricing": "Free + from $9.9/mo",
       "dateAdded": "2026-03-17T22:30:05.349Z",
-      "dateUpdated": "2026-03-17T22:30:05.349Z",
+      "dateUpdated": "2026-03-18T01:52:56.410Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 30,
-      "reviewRating": 3.5
+      "reviewRating": 3.5,
+      "buzzSummary": "Small-scale AI image enhancement tool. Uses Real-ESRGAN under the hood. Limited online discussion; primarily found through SEO/search. Not widely discussed on major tech forums.",
+      "ratingSummary": "Functional for basic image deblurring. Before/after comparisons show decent results for upscaling and artifact removal. Limited reviews available; niche tool without broad community feedback.",
+      "freeTier": "5 free credits for new users after signup (up to 5 images)",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Listed but minimal engagement",
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 10
+        }
+      ]
     },
     {
       "name": "AI Humanizer.io",
@@ -1476,7 +1599,7 @@
       "name": "ShakespeareAI",
       "url": "https://shakespeareai.braintastic.ca",
       "category": "Writing",
-      "description": "Generate professional books with AI \u2014 write, design covers, narrate audiobooks, and publish to Amazon KDP.",
+      "description": "Generate professional books with AI — write, design covers, narrate audiobooks, and publish to Amazon KDP.",
       "features": [
         "25+ AI models",
         "AI audiobook generation",
@@ -1917,7 +2040,7 @@
       "description": "",
       "features": [],
       "pricing": "Unknown",
-      "freeTier": "No free tier details publicly available yet \u2014 early-stage product",
+      "freeTier": "No free tier details publicly available yet — early-stage product",
       "dateAdded": "2026-03-18T01:43:27.895Z",
       "dateUpdated": "2026-03-18T01:43:27.895Z",
       "trending": false,
@@ -1939,8 +2062,8 @@
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Launch HN post (YC W26) with 75 points and 60 comments. Positioned as a better maps/place-intelligence API for AI agents \u2014 goes beyond Google Maps static data to provide queryable, enriched location profiles with fresh web context. Discussion focused on differentiation from Google Places API.",
-      "ratingSummary": "No structured ratings yet \u2014 very early-stage YC W26 startup. HN commenters showed interest in the enriched place data concept but questioned pricing and whether it can compete with Google Maps at scale."
+      "buzzSummary": "Launch HN post (YC W26) with 75 points and 60 comments. Positioned as a better maps/place-intelligence API for AI agents — goes beyond Google Maps static data to provide queryable, enriched location profiles with fresh web context. Discussion focused on differentiation from Google Places API.",
+      "ratingSummary": "No structured ratings yet — very early-stage YC W26 startup. HN commenters showed interest in the enriched place data concept but questioned pricing and whether it can compete with Google Maps at scale."
     }
   ]
 }
