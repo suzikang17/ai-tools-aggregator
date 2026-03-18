@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T00:52:46.466Z",
+    "lastUpdated": "2026-03-18T01:02:50.059Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -185,11 +185,28 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T01:02:11.576Z",
       "trending": false,
       "buzzScore": 50,
       "reviewRating": null,
-      "buzzSummary": "Featured on Product Hunt (Mar 17). Desktop automation agent."
+      "buzzSummary": "Featured on Product Hunt (Mar 17). Desktop automation agent from Manus that manages local files, executes commands, and works across devices. Listed on TAAFT as computer management AI.",
+      "ratingSummary": "No independent reviews found yet. Very new product (Mar 2026 launch). No ratings on G2, Capterra, or Product Hunt for this specific desktop feature.",
+      "freeTier": "Unknown — Manus platform access required; desktop feature availability depends on Manus account tier",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured launch Mar 17, 2026"
+        },
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI that manages your computer and automates workflows"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Knowlify",
@@ -206,10 +223,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:02:24.632Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Listed on Product Hunt as an AI animated explainer video generator for companies and professionals. Minimal public buzz — no Reddit or HN threads found. Niche B2B tool for creating animated explainer content.",
+      "ratingSummary": "No structured ratings on G2, Capterra, or Product Hunt yet. Too new for independent reviews. Site mentions it is for companies and professionals but lacks user testimonials.",
+      "freeTier": "Freemium — free tier available with limited features; paid plans from $5/mo",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI animated explainer video generator"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Piqo AI",
@@ -226,10 +255,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:02:33.129Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "AI-powered business assistant operating via WhatsApp, Slack, and Telegram. Claims 95%+ AI accuracy with GPT-4o and Whisper integration. Targets small business expense tracking and document management. No significant Reddit or HN buzz found.",
+      "ratingSummary": "No ratings on G2, Capterra, or Product Hunt. Site highlights GDPR compliance, 256-bit AES encryption, and multi-channel support. No independent reviews found yet — too new for established review platforms.",
+      "freeTier": "Free tier available — no credit card required, basic features with 10-second setup",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI business assistant"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Termzy AI",
@@ -246,10 +287,22 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:02:40.611Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Chrome extension that analyzes privacy policies and T&Cs using AI. Scores documents on 4 indicators: protection, compliance, transparency, and balance. All processing happens locally in the browser. No Reddit or HN buzz found — very niche privacy tool.",
+      "ratingSummary": "No ratings on G2, Product Hunt, or Chrome Web Store reviews found. Unique value proposition with local-only processing for privacy-conscious users, but too new for independent reviews.",
+      "freeTier": "Freemium — free tier available with basic policy scanning; paid plans from $3.40",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI privacy policy analyzer"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "SpacePrompts",
@@ -266,10 +319,28 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:02:50.057Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Chrome extension and web app for AI prompt management with version control and cross-platform execution. Positive testimonials on PeerPush and social media. Multiple user endorsements praising its simplicity and Chrome extension convenience.",
+      "ratingSummary": "No G2 or Capterra ratings yet. User testimonials on the site are positive — praised for solving prompt organization, version control, and cross-LLM portability. Called a \"must-have tool\" by early adopters on PeerPush.",
+      "freeTier": "Free plan includes up to 25 prompts — no credit card required; Pro plan from $5/mo for unlimited prompts",
+      "buzzSources": [
+        {
+          "platform": "PeerPush",
+          "mentions": 3,
+          "sentiment": "positive",
+          "detail": "Multiple endorsements calling it best product on the platform"
+        },
+        {
+          "platform": "Twitter/X",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "User testimonials praising Chrome extension"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Komos",
