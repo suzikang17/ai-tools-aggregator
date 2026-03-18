@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T02:26:01.344Z",
+    "lastUpdated": "2026-03-18T02:35:33.057Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -1765,13 +1765,37 @@
       ],
       "pricing": "Free + from $19/mo",
       "dateAdded": "2026-03-17T22:30:29.480Z",
-      "dateUpdated": "2026-03-17T22:30:29.480Z",
+      "dateUpdated": "2026-03-18T02:34:54.083Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 40,
-      "reviewRating": 4
+      "reviewRating": 4,
+      "buzzSummary": "Listed on TAAFT as AI video/education platform. Used by ServiceNow, BuildOps, SpotDraft, and WebEngage — case studies highlight 50% video production time reduction and 1000+ certified users. Niche SaaS customer education tool with enterprise traction.",
+      "ratingSummary": "No G2 or Product Hunt structured ratings accessible. Customer case studies are strongly positive — praise scalability and speed (100+ videos in 45 days). Independent reviews scarce; most validation comes from named enterprise clients.",
+      "freeTier": "Free plan available (limited features), paid plans from $19/mo",
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI video/education platform"
+        },
+        {
+          "platform": "Website",
+          "mentions": 5,
+          "sentiment": "positive",
+          "detail": "Case studies from ServiceNow, BuildOps, SpotDraft, WebEngage, Neutrinos"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Website testimonials",
+          "rating": 4.5,
+          "reviewCount": 5
+        }
+      ]
     },
     {
       "name": "Get Shit Done (GSD)",
@@ -1786,14 +1810,37 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:31.084Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T02:35:06.236Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com"
       ],
       "buzzScore": 65,
       "reviewRating": null,
-      "buzzSummary": "Front page HN (Mar 17). Meta-prompting + spec-driven dev system gaining traction."
+      "buzzSummary": "Front page HN (Mar 17). Meta-prompting + spec-driven dev system gaining traction.",
+      "ratingSummary": "No formal ratings on G2 or Product Hunt. GitHub users praise it as the best spec-driven dev tool — quotes like \"most powerful addition to my Claude Code\" and \"produced the best results\" over competitors like SpecKit and Taskmaster. Trusted by engineers at Amazon, Google, Shopify, and Webflow.",
+      "freeTier": "Completely free and open source (MIT license). Install via npx get-shit-done-cc@latest",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Front page Mar 17, meta-prompting for Claude Code"
+        },
+        {
+          "platform": "GitHub",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Active repo with Discord community, testimonials from enterprise engineers"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "GitHub",
+          "rating": 4.5,
+          "reviewCount": 3
+        }
+      ]
     },
     {
       "name": "Antfly",
@@ -1809,13 +1856,31 @@
       ],
       "pricing": "Free",
       "dateAdded": "2026-03-17T22:30:32.615Z",
-      "dateUpdated": "2026-03-17T22:30:32.615Z",
+      "dateUpdated": "2026-03-18T02:35:17.291Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com"
       ],
       "buzzScore": 40,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Open-source distributed search engine combining BM25, vector similarity, and graph traversal over multimodal data. Has a polished website (antfly.io) with managed cloud waitlist. Early-stage but technically ambitious — Raft consensus, ACID transactions, built-in RAG agents, and SIMD acceleration.",
+      "ratingSummary": "No structured ratings on G2, Product Hunt, or review sites. Too new for independent reviews. Technical documentation is thorough and the quickstart experience is polished (Docker one-liner), suggesting engineering quality.",
+      "freeTier": "Self-hosted is completely free and open source. Managed cloud has $20 free credits/month with usage-based pricing",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed on HN, limited discussion"
+        },
+        {
+          "platform": "GitHub",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Active repo with documentation site at antfly.io"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Kita",
@@ -1829,14 +1894,25 @@
       ],
       "pricing": "Enterprise",
       "dateAdded": "2026-03-17T22:30:34.126Z",
-      "dateUpdated": "2026-03-18T00:10:04.730Z",
+      "dateUpdated": "2026-03-18T02:35:24.568Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com"
       ],
       "buzzScore": 45,
       "reviewRating": null,
-      "buzzSummary": "Launch HN (YC W26, Mar 17). Automate credit review in emerging markets."
+      "buzzSummary": "Launch HN (YC W26, Mar 17). Automate credit review in emerging markets.",
+      "ratingSummary": "No ratings available — YC W26 batch company still in early launch. Domain kita.ai currently parked/redirecting, suggesting the product may be pre-public or pivoting. No independent reviews found.",
+      "freeTier": "No free tier — enterprise/B2B product for financial institutions in emerging markets",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Launch HN post, YC W26 batch, Mar 17"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "ShakespeareAI",
@@ -1852,15 +1928,25 @@
       ],
       "pricing": "Free + from $9.99/mo",
       "dateAdded": "2026-03-17T23:22:32.243Z",
-      "dateUpdated": "2026-03-17T23:22:32.243Z",
+      "dateUpdated": "2026-03-18T02:35:33.055Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 45,
       "reviewRating": 4.5,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI book writer and novel generator"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Listed on TAAFT as AI book writer and novel generator. Niche tool for self-publishing — supports 25+ AI models, audiobook narration, cover design, and one-click Amazon KDP publishing. Very limited public buzz; no Reddit, HN, or social media discussions found.",
+      "ratingSummary": "No structured ratings on G2, Product Hunt, or major review sites. Site claims 4.5-star rating but source unclear. Extremely niche tool targeting self-publishers — too small for mainstream review platforms.",
+      "freeTier": "Free tier available with limited features; paid plans from $9.99/mo"
     },
     {
       "name": "remio",
