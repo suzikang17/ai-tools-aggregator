@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T02:35:33.057Z",
+    "lastUpdated": "2026-03-18T02:45:41.677Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -1962,15 +1962,38 @@
       ],
       "pricing": "Free + from $8.25/mo",
       "dateAdded": "2026-03-17T23:22:34.437Z",
-      "dateUpdated": "2026-03-17T23:22:34.437Z",
+      "dateUpdated": "2026-03-18T02:45:01.598Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 42,
       "reviewRating": 4.2,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Top post badge for remio 2.0 launch"
+        },
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI assistant"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.5,
+          "reviewCount": 1,
+          "detail": "Top post badge indicates strong launch reception"
+        }
+      ],
+      "buzzSummary": "Product Hunt top post badge for v2.0. macOS/Windows/iOS/Android app that silently captures files, meetings, emails, and web content to build a personal knowledge base. Spring 2026 sale suggests active development. Use cases span PMs, engineers, sales, marketing, HR, and students.",
+      "ratingSummary": "Product Hunt featured (top post badge). No G2 or Capterra ratings found. The platform is well-built with detailed use case pages and a prompt library. Targets knowledge workers who want a personal AI trained on their own data.",
+      "freeTier": "Free tier available with unlimited local recording and transcription; paid plans from $8.25/mo (annual)"
     },
     {
       "name": "MicroClipz",
@@ -1985,15 +2008,25 @@
       ],
       "pricing": "From $25",
       "dateAdded": "2026-03-17T23:22:36.721Z",
-      "dateUpdated": "2026-03-17T23:22:36.721Z",
+      "dateUpdated": "2026-03-18T02:45:09.994Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 35,
       "reviewRating": 3,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI video generation tool with 1 karma"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Listed on TAAFT as AI video generation studio. Credit-based system for rendering. Supports image-to-video animation and video-to-video style transfer. Upcoming Seedance 2.0 feature. Very early-stage with minimal web presence — homepage is a bare SPA.",
+      "ratingSummary": "No ratings on G2, Product Hunt, or review sites. TAAFT listing has 1 karma, indicating very low traction. The tool is too new for meaningful user feedback. Credit-based pricing from $25 is premium for the niche.",
+      "freeTier": "No free tier found — credit-based system starting from $25"
     },
     {
       "name": "VoooAI",
@@ -2007,15 +2040,25 @@
       ],
       "pricing": "Free + from $20/mo",
       "dateAdded": "2026-03-17T23:22:38.932Z",
-      "dateUpdated": "2026-03-17T23:22:38.932Z",
+      "dateUpdated": "2026-03-18T02:45:19.753Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 40,
       "reviewRating": 4,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as NL2Workflow multimedia platform with 1 karma"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Listed on TAAFT with 1 karma. Positions itself as the first NL2Workflow (natural language to workflow) multimedia platform. Users describe creative tasks in plain language and AI builds multimodal workflows automatically. Eliminates the need for node-based workflow editors. No Reddit or HN discussion found.",
+      "ratingSummary": "No structured ratings on any review platform. TAAFT listing shows beginner status (1 karma, joined Nov 2025). Concept is interesting — vibe-based workflow generation — but too early for independent reviews.",
+      "freeTier": "Free tier available with basic features; paid plans from $20/mo"
     },
     {
       "name": "Wispr Flow",
@@ -2030,15 +2073,31 @@
       ],
       "pricing": "Free + from $12/mo",
       "dateAdded": "2026-03-17T23:22:43.396Z",
-      "dateUpdated": "2026-03-17T23:22:43.396Z",
+      "dateUpdated": "2026-03-18T02:45:30.529Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 55,
       "reviewRating": 4,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as voice dictation tool"
+        },
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims used by professionals everywhere with 9+ profession-specific pages"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Well-funded voice dictation tool with cross-platform support (Mac, Windows, iPhone, Android). Claims 4x faster than typing (220 wpm vs 45 wpm). Used by professionals across sales, legal, dev, and support. HIPAA-ready with SOC 2 Type II for enterprise. 100+ language support. Student discounts available.",
+      "ratingSummary": "No G2 or Capterra ratings found. Professional-grade positioning with enterprise features (SOC 2, HIPAA, SSO). The product has a polished landing page with detailed use case pages for 9+ professions. Likely has strong user base given the enterprise compliance investments.",
+      "freeTier": "Free Basic plan: 2,000 words/week on Mac/Windows, 1,000 words/week on iPhone, custom dictionary, 100+ languages, privacy mode, HIPAA-ready. 14-day Pro trial included."
     },
     {
       "name": "Automateed",
@@ -2053,15 +2112,38 @@
       ],
       "pricing": "Free + from $11.25/mo",
       "dateAdded": "2026-03-17T23:22:45.716Z",
-      "dateUpdated": "2026-03-17T23:22:45.716Z",
+      "dateUpdated": "2026-03-18T02:45:41.675Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": 50,
       "reviewRating": 4.5,
-      "buzzSources": [],
-      "ratingSources": []
+      "buzzSources": [
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims 1,403 reviews at 4.9 stars"
+        },
+        {
+          "platform": "TAAFT",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI eBook generator"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Website",
+          "rating": 4.9,
+          "reviewCount": 1403,
+          "detail": "Self-reported rating on homepage"
+        }
+      ],
+      "buzzSummary": "AI eBook creation platform with strong social proof — claims 4.9 stars from 1,403 reviews. Generates 150+ page books with AI-designed covers, images, and ready-to-publish PDFs. Supports 8 book types: eBooks, novels, storybooks, coloring books, journals, cookbooks, workbooks, and puzzle books. One-click translation to 100+ languages.",
+      "ratingSummary": "Claims 4.9/5 from 1,403 reviews on-site (source unverified). Feature set is comprehensive — cover templates, PDF templates, illustration books, chapter editing, multi-format export. Competes with ShakespeareAI in the AI book generation niche but appears more polished.",
+      "freeTier": "Free short e-book sample available — no credit card required. Full plans from $11.25/mo."
     },
     {
       "name": "illumi",
