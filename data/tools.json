@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T03:06:27.329Z",
-    "totalTools": 75,
+    "lastUpdated": "2026-03-18T17:07:51.425Z",
+    "totalTools": 82,
     "trendingCount": 2
   },
   "tools": [
@@ -2328,35 +2328,29 @@
       ],
       "pricing": "Enterprise",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T03:05:41.101Z",
+      "dateUpdated": "2026-03-18T17:07:25.713Z",
       "trending": true,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
-        "https://news.ycombinator.com/item?id=47418295"
+        "https://mistral.ai/news/forge"
       ],
-      "buzzScore": 75,
+      "buzzScore": 82,
       "reviewRating": null,
-      "buzzSummary": "Launched at NVIDIA GTC. TechCrunch exclusive + HN front page (Mar 17). Takes on OpenAI/Anthropic in enterprise.",
-      "ratingSummary": "Too new for structured reviews — launched at GTC Mar 17. Enterprise-only so no public G2/Product Hunt ratings yet. Early partner testimonials (ASML, ESA, Ericsson) suggest strong domain performance but no independent benchmarks available.",
+      "buzzSummary": "Major launch at NVIDIA GTC, covered by TechCrunch exclusive and HN front page on March 17-18, 2026. Positioned as Mistral's enterprise play against OpenAI and Anthropic — lets companies train custom AI models from scratch on their own data rather than fine-tuning. Continued strong coverage across tech media.",
+      "ratingSummary": "Enterprise-focused so limited consumer reviews. TechCrunch coverage highlights the bold build-your-own approach as differentiated from fine-tuning rivals. Developers on HN are cautiously optimistic but want to see real benchmarks vs. fine-tuned GPT/Claude.",
       "freeTier": "No free tier — enterprise sales only with custom pricing",
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "mentions": 1,
+          "mentions": 2,
           "sentiment": "positive",
-          "detail": "Exclusive launch coverage at GTC"
+          "detail": "Exclusive launch coverage + GTC tie-in"
         },
         {
           "platform": "HN",
           "mentions": 1,
           "sentiment": "positive",
-          "detail": "Front page Mar 17"
-        },
-        {
-          "platform": "NVIDIA GTC",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Announced at GTC keynote"
+          "detail": "Front page discussion"
         }
       ],
       "ratingSources": []
@@ -2472,31 +2466,36 @@
       ],
       "pricing": "Free (with Google account)",
       "dateAdded": "2026-03-18T00:10:04.730Z",
-      "dateUpdated": "2026-03-18T03:06:27.327Z",
+      "dateUpdated": "2026-03-18T17:07:51.423Z",
       "trending": true,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/"
       ],
-      "buzzScore": 70,
+      "buzzScore": 78,
       "reviewRating": null,
-      "buzzSummary": "Expanding to all US users (Mar 17). TechCrunch coverage. Major Google AI push.",
-      "ratingSummary": "Part of Gemini ecosystem — Gemini overall has mixed reviews (praised for Google integration, criticized for hallucinations). Personal Intelligence feature is too new for standalone reviews. Expanding to all US users as of Mar 17.",
+      "buzzSummary": "TechCrunch coverage on March 17, 2026 — expanding to all US users. Now lets Google's AI assistant access Gmail, Google Photos, and other ecosystem apps for personalized responses. Big move in the personal AI assistant space, directly competing with Apple Intelligence.",
+      "ratingSummary": "Mixed early reception. Users appreciate the convenience of having AI access their Google data for tailored answers. Privacy concerns remain a major discussion point on Reddit and HN. Power users find it useful; privacy advocates are wary.",
       "freeTier": "Free for all Google users — integrated into Gemini app at no extra cost",
       "buzzSources": [
         {
           "platform": "TechCrunch",
           "mentions": 1,
           "sentiment": "positive",
-          "detail": "Coverage of US-wide rollout Mar 17"
+          "detail": "US-wide rollout coverage"
         },
         {
-          "platform": "Google Blog",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Official announcement"
+          "platform": "Reddit",
+          "mentions": 2,
+          "sentiment": "mixed"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Reddit sentiment",
+          "rating": 3.5,
+          "reviewCount": 20
+        }
+      ]
     },
     {
       "name": "mTarsier (MCP360)",
@@ -2511,7 +2510,20 @@
         "open-source",
         "developer-tools",
         "infrastructure"
-      ]
+      ],
+      "buzzSummary": "Launched on Product Hunt as an open-source MCP server management platform. Very early stage with minimal public buzz — no Reddit threads, HN discussions, or blog coverage found. Niche developer tool for the emerging MCP ecosystem.",
+      "ratingSummary": "No ratings on G2, Product Hunt reviews, or other platforms yet. Too new for independent reviews. Homepage could not be located outside of Product Hunt listing.",
+      "freeTier": "Open-source (free) — no paid tiers found",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as MCP server management tool"
+        }
+      ],
+      "ratingSources": [],
+      "dateUpdated": "2026-03-18T03:15:27.269Z"
     },
     {
       "name": "Kipps.AI",
@@ -2526,7 +2538,26 @@
         "lead-qualification",
         "outreach",
         "automation"
-      ]
+      ],
+      "buzzSummary": "Enterprise AI agent platform for voice, chat, and WhatsApp automation. Claims 50+ enterprise clients and 10M+ conversations. Listed on Product Hunt. Targets sales, healthcare, hospitality, and EdTech verticals. SOC 2 Type II and ISO 27001 compliant.",
+      "ratingSummary": "No independent reviews on G2 or Capterra yet. Website claims 50+ enterprise clients with 99.9% uptime and 50ms response times, but no third-party validation found.",
+      "freeTier": "No free tier mentioned — enterprise-focused with custom pricing, demo booking available",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI agent platform for businesses"
+        },
+        {
+          "platform": "Website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Claims 50+ enterprise clients, 10M+ conversations"
+        }
+      ],
+      "ratingSources": [],
+      "dateUpdated": "2026-03-18T03:15:37.688Z"
     },
     {
       "name": "Codex Subagents (OpenAI)",
@@ -2541,7 +2572,37 @@
         "openai",
         "parallel-execution",
         "coding"
-      ]
+      ],
+      "buzzSummary": "Part of OpenAI Codex, a major AI coding platform. Subagents feature enables parallel multi-agent workflows for complex coding tasks. Codex itself has strong industry adoption — endorsed by engineers at Ramp, Duolingo, Cisco Meraki, Harvey, and Sierra. Available on Free tier and up.",
+      "ratingSummary": "Codex has strong testimonials: Duolingo calls it best at catching backend bugs, Ramp says it catches bugs their team would miss, Harvey reports 30-50% reduction in early iteration time. No standalone rating for subagents feature, but Codex overall is well-regarded among developers.",
+      "freeTier": "Yes — Codex available on Free and Go plans, with 2x rate limits on paid plans (limited time)",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Listed under OpenAI products"
+        },
+        {
+          "platform": "OpenAI website",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured testimonials from Ramp, Duolingo, Harvey, Sierra, Cisco Meraki"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Duolingo",
+          "rating": null,
+          "detail": "Best in backend Python code-review benchmark"
+        },
+        {
+          "platform": "Ramp",
+          "rating": null,
+          "detail": "Step change in development, catches bugs team would miss"
+        }
+      ],
+      "dateUpdated": "2026-03-18T03:15:50.729Z"
     },
     {
       "name": "discli",
@@ -2556,7 +2617,20 @@
         "cli",
         "agents",
         "developer-tools"
-      ]
+      ],
+      "buzzSummary": "Discord CLI tool for AI agents and humans. Listed on Product Hunt. Very early stage — no GitHub repo found, no blog coverage, Reddit threads, or HN discussions. Niche tool targeting developers who want CLI-based Discord interaction for AI workflows.",
+      "ratingSummary": "No reviews or ratings found on any platform. Too new and niche for independent coverage. Product Hunt listing is the only public presence found.",
+      "freeTier": "Unknown — no pricing information found on any accessible page",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as Discord CLI for AI agents"
+        }
+      ],
+      "ratingSources": [],
+      "dateUpdated": "2026-03-18T03:15:59.014Z"
     },
     {
       "name": "Lightning Rod",
@@ -2571,7 +2645,38 @@
         "ml",
         "datasets",
         "data-generation"
-      ]
+      ],
+      "buzzSummary": "Training data generation platform that turns messy real-world data into verified datasets without hand-labeling. Notable credibility: their Foresight-32B model ranked #1 on UChicago ProphetArena Sports leaderboard (Feb 2026), beating GPT-5.2 and Gemini 3 Pro. Top 5 on ForecastBench. Trusted by enterprise, government, and startups.",
+      "ratingSummary": "No G2 or Capterra ratings. Strong academic validation — peer-reviewed research, top benchmark rankings. Website testimonials reference enterprise and government clients but no named references publicly visible. Python SDK available.",
+      "freeTier": "No free tier mentioned — API-based with SDK, likely enterprise/custom pricing",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as training data generator"
+        },
+        {
+          "platform": "UChicago Leaderboard",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Foresight-32B ranked #1 on ProphetArena Sports, Feb 2026"
+        },
+        {
+          "platform": "ForecastBench",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Top 5, beating Gemini 3 Pro, Claude Sonnet 4.5, o3"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Academic",
+          "rating": null,
+          "detail": "Peer-reviewed research on Future-as-Label methodology"
+        }
+      ],
+      "dateUpdated": "2026-03-18T03:16:13.539Z"
     },
     {
       "name": "Voygr",
@@ -2604,6 +2709,271 @@
       "ratingSources": [],
       "buzzSummary": "Launch HN post (YC W26) with 75 points and 60 comments. Positioned as a better maps/place-intelligence API for AI agents — goes beyond Google Maps static data to provide queryable, enriched location profiles with fresh web context. Discussion focused on differentiation from Google Places API.",
       "ratingSummary": "No structured ratings yet — very early-stage YC W26 startup. HN commenters showed interest in the enriched place data concept but questioned pricing and whether it can compete with Google Maps at scale."
+    },
+    {
+      "name": "Eragon",
+      "url": "https://www.eragon.ai/",
+      "category": "Agents",
+      "description": "AI operating system that replaces enterprise software (Salesforce, Jira, Snowflake) with a natural language prompt interface",
+      "features": [
+        "prompt-based enterprise software",
+        "custom model training on company data",
+        "agentic workflows",
+        "dashboard generation",
+        "automatic invoice processing",
+        "on-premise deployment"
+      ],
+      "pricing": "Enterprise",
+      "freeTier": "Limited startup tier available",
+      "dateAdded": "2026-03-18T17:06:19.398Z",
+      "dateUpdated": "2026-03-18T17:06:19.398Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/"
+      ],
+      "buzzScore": 68,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Exclusive feature article about $12M seed round"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Customer testimonial",
+          "rating": 4.5,
+          "reviewCount": 1
+        }
+      ],
+      "buzzSummary": "TechCrunch exclusive coverage on March 18, 2026 about $12M seed raise at $100M valuation. Corgi CEO called it \"the best applied AI for enterprise in the market.\" Positioned as alternative to traditional SaaS with prompt-first approach.",
+      "ratingSummary": "Early-stage product with limited public reviews. Enterprise customers like Corgi (YC, $180M raised) are vocal advocates, praising on-premise data control and custom model training. Concerns raised about edge-case reliability and security of auto-approval workflows."
+    },
+    {
+      "name": "Sequen",
+      "url": "https://www.sequen.ai/",
+      "category": "Data",
+      "description": "AI-powered real-time personalization and ranking infrastructure bringing TikTok-style recommendation algorithms to consumer businesses",
+      "features": [
+        "large event models",
+        "real-time personalization",
+        "RankTune platform",
+        "sub-20ms ranking decisions",
+        "cookieless personalization",
+        "API integration"
+      ],
+      "pricing": "Enterprise (7-figure contracts)",
+      "dateAdded": "2026-03-18T17:06:31.871Z",
+      "dateUpdated": "2026-03-18T17:06:31.871Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/"
+      ],
+      "buzzScore": 62,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Series A funding announcement with customer case studies"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Customer case studies",
+          "rating": 4,
+          "reviewCount": 2
+        }
+      ],
+      "buzzSummary": "TechCrunch coverage of $16M Series A on March 18, 2026. Founded by ex-Etsy ML leader who drove $1B GMV increase. Fetch Rewards reported 20% net revenue lift in 11 days. Positioned as making TikTok-level personalization accessible to Fortune 500.",
+      "ratingSummary": "Very early-stage with limited public reviews. Customer case studies are impressive — 7% revenue lift for furniture company (vs 0.4% baseline) and 20% lift for Fetch Rewards. Enterprise pricing puts it out of reach for smaller companies."
+    },
+    {
+      "name": "Stripe MPP",
+      "url": "https://mpp.dev/",
+      "category": "Agents",
+      "description": "Machine Payments Protocol — open standard enabling AI agents to make payments programmatically, supporting microtransactions, recurring payments, and stablecoins",
+      "features": [
+        "agent-to-service payments",
+        "microtransactions",
+        "stablecoin support",
+        "MCP integration",
+        "PaymentIntents API",
+        "shared payment tokens"
+      ],
+      "pricing": "Per-transaction (Stripe fees)",
+      "freeTier": "Free to integrate, standard Stripe transaction fees apply",
+      "dateAdded": "2026-03-18T17:06:44.812Z",
+      "dateUpdated": "2026-03-18T17:06:44.812Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://stripe.com/blog/machine-payments-protocol",
+        "https://news.ycombinator.com/item?id=47426936"
+      ],
+      "buzzScore": 75,
+      "reviewRating": null,
+      "parentPlatform": "Stripe",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Front page, active discussion",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Stripe Blog",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on HN front page on March 18, 2026 with significant discussion. Co-authored by Stripe and Tempo. Already powering Browserbase (headless browsers), PostalForm (physical mail), and Prospect Butcher Co. (sandwich ordering). Part of Stripe's broader Agentic Commerce Suite.",
+      "ratingSummary": "Too new for reviews. Developer reaction on HN is cautiously positive — seen as important infrastructure for the emerging agent economy, though some question whether agents need payments this early."
+    },
+    {
+      "name": "Lightfield",
+      "url": "https://www.lightfield.ai/",
+      "category": "Productivity",
+      "description": "AI-native CRM that builds itself and does work for you — automates CRM setup, data entry, and customer workflows",
+      "features": [
+        "self-building CRM",
+        "AI-powered automation",
+        "customer workflow management",
+        "auto data entry"
+      ],
+      "pricing": "From $29/mo",
+      "freeTier": "Free trial available",
+      "dateAdded": "2026-03-18T17:06:54.026Z",
+      "dateUpdated": "2026-03-18T17:06:54.026Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/lightfield"
+      ],
+      "buzzScore": 55,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 5
+        }
+      ],
+      "buzzSummary": "Featured on Product Hunt on March 18, 2026. Positioned as an AI-native CRM that eliminates manual setup. Curated by Chris Messina. Moderate discussion on PH.",
+      "ratingSummary": "Limited reviews so far. Product Hunt commenters note the self-building concept is appealing but question depth of CRM features compared to established players like HubSpot or Salesforce."
+    },
+    {
+      "name": "Comet Browser",
+      "url": "https://www.perplexity.ai/comet",
+      "category": "Research",
+      "description": "Perplexity's secure AI browser built for enterprise teams — combines web browsing with AI-powered research and answers",
+      "features": [
+        "AI-powered browsing",
+        "enterprise security",
+        "team collaboration",
+        "Perplexity integration",
+        "secure search"
+      ],
+      "pricing": "Enterprise",
+      "freeTier": "Included with Perplexity Enterprise plan",
+      "dateAdded": "2026-03-18T17:07:04.036Z",
+      "dateUpdated": "2026-03-18T17:07:04.036Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/perplexity-ai"
+      ],
+      "buzzScore": 70,
+      "reviewRating": 4,
+      "parentPlatform": "Perplexity",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 8
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt March 17, 2026. Perplexity expanding beyond search into enterprise browsers. Seen as direct competitor to Arc and Google Chrome for knowledge workers. Significant interest from enterprise buyers.",
+      "ratingSummary": "Early reviews praise the integration of Perplexity's AI search into a dedicated browser. Enterprise security features noted as a differentiator. Some concerns about ecosystem lock-in."
+    },
+    {
+      "name": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-18T17:07:15.572Z",
+      "dateUpdated": "2026-03-18T17:07:15.572Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47427027"
+      ],
+      "buzzScore": 72,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "mixed",
+          "detail": "44 points, 17 comments, front page"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "HN comments",
+          "rating": 3.5,
+          "reviewCount": 17
+        }
+      ],
+      "buzzSummary": "Hit HN front page on March 18, 2026 with 44 points and 17 comments. Discussion focused on NVIDIA routing inference through their cloud as a compute acquisition strategy. Debate about whether it solves real problems vs. OpenClaw Docker UX issues. Some impressed by early-career engineer shipping it.",
+      "ratingSummary": "Mixed HN reception. Praised for security-first approach and sandboxed inference routing. Criticized for Docker setup pain (shared with OpenClaw ecosystem broadly) and questioned whether wrapping OpenClaw adds enough value."
+    },
+    {
+      "name": "Lore",
+      "url": "https://www.getlore.ai/",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-18T17:07:34.009Z",
+      "dateUpdated": "2026-03-18T17:07:34.009Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/lore-4"
+      ],
+      "buzzScore": 60,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 6
+        }
+      ],
+      "buzzSummary": "Active on Product Hunt March 17-18, 2026 with fresh listing. Positioned as \"Cursor for your memory\" — 100% private, open-source, and free. Appeals to privacy-conscious users wanting AI-powered personal knowledge management without cloud dependency.",
+      "ratingSummary": "Product Hunt reception is positive for the privacy-first approach and open-source model. Users note it fills a gap between note-taking apps and AI assistants. Free pricing removes adoption friction."
     }
   ]
 }
