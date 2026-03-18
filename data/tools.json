@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-18T01:02:50.059Z",
+    "lastUpdated": "2026-03-18T01:12:38.780Z",
     "totalTools": 75,
     "trendingCount": 2
   },
@@ -358,10 +358,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:12:00.924Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "Early-stage AI automation tool with a record-and-replay approach. Limited public discussion so far; mostly surfacing in AI tool directories. The teach-by-demonstration concept draws comparisons to tools like Bardeen and Make but with a more hands-off AI angle.",
+      "ratingSummary": "Too new for structured reviews on major platforms. Homepage claims 100+ integrations and an AI assistant called Moss, but no independent ratings available yet.",
+      "freeTier": "1 automation, 300 AI actions/month, Moss AI assistant, 100+ integrations",
+      "buzzSources": [
+        {
+          "platform": "Homepage",
+          "detail": "Self-reported features, free tier available",
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Resum8",
@@ -378,10 +389,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:12:09.468Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "AI resume writer and CV tailoring tool. Very limited public presence — site renders as a single-page app with minimal crawlable content. No significant Reddit, HN, or social media discussion found.",
+      "ratingSummary": "No reviews found on Product Hunt, G2, or other review platforms. Too new or too niche to have generated structured user feedback yet.",
+      "freeTier": "Unknown — site requires JavaScript to render pricing details",
+      "buzzSources": [
+        {
+          "platform": "Homepage",
+          "detail": "SPA with limited crawlable content",
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "OnCallClerk",
@@ -398,10 +420,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:12:18.600Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "No-code AI phone agent platform for small businesses and call centers. Positions itself as a quick-setup alternative to building custom telephony AI. Limited public buzz — no major Reddit threads or HN discussions found, but the product appears functional with a live demo.",
+      "ratingSummary": "No structured reviews on G2, Product Hunt, or Capterra yet. The platform emphasizes GDPR compliance and 99.9% uptime SLA, but independent verification is lacking.",
+      "freeTier": "No credit card required to start, 5-minute setup with live demo available",
+      "buzzSources": [
+        {
+          "platform": "Homepage",
+          "detail": "Live demo agent, no-code builder, UK phone numbers",
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "MascotVibe",
@@ -418,10 +451,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:12:29.705Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "AI-powered animated mascot generator that creates brand characters in minutes. Targets app developers and marketers who need mascots without hiring designers. Compares itself favorably to traditional agencies ($5K-15K) and competitors like Masko.ai. Niche product with limited broad buzz.",
+      "ratingSummary": "No structured reviews on major platforms yet. Homepage highlights speed (~30s for image, ~7min for animation) and multi-format export (WebM, APNG, MP4, MOV, spritesheets) as key differentiators vs competitors.",
+      "freeTier": "30 credits on signup (enough for 1 mascot + 1 animation + 1 refinement), preview animations free but download requires upgrade",
+      "buzzSources": [
+        {
+          "platform": "Homepage",
+          "detail": "Comparison table vs agencies, freelancers, and Masko.ai",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Base44 Superagents",
@@ -438,10 +482,21 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-17T01:22:50.468Z",
+      "dateUpdated": "2026-03-18T01:12:38.778Z",
       "trending": false,
       "buzzScore": null,
-      "reviewRating": null
+      "reviewRating": null,
+      "buzzSummary": "AI app-building platform with a backend designed for AI agents. Has an active Discord community, templates marketplace, and integrations ecosystem. Targets non-technical builders across productivity, education, e-commerce, and more. Growing presence with a partner program and higher-ed partnerships.",
+      "ratingSummary": "No structured reviews found on G2 or Capterra. Has an active community on Discord and a public roadmap on feedback.base44.com, suggesting engaged users but no aggregated ratings yet.",
+      "freeTier": "Free tier available (details behind JS-rendered pricing page), platform accessible without credit card",
+      "buzzSources": [
+        {
+          "platform": "Homepage",
+          "detail": "Templates marketplace, Discord community, partner program, higher-ed program",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": []
     },
     {
       "name": "Denovo",
