@@ -1,7 +1,7 @@
 {
   "metadata": {
     "lastRefreshed": "2026-03-17T22:33:03.109Z",
-    "totalTracked": 46
+    "totalTracked": 53
   },
   "tools": [
     {
@@ -1060,6 +1060,221 @@
       ],
       "dateTracked": "2026-03-17T03:40:00.562Z",
       "lastRefreshed": "2026-03-17T22:32:56.311Z",
+      "sourceCount": 2
+    },
+    {
+      "name": "Eragon",
+      "url": "https://eragon.ai",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 72,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "Exclusive coverage of $12M seed, enterprise AI OS positioning"
+        },
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Fresh TechCrunch exclusive coverage of $12M seed round to build AI operating system for enterprise. Positioned as making enterprise software look more like a prompt. GTC-week timing giving it extra visibility.",
+      "ratingSummary": "No user reviews yet — pre-product stage. Investor confidence strong with oversubscribed seed round.",
+      "dateTracked": "2026-03-19T01:21:10.756Z",
+      "lastRefreshed": "2026-03-19T01:21:10.756Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Sequen",
+      "url": "https://sequen.ai",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 65,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "$16M Series A coverage, TikTok-style personalization"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch covered Sequen snagging $16M Series A to bring TikTok-style personalization to consumer companies. AI ranking and personalization tech for large brands.",
+      "ratingSummary": "No public reviews yet. Enterprise-focused tool with limited consumer-facing presence.",
+      "dateTracked": "2026-03-19T01:21:12.148Z",
+      "lastRefreshed": "2026-03-19T01:21:12.148Z",
+      "sourceCount": 2
+    },
+    {
+      "name": "Stripe MPP",
+      "url": "https://stripe.com/blog/machine-payments-protocol",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 78,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Front page, agent payments infrastructure"
+        },
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Still on HN front page with Machine Payments Protocol post. Stripe enabling AI agents to make payments autonomously. Major infrastructure play for agentic commerce — continued high interest from developer community.",
+      "ratingSummary": "No traditional reviews — this is infrastructure/protocol, not a consumer product. Developer sentiment is highly positive on enabling agent-to-agent payments.",
+      "dateTracked": "2026-03-19T01:21:13.524Z",
+      "lastRefreshed": "2026-03-19T01:21:13.524Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 70,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 2,
+          "sentiment": "mixed",
+          "detail": "Still on front page, discussion about Docker UX and routing strategy"
+        },
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Still on HN front page (47427027). Nvidia inference routing tool continues to generate discussion. GTC momentum holding strong with sustained developer interest in the NVIDIA AI ecosystem.",
+      "ratingSummary": "No formal reviews. GitHub-based open-source tool — developer reception mixed, with some Docker UX complaints but overall positive on inference routing capabilities.",
+      "dateTracked": "2026-03-19T01:21:21.497Z",
+      "lastRefreshed": "2026-03-19T01:21:21.497Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Mistral Forge",
+      "url": "https://mistral.ai/forge",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 82,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 3,
+          "sentiment": "positive",
+          "detail": "Multi-article coverage on enterprise strategy and GTC launch"
+        },
+        {
+          "platform": "HN",
+          "mentions": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch running continued coverage — Mistral bets on build-your-own AI for enterprise, taking on OpenAI and Anthropic. GTC launch momentum still strong with sustained press attention.",
+      "ratingSummary": "No consumer reviews — enterprise product. Press coverage uniformly positive on Mistral differentiation strategy vs closed-model competitors.",
+      "dateTracked": "2026-03-19T01:21:29.717Z",
+      "lastRefreshed": "2026-03-19T01:21:29.717Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Unsloth Studio",
+      "url": "https://unsloth.ai",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 72,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "New listing for Studio web UI"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "r/LocalLLaMA community support"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Fresh Product Hunt listing generating buzz. Open-source web UI to run and train AI models. Strong LocalLLaMA community following. Continued momentum from earlier launches.",
+      "ratingSummary": "Product Hunt reception positive. LocalLLaMA community praises performance gains for fine-tuning. No formal G2/Capterra reviews yet.",
+      "dateTracked": "2026-03-19T01:21:37.503Z",
+      "lastRefreshed": "2026-03-19T01:21:37.503Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Lore",
+      "url": "https://lore.com",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 58,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "Active listing, updated engagement"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Still active on Product Hunt — Cursor for your memory tagline resonates. 100% private, open-source, and free. Updated listing getting continued engagement.",
+      "ratingSummary": "Product Hunt users praise the privacy-first approach and open-source model. No structured reviews on review platforms yet.",
+      "dateTracked": "2026-03-19T01:21:44.057Z",
+      "lastRefreshed": "2026-03-19T01:21:44.057Z",
       "sourceCount": 2
     }
   ]

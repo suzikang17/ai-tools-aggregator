@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-19T00:22:39.289Z",
-    "totalTools": 88,
+    "lastUpdated": "2026-03-19T01:20:55.257Z",
+    "totalTools": 94,
     "trendingCount": 2
   },
   "tools": [
@@ -3252,6 +3252,211 @@
       ],
       "buzzSummary": "Launched on Product Hunt Mar 16. Addresses growing concern about MCP protocol security for AI agents. Positioned as developer-friendly security that CISOs can trust.",
       "ratingSummary": "Permit.io itself has solid developer reviews. The MCP Gateway is a new extension targeting the booming AI agent security space."
+    },
+    {
+      "name": "Rebel Audio",
+      "url": "https://www.rebelaudio.ai",
+      "category": "Audio",
+      "description": "All-in-one AI podcasting platform for recording, editing, clipping, and publishing podcasts",
+      "features": [
+        "AI show name/description generator",
+        "AI cover art generation",
+        "Transcription and dubbing",
+        "Voice cloning for ad reads",
+        "Dynamic ad insertion",
+        "Social clip creation",
+        "One-click multi-platform distribution",
+        "Built-in monetization"
+      ],
+      "pricing": "TBD (private beta)",
+      "freeTier": "Waitlist/beta access currently free",
+      "dateAdded": "2026-03-19T01:20:03.743Z",
+      "dateUpdated": "2026-03-19T01:20:03.743Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/"
+      ],
+      "buzzScore": 68,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Dedicated article on $3.8M seed round and platform launch"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch featured Rebel Audio in a dedicated article covering its $3.8M seed round. Positioned as a Descript/Riverside competitor for first-time podcasters, with AI handling everything from cover art to voice cloning. Launching publicly May 30.",
+      "ratingSummary": "No user reviews yet as the product is in private beta with a waitlist. Early testimonials from Lattice Partners co-founders are positive but limited."
+    },
+    {
+      "name": "Tmux-IDE",
+      "url": "https://tmux.thijsverreck.com",
+      "category": "Coding",
+      "description": "Open-source agent-first terminal IDE that creates tmux layouts for Claude Code multi-agent teams",
+      "features": [
+        "Declarative YAML config",
+        "Lead + teammate Claude agent panes",
+        "Shared task list between agents",
+        "Auto-detects Next.js, Vite, Python, Go",
+        "One-command setup",
+        "Built-in Claude Code skill"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully free and open-source",
+      "dateAdded": "2026-03-19T01:20:15.012Z",
+      "dateUpdated": "2026-03-19T01:20:15.012Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47428868"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Show HN front page post about agent-team terminal IDE"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Hit HN front page as a Show HN post. Interesting niche tool for developers running multi-agent Claude Code setups in tmux. Early-stage but tapping into the growing agent-team workflow trend.",
+      "ratingSummary": "Too new for formal reviews. HN comments indicate developer curiosity about multi-agent terminal workflows."
+    },
+    {
+      "name": "CursorTalk",
+      "url": "https://www.producthunt.com/products/cursortalk-for-macos",
+      "category": "Productivity",
+      "description": "Fast local dictation that works in every Mac app",
+      "features": [
+        "Local speech-to-text",
+        "Works across all Mac apps",
+        "Fast dictation",
+        "macOS native"
+      ],
+      "pricing": "TBD",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-19T01:20:23.063Z",
+      "dateUpdated": "2026-03-19T01:20:23.063Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/cursortalk-for-macos"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured on Product Hunt feed as a new macOS dictation tool. Niche but addresses a real gap — system-wide fast local dictation for Mac users.",
+      "ratingSummary": "No reviews yet. Just launched on Product Hunt."
+    },
+    {
+      "name": "UseAgents",
+      "url": "https://www.producthunt.com/products/useagents",
+      "category": "Agents",
+      "description": "Define tools once for AI agents, use them everywhere across different platforms",
+      "features": [
+        "Universal tool definitions",
+        "Cross-platform agent compatibility",
+        "Define once, use everywhere"
+      ],
+      "pricing": "TBD",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-19T01:20:31.231Z",
+      "dateUpdated": "2026-03-19T01:20:31.231Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/useagents"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Appeared in Product Hunt feed. Addresses the fragmentation problem of agent tool definitions — define tools once and reuse across multiple agent platforms.",
+      "ratingSummary": "No reviews yet. Very early stage Product Hunt listing."
+    },
+    {
+      "name": "Nightingale",
+      "url": "https://nightingale.cafe",
+      "category": "Audio",
+      "description": "Open-source karaoke app that separates vocals, transcribes lyrics, and scores pitch from any song on your computer",
+      "features": [
+        "AI stem separation (UVR/Demucs)",
+        "WhisperX word-level transcription",
+        "Real-time pitch scoring",
+        "Player profiles and scoreboards",
+        "Video file support",
+        "GPU shader backgrounds",
+        "Gamepad support",
+        "Single binary distribution"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully free and open-source",
+      "dateAdded": "2026-03-19T01:20:42.470Z",
+      "dateUpdated": "2026-03-19T01:20:42.470Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47422942"
+      ],
+      "buzzScore": 60,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Front page Show HN with strong developer interest"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Hit HN front page. Uses AI stem separation and WhisperX to turn any local song into karaoke with pitch scoring. Cross-platform, single binary, no install needed. Strong developer interest.",
+      "ratingSummary": "No formal reviews yet but HN reception is enthusiastic for the technical approach — single binary bundling ffmpeg, PyTorch, and ML models."
+    },
+    {
+      "name": "Nvidia Greenboost",
+      "url": "https://gitlab.com/IsolatedOctopi/nvidia_greenboost",
+      "category": "Coding",
+      "description": "Transparently extends GPU VRAM using system RAM and NVMe for running larger AI models",
+      "features": [
+        "VRAM extension via system RAM",
+        "NVMe swap support",
+        "Transparent to applications",
+        "Works with Nvidia GPUs"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully free and open-source",
+      "dateAdded": "2026-03-19T01:20:55.256Z",
+      "dateUpdated": "2026-03-19T01:20:55.256Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47388658"
+      ],
+      "buzzScore": 62,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Front page, directly relevant to local AI inference"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "HN front page project. Lets you transparently extend Nvidia GPU VRAM using system RAM/NVMe — directly useful for running larger AI models on consumer GPUs. Strong LocalLLaMA crossover appeal.",
+      "ratingSummary": "No formal reviews. HN discussion focused on performance tradeoffs of RAM/NVMe vs native VRAM for inference workloads."
     }
   ]
 }
