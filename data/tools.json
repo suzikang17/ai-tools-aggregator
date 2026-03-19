@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-19T01:20:55.257Z",
-    "totalTools": 94,
+    "lastUpdated": "2026-03-19T14:57:01.605Z",
+    "totalTools": 102,
     "trendingCount": 2
   },
   "tools": [
@@ -3457,6 +3457,289 @@
       "ratingSources": [],
       "buzzSummary": "HN front page project. Lets you transparently extend Nvidia GPU VRAM using system RAM/NVMe — directly useful for running larger AI models on consumer GPUs. Strong LocalLLaMA crossover appeal.",
       "ratingSummary": "No formal reviews. HN discussion focused on performance tradeoffs of RAM/NVMe vs native VRAM for inference workloads."
+    },
+    {
+      "name": "TyshaClip",
+      "url": "https://www.tyshaclip.com",
+      "category": "Video",
+      "description": "AI-powered tool that converts long videos into viral short clips with pro subtitles, facial detection, and 8 layouts for TikTok, Reels, and Shorts",
+      "features": [
+        "AI viral moment detection",
+        "8 subtitle styles",
+        "Multimodal analysis (audio, face, text)",
+        "1080p HD output",
+        "YouTube/local upload support"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Limited clips with watermark",
+      "dateAdded": "2026-03-19T14:55:30.068Z",
+      "dateUpdated": "2026-03-19T14:55:30.068Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.reddit.com/r/artificial/comments/1ry1odf/",
+        "https://www.producthunt.com/posts/tyshaclip"
+      ],
+      "buzzScore": 25,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Self-post on r/artificial announcing PH launch"
+        },
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "New listing, day 1"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Solo dev launched on Product Hunt and r/artificial today. Very early stage — no community traction yet but the multimodal clip analysis (Librosa + MediaPipe + Whisper) is a technically interesting approach.",
+      "ratingSummary": "No reviews yet — just launched. Spanish-language landing page suggests initial target is LatAm creator market."
+    },
+    {
+      "name": "Stitch 2.0 by Google",
+      "url": "https://stitch.withgoogle.com",
+      "category": "Design",
+      "description": "AI-powered vibe design tool that generates beautiful, production-ready UI in seconds",
+      "features": [
+        "AI UI generation",
+        "Production-ready components",
+        "Rapid prototyping",
+        "Google integration"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free access via Google account",
+      "dateAdded": "2026-03-19T14:55:40.521Z",
+      "dateUpdated": "2026-03-19T14:55:40.521Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/stitch-2-0-by-google-2"
+      ],
+      "buzzScore": 68,
+      "reviewRating": 4,
+      "parentPlatform": "Google",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured launch Mar 18, 2026"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 15
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 18 with strong engagement. Positioned as Google's answer to vibe coding for design — generates production-ready UI from prompts. Community reception is cautiously optimistic, comparing it to v0.dev.",
+      "ratingSummary": "Early positive reception on Product Hunt. Users praise the speed and quality of generated UI, though some note limited customization compared to dedicated design tools."
+    },
+    {
+      "name": "MiniMax-M2.7",
+      "url": "https://www.minimax.io",
+      "category": "Agents",
+      "description": "Self-evolving AI model powering autonomous agents, from MiniMax",
+      "features": [
+        "Self-evolving architecture",
+        "Autonomous agent capabilities",
+        "Multi-task support"
+      ],
+      "pricing": "Free",
+      "freeTier": "API access with usage limits",
+      "dateAdded": "2026-03-19T14:55:56.946Z",
+      "dateUpdated": "2026-03-19T14:55:56.946Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/minimax-agent"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured launch Mar 18, 2026"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 18. MiniMax continues to quietly build competitive models — M2.7 targets the autonomous agents space with a self-evolving architecture. Less mainstream buzz than competitors but developer interest is growing.",
+      "ratingSummary": "No structured reviews yet. Developer community familiar with MiniMax from their video/audio models is watching this release."
+    },
+    {
+      "name": "CompactifAI",
+      "url": "https://multiversecomputing.com/compactifai-app",
+      "category": "Productivity",
+      "description": "Quantum-inspired AI model compression technology with chat app and API — runs compressed versions of OpenAI, Meta, DeepSeek and Mistral models locally on-device",
+      "features": [
+        "Quantum-inspired model compression",
+        "On-device local inference",
+        "Auto-routing between local and cloud",
+        "Self-serve API portal",
+        "Real-time usage monitoring"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free chat app with local model (Gilda); API portal has free tier",
+      "dateAdded": "2026-03-19T14:56:11.322Z",
+      "dateUpdated": "2026-03-19T14:56:11.322Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/"
+      ],
+      "buzzScore": 52,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Feature article Mar 19 on API portal launch and compression tech"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch feature Mar 19 on Multiverse Computing's mainstream push. The compressed models angle is timely given VC warnings about AI compute supply chain risk. HyperNova 60B model compressed from OpenAI's gpt-oss-120b is noteworthy. App has <5K downloads so far.",
+      "ratingSummary": "No user reviews yet. TechCrunch notes the app isn't ready for mass adoption — older iPhones lack RAM. The real play is the enterprise API portal launching today."
+    },
+    {
+      "name": "Billy.sh",
+      "url": "https://billy.sh",
+      "category": "Coding",
+      "description": "Local AI coding assistant for your terminal using Ollama — runs entirely on your machine with no cloud dependency",
+      "features": [
+        "Local-first terminal coding",
+        "Ollama integration",
+        "Privacy-focused",
+        "No cloud required"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully free and open source",
+      "dateAdded": "2026-03-19T14:56:21.880Z",
+      "dateUpdated": "2026-03-19T14:56:21.880Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/billy-sh"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Launch day Mar 18"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 18. Targets the local-first coding assistant niche. Competes with Continue.dev and Aider but focuses specifically on Ollama + terminal workflow. Early stage, solo dev project.",
+      "ratingSummary": "No reviews yet — just launched on Product Hunt. The local Ollama angle resonates with privacy-conscious developers in the r/LocalLLaMA community."
+    },
+    {
+      "name": "Okan",
+      "url": "https://www.producthunt.com/products/okan-claude-code-browser-notifications",
+      "category": "Coding",
+      "description": "Browser notification tool for Claude Code — one-click accept/reject notifications so you don't have to watch the terminal",
+      "features": [
+        "Browser notifications for Claude Code",
+        "One-click accept/reject",
+        "Background monitoring"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully free",
+      "dateAdded": "2026-03-19T14:56:31.408Z",
+      "dateUpdated": "2026-03-19T14:56:31.408Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/okan-claude-code-browser-notifications"
+      ],
+      "buzzScore": 28,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Launch Mar 18"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Niche Product Hunt launch Mar 18 targeting Claude Code users. Solves the real annoyance of having to watch the terminal for permission prompts. Small but relevant audience in the coding agent ecosystem.",
+      "ratingSummary": "No reviews yet. Very targeted tool — solves a specific pain point for Claude Code users."
+    },
+    {
+      "name": "Budibase AI Agents",
+      "url": "https://budibase.com",
+      "category": "Agents",
+      "description": "Open source AI agents that run your business operations — from Budibase, the open source low-code platform",
+      "features": [
+        "Open source",
+        "AI agents for operations",
+        "Low-code platform integration",
+        "Self-hostable"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free self-hosted tier with core features",
+      "dateAdded": "2026-03-19T14:56:44.092Z",
+      "dateUpdated": "2026-03-19T14:56:44.092Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/budibase"
+      ],
+      "buzzScore": 45,
+      "reviewRating": 3.8,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured launch Mar 18"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "G2",
+          "rating": 3.8,
+          "reviewCount": 50
+        }
+      ],
+      "buzzSummary": "Product Hunt launch Mar 18 adding AI agents to the established Budibase low-code platform. Community already familiar with Budibase for internal tools — the AI agent add-on targets operations automation.",
+      "ratingSummary": "Budibase itself has solid reviews (3.8 on G2) for low-code internal tools. The AI agents feature is too new for dedicated reviews, but existing users are cautiously interested."
+    },
+    {
+      "name": "Doodles AI",
+      "url": "https://doodles.app",
+      "category": "Image Gen",
+      "description": "Artist platform using a self-contained Doodles IP LLM for generating art in the Doodles style",
+      "features": [
+        "Self-contained IP LLM",
+        "Doodles art style generation",
+        "Artist platform"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-19T14:57:01.603Z",
+      "dateUpdated": "2026-03-19T14:57:01.603Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/doodles-ai"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Launch Mar 18"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Product Hunt launch Mar 18. An interesting niche play — using a custom LLM trained specifically on the Doodles NFT art IP. Targets the intersection of AI art and established IP brands.",
+      "ratingSummary": "No reviews yet. Novel concept but very niche appeal tied to the Doodles brand/community."
     }
   ]
 }

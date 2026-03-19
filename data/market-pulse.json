@@ -1,7 +1,7 @@
 {
   "metadata": {
     "lastRefreshed": "2026-03-17T22:33:03.109Z",
-    "totalTracked": 53
+    "totalTracked": 56
   },
   "tools": [
     {
@@ -1068,7 +1068,7 @@
       "category": "Other",
       "description": "",
       "pricing": "Unknown",
-      "buzzScore": 72,
+      "buzzScore": 62,
       "reviewRating": null,
       "popularityScore": null,
       "rank": null,
@@ -1079,19 +1079,14 @@
           "platform": "TechCrunch",
           "mentions": 2,
           "sentiment": "positive",
-          "detail": "Exclusive coverage of $12M seed, enterprise AI OS positioning"
-        },
-        {
-          "platform": "HN",
-          "mentions": 1,
-          "sentiment": "neutral"
+          "detail": "Exclusive Mar 18 on $12M seed funding, enterprise AI OS positioning"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Fresh TechCrunch exclusive coverage of $12M seed round to build AI operating system for enterprise. Positioned as making enterprise software look more like a prompt. GTC-week timing giving it extra visibility.",
-      "ratingSummary": "No user reviews yet — pre-product stage. Investor confidence strong with oversubscribed seed round.",
+      "buzzSummary": "Fresh TechCrunch exclusive Mar 18 on the $12M seed round. Positioning as an AI operating system for enterprise — making enterprise software feel like a prompt. Continued multi-article coverage.",
+      "ratingSummary": "No user reviews — enterprise product in early access. TechCrunch framing is bullish on the enterprise AI OS concept.",
       "dateTracked": "2026-03-19T01:21:10.756Z",
-      "lastRefreshed": "2026-03-19T01:21:10.756Z",
+      "lastRefreshed": "2026-03-19T14:57:28.008Z",
       "sourceCount": 3
     },
     {
@@ -1100,7 +1095,7 @@
       "category": "Other",
       "description": "",
       "pricing": "Unknown",
-      "buzzScore": 65,
+      "buzzScore": 55,
       "reviewRating": null,
       "popularityScore": null,
       "rank": null,
@@ -1111,14 +1106,14 @@
           "platform": "TechCrunch",
           "mentions": 1,
           "sentiment": "positive",
-          "detail": "$16M Series A coverage, TikTok-style personalization"
+          "detail": "$16M Series A coverage Mar 18"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "TechCrunch covered Sequen snagging $16M Series A to bring TikTok-style personalization to consumer companies. AI ranking and personalization tech for large brands.",
-      "ratingSummary": "No public reviews yet. Enterprise-focused tool with limited consumer-facing presence.",
+      "buzzSummary": "TechCrunch coverage Mar 18 on the $16M Series A. Bringing TikTok-style AI personalization tech to large consumer businesses. The recommendation engine angle is getting attention in the enterprise AI space.",
+      "ratingSummary": "No user reviews — enterprise B2B product. The TikTok comparison in coverage is driving curiosity.",
       "dateTracked": "2026-03-19T01:21:12.148Z",
-      "lastRefreshed": "2026-03-19T01:21:12.148Z",
+      "lastRefreshed": "2026-03-19T14:57:44.678Z",
       "sourceCount": 2
     },
     {
@@ -1159,7 +1154,7 @@
       "category": "Other",
       "description": "",
       "pricing": "Unknown",
-      "buzzScore": 70,
+      "buzzScore": 72,
       "reviewRating": null,
       "popularityScore": null,
       "rank": null,
@@ -1169,20 +1164,15 @@
         {
           "platform": "HN",
           "mentions": 2,
-          "sentiment": "mixed",
-          "detail": "Still on front page, discussion about Docker UX and routing strategy"
-        },
-        {
-          "platform": "TechCrunch",
-          "mentions": 1,
-          "sentiment": "positive"
+          "sentiment": "positive",
+          "detail": "Front page Mar 18-19, sustained 27K+ comments thread"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Still on HN front page (47427027). Nvidia inference routing tool continues to generate discussion. GTC momentum holding strong with sustained developer interest in the NVIDIA AI ecosystem.",
-      "ratingSummary": "No formal reviews. GitHub-based open-source tool — developer reception mixed, with some Docker UX complaints but overall positive on inference routing capabilities.",
+      "buzzSummary": "Still on HN front page Mar 19 with sustained developer interest. Nvidia's inference routing framework continues to draw attention post-GTC. Multiple days of visibility suggests genuine technical interest, not just launch hype.",
+      "ratingSummary": "No formal reviews — open source dev tool. GitHub stars growing. Developer sentiment on HN is positive with technical discussions about inference routing patterns.",
       "dateTracked": "2026-03-19T01:21:21.497Z",
-      "lastRefreshed": "2026-03-19T01:21:21.497Z",
+      "lastRefreshed": "2026-03-19T14:57:36.785Z",
       "sourceCount": 3
     },
     {
@@ -1276,6 +1266,109 @@
       "dateTracked": "2026-03-19T01:21:44.057Z",
       "lastRefreshed": "2026-03-19T01:21:44.057Z",
       "sourceCount": 2
+    },
+    {
+      "name": "Comet Browser",
+      "url": "https://perplexity.ai",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 78,
+      "reviewRating": 4.3,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "Updated listing Mar 18-19, originally launched Feb 19"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.3,
+          "reviewCount": 120
+        }
+      ],
+      "buzzSummary": "Comet for iOS featured again on Product Hunt Mar 18 with continued engagement. Perplexity's agentic AI browser is getting sustained attention as the mobile AI assistant category heats up.",
+      "ratingSummary": "Positive reviews praising the agentic browsing experience on mobile. Users note it feels like a genuine step beyond traditional search.",
+      "dateTracked": "2026-03-19T14:57:11.007Z",
+      "lastRefreshed": "2026-03-19T14:57:11.007Z",
+      "sourceCount": 4
+    },
+    {
+      "name": "Rebel Audio",
+      "url": "https://rebelaudio.com",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 58,
+      "reviewRating": null,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Feature article Mar 18 on first-time creator focus"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch feature article Mar 18 positioning it as an all-in-one AI podcasting tool for first-time creators. Record, edit, clip for social, and publish without leaving the platform.",
+      "ratingSummary": "No structured reviews yet. TechCrunch coverage is positive, highlighting the accessibility angle for new podcasters.",
+      "dateTracked": "2026-03-19T14:57:19.172Z",
+      "lastRefreshed": "2026-03-19T14:57:19.172Z",
+      "sourceCount": 3
+    },
+    {
+      "name": "Codex Subagents (OpenAI)",
+      "url": "https://chatgpt.com/codex",
+      "category": "Other",
+      "description": "",
+      "pricing": "Unknown",
+      "buzzScore": 82,
+      "reviewRating": 4.2,
+      "popularityScore": null,
+      "rank": null,
+      "sentimentTrend": null,
+      "history": [],
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 2,
+          "sentiment": "mixed",
+          "detail": "Dual front page stories (Astral blog + OpenAI announcement), hundreds of comments"
+        },
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.2,
+          "reviewCount": 200
+        }
+      ],
+      "buzzSummary": "Huge news today: OpenAI acquiring Astral (makers of Ruff, uv, ty — hundreds of millions of Python tool downloads/month) to join the Codex team. This signals massive investment in Codex's development tooling capabilities. HN front page with intense discussion.",
+      "ratingSummary": "Codex itself has solid reviews from developers. The Astral acquisition is seen as a major strategic move that could dramatically improve Python tooling integration.",
+      "dateTracked": "2026-03-19T14:57:57.060Z",
+      "lastRefreshed": "2026-03-19T14:57:57.060Z",
+      "sourceCount": 5
     }
   ]
 }
