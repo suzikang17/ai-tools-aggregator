@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-19T23:11:07.367Z",
+    "lastUpdated": "2026-03-19T23:14:14.743Z",
     "totalTools": 114,
     "trendingCount": 2
   },
@@ -3173,7 +3173,7 @@
     },
     {
       "name": "Stripe MPP",
-      "url": "https://stripe.com/blog/machine-payments-protocol",
+      "url": "https://stripe.com",
       "category": "Agents",
       "description": "Stripe Machine Payments Protocol enabling autonomous AI agent-to-agent and agent-to-service payments",
       "features": [
@@ -3183,9 +3183,9 @@
         "Autonomous transactions"
       ],
       "pricing": "Transaction-based",
-      "freeTier": "Free to integrate; standard Stripe transaction fees apply",
+      "freeTier": "No free tier; standard Stripe transaction fees apply (2.9% + 30¢ per transaction)",
       "dateAdded": "2026-03-18T21:08:14.469Z",
-      "dateUpdated": "2026-03-18T21:08:14.469Z",
+      "dateUpdated": "2026-03-19T23:13:56.035Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47426936"
@@ -3194,22 +3194,26 @@
       "reviewRating": null,
       "buzzSources": [
         {
-          "platform": "HN",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Front page, active discussion"
+          "platform": "Product Hunt",
+          "detail": "Featured Mar 18-19, positioned as internet-native payment standard for AI agents",
+          "sentiment": "positive"
         },
         {
-          "platform": "Stripe Blog",
-          "mentions": 1,
+          "platform": "Industry",
+          "detail": "Stripe brand recognition driving interest in agent economy infrastructure",
           "sentiment": "positive"
         }
       ],
       "ratingSources": [
         {
-          "platform": "Stripe overall",
+          "platform": "Product Hunt",
           "rating": 4.5,
-          "reviewCount": 1000
+          "reviewCount": 0
+        },
+        {
+          "platform": "G2",
+          "rating": 4.5,
+          "reviewCount": 0
         }
       ],
       "buzzSummary": "Announced on Stripe blog and trending on HN front page Mar 18. Part of the emerging agent economy infrastructure. Stripe positioning itself as the payments rails for AI agents. Significant because it legitimizes the agent-to-agent commerce concept with a major fintech player.",
@@ -3550,9 +3554,9 @@
         "Multi-task support"
       ],
       "pricing": "Free",
-      "freeTier": "API access with usage limits",
+      "freeTier": "Free API tier with token plan options; Hailuo AI consumer app free to use",
       "dateAdded": "2026-03-19T14:55:56.946Z",
-      "dateUpdated": "2026-03-19T14:55:56.946Z",
+      "dateUpdated": "2026-03-19T23:13:50.013Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/minimax-agent"
@@ -3562,12 +3566,22 @@
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Featured launch Mar 18, 2026"
+          "detail": "Active listing Mar 18-19, ongoing engagement",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "MiniMax Platform",
+          "detail": "214K+ enterprise clients/developers",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 0
+        }
+      ],
       "buzzSummary": "Launched on Product Hunt Mar 18. MiniMax continues to quietly build competitive models — M2.7 targets the autonomous agents space with a self-evolving architecture. Less mainstream buzz than competitors but developer interest is growing.",
       "ratingSummary": "No structured reviews yet. Developer community familiar with MiniMax from their video/audio models is watching this release."
     },
@@ -4017,7 +4031,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:10:44.334Z",
-      "dateUpdated": "2026-03-19T23:10:44.334Z",
+      "dateUpdated": "2026-03-19T23:13:27.628Z",
       "trending": false,
       "sourceUrls": [
         "https://astral.sh/blog/openai",
@@ -4027,21 +4041,37 @@
       "reviewRating": null,
       "buzzSources": [
         {
-          "platform": "HN",
-          "mentions": 2,
-          "sentiment": "mixed",
-          "detail": "Astral acquisition post on front page, 500+ comments"
+          "platform": "TechCrunch",
+          "detail": "Feature article on Astral acquisition",
+          "sentiment": "positive"
         },
         {
-          "platform": "TechCrunch",
-          "mentions": 2,
-          "sentiment": "positive",
-          "detail": "Acquisition coverage + Sam Altman memes article"
+          "platform": "Hacker News",
+          "mentions": 500,
+          "sentiment": "mixed",
+          "detail": "Dual front page, 500+ comments on Astral acquisition"
+        },
+        {
+          "platform": "Twitter",
+          "detail": "Sam Altman coder appreciation memes",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
+      "ratingSources": [
+        {
+          "platform": "ChatGPT Pricing Page",
+          "rating": 4.5,
+          "reviewCount": 0
+        },
+        {
+          "platform": "Hacker News",
+          "rating": 4,
+          "reviewCount": 500
+        }
+      ],
       "buzzSummary": "Massive news: OpenAI acquiring Astral (makers of Ruff, uv, ty) to join the Codex team. Dual HN front page coverage with 500+ comments. TechCrunch feature article. Sam Altman thanking coders drew memes. Signals major Python tooling investment.",
-      "ratingSummary": "No change to rating — the Astral acquisition is seen as a strong move for developer tooling. Community reaction is mixed: excitement about uv/ruff staying maintained but concern about open-source governance under OpenAI."
+      "ratingSummary": "No change to rating — the Astral acquisition is seen as a strong move for developer tooling. Community reaction is mixed: excitement about uv/ruff staying maintained but concern about open-source governance under OpenAI.",
+      "freeTier": "Available on Free and Go plans with limited Codex agent access; basic coding tasks and limited messages"
     },
     {
       "name": "CompactifAI",
@@ -4051,7 +4081,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:10:53.347Z",
-      "dateUpdated": "2026-03-19T23:10:53.347Z",
+      "dateUpdated": "2026-03-19T23:13:35.850Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/"
@@ -4061,14 +4091,20 @@
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "mentions": 2,
-          "sentiment": "positive",
-          "detail": "Feature article on API portal launch and compressed model push"
+          "detail": "Two-day feature coverage on Multiverse Computing launch",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
+      "ratingSources": [
+        {
+          "platform": "TechCrunch",
+          "rating": 4,
+          "reviewCount": 0
+        }
+      ],
       "buzzSummary": "TechCrunch feature on Multiverse Computing launching both an app showcasing compressed models and an API for wider access. They have compressed models from OpenAI, Meta, DeepSeek, and Mistral. Second day of TechCrunch coverage.",
-      "ratingSummary": "No formal reviews yet but TechCrunch coverage is positive, highlighting the practical value of running compressed versions of major lab models at lower cost."
+      "ratingSummary": "No formal reviews yet but TechCrunch coverage is positive, highlighting the practical value of running compressed versions of major lab models at lower cost.",
+      "freeTier": "Demo app available to try compressed models; API access likely requires signup"
     },
     {
       "name": "MiniMax-M2.7",
@@ -4078,7 +4114,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:10:59.767Z",
-      "dateUpdated": "2026-03-19T23:10:59.767Z",
+      "dateUpdated": "2026-03-19T23:14:10.424Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/minimax-agent"
@@ -4088,14 +4124,20 @@
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Featured listing with continued engagement"
+          "detail": "Active listing Mar 18-19",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 0
+        }
+      ],
       "buzzSummary": "Still featured on Product Hunt feed (Mar 18-19). Positioned as a self-evolving AI model for autonomous agents. Product Hunt engagement continues with updates to the listing.",
-      "ratingSummary": "No formal reviews yet. Product Hunt listing is active with ongoing engagement from the community."
+      "ratingSummary": "No formal reviews yet. Product Hunt listing is active with ongoing engagement from the community.",
+      "freeTier": "Free API tier with token plan options; Hailuo AI consumer app free to use"
     },
     {
       "name": "Stripe MPP",
@@ -4105,7 +4147,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:11:07.366Z",
-      "dateUpdated": "2026-03-19T23:11:07.366Z",
+      "dateUpdated": "2026-03-19T23:14:14.742Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/stripe"
@@ -4115,14 +4157,20 @@
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Featured listing, continued engagement"
+          "detail": "Featured Mar 18-19",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.5,
+          "reviewCount": 0
+        }
+      ],
       "buzzSummary": "Machine Payments Protocol still featured on Product Hunt (Mar 18-19). Stripe is positioning this as the internet-native payment standard for AI agents — timely as agentic AI adoption accelerates.",
-      "ratingSummary": "No formal reviews yet but Stripe brand carries weight. Community sees this as infrastructure play for the agent economy."
+      "ratingSummary": "No formal reviews yet but Stripe brand carries weight. Community sees this as infrastructure play for the agent economy.",
+      "freeTier": "No free tier; standard Stripe transaction fees apply (2.9% + 30¢ per transaction)"
     }
   ]
 }
