@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-19T14:57:01.605Z",
-    "totalTools": 102,
+    "lastUpdated": "2026-03-19T23:11:07.367Z",
+    "totalTools": 114,
     "trendingCount": 2
   },
   "tools": [
@@ -3740,6 +3740,389 @@
       "ratingSources": [],
       "buzzSummary": "Product Hunt launch Mar 18. An interesting niche play — using a custom LLM trained specifically on the Doodles NFT art IP. Targets the intersection of AI art and established IP brands.",
       "ratingSummary": "No reviews yet. Novel concept but very niche appeal tied to the Doodles brand/community."
+    },
+    {
+      "name": "rawq",
+      "url": "https://github.com/auyelbekov/rawq",
+      "category": "Coding",
+      "description": "Rust CLI that gives AI agents semantic + lexical search over codebases, returning only relevant code chunks instead of whole files",
+      "features": [
+        "Hybrid semantic + BM25 search",
+        "Tree-sitter AST chunking for 16 languages",
+        "GPU acceleration via ONNX",
+        "Incremental indexing",
+        "Daemon mode",
+        "Codebase map command"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open-source, MIT license, unlimited use",
+      "dateAdded": "2026-03-19T19:06:58.384Z",
+      "dateUpdated": "2026-03-19T19:06:58.384Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.reddit.com/r/LocalLLaMA/"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "r/LocalLLaMA project post, just launched"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Posted on r/LocalLLaMA as a vibecoded open-source project. Claims 4x fewer tokens consumed and 2x faster task completion for AI agents compared to blind grep. Very fresh launch.",
+      "ratingSummary": "No structured reviews yet. Author claims significant token savings but no independent validation exists."
+    },
+    {
+      "name": "Kitten TTS",
+      "url": "https://github.com/KittenML/KittenTTS",
+      "category": "Audio",
+      "description": "Ultra-lightweight open-source TTS models (15M-80M params) that run on CPU, edge devices, and browsers without GPU",
+      "features": [
+        "Models from 25MB to 80MB",
+        "8 built-in voices",
+        "CPU-only ONNX inference",
+        "24kHz output",
+        "Runs on Raspberry Pi, phones, wearables",
+        "Adjustable speech speed",
+        "Text preprocessing pipeline"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open-source, all models free to download and use",
+      "dateAdded": "2026-03-19T23:08:10.980Z",
+      "dateUpdated": "2026-03-19T23:08:10.980Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47441546",
+        "https://github.com/KittenML/KittenTTS"
+      ],
+      "buzzScore": 78,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "281 points, 87 comments on Show HN thread"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Hit 281 points on HN Show HN with 87 comments. Developers excited about sub-25MB TTS models running on edge devices. Previous HN thread also got traction. Community praising the quality-to-size ratio.",
+      "ratingSummary": "Early developer preview so no formal review ratings yet. HN commenters impressed by expressivity for the model size, though some report issues with the int8 nano variant."
+    },
+    {
+      "name": "Pocket Models",
+      "url": "https://apps.apple.com/us/app/pocket-models/id6759682487",
+      "category": "Productivity",
+      "description": "iOS app for downloading and running small language models on-device with local RAG and persistent memory",
+      "features": [
+        "Browse and download SLMs (GGUF)",
+        "On-device inference",
+        "Personal data store with RAG",
+        "Context-aware web search",
+        "Local document intelligence",
+        "Model switching with persistent memory"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free to download, all core features included",
+      "dateAdded": "2026-03-19T23:09:38.861Z",
+      "dateUpdated": "2026-03-19T23:09:38.861Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1ryfax3/pocket_models_app_for_downloading_running_slms/"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "r/LocalLLaMA post, new launch seeking testers"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Early-stage launch posted on r/LocalLLaMA seeking beta testers. Minimal engagement so far — new post with no comments yet. Developers asking for crash reports and honest feedback.",
+      "ratingSummary": "No reviews available yet — app is in early MVP stage on iOS only, with Android planned if there is demand."
+    },
+    {
+      "name": "Offload by Imbue",
+      "url": "https://www.producthunt.com/products/imbue-7",
+      "category": "Coding",
+      "description": "Offloads test suites to speed up the AI agent coding loop — runs tests in parallel while agents continue working",
+      "features": [
+        "Parallel test execution",
+        "Agent loop acceleration",
+        "Test suite offloading",
+        "Developer workflow optimization"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-19T23:09:52.006Z",
+      "dateUpdated": "2026-03-19T23:09:52.006Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/imbue-7"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Freshly launched on Product Hunt (Mar 18, 2026). Imbue (formerly Generally Intelligent) pivoting to developer tooling. Limited buzz so far, but targets a hot niche in AI-assisted coding workflows.",
+      "ratingSummary": "No reviews yet — brand new Product Hunt launch. Imbue has reputation from AI research but this is a new product direction."
+    },
+    {
+      "name": "Scheduled",
+      "url": "https://www.producthunt.com/products/scheduled-2",
+      "category": "Productivity",
+      "description": "Open-source AI calendar scheduler that lives inside Gmail — auto-schedules meetings from email context",
+      "features": [
+        "Gmail integration",
+        "AI-powered scheduling",
+        "Open source",
+        "Calendar automation"
+      ],
+      "pricing": "Free",
+      "freeTier": "Open source, free to use",
+      "dateAdded": "2026-03-19T23:10:08.212Z",
+      "dateUpdated": "2026-03-19T23:10:08.212Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/scheduled-2"
+      ],
+      "buzzScore": 32,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Positioned as open-source alternative to Clockwise (which just got acquired by Salesforce and is shutting down, per HN). Timely launch given the Clockwise shutdown.",
+      "ratingSummary": "No reviews yet — freshly launched. Being open-source gives it a trust advantage over closed alternatives."
+    },
+    {
+      "name": "talat",
+      "url": "https://www.producthunt.com/products/talat",
+      "category": "Productivity",
+      "description": "Real-time meeting notes that stay entirely on your Mac — local AI transcription with no cloud uploads",
+      "features": [
+        "On-device transcription",
+        "Mac native",
+        "Real-time notes",
+        "Privacy-first",
+        "No cloud processing"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-19T23:10:17.588Z",
+      "dateUpdated": "2026-03-19T23:10:17.588Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/talat"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Fits the growing trend of privacy-first, on-device AI tools. Limited engagement data so far.",
+      "ratingSummary": "No reviews yet — brand new launch. Appeals to privacy-conscious professionals who want meeting transcription without cloud dependencies."
+    },
+    {
+      "name": "GB1",
+      "url": "https://www.producthunt.com/products/gb1",
+      "category": "Productivity",
+      "description": "Private, planet-friendly AI assistant built in the UK — emphasizes privacy and sustainability",
+      "features": [
+        "Privacy-first AI assistant",
+        "UK-based infrastructure",
+        "Eco-friendly computing",
+        "General purpose assistant"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-19T23:10:25.266Z",
+      "dateUpdated": "2026-03-19T23:10:25.266Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/gb1"
+      ],
+      "buzzScore": 25,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Niche positioning as a UK-origin, eco-conscious AI assistant. Minimal buzz — differentiator is the green/privacy angle.",
+      "ratingSummary": "No reviews yet — very early stage launch."
+    },
+    {
+      "name": "Link AI",
+      "url": "https://www.producthunt.com/products/link-ai",
+      "category": "Agents",
+      "description": "Agentic business suite that aims to replace your entire SaaS stack with AI agents",
+      "features": [
+        "All-in-one business suite",
+        "AI agent automation",
+        "SaaS stack replacement",
+        "Agentic workflows"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-19T23:10:32.362Z",
+      "dateUpdated": "2026-03-19T23:10:32.362Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/link-ai"
+      ],
+      "buzzScore": 28,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Bold positioning as a full SaaS stack replacement via AI agents. Early stage with limited engagement data.",
+      "ratingSummary": "No reviews yet — brand new launch. The all-in-one approach is ambitious but unproven."
+    },
+    {
+      "name": "Codex Subagents (OpenAI)",
+      "url": "https://openai.com/codex",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-19T23:10:44.334Z",
+      "dateUpdated": "2026-03-19T23:10:44.334Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://astral.sh/blog/openai",
+        "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes/"
+      ],
+      "buzzScore": 92,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 2,
+          "sentiment": "mixed",
+          "detail": "Astral acquisition post on front page, 500+ comments"
+        },
+        {
+          "platform": "TechCrunch",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "Acquisition coverage + Sam Altman memes article"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Massive news: OpenAI acquiring Astral (makers of Ruff, uv, ty) to join the Codex team. Dual HN front page coverage with 500+ comments. TechCrunch feature article. Sam Altman thanking coders drew memes. Signals major Python tooling investment.",
+      "ratingSummary": "No change to rating — the Astral acquisition is seen as a strong move for developer tooling. Community reaction is mixed: excitement about uv/ruff staying maintained but concern about open-source governance under OpenAI."
+    },
+    {
+      "name": "CompactifAI",
+      "url": "https://compactifai.com",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-19T23:10:53.347Z",
+      "dateUpdated": "2026-03-19T23:10:53.347Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "Feature article on API portal launch and compressed model push"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch feature on Multiverse Computing launching both an app showcasing compressed models and an API for wider access. They have compressed models from OpenAI, Meta, DeepSeek, and Mistral. Second day of TechCrunch coverage.",
+      "ratingSummary": "No formal reviews yet but TechCrunch coverage is positive, highlighting the practical value of running compressed versions of major lab models at lower cost."
+    },
+    {
+      "name": "MiniMax-M2.7",
+      "url": "https://www.producthunt.com/products/minimax-agent",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-19T23:10:59.767Z",
+      "dateUpdated": "2026-03-19T23:10:59.767Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/minimax-agent"
+      ],
+      "buzzScore": 48,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured listing with continued engagement"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Still featured on Product Hunt feed (Mar 18-19). Positioned as a self-evolving AI model for autonomous agents. Product Hunt engagement continues with updates to the listing.",
+      "ratingSummary": "No formal reviews yet. Product Hunt listing is active with ongoing engagement from the community."
+    },
+    {
+      "name": "Stripe MPP",
+      "url": "https://www.producthunt.com/products/stripe",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-19T23:11:07.366Z",
+      "dateUpdated": "2026-03-19T23:11:07.366Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/stripe"
+      ],
+      "buzzScore": 52,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured listing, continued engagement"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Machine Payments Protocol still featured on Product Hunt (Mar 18-19). Stripe is positioning this as the internet-native payment standard for AI agents — timely as agentic AI adoption accelerates.",
+      "ratingSummary": "No formal reviews yet but Stripe brand carries weight. Community sees this as infrastructure play for the agent economy."
     }
   ]
 }
