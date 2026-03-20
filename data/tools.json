@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-20T19:28:24.381Z",
+    "lastUpdated": "2026-03-20T19:33:47.645Z",
     "totalTools": 141,
     "trendingCount": 2
   },
@@ -3436,9 +3436,9 @@
         "macOS native"
       ],
       "pricing": "TBD",
-      "freeTier": "Unknown",
+      "freeTier": "No free tier information available — pricing not yet announced (pre-launch)",
       "dateAdded": "2026-03-19T01:20:23.063Z",
-      "dateUpdated": "2026-03-19T01:20:23.063Z",
+      "dateUpdated": "2026-03-20T19:32:43.294Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/cursortalk-for-macos"
@@ -3467,9 +3467,9 @@
         "Define once, use everywhere"
       ],
       "pricing": "TBD",
-      "freeTier": "Unknown",
+      "freeTier": "No free tier information available — early-stage product, pricing not yet announced",
       "dateAdded": "2026-03-19T01:20:31.231Z",
-      "dateUpdated": "2026-03-19T01:20:31.231Z",
+      "dateUpdated": "2026-03-20T19:32:44.627Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/useagents"
@@ -3828,9 +3828,9 @@
         "Artist platform"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "Free to use — generate Doodles-style art from any image at no cost (community/NFT platform)",
       "dateAdded": "2026-03-19T14:57:01.603Z",
-      "dateUpdated": "2026-03-19T14:57:01.603Z",
+      "dateUpdated": "2026-03-20T19:32:56.533Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/doodles-ai"
@@ -4729,9 +4729,9 @@
         "Pixel-perfect validation"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "Free during beta — no credit card required, waitlist access",
       "dateAdded": "2026-03-20T15:27:13.022Z",
-      "dateUpdated": "2026-03-20T15:27:13.022Z",
+      "dateUpdated": "2026-03-20T19:32:17.376Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/visdiff"
@@ -4838,9 +4838,9 @@
         "Multi-agent coordination"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "Free Substack newsletter — weekly AI security digest at no cost",
       "dateAdded": "2026-03-20T15:27:39.458Z",
-      "dateUpdated": "2026-03-20T19:28:14.134Z",
+      "dateUpdated": "2026-03-20T19:32:57.876Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/context-overflow"
@@ -4870,9 +4870,9 @@
         "Git integration"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "No free tier — Lyzr platform uses pay-per-agent-run pricing ($0.03–$0.08/run)",
       "dateAdded": "2026-03-20T15:27:47.819Z",
-      "dateUpdated": "2026-03-20T19:27:58.676Z",
+      "dateUpdated": "2026-03-20T19:33:43.189Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/gitagent-2"
@@ -4902,9 +4902,9 @@
         "Realistic AI avatars"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "No free tier information available — site unreachable, pricing not confirmed",
       "dateAdded": "2026-03-20T15:27:56.024Z",
-      "dateUpdated": "2026-03-20T19:28:05.349Z",
+      "dateUpdated": "2026-03-20T19:33:44.677Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/adsturbo-2"
@@ -4934,9 +4934,9 @@
         "Platform integration"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "No free tier information available — early-stage product, pricing not yet announced",
       "dateAdded": "2026-03-20T15:28:03.411Z",
-      "dateUpdated": "2026-03-20T15:28:03.411Z",
+      "dateUpdated": "2026-03-20T19:33:46.112Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/productbridge"
@@ -4966,9 +4966,9 @@
         "Communication improvement"
       ],
       "pricing": "Unknown",
-      "freeTier": "Unknown",
+      "freeTier": "No free tier information available — no active website found, possibly pre-launch",
       "dateAdded": "2026-03-20T15:28:10.915Z",
-      "dateUpdated": "2026-03-20T15:28:10.915Z",
+      "dateUpdated": "2026-03-20T19:33:47.643Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/telea"
@@ -5165,7 +5165,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-20T19:27:51.514Z",
-      "dateUpdated": "2026-03-20T19:27:51.514Z",
+      "dateUpdated": "2026-03-20T19:32:20.832Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/visdiff"
@@ -5181,7 +5181,8 @@
       ],
       "ratingSources": [],
       "buzzSummary": "Product Hunt launch (Mar 18-19) with tagline 'Stop bridging the design-to-code gap, close it.' Still being featured and updated on PH as of Mar 20.",
-      "ratingSummary": "Early Product Hunt reception positive. Designers interested in the concept of visual diffing between design files and code output."
+      "ratingSummary": "Early Product Hunt reception positive. Designers interested in the concept of visual diffing between design files and code output.",
+      "freeTier": "Free during beta — no credit card required, waitlist access"
     },
     {
       "name": "WordPress.com AI Agents",
