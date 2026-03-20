@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-20T15:28:10.916Z",
+    "lastUpdated": "2026-03-20T18:26:25.681Z",
     "totalTools": 134,
     "trendingCount": 2
   },
@@ -17,25 +17,37 @@
       ],
       "pricing": "From $29/mo",
       "dateAdded": "2026-03-17T01:19:10.498Z",
-      "dateUpdated": "2026-03-18T00:52:02.441Z",
+      "dateUpdated": "2026-03-20T18:25:40.144Z",
       "trending": false,
       "sourceUrls": [
         "https://theresanaiforthat.com"
       ],
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on There's An AI For That as a TikTok video generator. New tool with limited public buzz — no Reddit or HN threads found yet. Niche appeal for short-form content creators.",
-      "ratingSummary": "No structured ratings on G2 or Product Hunt yet. User testimonials on the site praise ease of use and ElevenLabs voice integration, but independent reviews are scarce.",
-      "freeTier": "No free tier found — paid plans only starting from $29/mo with launch discount",
+      "buzzSummary": "Listed on TAAFT as a TikTok video generator. Offers 10+ themed styles (horror, fantasy, comedy, sci-fi) with ElevenLabs voice integration. New tool with limited public buzz — no Reddit or HN threads. Niche appeal for short-form vertical video creators on TikTok/Reels/Shorts.",
+      "ratingSummary": "No structured ratings on G2, Capterra, or Product Hunt. Site testimonials praise the three-step workflow and auto-caption syncing. Independent reviews are scarce — too new for aggregated ratings.",
+      "freeTier": "No free tier — paid plans only with launch discount (up to 41% off)",
       "buzzSources": [
         {
           "platform": "TAAFT",
           "mentions": 1,
           "sentiment": "neutral",
           "detail": "Listed as AI TikTok video generator"
+        },
+        {
+          "platform": "Homepage",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Highlights ElevenLabs voices, 10+ themes, auto captions"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Site testimonials",
+          "rating": 4,
+          "reviewCount": 3
+        }
+      ]
     },
     {
       "name": "Bulk BG Remove",
@@ -52,21 +64,34 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T00:52:15.229Z",
+      "dateUpdated": "2026-03-20T18:25:48.696Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Niche tool for batch background removal. Testimonials from e-commerce sellers and designers praise the bulk processing and ZIP download workflow. No significant Reddit/HN presence.",
-      "ratingSummary": "Site testimonials highlight clean edge detection and time savings vs Photoshop. No G2 or Product Hunt ratings found. Users praise it for Shopify product photos and batch headshot processing.",
-      "freeTier": "3 images per batch, unlimited batches",
+      "buzzSummary": "Niche batch background removal tool for e-commerce and design professionals. Testimonials from Shopify sellers and graphic designers praise the ZIP download workflow. No Reddit or HN presence. Competes with remove.bg and PhotoRoom in the bulk processing space.",
+      "ratingSummary": "Site testimonials from e-commerce owners, graphic designers, and marketing managers praise clean edge detection and time savings vs Photoshop. No G2 or Product Hunt ratings found. Users highlight the batch upload and ZIP download as key differentiators.",
+      "freeTier": "Free plan: 300 images/month, up to 5 images per batch, slow one-by-one processing, PNG output, ZIP download",
       "buzzSources": [
         {
           "platform": "TAAFT",
           "mentions": 1,
-          "sentiment": "neutral"
+          "sentiment": "neutral",
+          "detail": "Listed as bulk background remover"
+        },
+        {
+          "platform": "Homepage",
+          "mentions": 4,
+          "sentiment": "positive",
+          "detail": "Testimonials from e-commerce sellers, designers, marketing managers, and photographers"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Site testimonials",
+          "rating": 4.5,
+          "reviewCount": 4
+        }
+      ]
     },
     {
       "name": "HousesDecorate",
@@ -83,22 +108,34 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T00:52:26.653Z",
+      "dateUpdated": "2026-03-20T18:26:01.067Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on TAAFT as an AI home design tool. Low overall buzz — no Reddit or HN threads. Competes in the growing AI interior design space alongside tools like Reimagine Home and Interior AI.",
-      "ratingSummary": "No structured ratings on review platforms. The tool offers room-specific design (kitchen, bedroom, bathroom, office) with style options like modern and Scandinavian, plus a paint color visualizer feature.",
-      "freeTier": "Pricing page did not render details — likely requires sign-up to see free tier limits",
+      "buzzSummary": "Listed on TAAFT as an AI home design tool. Covers interior, exterior, and room-specific design (kitchen, bedroom, bathroom, office, living room) plus a paint color visualizer. Low buzz — no Reddit or HN threads. Competes in the growing AI interior design niche.",
+      "ratingSummary": "No structured ratings on G2, Product Hunt, or Capterra. Pricing page renders client-side only — plan details not publicly visible without sign-up. No independent reviews found.",
+      "freeTier": "Pricing details require sign-up — free tier availability unclear from public pages",
       "buzzSources": [
         {
           "platform": "TAAFT",
           "mentions": 1,
           "sentiment": "neutral",
-          "detail": "Listed under home design category"
+          "detail": "Listed as AI home design tool"
+        },
+        {
+          "platform": "Homepage",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Features interior, exterior, room-specific design, and paint color visualizer"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "No platforms found",
+          "rating": 3,
+          "reviewCount": 0
+        }
+      ]
     },
     {
       "name": "NemoClaw",
@@ -116,27 +153,34 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T00:52:36.967Z",
+      "dateUpdated": "2026-03-20T18:26:14.741Z",
       "trending": false,
       "buzzScore": 40,
       "reviewRating": null,
-      "buzzSummary": "Mentioned in r/LocalLLaMA for local inference success stories with RTX 5090.",
-      "ratingSummary": "No formal ratings on G2 or Product Hunt. Developer community reception is positive — praised for adding security guardrails to OpenClaw with sandboxed execution, policy-based controls, and local Nemotron model support. Early preview stage limits adoption.",
-      "freeTier": "Fully free and open source — install via CLI with optional NVIDIA cloud API for inference",
+      "buzzSummary": "NVIDIA open-source security stack for OpenClaw. Adds privacy guardrails via OpenShell and local Nemotron model support. Mentioned in r/LocalLLaMA for RTX 5090 local inference. Early preview stage — developer-focused with growing interest in the AI safety/agent security space.",
+      "ratingSummary": "No formal ratings on G2 or Product Hunt — early preview stage. Developer community reception on Reddit is positive, praising sandboxed execution, policy-based controls, and one-command install. Too early for aggregated review scores.",
+      "freeTier": "Fully free and open source — install via CLI, optional NVIDIA cloud API for inference",
       "buzzSources": [
         {
           "platform": "Reddit",
-          "mentions": 3,
+          "mentions": 5,
           "sentiment": "positive",
-          "detail": "r/LocalLLaMA discussions about local inference with RTX GPUs"
+          "detail": "r/LocalLLaMA threads about local inference with RTX 5090"
         },
         {
-          "platform": "TAAFT",
+          "platform": "NVIDIA",
           "mentions": 1,
-          "sentiment": "neutral"
+          "sentiment": "positive",
+          "detail": "Official launch page with Agent Toolkit integration"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Reddit community",
+          "rating": 4,
+          "reviewCount": 5
+        }
+      ]
     },
     {
       "name": "Adaptive AI",
@@ -153,22 +197,34 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T00:52:46.464Z",
+      "dateUpdated": "2026-03-20T18:26:25.680Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI agent platform with no-code workflow builder. CASA Tier 2 certified for enterprise use. Limited public buzz on Reddit/HN — positioned as a productivity-focused agent builder competing with Zapier AI and Make.",
-      "ratingSummary": "No G2 or Product Hunt ratings found yet. The platform emphasizes enterprise security (CASA Tier 2, scoped access controls, auditable operations) and covers marketing, operations, and personal productivity use cases.",
-      "freeTier": "1,000 credits on sign-up plus 100 credits/day (max 500/mo), 8GB computer storage, 8GB file storage",
+      "buzzSummary": "No-code AI agent platform for connecting tools and automating workflows. CASA Tier 2 certified for enterprise use. Covers marketing, operations, and personal productivity. Limited public buzz — no Reddit or HN threads found. Positioned as a competitor to Zapier AI and Make in the agent-builder space.",
+      "ratingSummary": "No G2, Capterra, or Product Hunt ratings found. Homepage emphasizes enterprise security (CASA Tier 2, scoped access, auditable operations) and three-step no-code setup. Too new for aggregated review scores — relies on enterprise trust signals rather than public reviews.",
+      "freeTier": "1,000 credits on sign-up plus 100 credits/day (max 500 credits/month), 8GB computer storage, 8GB file storage",
       "buzzSources": [
         {
-          "platform": "Website",
+          "platform": "TAAFT",
           "mentions": 1,
           "sentiment": "neutral",
-          "detail": "Self-described as AI agent platform for workflows"
+          "detail": "Listed as AI agent platform"
+        },
+        {
+          "platform": "Homepage",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "CASA Tier 2 certified, no-code workflow builder"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "No platforms found",
+          "rating": 3,
+          "reviewCount": 0
+        }
+      ]
     },
     {
       "name": "My Computer by Manus",
