@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-20T18:53:11.642Z",
-    "totalTools": 134,
+    "lastUpdated": "2026-03-20T19:28:24.381Z",
+    "totalTools": 141,
     "trendingCount": 2
   },
   "tools": [
@@ -4172,39 +4172,33 @@
     {
       "name": "CompactifAI",
       "url": "https://compactifai.com",
-      "category": "Other",
+      "category": "Research",
       "description": "",
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:10:53.347Z",
-      "dateUpdated": "2026-03-20T03:30:04.246Z",
+      "dateUpdated": "2026-03-20T19:27:43.995Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/"
       ],
-      "buzzScore": 58,
+      "buzzScore": 68,
       "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "detail": "Feature article on mainstream push",
+          "detail": "3 articles in one week, Mar 18-20",
           "sentiment": "positive"
         },
         {
           "platform": "Product Hunt",
-          "mentions": 1,
+          "detail": "Continued engagement",
           "sentiment": "positive"
         }
       ],
-      "ratingSources": [
-        {
-          "platform": "TechCrunch",
-          "rating": 4,
-          "reviewCount": 1
-        }
-      ],
-      "buzzSummary": "TechCrunch coverage Mar 19, 2026: Multiverse Computing pushing compressed AI models mainstream with new app and API. Compresses models from OpenAI, Meta, DeepSeek, Mistral. Also on Product Hunt recently.",
-      "ratingSummary": "TechCrunch highlights the practical value of running compressed models on smaller hardware. Early enterprise users report good quality-to-compute tradeoffs. API availability broadens access.",
+      "ratingSources": [],
+      "buzzSummary": "Third TechCrunch article in a week (Mar 19) — Multiverse Computing pushing compressed AI models into mainstream with new app + API supporting OpenAI, Meta, DeepSeek, and Mistral models. Sustained media coverage signals growing industry interest in model compression.",
+      "ratingSummary": "No user reviews yet. TechCrunch coverage consistently positive, highlighting the practical value of running compressed versions of frontier models.",
       "freeTier": "Demo app available to try compressed models; API access likely requires signup"
     },
     {
@@ -4804,7 +4798,7 @@
       "name": "Google AI Studio 2.0",
       "url": "https://aistudio.google.com",
       "category": "Coding",
-      "description": "Full-stack vibe coding powered by Antigravity and Firebase from Google",
+      "description": "Full-stack vibe coding powered by Antigravity + Firebase — Google's AI-powered development environment.",
       "features": [
         "Full-stack app generation",
         "Firebase integration",
@@ -4814,36 +4808,24 @@
       "pricing": "Free",
       "freeTier": "Free access with Google account, generous API quotas",
       "dateAdded": "2026-03-20T15:27:32.605Z",
-      "dateUpdated": "2026-03-20T15:27:32.605Z",
+      "dateUpdated": "2026-03-20T19:27:35.232Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/google-ai-studio-8"
       ],
-      "buzzScore": 75,
+      "buzzScore": 78,
       "reviewRating": 4,
       "parentPlatform": "Google",
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "AI Studio 2.0 launch Mar 19"
-        },
-        {
-          "platform": "Reddit",
-          "mentions": 2,
-          "sentiment": "mixed"
+          "detail": "Featured and actively updated, Mar 19-20",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [
-        {
-          "platform": "Product Hunt",
-          "rating": 4,
-          "reviewCount": 50
-        }
-      ],
-      "buzzSummary": "Launched on Product Hunt Mar 19 as a major update to Google AI Studio. Positioned as a full-stack vibe coding platform powered by Antigravity + Firebase. Part of Google broader AI developer push alongside Gemini.",
-      "ratingSummary": "Generally well received for free access and Firebase integration. Some developers note it is still catching up to Cursor and Replit in terms of polish, but the Google ecosystem integration is a strong draw."
+      "ratingSources": [],
+      "buzzSummary": "Still featured prominently on Product Hunt (updated Mar 20). The 'vibe coding' positioning with Antigravity + Firebase is generating discussion. Google continuing to push AI Studio as their dev platform play.",
+      "ratingSummary": "Product Hunt engagement remains strong. Developers praising the Firebase integration but questioning how it competes with Cursor and Replit."
     },
     {
       "name": "Context Overflow",
@@ -4858,29 +4840,28 @@
       "pricing": "Unknown",
       "freeTier": "Unknown",
       "dateAdded": "2026-03-20T15:27:39.458Z",
-      "dateUpdated": "2026-03-20T15:27:39.458Z",
+      "dateUpdated": "2026-03-20T19:28:14.134Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/context-overflow"
       ],
-      "buzzScore": 40,
+      "buzzScore": 52,
       "reviewRating": null,
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "neutral",
-          "detail": "Launched Mar 19"
+          "detail": "Launched Mar 19",
+          "sentiment": "positive"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Launched on Product Hunt Mar 19. Addresses the growing need for AI agent coordination and shared context. Niche but timely as agentic AI adoption accelerates.",
-      "ratingSummary": "No reviews yet — just launched. The concept is novel but unproven in the market."
+      "buzzSummary": "Launched on Product Hunt (Mar 19) as 'Knowledge Sharing for AI Agents.' Addresses the growing need for agents to share context across tools and sessions.",
+      "ratingSummary": "No structured reviews yet. Product Hunt commenters interested in the agent interoperability angle."
     },
     {
       "name": "GitAgent by Lyzr",
       "url": "https://www.producthunt.com/products/gitagent-2",
-      "category": "Agents",
+      "category": "Coding",
       "description": "Turns your repository into an AI agent for code understanding and automation",
       "features": [
         "Repository-as-agent",
@@ -4891,24 +4872,23 @@
       "pricing": "Unknown",
       "freeTier": "Unknown",
       "dateAdded": "2026-03-20T15:27:47.819Z",
-      "dateUpdated": "2026-03-20T15:27:47.819Z",
+      "dateUpdated": "2026-03-20T19:27:58.676Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/gitagent-2"
       ],
-      "buzzScore": 38,
+      "buzzScore": 48,
       "reviewRating": null,
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "neutral",
-          "detail": "Launched Mar 19"
+          "detail": "Launched Mar 19, featured",
+          "sentiment": "positive"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Launched on Product Hunt Mar 19. Positions itself in the repo-aware AI agent space competing with GitHub Copilot Workspace and similar tools. Built by Lyzr, an AI agent framework company.",
-      "ratingSummary": "No reviews yet — just launched on Product Hunt."
+      "buzzSummary": "Launched on Product Hunt (Mar 19) with 'Your repository becomes your agent' tagline. Part of the growing trend of AI agents that understand codebases.",
+      "ratingSummary": "No structured reviews. Early PH feedback intrigued by the repo-as-agent concept but questions around security and access control."
     },
     {
       "name": "AdsTurbo",
@@ -4924,24 +4904,23 @@
       "pricing": "Unknown",
       "freeTier": "Unknown",
       "dateAdded": "2026-03-20T15:27:56.024Z",
-      "dateUpdated": "2026-03-20T15:27:56.024Z",
+      "dateUpdated": "2026-03-20T19:28:05.349Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/adsturbo-2"
       ],
-      "buzzScore": 42,
+      "buzzScore": 50,
       "reviewRating": null,
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "neutral",
-          "detail": "Launched Mar 17"
+          "detail": "Featured since Mar 17, still active",
+          "sentiment": "positive"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Launched on Product Hunt Mar 17. Targets ad creators who want realistic AI-generated human actors for video ads. Competes in the growing AI video ad space alongside Synthesia and HeyGen.",
-      "ratingSummary": "No structured reviews yet. Product Hunt listing is fresh with limited user feedback."
+      "buzzSummary": "Still featured on Product Hunt (updated Mar 20). AI-generated ads with human-looking AI actors continuing to draw attention. Part of the broader AI ad creative wave.",
+      "ratingSummary": "Product Hunt engagement steady. Users curious about the quality of AI actors but no in-depth reviews yet."
     },
     {
       "name": "ProductBridge",
@@ -5007,6 +4986,235 @@
       "ratingSources": [],
       "buzzSummary": "Launched on Product Hunt Mar 19. Tagline: Speak like you always know what to say. Niche AI communication coaching tool.",
       "ratingSummary": "No reviews yet — just launched."
+    },
+    {
+      "name": "Sitefire",
+      "url": "https://sitefire.ai",
+      "category": "Marketing",
+      "description": "YC W26 startup that automates actions to improve brand visibility in AI search engines like ChatGPT, Gemini, and Google AI Mode.",
+      "features": [
+        "AI search monitoring",
+        "Fan-out query analysis",
+        "Content optimization agents",
+        "CMS integration",
+        "Google Analytics tracking",
+        "Daily prompt monitoring"
+      ],
+      "pricing": "Contact for pricing",
+      "freeTier": "Free trial available",
+      "dateAdded": "2026-03-20T19:26:48.530Z",
+      "dateUpdated": "2026-03-20T19:26:48.530Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47457472"
+      ],
+      "buzzScore": 58,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Launch HN post, moderate discussion",
+          "sentiment": "mixed"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on HN (YC W26) with moderate engagement. The team pitched a data-driven approach to AI SEO, contrasting themselves with GEO hacks. One client case study showed AI bot requests increasing from ~200/day to ~570/day in 10 days.",
+      "ratingSummary": "Too new for structured reviews. HN comments focused on the legitimacy of the AI SEO space and whether optimizing for AI search is sustainable long-term."
+    },
+    {
+      "name": "Gaze Guard",
+      "url": "https://gazeguard.app",
+      "category": "Productivity",
+      "description": "AI-powered privacy tool that instantly blurs your screen when someone looks over your shoulder, using gaze detection.",
+      "features": [
+        "Real-time gaze detection",
+        "Instant screen blur",
+        "Privacy protection",
+        "macOS native"
+      ],
+      "pricing": "From $9.99",
+      "freeTier": "Free trial period",
+      "dateAdded": "2026-03-20T19:26:59.049Z",
+      "dateUpdated": "2026-03-20T19:26:59.049Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/gaze-guard"
+      ],
+      "buzzScore": 42,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Featured product, Mar 19",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured on Product Hunt (Mar 19, 2026). Niche privacy tool using AI gaze detection — appealing concept but limited discussion so far. Most interest from remote workers and privacy-conscious users.",
+      "ratingSummary": "No structured reviews yet. Product Hunt commenters found the concept clever but questioned reliability of gaze detection in varied lighting conditions."
+    },
+    {
+      "name": "Claude Code Channels",
+      "url": "https://www.producthunt.com/products/claude",
+      "category": "Coding",
+      "description": "Push events and chat with Claude Code via Telegram and Discord — brings Claude Code notifications and interaction to messaging platforms.",
+      "features": [
+        "Telegram integration",
+        "Discord integration",
+        "Push event notifications",
+        "Chat with Claude Code remotely"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free and open source",
+      "dateAdded": "2026-03-20T19:27:07.108Z",
+      "dateUpdated": "2026-03-20T19:27:07.108Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/claude"
+      ],
+      "buzzScore": 52,
+      "reviewRating": null,
+      "parentPlatform": "Anthropic",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Listed under Claude product family, Mar 19",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt (Mar 19, 2026) under Anthropic's Claude product page. Appeals to developers who want Claude Code notifications in their existing chat workflows instead of monitoring terminals.",
+      "ratingSummary": "No structured reviews yet. Product Hunt listing shows early interest from developer community."
+    },
+    {
+      "name": "Attention Residuals (MoonshotAI)",
+      "url": "https://github.com/MoonshotAI/Attention-Residuals",
+      "category": "Research",
+      "description": "Drop-in replacement for standard residual connections in Transformers that enables selective depth-wise attention, improving model quality by ~1.25x compute equivalent.",
+      "features": [
+        "Block AttnRes architecture",
+        "Drop-in Transformer upgrade",
+        "Bounded hidden-state magnitudes",
+        "Improved multi-step reasoning",
+        "Better code generation"
+      ],
+      "pricing": "Free",
+      "freeTier": "Open source (GitHub)",
+      "dateAdded": "2026-03-20T19:27:17.060Z",
+      "dateUpdated": "2026-03-20T19:27:17.060Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47458595",
+        "https://github.com/MoonshotAI/Attention-Residuals"
+      ],
+      "buzzScore": 62,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Front page, active discussion",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "arXiv",
+          "detail": "Paper 2603.15031",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Trending on HN front page (Mar 20, 2026). From MoonshotAI/Kimi team. Key result: +7.5 on GPQA-Diamond and +3.1 on HumanEval vs baseline. Researchers noting it addresses the well-known PreNorm dilution problem elegantly.",
+      "ratingSummary": "No user reviews — this is a research paper/repo. Academic reception appears positive given the strong benchmark improvements across MMLU, GPQA, Math, and HumanEval."
+    },
+    {
+      "name": "Joy for Gmail",
+      "url": "https://www.producthunt.com/products/joy-for-gmail",
+      "category": "Productivity",
+      "description": "A Gmail client with cleaner inbox, focused writing, and less noise — AI-powered email management.",
+      "features": [
+        "Clean inbox view",
+        "Focused writing mode",
+        "Noise reduction",
+        "Gmail integration"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Basic inbox features free",
+      "dateAdded": "2026-03-20T19:27:26.528Z",
+      "dateUpdated": "2026-03-20T19:27:26.528Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/joy-for-gmail"
+      ],
+      "buzzScore": 38,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Featured Mar 19",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured on Product Hunt (Mar 19, 2026). Positioning as a cleaner Gmail experience. Limited buzz outside PH so far.",
+      "ratingSummary": "No structured reviews yet. Early Product Hunt feedback focuses on the clean UI design."
+    },
+    {
+      "name": "Visdiff",
+      "url": "https://visdiff.com",
+      "category": "Design",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-20T19:27:51.514Z",
+      "dateUpdated": "2026-03-20T19:27:51.514Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/visdiff"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Featured product, actively updated",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Product Hunt launch (Mar 18-19) with tagline 'Stop bridging the design-to-code gap, close it.' Still being featured and updated on PH as of Mar 20.",
+      "ratingSummary": "Early Product Hunt reception positive. Designers interested in the concept of visual diffing between design files and code output."
+    },
+    {
+      "name": "WordPress.com AI Agents",
+      "url": "https://wordpress.com",
+      "category": "Writing",
+      "description": "WordPress.com now lets AI agents write and publish posts, manage content, and automate publishing workflows.",
+      "features": [
+        "AI agent publishing",
+        "Automated content creation",
+        "CMS integration",
+        "Multi-agent support"
+      ],
+      "pricing": "Included with WordPress.com plans",
+      "freeTier": "Available on free WordPress.com tier",
+      "dateAdded": "2026-03-20T19:28:24.379Z",
+      "dateUpdated": "2026-03-20T19:28:24.379Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/"
+      ],
+      "buzzScore": 65,
+      "reviewRating": null,
+      "parentPlatform": "Automattic",
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "detail": "Feature article by Sarah Perez, Mar 20",
+          "sentiment": "mixed"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch coverage (Mar 20) highlighted WordPress.com enabling AI agents to write and publish posts. Seen as a major signal of AI-native CMS capabilities entering mainstream. Debate around potential for increased machine-generated content flooding the web.",
+      "ratingSummary": "No user reviews of the AI agent feature specifically. WordPress.com itself is well-reviewed but this feature is brand new."
     }
   ]
 }
