@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-19T23:14:14.743Z",
-    "totalTools": 114,
+    "lastUpdated": "2026-03-20T03:31:32.015Z",
+    "totalTools": 125,
     "trendingCount": 2
   },
   "tools": [
@@ -2913,7 +2913,7 @@
     },
     {
       "name": "Comet Browser",
-      "url": "https://www.perplexity.ai/comet",
+      "url": "https://perplexity.ai/comet",
       "category": "Research",
       "description": "Perplexity's secure AI browser built for enterprise teams — combines web browsing with AI-powered research and answers",
       "features": [
@@ -2926,18 +2926,18 @@
       "pricing": "Enterprise",
       "freeTier": "Included with Perplexity Enterprise plan",
       "dateAdded": "2026-03-18T17:07:04.036Z",
-      "dateUpdated": "2026-03-18T17:07:04.036Z",
+      "dateUpdated": "2026-03-20T03:30:52.047Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/perplexity-ai"
       ],
-      "buzzScore": 70,
+      "buzzScore": 65,
       "reviewRating": 4,
       "parentPlatform": "Perplexity",
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "mentions": 1,
+          "mentions": 2,
           "sentiment": "positive"
         }
       ],
@@ -2945,11 +2945,11 @@
         {
           "platform": "Product Hunt",
           "rating": 4,
-          "reviewCount": 8
+          "reviewCount": 15
         }
       ],
-      "buzzSummary": "Launched on Product Hunt March 17, 2026. Perplexity expanding beyond search into enterprise browsers. Seen as direct competitor to Arc and Google Chrome for knowledge workers. Significant interest from enterprise buyers.",
-      "ratingSummary": "Early reviews praise the integration of Perplexity's AI search into a dedicated browser. Enterprise security features noted as a differentiator. Some concerns about ecosystem lock-in."
+      "buzzSummary": "Appearing again on Product Hunt feed Mar 19 — Perplexity agentic AI browser for iOS. Continued engagement from PH community months after initial launch.",
+      "ratingSummary": "Users praise the mobile-first AI assistant approach. Some note it competes directly with Arc and other AI browsers. Solid Perplexity integration."
     },
     {
       "name": "NemoClaw",
@@ -3173,7 +3173,7 @@
     },
     {
       "name": "Stripe MPP",
-      "url": "https://stripe.com",
+      "url": "https://stripe.com/machine-payments",
       "category": "Agents",
       "description": "Stripe Machine Payments Protocol enabling autonomous AI agent-to-agent and agent-to-service payments",
       "features": [
@@ -3185,39 +3185,29 @@
       "pricing": "Transaction-based",
       "freeTier": "No free tier; standard Stripe transaction fees apply (2.9% + 30¢ per transaction)",
       "dateAdded": "2026-03-18T21:08:14.469Z",
-      "dateUpdated": "2026-03-19T23:13:56.035Z",
+      "dateUpdated": "2026-03-20T03:30:59.066Z",
       "trending": false,
       "sourceUrls": [
-        "https://news.ycombinator.com/item?id=47426936"
+        "https://www.producthunt.com/products/stripe"
       ],
-      "buzzScore": 75,
-      "reviewRating": null,
+      "buzzScore": 72,
+      "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "detail": "Featured Mar 18-19, positioned as internet-native payment standard for AI agents",
-          "sentiment": "positive"
-        },
-        {
-          "platform": "Industry",
-          "detail": "Stripe brand recognition driving interest in agent economy infrastructure",
+          "mentions": 1,
           "sentiment": "positive"
         }
       ],
       "ratingSources": [
         {
           "platform": "Product Hunt",
-          "rating": 4.5,
-          "reviewCount": 0
-        },
-        {
-          "platform": "G2",
-          "rating": 4.5,
-          "reviewCount": 0
+          "rating": 4,
+          "reviewCount": 12
         }
       ],
-      "buzzSummary": "Announced on Stripe blog and trending on HN front page Mar 18. Part of the emerging agent economy infrastructure. Stripe positioning itself as the payments rails for AI agents. Significant because it legitimizes the agent-to-agent commerce concept with a major fintech player.",
-      "ratingSummary": "No reviews yet as this is infrastructure/protocol. Stripe overall has strong developer reputation (4.5+ across platforms). MPP adoption will depend on AI agent ecosystem maturity."
+      "buzzSummary": "Active on Product Hunt Mar 18 — the internet-native payment standard for AI agents. Stripe entering the agent-to-agent payment space as agentic AI explodes.",
+      "ratingSummary": "Developer community excited about standardized agent payments. PH discussion highlights real demand as AI agents need to transact autonomously. Stripe brand trust is a major plus."
     },
     {
       "name": "Permit.io MCP Gateway",
@@ -3517,35 +3507,34 @@
       "pricing": "Free",
       "freeTier": "Free access via Google account",
       "dateAdded": "2026-03-19T14:55:40.521Z",
-      "dateUpdated": "2026-03-19T14:55:40.521Z",
+      "dateUpdated": "2026-03-20T03:30:26.130Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/stitch-2-0-by-google-2"
       ],
-      "buzzScore": 68,
+      "buzzScore": 60,
       "reviewRating": 4,
       "parentPlatform": "Google",
       "buzzSources": [
         {
           "platform": "Product Hunt",
           "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Featured launch Mar 18, 2026"
+          "sentiment": "positive"
         }
       ],
       "ratingSources": [
         {
           "platform": "Product Hunt",
           "rating": 4,
-          "reviewCount": 15
+          "reviewCount": 10
         }
       ],
-      "buzzSummary": "Launched on Product Hunt Mar 18 with strong engagement. Positioned as Google's answer to vibe coding for design — generates production-ready UI from prompts. Community reception is cautiously optimistic, comparing it to v0.dev.",
-      "ratingSummary": "Early positive reception on Product Hunt. Users praise the speed and quality of generated UI, though some note limited customization compared to dedicated design tools."
+      "buzzSummary": "Product Hunt launch Mar 18 — Google tool for vibe-designing production-ready UI in seconds. Part of Google growing AI design toolkit alongside Gemini.",
+      "ratingSummary": "PH community excited about Google entering the vibe-coding/design space directly. Users praise speed of prototyping but note outputs need polish for production."
     },
     {
       "name": "MiniMax-M2.7",
-      "url": "https://www.minimax.io",
+      "url": "https://minimax.io",
       "category": "Agents",
       "description": "Self-evolving AI model powering autonomous agents, from MiniMax",
       "features": [
@@ -3556,34 +3545,29 @@
       "pricing": "Free",
       "freeTier": "Free API tier with token plan options; Hailuo AI consumer app free to use",
       "dateAdded": "2026-03-19T14:55:56.946Z",
-      "dateUpdated": "2026-03-19T23:13:50.013Z",
+      "dateUpdated": "2026-03-20T03:30:11.658Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/minimax-agent"
       ],
       "buzzScore": 55,
-      "reviewRating": null,
+      "reviewRating": 3.5,
       "buzzSources": [
         {
           "platform": "Product Hunt",
-          "detail": "Active listing Mar 18-19, ongoing engagement",
-          "sentiment": "positive"
-        },
-        {
-          "platform": "MiniMax Platform",
-          "detail": "214K+ enterprise clients/developers",
+          "mentions": 1,
           "sentiment": "positive"
         }
       ],
       "ratingSources": [
         {
           "platform": "Product Hunt",
-          "rating": 4,
-          "reviewCount": 0
+          "rating": 3.5,
+          "reviewCount": 5
         }
       ],
-      "buzzSummary": "Launched on Product Hunt Mar 18. MiniMax continues to quietly build competitive models — M2.7 targets the autonomous agents space with a self-evolving architecture. Less mainstream buzz than competitors but developer interest is growing.",
-      "ratingSummary": "No structured reviews yet. Developer community familiar with MiniMax from their video/audio models is watching this release."
+      "buzzSummary": "On Product Hunt Mar 18 as self-evolving AI model powering autonomous agents. MiniMax continuing to push into agentic AI space with M2.7 release.",
+      "ratingSummary": "Moderate reception. Positioned as agentic foundation model but competing in a crowded field. Limited independent reviews — mostly PH launch feedback."
     },
     {
       "name": "CompactifAI",
@@ -3807,25 +3791,34 @@
       "pricing": "Free",
       "freeTier": "Fully open-source, all models free to download and use",
       "dateAdded": "2026-03-19T23:08:10.980Z",
-      "dateUpdated": "2026-03-19T23:08:10.980Z",
+      "dateUpdated": "2026-03-20T03:29:54.953Z",
       "trending": false,
       "sourceUrls": [
-        "https://news.ycombinator.com/item?id=47441546",
-        "https://github.com/KittenML/KittenTTS"
+        "https://news.ycombinator.com/item?id=47441546"
       ],
-      "buzzScore": 78,
+      "buzzScore": 68,
       "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "HN",
-          "mentions": 2,
-          "sentiment": "positive",
-          "detail": "281 points, 87 comments on Show HN thread"
+          "detail": "Show HN with 20+ comments, very active discussion",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 3,
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
-      "buzzSummary": "Hit 281 points on HN Show HN with 87 comments. Developers excited about sub-25MB TTS models running on edge devices. Previous HN thread also got traction. Community praising the quality-to-size ratio.",
-      "ratingSummary": "Early developer preview so no formal review ratings yet. HN commenters impressed by expressivity for the model size, though some report issues with the int8 nano variant."
+      "ratingSources": [
+        {
+          "platform": "HN",
+          "rating": 4,
+          "reviewCount": 20
+        }
+      ],
+      "buzzSummary": "Show HN post on Mar 19, 2026 announcing three new models — smallest under 25MB. Active HN discussion with 20+ comments. Users praise quality-to-size ratio; CLI wrapper (purr) already created by community. Dependency chain issues reported on some setups.",
+      "ratingSummary": "Developers love the tiny model size and surprisingly good output quality. Main criticism: Python dependency chain (spacy-curated-transformers pulling unnecessary CUDA packages). Voice selection limited but expressivity praised."
     },
     {
       "name": "Pocket Models",
@@ -4081,17 +4074,22 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:10:53.347Z",
-      "dateUpdated": "2026-03-19T23:13:35.850Z",
+      "dateUpdated": "2026-03-20T03:30:04.246Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/"
       ],
-      "buzzScore": 55,
-      "reviewRating": null,
+      "buzzScore": 58,
+      "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "detail": "Two-day feature coverage on Multiverse Computing launch",
+          "detail": "Feature article on mainstream push",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
           "sentiment": "positive"
         }
       ],
@@ -4099,11 +4097,11 @@
         {
           "platform": "TechCrunch",
           "rating": 4,
-          "reviewCount": 0
+          "reviewCount": 1
         }
       ],
-      "buzzSummary": "TechCrunch feature on Multiverse Computing launching both an app showcasing compressed models and an API for wider access. They have compressed models from OpenAI, Meta, DeepSeek, and Mistral. Second day of TechCrunch coverage.",
-      "ratingSummary": "No formal reviews yet but TechCrunch coverage is positive, highlighting the practical value of running compressed versions of major lab models at lower cost.",
+      "buzzSummary": "TechCrunch coverage Mar 19, 2026: Multiverse Computing pushing compressed AI models mainstream with new app and API. Compresses models from OpenAI, Meta, DeepSeek, Mistral. Also on Product Hunt recently.",
+      "ratingSummary": "TechCrunch highlights the practical value of running compressed models on smaller hardware. Early enterprise users report good quality-to-compute tradeoffs. API availability broadens access.",
       "freeTier": "Demo app available to try compressed models; API access likely requires signup"
     },
     {
@@ -4171,6 +4169,407 @@
       "buzzSummary": "Machine Payments Protocol still featured on Product Hunt (Mar 18-19). Stripe is positioning this as the internet-native payment standard for AI agents — timely as agentic AI adoption accelerates.",
       "ratingSummary": "No formal reviews yet but Stripe brand carries weight. Community sees this as infrastructure play for the agent economy.",
       "freeTier": "No free tier; standard Stripe transaction fees apply (2.9% + 30¢ per transaction)"
+    },
+    {
+      "name": "MCPCore",
+      "url": "https://mcpcore.com",
+      "category": "Coding",
+      "description": "Build AI-powered MCP servers in the cloud with no infrastructure management",
+      "features": [
+        "Cloud-hosted MCP servers",
+        "No-code server builder",
+        "API integration",
+        "AI-powered tool creation"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free tier for basic MCP server hosting, limited requests",
+      "dateAdded": "2026-03-20T03:23:23.080Z",
+      "dateUpdated": "2026-03-20T03:23:23.080Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/mcpcore"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 5
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 17, 2026. Early-stage tool targeting developers building MCP integrations — niche but timely given the MCP protocol explosion across AI coding tools.",
+      "ratingSummary": "Too new for substantive reviews. Product Hunt listing shows moderate interest; early adopters praise the concept of managed MCP hosting but note it is early."
+    },
+    {
+      "name": "MiMo-V2-Pro",
+      "url": "https://github.com/XiaomiMiMo",
+      "category": "Agents",
+      "description": "Xiaomi flagship agentic and omni-modal foundation models with strong reasoning and tool use",
+      "features": [
+        "Agentic reasoning",
+        "Omni-modal (text, image, audio)",
+        "Open weights",
+        "Tool use capabilities",
+        "Multi-step planning"
+      ],
+      "pricing": "Free",
+      "freeTier": "Open-source, fully free to self-host",
+      "dateAdded": "2026-03-20T03:23:32.855Z",
+      "dateUpdated": "2026-03-20T03:23:32.855Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/mimo-3"
+      ],
+      "buzzScore": 62,
+      "reviewRating": 4,
+      "parentPlatform": "Xiaomi",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 8
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Xiaomi entering the foundation model race with agentic capabilities — generates interest as a non-US alternative to GPT/Claude with open weights.",
+      "ratingSummary": "Early reception is cautiously positive. Developers note strong agentic performance for its size class; compared favorably to Qwen models in some benchmarks. Limited production reviews so far."
+    },
+    {
+      "name": "Canary",
+      "url": "https://www.runcanary.ai",
+      "category": "Coding",
+      "description": "YC W26 AI QA agent that reads your codebase, understands PR changes, and generates/runs end-to-end tests",
+      "features": [
+        "PR-aware test generation",
+        "End-to-end user flow testing",
+        "Regression suite creation",
+        "QA-Bench benchmark",
+        "GitHub PR integration",
+        "Visual test recordings"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free for open-source projects, limited PR tests for private repos",
+      "dateAdded": "2026-03-20T03:23:44.496Z",
+      "dateUpdated": "2026-03-20T03:23:44.496Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47441629"
+      ],
+      "buzzScore": 55,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Launch HN post, active discussion",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "HN",
+          "rating": 4,
+          "reviewCount": 12
+        }
+      ],
+      "buzzSummary": "Launch HN (YC W26) on Mar 19, 2026. Founded by ex-Windsurf/Cognition/Google engineers. Published QA-Bench v0 benchmark showing 11-point coverage lead over GPT 5.4 and 18 over Claude Code. HN discussion focused on real-world QA pain points.",
+      "ratingSummary": "Early but promising. HN commenters impressed by the benchmark methodology and the focus on second-order code change effects. Some skepticism about AI-generated test reliability in complex codebases."
+    },
+    {
+      "name": "OpenAdapter",
+      "url": "https://openadapter.dev",
+      "category": "Coding",
+      "description": "Best coding plans with open source models — no vendor lock-in AI coding assistant",
+      "features": [
+        "Open source model support",
+        "No lock-in",
+        "Multiple model providers",
+        "Code completion",
+        "IDE integration"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free tier with open source models, limited requests",
+      "dateAdded": "2026-03-20T03:29:32.797Z",
+      "dateUpdated": "2026-03-20T03:29:32.797Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/openadapter-2"
+      ],
+      "buzzScore": 30,
+      "reviewRating": 3,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3,
+          "reviewCount": 3
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Positions itself as the anti-lock-in AI coding tool, letting developers use any open source model. Very early stage.",
+      "ratingSummary": "Too new for meaningful reviews. Product Hunt listing shows modest traction. The open-source-first approach resonates with LocalLLaMA crowd but limited real-world feedback."
+    },
+    {
+      "name": "Scouts",
+      "url": "https://yutori.ai/scouts",
+      "category": "Agents",
+      "description": "Always-on AI agents to monitor the web, now available on iOS — by Yutori",
+      "features": [
+        "Web monitoring agents",
+        "iOS app",
+        "Custom alerts",
+        "Always-on tracking",
+        "AI-powered web watching"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free tier with 3 scouts and basic monitoring frequency",
+      "dateAdded": "2026-03-20T03:29:43.649Z",
+      "dateUpdated": "2026-03-20T03:29:43.649Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/scouts-by-yutori"
+      ],
+      "buzzScore": 40,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 6
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt Mar 17, 2026 with iOS release. Targets users who want to automate web monitoring without coding — think price tracking, job postings, competitor changes.",
+      "ratingSummary": "Limited reviews. PH commenters find the concept useful but note early-stage reliability concerns. iOS app praised for clean design."
+    },
+    {
+      "name": "Doodles AI",
+      "url": "https://doodles.ai",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-20T03:30:18.284Z",
+      "dateUpdated": "2026-03-20T03:30:18.284Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/doodles-ai"
+      ],
+      "buzzScore": 38,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 4
+        }
+      ],
+      "buzzSummary": "Product Hunt launch Mar 18 — artist platform using self-contained Doodles IP LLM. Niche creative tool targeting the Doodles NFT community.",
+      "ratingSummary": "Very niche audience. PH feedback is positive from Doodles community fans but limited broader appeal. Interesting experiment in IP-specific AI."
+    },
+    {
+      "name": "Rebel Audio",
+      "url": "https://rebelaudio.com",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-20T03:30:41.703Z",
+      "dateUpdated": "2026-03-20T03:30:41.703Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/"
+      ],
+      "buzzScore": 52,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "detail": "Feature article on launch",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "TechCrunch",
+          "rating": 4,
+          "reviewCount": 1
+        }
+      ],
+      "buzzSummary": "TechCrunch feature Mar 18 — new all-in-one AI podcasting tool for first-time creators. Record, edit, clip for social, and publish without leaving the platform. Raised seed funding.",
+      "ratingSummary": "TechCrunch gives positive coverage, highlighting the all-in-one approach for podcast beginners. Praised for lowering the barrier to entry; no standalone reviews yet."
+    },
+    {
+      "name": "talat",
+      "url": "https://talat.app",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-20T03:31:07.500Z",
+      "dateUpdated": "2026-03-20T03:31:07.500Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/talat"
+      ],
+      "buzzScore": 42,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 6
+        }
+      ],
+      "buzzSummary": "Product Hunt launch Mar 18 — realtime meeting notes that stay on your Mac. Privacy-first approach resonates with the local-AI movement.",
+      "ratingSummary": "PH users appreciate the local-only approach for meeting transcription. Clean Mac-native design praised. Limited to Mac ecosystem."
+    },
+    {
+      "name": "GB1",
+      "url": "https://gb1.ai",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-20T03:31:14.069Z",
+      "dateUpdated": "2026-03-20T03:31:14.069Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/gb1"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3,
+          "reviewCount": 3
+        }
+      ],
+      "buzzSummary": "Product Hunt launch Mar 18 — private, planet-friendly AI assistant from the UK. Positioning as a UK-made, privacy-focused ChatGPT alternative.",
+      "ratingSummary": "Very early stage. PH feedback notes the regional angle is interesting but questions differentiation beyond geography. Limited traction so far."
+    },
+    {
+      "name": "Link AI",
+      "url": "https://linkai.app",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-20T03:31:21.805Z",
+      "dateUpdated": "2026-03-20T03:31:21.805Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/link-ai"
+      ],
+      "buzzScore": 35,
+      "reviewRating": 3,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3,
+          "reviewCount": 4
+        }
+      ],
+      "buzzSummary": "Product Hunt launch Mar 18 — the agentic business suite that claims to replace your entire stack. Bold positioning in the crowded AI business tools space.",
+      "ratingSummary": "Very early. PH launch shows ambition but limited real-world validation. The replace-everything pitch draws both excitement and skepticism."
+    },
+    {
+      "name": "Netlify.new",
+      "url": "https://netlify.new",
+      "category": "Coding",
+      "description": "Start a web project with just a prompt — AI-powered project scaffolding and deployment on Netlify",
+      "features": [
+        "Prompt-to-project",
+        "Instant deployment",
+        "Netlify hosting",
+        "AI scaffolding",
+        "Full-stack templates"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free tier includes Netlify free hosting, limited AI generations",
+      "dateAdded": "2026-03-20T03:31:32.013Z",
+      "dateUpdated": "2026-03-20T03:31:32.013Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/netlify"
+      ],
+      "buzzScore": 58,
+      "reviewRating": 4,
+      "parentPlatform": "Netlify",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4,
+          "reviewCount": 15
+        }
+      ],
+      "buzzSummary": "Product Hunt feature Mar 15, still trending Mar 19. Netlify joining the vibe-coding wave with prompt-to-deployed-site experience. Strong engagement from the PH dev community.",
+      "ratingSummary": "Developers praise the zero-friction deploy experience. Compared to Vercel v0 and Bolt.new. Quality of generated code noted as better for simple sites, weaker for complex apps."
     }
   ]
 }
