@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-20T18:26:25.681Z",
+    "lastUpdated": "2026-03-20T18:53:11.642Z",
     "totalTools": 134,
     "trendingCount": 2
   },
@@ -241,12 +241,12 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:02:11.576Z",
+      "dateUpdated": "2026-03-20T18:52:34.024Z",
       "trending": false,
       "buzzScore": 50,
       "reviewRating": null,
-      "buzzSummary": "Featured on Product Hunt (Mar 17). Desktop automation agent from Manus that manages local files, executes commands, and works across devices. Listed on TAAFT as computer management AI.",
-      "ratingSummary": "No independent reviews found yet. Very new product (Mar 2026 launch). No ratings on G2, Capterra, or Product Hunt for this specific desktop feature.",
+      "buzzSummary": "Featured on Product Hunt (Mar 17, 2026). Desktop automation agent from Manus that manages local files, executes commands, and works across devices. Claims to unlock idle compute resources by running tasks in background. Part of the broader Manus AI platform.",
+      "ratingSummary": "No independent reviews found. Very new product (Mar 2026 launch). No ratings on G2, Capterra, or Product Hunt for this desktop feature. Site claims seamless cross-device workflows but no user testimonials available yet.",
       "freeTier": "Unknown — Manus platform access required; desktop feature availability depends on Manus account tier",
       "buzzSources": [
         {
@@ -262,7 +262,13 @@
           "detail": "Listed as AI that manages your computer and automates workflows"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": null,
+          "reviewCount": 0
+        }
+      ]
     },
     {
       "name": "Knowlify",
@@ -279,13 +285,13 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:02:24.632Z",
+      "dateUpdated": "2026-03-20T18:52:42.589Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Listed on Product Hunt as an AI animated explainer video generator for companies and professionals. Minimal public buzz — no Reddit or HN threads found. Niche B2B tool for creating animated explainer content.",
-      "ratingSummary": "No structured ratings on G2, Capterra, or Product Hunt yet. Too new for independent reviews. Site mentions it is for companies and professionals but lacks user testimonials.",
-      "freeTier": "Freemium — free tier available with limited features; paid plans from $5/mo",
+      "buzzSummary": "Listed on Product Hunt as an AI animated explainer video generator for companies and professionals. B2B-focused tool based in San Francisco. Has affiliate program and knowledge base. Minimal public buzz — no Reddit or HN threads found.",
+      "ratingSummary": "No structured ratings on G2, Capterra, or Product Hunt yet. Enterprise/B2B product with a \"Book a Demo\" model suggests targeting larger clients. Too new for independent review aggregation.",
+      "freeTier": "Demo-based — no public free tier; contact sales or book a demo for access",
       "buzzSources": [
         {
           "platform": "Product Hunt",
@@ -294,7 +300,18 @@
           "detail": "Listed as AI animated explainer video generator"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "G2",
+          "rating": null,
+          "reviewCount": 0
+        },
+        {
+          "platform": "Capterra",
+          "rating": null,
+          "reviewCount": 0
+        }
+      ]
     },
     {
       "name": "Piqo AI",
@@ -311,13 +328,13 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:02:33.129Z",
+      "dateUpdated": "2026-03-20T18:52:51.638Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI-powered business assistant operating via WhatsApp, Slack, and Telegram. Claims 95%+ AI accuracy with GPT-4o and Whisper integration. Targets small business expense tracking and document management. No significant Reddit or HN buzz found.",
-      "ratingSummary": "No ratings on G2, Capterra, or Product Hunt. Site highlights GDPR compliance, 256-bit AES encryption, and multi-channel support. No independent reviews found yet — too new for established review platforms.",
-      "freeTier": "Free tier available — no credit card required, basic features with 10-second setup",
+      "buzzSummary": "AI-powered business assistant operating via WhatsApp, Slack, and Telegram. Claims 95%+ AI accuracy with GPT-4o and Whisper integration. Multi-language site (English, Turkish, German, French, Spanish, Portuguese, Russian) suggests global ambitions. Features expense tracking, OCR receipts, voice notes, calendar events, and team workspaces.",
+      "ratingSummary": "No ratings on G2, Capterra, or Product Hunt. Site highlights GDPR compliance, 256-bit AES encryption, and multi-channel support. Pricing page exists but tiers rendered client-side. No independent reviews found — too new for established review platforms.",
+      "freeTier": "Free tier available — no credit card required, basic features with 10-second setup; paid tiers for advanced features",
       "buzzSources": [
         {
           "platform": "TAAFT",
@@ -326,7 +343,18 @@
           "detail": "Listed as AI business assistant"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "G2",
+          "rating": null,
+          "reviewCount": 0
+        },
+        {
+          "platform": "Capterra",
+          "rating": null,
+          "reviewCount": 0
+        }
+      ]
     },
     {
       "name": "Termzy AI",
@@ -343,12 +371,12 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:02:40.611Z",
+      "dateUpdated": "2026-03-20T18:53:00.283Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Chrome extension that analyzes privacy policies and T&Cs using AI. Scores documents on 4 indicators: protection, compliance, transparency, and balance. All processing happens locally in the browser. No Reddit or HN buzz found — very niche privacy tool.",
-      "ratingSummary": "No ratings on G2, Product Hunt, or Chrome Web Store reviews found. Unique value proposition with local-only processing for privacy-conscious users, but too new for independent reviews.",
+      "buzzSummary": "Chrome extension that analyzes privacy policies and T&Cs using AI. Scores documents on 4 indicators: protection, compliance, transparency, and balance. All processing happens locally in browser for privacy. Very niche tool — no Reddit, HN, or social media buzz found.",
+      "ratingSummary": "No ratings on G2, Product Hunt, or Chrome Web Store. Could not locate Chrome Web Store listing to verify install count or ratings. Unique local-processing privacy angle but insufficient adoption data for rating.",
       "freeTier": "Freemium — free tier available with basic policy scanning; paid plans from $3.40",
       "buzzSources": [
         {
@@ -358,7 +386,13 @@
           "detail": "Listed as AI privacy policy analyzer"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Chrome Web Store",
+          "rating": null,
+          "reviewCount": 0
+        }
+      ]
     },
     {
       "name": "SpacePrompts",
@@ -375,13 +409,13 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:02:50.057Z",
+      "dateUpdated": "2026-03-20T18:53:11.640Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Chrome extension and web app for AI prompt management with version control and cross-platform execution. Positive testimonials on PeerPush and social media. Multiple user endorsements praising its simplicity and Chrome extension convenience.",
-      "ratingSummary": "No G2 or Capterra ratings yet. User testimonials on the site are positive — praised for solving prompt organization, version control, and cross-LLM portability. Called a \"must-have tool\" by early adopters on PeerPush.",
-      "freeTier": "Free plan includes up to 25 prompts — no credit card required; Pro plan from $5/mo for unlimited prompts",
+      "buzzSummary": "Chrome extension (v3.0.0, updated Mar 19 2026) and web app for AI prompt management. Works inside ChatGPT, Claude, Gemini with floating toolbar for save/enhance/apply. Guest mode requires no account. Developer based in Davao City, Philippines. Active development with recent Chrome Web Store update.",
+      "ratingSummary": "Chrome Web Store listing active but no visible star rating or review count extracted. PeerPush testimonials praise prompt organization and version control. Site testimonials call it a \"must-have tool\" but no G2 or Capterra presence.",
+      "freeTier": "Free plan with guest mode (unlimited prompts, no account needed); cloud sync requires sign-in via Google, GitHub, or Microsoft",
       "buzzSources": [
         {
           "platform": "PeerPush",
@@ -394,9 +428,26 @@
           "mentions": 2,
           "sentiment": "positive",
           "detail": "User testimonials praising Chrome extension"
+        },
+        {
+          "platform": "Chrome Web Store",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed as AI Prompt Manager, v3.0.0 updated Mar 19 2026"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Chrome Web Store",
+          "rating": null,
+          "reviewCount": 0
+        },
+        {
+          "platform": "PeerPush",
+          "rating": null,
+          "reviewCount": 3
+        }
+      ]
     },
     {
       "name": "Komos",
