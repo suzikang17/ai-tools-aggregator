@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-21T11:30:53.078Z",
-    "totalTools": 150,
+    "lastUpdated": "2026-03-21T15:30:19.654Z",
+    "totalTools": 154,
     "trendingCount": 2
   },
   "tools": [
@@ -3093,25 +3093,24 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-18T17:07:15.572Z",
-      "dateUpdated": "2026-03-18T17:09:45.447Z",
+      "dateUpdated": "2026-03-21T15:30:04.070Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47427027"
       ],
-      "buzzScore": 72,
+      "buzzScore": 75,
       "reviewRating": 3.5,
       "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "detail": "GTC recap video and podcast, Mar 20",
+          "sentiment": "positive"
+        },
         {
           "platform": "HN",
           "mentions": 1,
           "sentiment": "mixed",
           "detail": "44 points, 17 comments, front page"
-        },
-        {
-          "platform": "Reddit",
-          "mentions": 3,
-          "sentiment": "positive",
-          "detail": "r/LocalLLaMA discussions about local inference with RTX GPUs"
         }
       ],
       "ratingSources": [
@@ -3121,7 +3120,7 @@
           "reviewCount": 17
         }
       ],
-      "buzzSummary": "Hit HN front page on March 18, 2026 with 44 points and 17 comments. Discussion focused on NVIDIA routing inference through their cloud as a compute acquisition strategy. Debate about whether it solves real problems vs. OpenClaw Docker UX issues. Some impressed by early-career engineer shipping it.",
+      "buzzSummary": "Featured in TechCrunch GTC recap video (Mar 20) alongside Robot Olaf and the $1T bet. Jensen Huang declared every company needs an OpenClaw strategy. NemoClaw positioned as NVIDIAs official entry into the OpenClaw ecosystem. Sustained HN discussion continues.",
       "ratingSummary": "Mixed HN reception. Praised for security-first approach and sandboxed inference routing. Criticized for Docker setup pain (shared with OpenClaw ecosystem broadly) and questioned whether wrapping OpenClaw adds enough value.",
       "freeTier": "Fully free and open source — install via curl script, uses NVIDIA Cloud API for inference (free tier available via build.nvidia.com)"
     },
@@ -3677,22 +3676,27 @@
       "pricing": "Free",
       "freeTier": "Free API tier with token plan options; Hailuo AI consumer app free to use",
       "dateAdded": "2026-03-19T14:55:56.946Z",
-      "dateUpdated": "2026-03-21T11:30:43.475Z",
+      "dateUpdated": "2026-03-21T15:29:54.351Z",
       "trending": false,
       "sourceUrls": [
         "https://www.reddit.com/r/LocalLLaMA/comments/1rzosnf/"
       ],
-      "buzzScore": 70,
+      "buzzScore": 68,
       "reviewRating": 3.5,
       "buzzSources": [
         {
           "platform": "Reddit",
-          "detail": "r/LocalLLaMA active discussion about closed-source pivot",
+          "detail": "r/LocalLLaMA active discussion Mar 21 about closed-source pivot",
           "sentiment": "negative"
+        },
+        {
+          "platform": "Product Hunt",
+          "detail": "Active listing Mar 18-19",
+          "sentiment": "positive"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "r/LocalLLaMA discussion (Mar 21) reveals MiniMax m2.7 will likely stay proprietary/closed-source, listed as proprietary on Arena.ai. Disappointment in the local LLM community as another Chinese lab pivots away from open source. Discussion links it to Qwen 3.5 Max preview also going closed.",
+      "buzzSummary": "r/LocalLLaMA discussion (Mar 21) confirms MiniMax m2.7 likely staying proprietary/closed-source — listed as proprietary on Arena.ai. Community disappointment grows as another Chinese lab pivots away from open source, echoing Qwen 3.5 Max also going closed. Mixed sentiment overall.",
       "ratingSummary": "Mixed sentiment. Model benchmarks well on Arena but community upset about closed-source pivot. Skepticism about paying for Chinese models given perceived quality and latency gaps."
     },
     {
@@ -4148,7 +4152,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-19T23:10:44.334Z",
-      "dateUpdated": "2026-03-19T23:13:27.628Z",
+      "dateUpdated": "2026-03-21T15:29:45.564Z",
       "trending": false,
       "sourceUrls": [
         "https://astral.sh/blog/openai",
@@ -4159,34 +4163,29 @@
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "detail": "Feature article on Astral acquisition",
+          "detail": "Astral acquisition coverage + Copilot bloat rollback article",
           "sentiment": "positive"
         },
         {
-          "platform": "Hacker News",
+          "platform": "HN",
           "mentions": 500,
           "sentiment": "mixed",
-          "detail": "Dual front page, 500+ comments on Astral acquisition"
+          "detail": "Multi-day front page, 500+ comments on Astral"
         },
         {
           "platform": "Twitter",
-          "detail": "Sam Altman coder appreciation memes",
+          "detail": "Sam Altman memes and coder appreciation",
           "sentiment": "positive"
         }
       ],
       "ratingSources": [
         {
-          "platform": "ChatGPT Pricing Page",
-          "rating": 4.5,
-          "reviewCount": 0
-        },
-        {
-          "platform": "Hacker News",
+          "platform": "HN",
           "rating": 4,
           "reviewCount": 500
         }
       ],
-      "buzzSummary": "Massive news: OpenAI acquiring Astral (makers of Ruff, uv, ty) to join the Codex team. Dual HN front page coverage with 500+ comments. TechCrunch feature article. Sam Altman thanking coders drew memes. Signals major Python tooling investment.",
+      "buzzSummary": "Astral (Ruff, uv, ty) acquisition by OpenAI to join the Codex team continues to dominate discussion. Dual HN front page coverage with 500+ comments. Microsoft rolling back Copilot AI bloat on Windows (TechCrunch Mar 20) creates interesting competitive contrast. Sam Altman coder appreciation memes. Massive industry signal.",
       "ratingSummary": "No change to rating — the Astral acquisition is seen as a strong move for developer tooling. Community reaction is mixed: excitement about uv/ruff staying maintained but concern about open-source governance under OpenAI.",
       "freeTier": "Available on Free and Go plans with limited Codex agent access; basic coding tasks and limited messages"
     },
@@ -5219,23 +5218,23 @@
       "pricing": "Included with WordPress.com plans",
       "freeTier": "Available on free WordPress.com tier",
       "dateAdded": "2026-03-20T19:28:24.379Z",
-      "dateUpdated": "2026-03-20T19:28:24.379Z",
+      "dateUpdated": "2026-03-21T15:30:10.751Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/"
       ],
-      "buzzScore": 65,
+      "buzzScore": 68,
       "reviewRating": null,
       "parentPlatform": "Automattic",
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "detail": "Feature article by Sarah Perez, Mar 20",
+          "detail": "Feature article by Sarah Perez, Mar 20, prominent in RSS feed",
           "sentiment": "mixed"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "TechCrunch coverage (Mar 20) highlighted WordPress.com enabling AI agents to write and publish posts. Seen as a major signal of AI-native CMS capabilities entering mainstream. Debate around potential for increased machine-generated content flooding the web.",
+      "buzzSummary": "TechCrunch coverage still prominent in feed (Mar 20). WordPress.com enabling AI agents to write and publish posts is seen as a major signal for AI-native CMS. Raises concerns about machine-generated content flooding the web. Part of Automattic broader AI strategy.",
       "ratingSummary": "No user reviews of the AI agent feature specifically. WordPress.com itself is well-reviewed but this feature is brand new."
     },
     {
@@ -5255,18 +5254,18 @@
       "pricing": "Free",
       "freeTier": "Fully open source, free models included. Connect any provider.",
       "dateAdded": "2026-03-21T11:29:07.750Z",
-      "dateUpdated": "2026-03-21T11:29:07.750Z",
+      "dateUpdated": "2026-03-21T15:29:21.132Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47460525",
         "https://opencode.ai"
       ],
-      "buzzScore": 88,
+      "buzzScore": 90,
       "reviewRating": 4.5,
       "buzzSources": [
         {
           "platform": "HN",
-          "detail": "Frontpage post with active discussion",
+          "detail": "Multi-day frontpage, Mar 20-21",
           "sentiment": "positive"
         },
         {
@@ -5282,7 +5281,7 @@
           "reviewCount": 120000
         }
       ],
-      "buzzSummary": "Trending on HN frontpage (Mar 21). Massive open source traction with 120K GitHub stars, 800 contributors, 5M monthly devs. Positioned as the open-source alternative to Claude Code and Cursor. Community excited about provider-agnostic approach and privacy-first design.",
+      "buzzSummary": "Still trending on HN frontpage (Mar 20-21). Massive open source traction with 120K GitHub stars, 800 contributors, 5M monthly devs. Multi-day frontpage stay signals sustained developer interest. Positioned as the definitive open-source alternative to Claude Code and Cursor.",
       "ratingSummary": "Highly rated by developer community. Praised for flexibility (any model, any editor) and privacy stance. Some users note it lacks the polish of commercial alternatives but value the open ecosystem."
     },
     {
@@ -5301,23 +5300,23 @@
       "pricing": "Free",
       "freeTier": "Fully open source — kernels, model weights, and training code available on GitHub",
       "dateAdded": "2026-03-21T11:29:22.087Z",
-      "dateUpdated": "2026-03-21T11:29:22.087Z",
+      "dateUpdated": "2026-03-21T15:29:29.202Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47419391",
         "https://www.together.ai/blog/mamba-3"
       ],
-      "buzzScore": 82,
+      "buzzScore": 85,
       "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "HN",
-          "detail": "Frontpage, multi-day discussion",
+          "detail": "Multi-day frontpage, Mar 17-21, sustained engagement",
           "sentiment": "positive"
         },
         {
           "platform": "Reddit",
-          "detail": "r/LocalLLaMA mentions",
+          "detail": "r/LocalLLaMA ongoing discussion",
           "sentiment": "positive"
         }
       ],
@@ -5328,7 +5327,7 @@
           "reviewCount": 50
         }
       ],
-      "buzzSummary": "Trending on HN (Mar 17-21). Major release from Together AI + CMU + Princeton + Cartesia. The SSM community is excited about the inference-first design philosophy — a deliberate pivot from Mamba-2 training-first approach. Discussion centers on whether SSMs can finally challenge Transformers at scale.",
+      "buzzSummary": "Multi-day HN frontpage stay (Mar 17-21). Major release from Together AI + CMU + Princeton + Cartesia. SSM community excited about the inference-first design. Sustained discussion over 4+ days is unusual — signals genuine research interest rather than hype.",
       "ratingSummary": "Technical community reception is positive but cautious. Praised for rigorous benchmarking and open-sourced kernels. Critics note it is still at 1.5B scale and real-world agentic performance remains unproven."
     },
     {
@@ -5556,7 +5555,7 @@
       "pricing": "Free",
       "freeTier": "Fully open source, zero dependencies, two Claude Code hooks",
       "dateAdded": "2026-03-21T11:30:33.019Z",
-      "dateUpdated": "2026-03-21T11:30:33.019Z",
+      "dateUpdated": "2026-03-21T15:30:19.652Z",
       "trending": false,
       "sourceUrls": [
         "https://www.reddit.com/r/artificial/comments/1rzo7gh/",
@@ -5567,13 +5566,153 @@
       "buzzSources": [
         {
           "platform": "Reddit",
-          "detail": "r/artificial detailed post with theoretical backing",
+          "detail": "r/artificial detailed post Mar 21 with theoretical backing",
           "sentiment": "positive"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Posted on r/artificial (Mar 21) with detailed theoretical writeup. Proposes an alternative to the wave of memory plugins (Claude-Mem, Memsearch, etc.) by treating agent context like a nervous system rather than a filing cabinet. Novel approach to the passive librarian problem. Academic references (Extended Mind Thesis, metacognitive monitoring).",
+      "buzzSummary": "Active on r/artificial (Mar 21) with detailed theoretical writeup. Proposes an alternative to memory plugins by treating agent context like a nervous system with proprioceptive signals and nociceptive escalation. Novel approach backed by academic references (Extended Mind Thesis, metacognitive monitoring). GitHub repo shows zero-dependency design with Claude Code hooks integration.",
       "ratingSummary": "No formal reviews yet. The theoretical depth of the writeup impressed commenters, but it is very early stage with no real-world adoption metrics."
+    },
+    {
+      "name": "Design Agent by Lokuma",
+      "url": "https://lokuma.ai",
+      "category": "Design",
+      "description": "AI design agent for coding tools like OpenClaw, Claude Code, and Codex — generates UI components and design assets within your development workflow",
+      "features": [
+        "Design for AI agents",
+        "UI component generation",
+        "OpenClaw integration",
+        "Claude Code integration",
+        "Codex integration"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-21T15:28:35.194Z",
+      "dateUpdated": "2026-03-21T15:28:35.194Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/lokuma-ai"
+      ],
+      "buzzScore": 42,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured and actively updated, Mar 9-21"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured prominently on Product Hunt feed (Mar 21) with continued engagement — positioned as the designer for AI coding agents. Updated as recently as Mar 21. Addresses the growing gap between AI-generated code and polished UI design.",
+      "ratingSummary": "No structured reviews yet. Product Hunt listing is actively updated, suggesting ongoing development. Too new for G2 or independent ratings."
+    },
+    {
+      "name": "Replit Agent 4",
+      "url": "https://replit.com",
+      "category": "Coding",
+      "description": "Build, design, and ship anything AI-fast in one flow — Replit fourth-generation AI coding agent with full-stack app generation",
+      "features": [
+        "Full-stack app generation",
+        "Design integration",
+        "One-flow shipping",
+        "Cloud deployment",
+        "AI-powered coding"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free tier available with basic agent access; Replit Core ($25/mo) for advanced features",
+      "dateAdded": "2026-03-21T15:28:48.778Z",
+      "dateUpdated": "2026-03-21T15:28:48.778Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/replit-agent-4"
+      ],
+      "buzzScore": 75,
+      "reviewRating": 4.2,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured launch Mar 19, actively engaged"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.2,
+          "reviewCount": 50
+        }
+      ],
+      "buzzSummary": "Featured on Product Hunt (Mar 19-21) with significant engagement. Replit Agent 4 represents a major iteration on their AI coding platform. Competes directly with Cursor, Bolt, and Lovable in the vibe-coding space. Replit has strong brand recognition and an existing user base.",
+      "ratingSummary": "Replit generally well-reviewed for accessibility and cloud-first approach. Agent 4 too new for standalone reviews but builds on strong Replit reputation. Users praise the integrated deployment but note limitations compared to local IDE tools."
+    },
+    {
+      "name": "Novi Notes",
+      "url": "https://novinotes.app",
+      "category": "Productivity",
+      "description": "Local-first AI note app for Mac with zero-config MCP integration — keeps notes on-device with AI search and organization",
+      "features": [
+        "Local-first notes",
+        "MCP integration",
+        "Zero config setup",
+        "Mac native",
+        "AI-powered organization"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — Mac app launched Feb 2026",
+      "dateAdded": "2026-03-21T15:29:01.758Z",
+      "dateUpdated": "2026-03-21T15:29:01.758Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/novi-notes"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed Feb 27, still active Mar 21"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Listed on Product Hunt (Feb 27, updated Mar 21) with ongoing engagement. Part of the growing local-first AI tools trend. MCP integration positions it well for the AI coding workflow ecosystem. Niche Mac-only product.",
+      "ratingSummary": "No structured reviews yet. Product Hunt listing actively maintained over 3 weeks, suggesting sustained interest. Too early for independent review coverage."
+    },
+    {
+      "name": "Sanota",
+      "url": "https://sanota.app",
+      "category": "Writing",
+      "description": "AI-powered story crafting tool — stories, beautifully crafted with AI assistance",
+      "features": [
+        "AI story generation",
+        "Beautiful formatting",
+        "Creative writing assistance"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — pricing not yet announced",
+      "dateAdded": "2026-03-21T15:29:09.738Z",
+      "dateUpdated": "2026-03-21T15:29:09.738Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/sanota"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed Mar 18, still active Mar 21"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Listed on Product Hunt (Mar 18, updated Mar 21). Positioned as an AI creative writing tool focused on story crafting. Limited engagement data but actively maintained listing.",
+      "ratingSummary": "No reviews yet — freshly launched on Product Hunt."
     }
   ]
 }
