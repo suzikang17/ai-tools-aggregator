@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-21T03:15:25.915Z",
-    "totalTools": 141,
+    "lastUpdated": "2026-03-21T11:30:53.078Z",
+    "totalTools": 150,
     "trendingCount": 2
   },
   "tools": [
@@ -139,7 +139,7 @@
     },
     {
       "name": "NemoClaw",
-      "url": "https://www.nvidia.com/en-us/ai/nemoclaw/",
+      "url": "https://nvidia.com/nemoclaw",
       "category": "Agents",
       "description": "NVIDIA open-source platform for enterprise-grade autonomous AI agents at scale",
       "features": [
@@ -150,37 +150,24 @@
       ],
       "pricing": "Free",
       "sourceUrls": [
-        "https://theresanaiforthat.com"
+        "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-20T18:26:14.741Z",
+      "dateUpdated": "2026-03-21T11:30:53.076Z",
       "trending": false,
-      "buzzScore": 40,
+      "buzzScore": 85,
       "reviewRating": null,
-      "buzzSummary": "NVIDIA open-source security stack for OpenClaw. Adds privacy guardrails via OpenShell and local Nemotron model support. Mentioned in r/LocalLLaMA for RTX 5090 local inference. Early preview stage — developer-focused with growing interest in the AI safety/agent security space.",
-      "ratingSummary": "No formal ratings on G2 or Product Hunt — early preview stage. Developer community reception on Reddit is positive, praising sandboxed execution, policy-based controls, and one-command install. Too early for aggregated review scores.",
+      "buzzSummary": "Major GTC 2026 coverage continues. TechCrunch recap (Mar 20) features NemoClaw alongside Robot Olaf and Jensen Huang $1T AI chip projection. Part of Nvidia agentic AI push. Jensen declared every company needs an agentic AI strategy.",
+      "ratingSummary": "No direct user reviews — enterprise/platform product. Positioned as Nvidia flagship agent framework. Industry reception positive based on GTC demo reception.",
       "freeTier": "Fully free and open source — install via CLI, optional NVIDIA cloud API for inference",
       "buzzSources": [
         {
-          "platform": "Reddit",
-          "mentions": 5,
-          "sentiment": "positive",
-          "detail": "r/LocalLLaMA threads about local inference with RTX 5090"
-        },
-        {
-          "platform": "NVIDIA",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Official launch page with Agent Toolkit integration"
+          "platform": "TechCrunch",
+          "detail": "GTC 2026 recap video and podcast coverage",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [
-        {
-          "platform": "Reddit community",
-          "rating": 4,
-          "reviewCount": 5
-        }
-      ]
+      "ratingSources": []
     },
     {
       "name": "Adaptive AI",
@@ -3690,29 +3677,23 @@
       "pricing": "Free",
       "freeTier": "Free API tier with token plan options; Hailuo AI consumer app free to use",
       "dateAdded": "2026-03-19T14:55:56.946Z",
-      "dateUpdated": "2026-03-20T03:30:11.658Z",
+      "dateUpdated": "2026-03-21T11:30:43.475Z",
       "trending": false,
       "sourceUrls": [
-        "https://www.producthunt.com/products/minimax-agent"
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rzosnf/"
       ],
-      "buzzScore": 55,
+      "buzzScore": 70,
       "reviewRating": 3.5,
       "buzzSources": [
         {
-          "platform": "Product Hunt",
-          "mentions": 1,
-          "sentiment": "positive"
+          "platform": "Reddit",
+          "detail": "r/LocalLLaMA active discussion about closed-source pivot",
+          "sentiment": "negative"
         }
       ],
-      "ratingSources": [
-        {
-          "platform": "Product Hunt",
-          "rating": 3.5,
-          "reviewCount": 5
-        }
-      ],
-      "buzzSummary": "On Product Hunt Mar 18 as self-evolving AI model powering autonomous agents. MiniMax continuing to push into agentic AI space with M2.7 release.",
-      "ratingSummary": "Moderate reception. Positioned as agentic foundation model but competing in a crowded field. Limited independent reviews — mostly PH launch feedback."
+      "ratingSources": [],
+      "buzzSummary": "r/LocalLLaMA discussion (Mar 21) reveals MiniMax m2.7 will likely stay proprietary/closed-source, listed as proprietary on Arena.ai. Disappointment in the local LLM community as another Chinese lab pivots away from open source. Discussion links it to Qwen 3.5 Max preview also going closed.",
+      "ratingSummary": "Mixed sentiment. Model benchmarks well on Arena but community upset about closed-source pivot. Skepticism about paying for Chinese models given perceived quality and latency gaps."
     },
     {
       "name": "CompactifAI",
@@ -5256,6 +5237,343 @@
       "ratingSources": [],
       "buzzSummary": "TechCrunch coverage (Mar 20) highlighted WordPress.com enabling AI agents to write and publish posts. Seen as a major signal of AI-native CMS capabilities entering mainstream. Debate around potential for increased machine-generated content flooding the web.",
       "ratingSummary": "No user reviews of the AI agent feature specifically. WordPress.com itself is well-reviewed but this feature is brand new."
+    },
+    {
+      "name": "OpenCode",
+      "url": "https://opencode.ai",
+      "category": "Coding",
+      "description": "Open source AI coding agent for terminal, IDE, and desktop with 120K GitHub stars and 5M monthly developers",
+      "features": [
+        "LSP enabled",
+        "Multi-session parallel agents",
+        "Share session links",
+        "GitHub Copilot integration",
+        "ChatGPT Plus/Pro support",
+        "75+ LLM providers",
+        "Terminal, desktop, IDE extension"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source, free models included. Connect any provider.",
+      "dateAdded": "2026-03-21T11:29:07.750Z",
+      "dateUpdated": "2026-03-21T11:29:07.750Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47460525",
+        "https://opencode.ai"
+      ],
+      "buzzScore": 88,
+      "reviewRating": 4.5,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Frontpage post with active discussion",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "GitHub",
+          "mentions": 120000,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "GitHub",
+          "rating": 4.5,
+          "reviewCount": 120000
+        }
+      ],
+      "buzzSummary": "Trending on HN frontpage (Mar 21). Massive open source traction with 120K GitHub stars, 800 contributors, 5M monthly devs. Positioned as the open-source alternative to Claude Code and Cursor. Community excited about provider-agnostic approach and privacy-first design.",
+      "ratingSummary": "Highly rated by developer community. Praised for flexibility (any model, any editor) and privacy stance. Some users note it lacks the polish of commercial alternatives but value the open ecosystem."
+    },
+    {
+      "name": "Mamba-3",
+      "url": "https://www.together.ai/blog/mamba-3",
+      "category": "Research",
+      "description": "Next-gen state space model designed for inference efficiency, beating Transformers on latency at 1.5B scale with complex-valued state tracking and MIMO SSMs",
+      "features": [
+        "Inference-optimized SSM",
+        "Complex-valued state tracking",
+        "MIMO parallel SSMs",
+        "Open source kernels",
+        "Triton + TileLang + CuTe DSL",
+        "Beats Llama-3.2-1B on latency"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source — kernels, model weights, and training code available on GitHub",
+      "dateAdded": "2026-03-21T11:29:22.087Z",
+      "dateUpdated": "2026-03-21T11:29:22.087Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47419391",
+        "https://www.together.ai/blog/mamba-3"
+      ],
+      "buzzScore": 82,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Frontpage, multi-day discussion",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Reddit",
+          "detail": "r/LocalLLaMA mentions",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "HN",
+          "rating": 4,
+          "reviewCount": 50
+        }
+      ],
+      "buzzSummary": "Trending on HN (Mar 17-21). Major release from Together AI + CMU + Princeton + Cartesia. The SSM community is excited about the inference-first design philosophy — a deliberate pivot from Mamba-2 training-first approach. Discussion centers on whether SSMs can finally challenge Transformers at scale.",
+      "ratingSummary": "Technical community reception is positive but cautious. Praised for rigorous benchmarking and open-sourced kernels. Critics note it is still at 1.5B scale and real-world agentic performance remains unproven."
+    },
+    {
+      "name": "Atuin AI",
+      "url": "https://atuin.sh",
+      "category": "Coding",
+      "description": "Shell history tool with new AI-powered english-to-bash helper, in-memory fuzzy search daemon, and privacy-first design",
+      "features": [
+        "English-to-bash AI helper",
+        "In-memory fuzzy search daemon",
+        "Dangerous command detection",
+        "Privacy-first (opt-in data sharing)",
+        "Cross-machine sync",
+        "Configurable scoring multipliers"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source. AI features are opt-in and free during beta.",
+      "dateAdded": "2026-03-21T11:29:33.504Z",
+      "dateUpdated": "2026-03-21T11:29:33.504Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47465824",
+        "https://blog.atuin.sh/atuin-v18-13/"
+      ],
+      "buzzScore": 72,
+      "reviewRating": 4.3,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Frontpage post for v18.13 release",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "GitHub",
+          "mentions": 25000,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "GitHub",
+          "rating": 4.3,
+          "reviewCount": 25000
+        }
+      ],
+      "buzzSummary": "v18.13 trending on HN frontpage (Mar 21). Big release with AI shell helper and major search improvements. Community appreciates the safety guardrails (dangerous command flagging) and privacy-first approach to AI integration. Some debate about whether AI belongs in shell history tools.",
+      "ratingSummary": "Long-standing positive reputation as a shell history tool. New AI features praised for thoughtful UX (press ? on empty prompt). Privacy handling gets specific praise — AI knows only OS and shell by default, everything else is opt-in."
+    },
+    {
+      "name": "Contral",
+      "url": "https://contral.dev",
+      "category": "Coding",
+      "description": "Agentic IDE that teaches while you build — combines AI coding assistance with educational explanations",
+      "features": [
+        "AI coding agent",
+        "Educational explanations",
+        "Learn-while-building approach"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free beta access (Product Hunt launch Mar 20)",
+      "dateAdded": "2026-03-21T11:29:43.486Z",
+      "dateUpdated": "2026-03-21T11:29:43.486Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/contral"
+      ],
+      "buzzScore": 55,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Launched Mar 20",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt (Mar 20) as an agentic IDE with a unique teaching angle. Positioned in the crowded AI coding space but differentiated by educational focus. Early-stage with limited community discussion so far.",
+      "ratingSummary": "Too new for substantive reviews. Product Hunt launch is ongoing — no structured ratings available yet."
+    },
+    {
+      "name": "Cursor Glass",
+      "url": "https://cursorglass.com",
+      "category": "Coding",
+      "description": "Unified agent workspace with seamless cloud handoff for Cursor-based development workflows",
+      "features": [
+        "Unified agent workspace",
+        "Cloud handoff",
+        "Cursor integration"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free during beta (Product Hunt launch Mar 20)",
+      "dateAdded": "2026-03-21T11:29:51.664Z",
+      "dateUpdated": "2026-03-21T11:29:51.664Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/glass-4"
+      ],
+      "buzzScore": 60,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Featured Mar 20",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured on Product Hunt (Mar 20) as a Cursor companion tool. Positions itself as the missing project management layer for AI coding agents. Part of the growing Cursor ecosystem but distinct from Cursor itself.",
+      "ratingSummary": "Too early for reviews. Product Hunt launch just happened — no structured ratings yet."
+    },
+    {
+      "name": "Fractal",
+      "url": "https://fractal.build",
+      "category": "Coding",
+      "description": "The fastest way to ship exceptional ChatGPT-powered apps — framework for building custom GPT applications",
+      "features": [
+        "ChatGPT app builder",
+        "Fast prototyping",
+        "Custom GPT apps"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free tier available (details TBD, Product Hunt launch)",
+      "dateAdded": "2026-03-21T11:30:00.471Z",
+      "dateUpdated": "2026-03-21T11:30:00.471Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/fractal-2"
+      ],
+      "buzzScore": 58,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Featured, updated Mar 21",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured on Product Hunt (updated Mar 21). Focused on building ChatGPT-powered apps quickly. Part of the growing GPT wrapper/builder ecosystem. Moderate community interest.",
+      "ratingSummary": "No structured reviews available yet. New launch on Product Hunt."
+    },
+    {
+      "name": "Claude Cowork Projects",
+      "url": "https://claude.ai",
+      "category": "Productivity",
+      "description": "Tasks, context, and files organized in one workspace — project management layer for Claude",
+      "features": [
+        "Task management",
+        "Shared context",
+        "File organization",
+        "Claude integration"
+      ],
+      "pricing": "From $20/mo",
+      "freeTier": "Basic Claude access free; Cowork Projects requires Pro plan ($20/mo)",
+      "dateAdded": "2026-03-21T11:30:11.044Z",
+      "dateUpdated": "2026-03-21T11:30:11.044Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/claude-cowork-projects"
+      ],
+      "buzzScore": 70,
+      "reviewRating": null,
+      "parentPlatform": "Anthropic",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Featured Mar 20",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "TechCrunch",
+          "detail": "Anthropic-Pentagon court filing coverage ongoing",
+          "sentiment": "mixed"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Featured on Product Hunt (Mar 20, updated Mar 21). Anthropic expanding Claude beyond chat into project management territory. Seen as a response to ChatGPT Projects and Cursor-style workflows. Community interested but cautious about Anthropic-Pentagon legal drama overshadowing product launches.",
+      "ratingSummary": "No standalone reviews yet for Cowork Projects specifically. Claude overall rated highly (4.5+ on most platforms) but this feature is brand new."
+    },
+    {
+      "name": "Caplo",
+      "url": "https://caplo.app",
+      "category": "Audio",
+      "description": "Real-time AI captions and translation for any iOS app — live accessibility overlay",
+      "features": [
+        "Real-time captions",
+        "Live translation",
+        "Works with any iOS app",
+        "Accessibility overlay"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Basic captions free; translation and advanced features on paid tier",
+      "dateAdded": "2026-03-21T11:30:19.557Z",
+      "dateUpdated": "2026-03-21T11:30:19.557Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/caplo"
+      ],
+      "buzzScore": 52,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "detail": "Launched Mar 20",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt (Mar 20). Niche but practical — real-time captions overlay for any iOS app. Appeals to accessibility-focused users and international audiences. Limited buzz so far.",
+      "ratingSummary": "Too new for reviews. Product Hunt launch ongoing."
+    },
+    {
+      "name": "Metacog",
+      "url": "https://github.com/houtini-ai/metacog",
+      "category": "Agents",
+      "description": "Nervous system for AI coding agents — replaces passive memory with real-time proprioceptive signals and reinforcement tracking via Claude Code hooks",
+      "features": [
+        "Proprioceptive sensors for agents",
+        "Nociceptive escalation system",
+        "Cross-session reinforcement learning",
+        "Zero dependencies",
+        "Claude Code hooks integration",
+        "Inverted decay model for rules"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source, zero dependencies, two Claude Code hooks",
+      "dateAdded": "2026-03-21T11:30:33.019Z",
+      "dateUpdated": "2026-03-21T11:30:33.019Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.reddit.com/r/artificial/comments/1rzo7gh/",
+        "https://github.com/houtini-ai/metacog"
+      ],
+      "buzzScore": 62,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "detail": "r/artificial detailed post with theoretical backing",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Posted on r/artificial (Mar 21) with detailed theoretical writeup. Proposes an alternative to the wave of memory plugins (Claude-Mem, Memsearch, etc.) by treating agent context like a nervous system rather than a filing cabinet. Novel approach to the passive librarian problem. Academic references (Extended Mind Thesis, metacognitive monitoring).",
+      "ratingSummary": "No formal reviews yet. The theoretical depth of the writeup impressed commenters, but it is very early stage with no real-world adoption metrics."
     }
   ]
 }
