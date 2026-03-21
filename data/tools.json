@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-20T19:33:47.645Z",
+    "lastUpdated": "2026-03-21T03:15:25.915Z",
     "totalTools": 141,
     "trendingCount": 2
   },
@@ -465,21 +465,27 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:12:00.924Z",
+      "dateUpdated": "2026-03-21T03:14:44.311Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "Early-stage AI automation tool with a record-and-replay approach. Limited public discussion so far; mostly surfacing in AI tool directories. The teach-by-demonstration concept draws comparisons to tools like Bardeen and Make but with a more hands-off AI angle.",
-      "ratingSummary": "Too new for structured reviews on major platforms. Homepage claims 100+ integrations and an AI assistant called Moss, but no independent ratings available yet.",
-      "freeTier": "1 automation, 300 AI actions/month, Moss AI assistant, 100+ integrations",
+      "buzzSummary": "AI automation platform that learns by watching you work — record a task once, AI builds the workflow. Early-stage with minimal public discussion; positioned as a simpler alternative to Zapier/Make for non-technical users. Homepage emphasizes deterministic execution with full audit trails.",
+      "ratingSummary": "No structured reviews on G2, Capterra, or Product Hunt yet. Homepage highlights teach-by-demonstration approach and editable AI-built workflows, but no independent user feedback available.",
+      "freeTier": "Free to start, setup in minutes (specific limits not disclosed on homepage)",
       "buzzSources": [
         {
           "platform": "Homepage",
-          "detail": "Self-reported features, free tier available",
+          "detail": "AI watches and learns from demonstrations, CSV/email/webhook triggers, audit trail",
           "sentiment": "neutral"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Homepage",
+          "detail": "No independent reviews found; self-reported features only",
+          "sentiment": "neutral"
+        }
+      ]
     },
     {
       "name": "Resum8",
@@ -496,21 +502,27 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:12:09.468Z",
+      "dateUpdated": "2026-03-21T03:14:52.556Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI resume writer and CV tailoring tool. Very limited public presence — site renders as a single-page app with minimal crawlable content. No significant Reddit, HN, or social media discussion found.",
-      "ratingSummary": "No reviews found on Product Hunt, G2, or other review platforms. Too new or too niche to have generated structured user feedback yet.",
-      "freeTier": "Unknown — site requires JavaScript to render pricing details",
+      "buzzSummary": "AI resume writer and CV tailoring tool. Extremely limited web presence — site is a JavaScript SPA with almost no crawlable content. No Reddit, HN, or social media discussions found. Appears to be very early stage or abandoned.",
+      "ratingSummary": "No reviews on any platform (Product Hunt, G2, Capterra, Trustpilot). The site renders only a title tag with no visible content for crawlers, making it impossible to verify features or quality.",
+      "freeTier": "Unknown — site requires JavaScript rendering; no pricing information accessible",
       "buzzSources": [
         {
           "platform": "Homepage",
-          "detail": "SPA with limited crawlable content",
+          "detail": "SPA with no crawlable content beyond page title",
           "sentiment": "neutral"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "None",
+          "detail": "No reviews found on any review platform",
+          "sentiment": "neutral"
+        }
+      ]
     },
     {
       "name": "OnCallClerk",
@@ -527,21 +539,27 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:12:18.600Z",
+      "dateUpdated": "2026-03-21T03:15:03.023Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "No-code AI phone agent platform for small businesses and call centers. Positions itself as a quick-setup alternative to building custom telephony AI. Limited public buzz — no major Reddit threads or HN discussions found, but the product appears functional with a live demo.",
-      "ratingSummary": "No structured reviews on G2, Product Hunt, or Capterra yet. The platform emphasizes GDPR compliance and 99.9% uptime SLA, but independent verification is lacking.",
-      "freeTier": "No credit card required to start, 5-minute setup with live demo available",
+      "buzzSummary": "No-code AI phone agent platform targeting small businesses and call centers. Homepage showcases live demo, real-time analytics, smart call routing, and enterprise security (GDPR, 99.9% uptime SLA). Features testimonials claiming 500+ calls/day handling and ROI within first month vs $5K/month answering services. 14-day free trial available.",
+      "ratingSummary": "No structured reviews on G2, Capterra, or Product Hunt. Homepage features 3 testimonials from entrepreneurs and agency owners praising ease of setup and cost savings, but no independent verification available.",
+      "freeTier": "14-day free trial, no credit card required, 5-minute setup with live demo agent",
       "buzzSources": [
         {
           "platform": "Homepage",
-          "detail": "Live demo agent, no-code builder, UK phone numbers",
-          "sentiment": "neutral"
+          "detail": "Live demo agent, testimonials from 3 users, claims of handling 500+ calls/day",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "Homepage testimonials",
+          "detail": "3 testimonials praising setup speed and ROI, no structured rating",
+          "sentiment": "positive"
+        }
+      ]
     },
     {
       "name": "MascotVibe",
@@ -558,21 +576,32 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:12:29.705Z",
+      "dateUpdated": "2026-03-21T03:15:15.346Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI-powered animated mascot generator that creates brand characters in minutes. Targets app developers and marketers who need mascots without hiring designers. Compares itself favorably to traditional agencies ($5K-15K) and competitors like Masko.ai. Niche product with limited broad buzz.",
-      "ratingSummary": "No structured reviews on major platforms yet. Homepage highlights speed (~30s for image, ~7min for animation) and multi-format export (WebM, APNG, MP4, MOV, spritesheets) as key differentiators vs competitors.",
-      "freeTier": "30 credits on signup (enough for 1 mascot + 1 animation + 1 refinement), preview animations free but download requires upgrade",
+      "buzzSummary": "AI-powered animated mascot generator for apps, games, and brands. Listed on There's An AI For That with coverage of its key features. Targets developers and marketers who need mascots without hiring designers — claims 100x faster than traditional design at a fraction of the cost ($14.99/mo vs $5K-15K agencies). Supports multiple styles (Kawaii, cartoon, 3D, pixel art) and export formats.",
+      "ratingSummary": "Listed on There's An AI For That as a featured tool. No structured reviews on G2, Capterra, or Product Hunt yet. Key differentiators include 12 animation presets, multi-format export (WebM, APNG, MOV, MP4, spritesheets), and API access on Studio plan.",
+      "freeTier": "30 credits on signup (1 mascot + 1 animation + 1 free refinement), preview animations free but download requires upgrade, no signup required to try",
       "buzzSources": [
         {
+          "platform": "There's An AI For That",
+          "detail": "Featured listing with overview of mascot creation and animation capabilities",
+          "sentiment": "positive"
+        },
+        {
           "platform": "Homepage",
-          "detail": "Comparison table vs agencies, freelancers, and Masko.ai",
+          "detail": "Comparison vs agencies ($5K-15K) and competitors, interactive showcase",
           "sentiment": "positive"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "There's An AI For That",
+          "detail": "Featured listing, no structured rating available",
+          "sentiment": "positive"
+        }
+      ]
     },
     {
       "name": "Base44 Superagents",
@@ -589,21 +618,32 @@
         "https://theresanaiforthat.com"
       ],
       "dateAdded": "2026-03-17T01:22:50.468Z",
-      "dateUpdated": "2026-03-18T01:12:38.778Z",
+      "dateUpdated": "2026-03-21T03:15:25.913Z",
       "trending": false,
       "buzzScore": null,
       "reviewRating": null,
-      "buzzSummary": "AI app-building platform with a backend designed for AI agents. Has an active Discord community, templates marketplace, and integrations ecosystem. Targets non-technical builders across productivity, education, e-commerce, and more. Growing presence with a partner program and higher-ed partnerships.",
-      "ratingSummary": "No structured reviews found on G2 or Capterra. Has an active community on Discord and a public roadmap on feedback.base44.com, suggesting engaged users but no aggregated ratings yet.",
-      "freeTier": "Free tier available (details behind JS-rendered pricing page), platform accessible without credit card",
+      "buzzSummary": "AI app-building platform with a backend designed for AI agents. Growing ecosystem with templates marketplace, integrations directory, partner program, and higher-ed partnerships. Supports multiple languages (EN, FR, PT, JP, DE, ES, IT). Active Discord community and public roadmap. Positions as a no-code platform where you describe your app idea and it generates working apps with authentication, data storage, and hosting built in.",
+      "ratingSummary": "No structured reviews on G2 or Capterra. Active Discord community and public roadmap on feedback.base44.com suggest engaged user base. Offers enterprise tier alongside free and paid plans, indicating some market traction. No independent ratings available yet.",
+      "freeTier": "Free tier includes all core features, built-in integrations, authentication system, and database functionality",
       "buzzSources": [
         {
           "platform": "Homepage",
-          "detail": "Templates marketplace, Discord community, partner program, higher-ed program",
+          "detail": "Templates marketplace, integrations directory, partner program, higher-ed program, multi-language support",
+          "sentiment": "positive"
+        },
+        {
+          "platform": "Discord",
+          "detail": "Active community with builders connecting and sharing ideas",
           "sentiment": "positive"
         }
       ],
-      "ratingSources": []
+      "ratingSources": [
+        {
+          "platform": "feedback.base44.com",
+          "detail": "Public roadmap and user feedback portal, no structured ratings",
+          "sentiment": "neutral"
+        }
+      ]
     },
     {
       "name": "Denovo",
