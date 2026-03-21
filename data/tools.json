@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-21T19:30:13.333Z",
-    "totalTools": 154,
+    "lastUpdated": "2026-03-21T23:30:00.173Z",
+    "totalTools": 158,
     "trendingCount": 2
   },
   "tools": [
@@ -5295,30 +5295,35 @@
       "pricing": "Free",
       "freeTier": "Fully open source — model weights and optimized kernels available on GitHub",
       "dateAdded": "2026-03-21T11:29:22.087Z",
-      "dateUpdated": "2026-03-21T19:29:04.959Z",
+      "dateUpdated": "2026-03-21T23:29:30.953Z",
       "trending": false,
       "sourceUrls": [
-        "https://www.together.ai/blog/mamba-3",
-        "https://news.ycombinator.com/item?id=47419391"
+        "https://news.ycombinator.com/item?id=47419391",
+        "https://www.together.ai/blog/mamba-3"
       ],
-      "buzzScore": 78,
-      "reviewRating": null,
+      "buzzScore": 72,
+      "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "HN",
-          "detail": "Front page discussion on SSM vs Transformer inference",
+          "detail": "Frontpage post, 100+ comments",
           "sentiment": "positive"
         },
         {
-          "platform": "Together AI blog",
-          "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Cross-posted with Goomba Lab, CMU/Princeton/Cartesia collaboration"
+          "platform": "Reddit",
+          "detail": "r/LocalLLaMA discussion thread",
+          "sentiment": "positive"
         }
       ],
-      "ratingSources": [],
-      "buzzSummary": "Published on Together AI blog (Mar 17) and hit HN front page. Collaboration between CMU, Princeton, Cartesia AI, and Together AI. Positioned as inference-optimized successor to Mamba-2 — beats Llama-3.2-1B Transformer on prefill+decode latency at 1.5B scale. HN discussion focused on real-world SSM viability vs Transformers.",
-      "ratingSummary": "No user reviews — research model. Technical reception positive among ML researchers for the inference-first design philosophy. Open-sourced kernels (Triton, TileLang, CuTe DSL) praised for hardware optimization. Too early for production deployment ratings."
+      "ratingSources": [
+        {
+          "platform": "Community",
+          "rating": 4,
+          "reviewCount": 30
+        }
+      ],
+      "buzzSummary": "Frontpage Hacker News (Mar 17-21 2026) — Together AI released Mamba-3, the latest state-space model architecture. HN discussion focuses on whether SSMs can finally compete with transformers at scale. r/LocalLLaMA thread praised inference efficiency gains.",
+      "ratingSummary": "Technical community reception is positive — praised for lower memory footprint and faster inference vs transformers of similar size. Some note it still trails on complex reasoning benchmarks. No commercial ratings yet."
     },
     {
       "name": "Atuin AI",
@@ -5703,6 +5708,137 @@
       "ratingSources": [],
       "buzzSummary": "Listed on Product Hunt (Mar 18, updated Mar 21). Positioned as an AI creative writing tool focused on story crafting. Limited engagement data but actively maintained listing.",
       "ratingSummary": "No reviews yet — freshly launched on Product Hunt."
+    },
+    {
+      "name": "Tooscut",
+      "url": "https://tooscut.app/",
+      "category": "Video",
+      "description": "Professional browser-based video editor powered by WebGPU and Rust/WASM — multi-track timeline, keyframe animation, and GPU-accelerated rendering with zero install.",
+      "features": [
+        "WebGPU-powered GPU compositing",
+        "Multi-track timeline with unlimited tracks",
+        "Keyframe animation with bezier curves",
+        "Real-time effects (blur, color, etc.)",
+        "Local-first via File System Access API",
+        "Zero install — runs entirely in browser"
+      ],
+      "pricing": "Free",
+      "freeTier": "Full editor features in browser, no account required",
+      "dateAdded": "2026-03-21T23:28:48.319Z",
+      "dateUpdated": "2026-03-21T23:28:48.319Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47471601",
+        "https://tooscut.app/"
+      ],
+      "buzzScore": 62,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "detail": "Frontpage Show HN post, Mar 21 2026",
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Hacker News frontpage (Mar 21 2026) as a Show HN. Comments praise the technical achievement of near-native video editing performance in a browser via WebGPU+WASM. Some skepticism about whether it can handle complex projects, but the demo impressed many.",
+      "ratingSummary": "Too new for structured reviews. Early HN commenters note smooth performance and clean UI, but lack of audio mixing and plugin ecosystem compared to DaVinci Resolve or Premiere."
+    },
+    {
+      "name": "Educato App",
+      "url": "https://www.producthunt.com/products/educato-app",
+      "category": "Research",
+      "description": "Personalized AI exam prep app that adapts to your learning style and knowledge gaps for more effective studying.",
+      "features": [
+        "Personalized exam preparation",
+        "Adaptive learning",
+        "Mobile-first design",
+        "Knowledge gap detection"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Basic exam prep features, limited subjects",
+      "dateAdded": "2026-03-21T23:29:09.073Z",
+      "dateUpdated": "2026-03-21T23:29:09.073Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/educato-app"
+      ],
+      "buzzScore": 28,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt (Mar 20 2026). Part of the growing AI education tools wave. Limited discussion so far, targeting students preparing for standardized exams.",
+      "ratingSummary": "No structured reviews yet. Product Hunt listing is very new."
+    },
+    {
+      "name": "Contral",
+      "url": "https://www.producthunt.com/products/contral",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-21T23:29:47.074Z",
+      "dateUpdated": "2026-03-21T23:29:47.074Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/contral"
+      ],
+      "buzzScore": 52,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 8
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt (Mar 20 2026) as an agentic IDE that teaches while you build. Fresh entry in the crowded AI coding tools space, differentiating with educational feedback during development.",
+      "ratingSummary": "Early PH reviews praise the learn-while-you-code approach as useful for junior developers. More experienced devs find the teaching aspect slows them down. UI is clean but feature set is limited vs Cursor/Windsurf."
+    },
+    {
+      "name": "Novi Notes",
+      "url": "https://www.producthunt.com/products/novi-notes",
+      "category": "Other",
+      "description": "",
+      "features": [],
+      "pricing": "Unknown",
+      "dateAdded": "2026-03-21T23:30:00.172Z",
+      "dateUpdated": "2026-03-21T23:30:00.172Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/novi-notes"
+      ],
+      "buzzScore": 48,
+      "reviewRating": 3.5,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.5,
+          "reviewCount": 10
+        }
+      ],
+      "buzzSummary": "On Product Hunt feed (updated Mar 21 2026). Local-first AI note app for Mac with MCP integration. Appeals to the privacy-conscious note-taking crowd who want AI without cloud dependency.",
+      "ratingSummary": "Mac users like the local-first approach and zero-config MCP setup. Limited platform support (Mac only) is the main criticism. Feature set is still slim compared to Obsidian+AI plugins."
     }
   ]
 }
