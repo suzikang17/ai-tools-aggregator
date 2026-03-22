@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-22T03:29:23.876Z",
-    "totalTools": 159,
-    "trendingCount": 2
+    "lastUpdated": "2026-03-22T21:03:14.691Z",
+    "totalTools": 169,
+    "trendingCount": 6
   },
   "tools": [
     {
@@ -4772,7 +4772,7 @@
     },
     {
       "name": "Composer 2 by Cursor",
-      "url": "https://cursor.com",
+      "url": "https://www.cursor.com",
       "category": "Coding",
       "description": "Fast, token-efficient frontier-level coding model by Cursor",
       "features": [
@@ -4783,36 +4783,36 @@
       "pricing": "From $20/mo",
       "freeTier": "Free tier with limited completions",
       "dateAdded": "2026-03-20T15:27:23.008Z",
-      "dateUpdated": "2026-03-20T15:27:23.008Z",
+      "dateUpdated": "2026-03-22T21:03:13.200Z",
       "trending": false,
       "sourceUrls": [
-        "https://www.producthunt.com/products/cursor"
+        "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/"
       ],
-      "buzzScore": 82,
+      "buzzScore": 88,
       "reviewRating": 4.5,
       "buzzSources": [
         {
-          "platform": "Product Hunt",
+          "platform": "TechCrunch",
           "mentions": 1,
-          "sentiment": "positive",
-          "detail": "Composer 2 launch Mar 19"
+          "sentiment": "mixed",
+          "detail": "Cursor admits coding model built on Moonshot AI Kimi — controversy over Chinese model dependency"
         },
         {
-          "platform": "Reddit",
-          "mentions": 5,
-          "sentiment": "positive",
-          "detail": "Frequent mentions in r/LocalLLaMA and r/artificial"
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "mixed",
+          "detail": "Active discussion about implications of building on Chinese models"
         }
       ],
       "ratingSources": [
         {
           "platform": "Product Hunt",
           "rating": 4.5,
-          "reviewCount": 200
+          "reviewCount": 120
         }
       ],
-      "buzzSummary": "Launched on Product Hunt Mar 19 as a major Cursor update. Composer 2 is positioned as a token-efficient frontier coding model. Cursor continues to be one of the most discussed AI coding tools across Reddit and HN, with strong developer community momentum.",
-      "ratingSummary": "Cursor maintains strong reviews across platforms. Users praise the IDE experience and code quality. Composer 2 specifically lauded for speed and efficiency improvements over v1."
+      "buzzSummary": "Major controversy — TechCrunch reports Cursor admitted its new coding model was built on top of Moonshot AI's Kimi, a Chinese model. This is generating heated debate about US-China AI dependencies, trust, and transparency. Buzz is up significantly due to the controversy.",
+      "ratingSummary": "Strong coding tool ratings persist, but trust concerns emerging. Users questioning transparency after the Kimi revelation. Still well-regarded for code completion quality."
     },
     {
       "name": "Google AI Studio 2.0",
@@ -5202,7 +5202,7 @@
     {
       "name": "WordPress.com AI Agents",
       "url": "https://wordpress.com",
-      "category": "Marketing",
+      "category": "Agents",
       "description": "AI agents that can write, publish, and manage posts on WordPress.com — automated content publishing",
       "features": [
         "AI content writing",
@@ -5213,12 +5213,12 @@
       "pricing": "Unknown",
       "freeTier": "Unknown — part of WordPress.com platform",
       "dateAdded": "2026-03-20T19:28:24.379Z",
-      "dateUpdated": "2026-03-22T03:29:23.875Z",
+      "dateUpdated": "2026-03-22T21:03:14.690Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/"
       ],
-      "buzzScore": 60,
+      "buzzScore": 55,
       "reviewRating": null,
       "parentPlatform": "Automattic",
       "buzzSources": [
@@ -5226,12 +5226,12 @@
           "platform": "TechCrunch",
           "mentions": 1,
           "sentiment": "mixed",
-          "detail": "could lower barriers to publishing while increasing machine-generated content across the web"
+          "detail": "WordPress.com AI agents can now write and publish posts autonomously"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "TechCrunch coverage (Mar 20) highlights WordPress.com enabling AI agents to write and publish posts. Framed as lowering barriers to publishing while raising concerns about machine-generated content flooding the web.",
-      "ratingSummary": "No reviews yet — just announced. TechCrunch frames it as both opportunity and risk for web content quality."
+      "buzzSummary": "TechCrunch coverage — WordPress.com now lets AI agents write and publish posts directly. Significant move for content automation. Raises concerns about machine-generated content flooding the web.",
+      "ratingSummary": "Mixed reception — powerful capability for publishers but concerns about content quality and web spam."
     },
     {
       "name": "OpenCode",
@@ -5250,7 +5250,7 @@
       "pricing": "Free",
       "freeTier": "Fully free and open source, bring your own API keys or use GitHub Copilot/ChatGPT subscriptions",
       "dateAdded": "2026-03-21T11:29:07.750Z",
-      "dateUpdated": "2026-03-21T19:29:04.927Z",
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
       "trending": false,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47460525",
@@ -5269,6 +5269,12 @@
           "mentions": 120000,
           "sentiment": "positive",
           "detail": "120K stars, 800 contributors, 10K commits"
+        },
+        {
+          "platform": "r/LocalLLaMA",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "User mentioning OpenCode as their target coding tool for local inference"
         }
       ],
       "ratingSources": [
@@ -5278,7 +5284,7 @@
           "reviewCount": 15
         }
       ],
-      "buzzSummary": "Hit HN front page (Mar 20) with active debate. Users praise it as the top open-source agentic coding alternative to Claude Code, with 120K GitHub stars and 5M monthly devs. Critics flag bloated TypeScript codebase (1GB+ RAM), high release cadence with insufficient testing, and feature creep. Multiple commenters compare it unfavorably to Codex on resource efficiency.",
+      "buzzSummary": "Mentioned organically in r/LocalLLaMA — user asking about running NVFP4 models on Windows specifically wants to use OpenCode on RTX 5060ti 16GB. Indicates growing mindshare as a coding tool for local LLM users.",
       "ratingSummary": "Mixed sentiment. Fans love the open-source ethos and breadth of features (LSP, multi-session, share links). Detractors cite buggy TUI, excessive RAM usage, and constant breaking changes. HN thread shows roughly 60/40 positive-to-negative split. No formal G2 or Capterra ratings."
     },
     {
@@ -5726,23 +5732,30 @@
       "pricing": "Free",
       "freeTier": "Full editor features in browser, no account required",
       "dateAdded": "2026-03-21T23:28:48.319Z",
-      "dateUpdated": "2026-03-21T23:28:48.319Z",
-      "trending": false,
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
+      "trending": true,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47471601",
         "https://tooscut.app/"
       ],
-      "buzzScore": 62,
+      "buzzScore": 8,
       "reviewRating": null,
       "buzzSources": [
         {
           "platform": "HN",
-          "detail": "Frontpage Show HN post, Mar 21 2026",
-          "sentiment": "positive"
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "Multi-day frontpage presence, sustained engagement about WebGPU/WASM video editing"
+        },
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Previously featured"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Launched on Hacker News frontpage (Mar 21 2026) as a Show HN. Comments praise the technical achievement of near-native video editing performance in a browser via WebGPU+WASM. Some skepticism about whether it can handle complex projects, but the demo impressed many.",
+      "buzzSummary": "Still on HN frontpage for second day running — browser-based professional video editor using WebGPU and WASM continues to draw sustained attention. The 'no install, runs in browser' angle resonates strongly with developers and creators tired of Adobe subscriptions. Comments praise performance and the WebGPU approach.",
       "ratingSummary": "Too new for structured reviews. Early HN commenters note smooth performance and clean UI, but lack of audio mixing and plugin ecosystem compared to DaVinci Resolve or Premiere."
     },
     {
@@ -5858,26 +5871,26 @@
       "pricing": "From $12,000",
       "freeTier": "No free tier — hardware product starting at $12,000 (red v2) up to $65,000 (green v2 Blackwell)",
       "dateAdded": "2026-03-22T03:29:09.092Z",
-      "dateUpdated": "2026-03-22T03:29:09.092Z",
-      "trending": false,
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
+      "trending": true,
       "sourceUrls": [
         "https://news.ycombinator.com/item?id=47470773",
         "https://tinygrad.org/#tinybox"
       ],
-      "buzzScore": 68,
+      "buzzScore": 7,
       "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "HN",
-          "mentions": 1,
+          "mentions": 2,
           "sentiment": "positive",
-          "detail": "Frontpage post, active discussion about local AI hardware and tinygrad philosophy"
+          "detail": "Multi-day frontpage, 'powerful computer for deep learning' — sustained interest in local AI hardware"
         },
         {
-          "platform": "X/Twitter",
-          "mentions": 5,
-          "sentiment": "positive",
-          "detail": "@__tinygrad__ active with product announcements and shipping updates"
+          "platform": "r/LocalLLaMA",
+          "mentions": 1,
+          "sentiment": "mixed",
+          "detail": "Previous discussion about price-performance tradeoffs"
         }
       ],
       "ratingSources": [
@@ -5892,8 +5905,333 @@
           "reviewCount": 15
         }
       ],
-      "buzzSummary": "Trending on HN frontpage (Mar 21). Comments praise the no-nonsense, distinctly human website tone and the local-first AI vision. Debate around the upcoming $10M exabox — skeptics question whether B2B buyers will order through a web form, supporters see it as the future of democratized AI training.",
+      "buzzSummary": "Still on HN frontpage — tinygrad's dedicated deep learning hardware running 120B params locally at $12K-$65K continues sparking local-first AI hardware debate. Community discussing value proposition vs cloud costs and comparisons to Mac Studio setups.",
       "ratingSummary": "No structured reviews on G2/Capterra. HN commenters praise price-to-performance ratio (MLPerf Training 4.0 benchmarks vs 10x pricier competitors). Some criticism of the arrogant FAQ tone and lack of customization options."
+    },
+    {
+      "name": "Flash-MoE",
+      "url": "https://github.com/danveloper/flash-moe",
+      "category": "Coding",
+      "description": "Pure C/Metal engine that runs 397B parameter MoE models on a MacBook at 4.4 tok/s",
+      "features": [
+        "Pure C implementation",
+        "Metal acceleration",
+        "397B MoE support",
+        "4.4 tok/s on MacBook"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source",
+      "dateAdded": "2026-03-22T17:03:55.282705Z",
+      "dateUpdated": "2026-03-22T21:02:52.402Z",
+      "trending": true,
+      "sourceUrls": [
+        "https://news.ycombinator.com/rss"
+      ],
+      "buzzScore": 78,
+      "reviewRating": null,
+      "buzzSummary": "Trending on HN frontpage for 2+ days straight — running a 397B parameter MoE model on a MacBook at 4.4 tok/s with pure C/Metal has captured significant attention. Active technical discussion about the engine architecture and MoE efficiency.",
+      "ratingSummary": "No formal reviews — open source project evaluated by community benchmarks. Technical users impressed by the tok/s achievement on consumer hardware.",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Frontpage for 2+ days, active technical discussion"
+        }
+      ],
+      "ratingSources": []
+    },
+    {
+      "name": "Project Nomad",
+      "url": "https://www.projectnomad.us",
+      "category": "Research",
+      "description": "Free open source offline server with Wikipedia, LLMs, maps, and education — knowledge that never goes offline",
+      "features": [
+        "Offline Wikipedia",
+        "Local LLMs",
+        "Offline maps",
+        "Education materials",
+        "Self-hosted"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source and free",
+      "dateAdded": "2026-03-22T17:03:55.282705Z",
+      "dateUpdated": "2026-03-22T21:02:53.988Z",
+      "trending": true,
+      "sourceUrls": [
+        "https://news.ycombinator.com/rss"
+      ],
+      "buzzScore": 65,
+      "reviewRating": null,
+      "buzzSummary": "Still on HN frontpage — the prepper/off-grid angle resonates strongly. Offline knowledge server combining Wikipedia + LLMs + maps appeals to both survivalists and education-in-remote-areas crowds.",
+      "ratingSummary": "No formal reviews — community reception is enthusiastic for the concept, though it is still early-stage.",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Frontpage day 2, off-grid/prepper angle resonating"
+        }
+      ],
+      "ratingSources": []
+    },
+    {
+      "name": "Context.dev",
+      "url": "https://context.dev",
+      "category": "Developer Tools / API",
+      "description": "One API to scrape, enrich, and understand the web. Provides structured web data extraction and enrichment capabilities for developers building AI applications.",
+      "features": [
+        "Web scraping API",
+        "Data enrichment",
+        "Structured web understanding",
+        "Developer-focused API"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Details unavailable — site behind Vercel security checkpoint during review.",
+      "dateAdded": "2026-03-22T17:03:55.282705Z",
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/context-dev"
+      ],
+      "buzzScore": 3,
+      "reviewRating": null,
+      "buzzSummary": "Newly listed on Product Hunt (March 21, 2026). Positioned as a unified API for web scraping and enrichment — a crowded space but the 'understand the web' angle suggests AI-powered semantic extraction beyond basic scraping. Limited public discussion so far.",
+      "ratingSummary": "No reviews available yet. Just launched on Product Hunt. No G2 or Capterra presence.",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "New listing, 'One API to scrape, enrich, and understand the web'"
+        }
+      ],
+      "ratingSources": []
+    },
+    {
+      "name": "Bench for Claude Code",
+      "url": "https://www.producthunt.com/products/bench-for-claude-code",
+      "category": "Developer Tools / AI Coding",
+      "description": "Store, review, and share your Claude Code sessions. Session management and collaboration tool for Claude Code users.",
+      "features": [
+        "Claude Code session storage",
+        "Session review and replay",
+        "Session sharing",
+        "Collaboration features"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Details unavailable — Product Hunt listing only, site behind Cloudflare protection.",
+      "dateAdded": "2026-03-22T17:03:55.282705Z",
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/bench-for-claude-code"
+      ],
+      "buzzScore": 3,
+      "reviewRating": null,
+      "buzzSummary": "Listed on Product Hunt (March 14, 2026). Fills a niche for Claude Code power users who want to review, store, and share their coding sessions. Part of the growing Claude Code ecosystem tools wave alongside Edgee compression and scheduled tasks.",
+      "ratingSummary": "No formal reviews. Product Hunt listing by Chris Messina (well-known tech figure). Too new for aggregated ratings.",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed by Chris Messina, session management for Claude Code"
+        }
+      ],
+      "ratingSources": []
+    },
+    {
+      "name": "Edgee Claude Code Compression",
+      "url": "https://www.producthunt.com/products/edgee",
+      "category": "Developer Tools / AI Coding",
+      "description": "Extends Claude Pro's usage limit by 26.2% through context compression. Optimizes token usage to get more out of Claude Code sessions.",
+      "features": [
+        "Claude Code context compression",
+        "26.2% limit extension",
+        "Token usage optimization"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Details unavailable from Product Hunt listing alone.",
+      "dateAdded": "2026-03-22T17:03:55.282705Z",
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/edgee"
+      ],
+      "buzzScore": 3,
+      "reviewRating": null,
+      "buzzSummary": "Listed on Product Hunt (March 19, 2026). Addresses a real pain point — Claude Pro rate limits. The specific 26.2% improvement claim suggests measured benchmarking. Part of the growing ecosystem of Claude Code optimization tools.",
+      "ratingSummary": "No formal reviews yet. Product Hunt listing only. The specificity of the 26.2% claim suggests technical rigor but needs independent verification.",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Extends Claude Pro limit by 26.2% — addresses common pain point"
+        }
+      ],
+      "ratingSources": []
+    },
+    {
+      "name": "Claude Code Scheduled Tasks",
+      "url": "https://www.producthunt.com/products/claude-code-scheduled-tasks",
+      "category": "Developer Tools / AI Coding",
+      "description": "Schedule recurring tasks locally and in the cloud for Claude Code. Automate repetitive Claude Code workflows on a schedule.",
+      "features": [
+        "Local task scheduling",
+        "Cloud task scheduling",
+        "Recurring automation",
+        "Claude Code integration"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Details unavailable from Product Hunt listing.",
+      "dateAdded": "2026-03-22T17:03:55.282705Z",
+      "dateUpdated": "2026-03-22T17:03:55.282705Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/claude-code-scheduled-tasks"
+      ],
+      "buzzScore": 3,
+      "reviewRating": null,
+      "buzzSummary": "Listed on Product Hunt (March 6, 2026, still active in feed). Enables scheduled/recurring Claude Code tasks — useful for automated code reviews, testing, or maintenance workflows. Growing Claude Code ecosystem tool.",
+      "ratingSummary": "No formal reviews. Product Hunt listing by Rohan Chaubey.",
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Schedule recurring Claude Code tasks locally and in the cloud"
+        }
+      ],
+      "ratingSources": []
+    },
+    {
+      "name": "CodexLib",
+      "url": "https://codexlib.io",
+      "category": "Coding",
+      "description": "Token compression library that converts books and knowledge bases into AI-digestible formats, reducing token usage by ~66%",
+      "features": [
+        "Book summarization to AI format",
+        "Agent-authored content publishing",
+        "API for AI agent registration",
+        "70/30 royalty split for AI publishers",
+        "Project Gutenberg integration"
+      ],
+      "pricing": "Free",
+      "freeTier": "10 classic books included, agent API access",
+      "dateAdded": "2026-03-22T21:02:15.675Z",
+      "dateUpdated": "2026-03-22T21:02:15.675Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.reddit.com/r/artificial/"
+      ],
+      "buzzScore": 25,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Reddit",
+          "mentions": 2,
+          "sentiment": "neutral",
+          "detail": "Cross-posted to r/artificial and r/ChatGPT by creator"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Just launched on r/artificial and r/ChatGPT — pitched as Library of Alexandria for AI. Early stage with 10 classic books. Interesting concept of AI agents publishing for other AIs to consume, but very new with minimal traction so far.",
+      "ratingSummary": "No reviews yet — too early for ratings. Concept is novel but unproven."
+    },
+    {
+      "name": "Embedful",
+      "url": "https://www.producthunt.com/products/embedful",
+      "category": "Data",
+      "description": "Easy data visualizations that can be embedded and shared anywhere",
+      "features": [
+        "Data visualization",
+        "Embeddable charts",
+        "Shareable dashboards"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-22T21:02:21.730Z",
+      "dateUpdated": "2026-03-22T21:02:21.730Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/embedful"
+      ],
+      "buzzScore": 20,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Active on Product Hunt feed as of March 2026. Lightweight data viz tool focused on embeddability. Minimal buzz outside PH.",
+      "ratingSummary": "No structured reviews found yet."
+    },
+    {
+      "name": "Silicon Friendly",
+      "url": "https://www.producthunt.com/products/silicon-friendly",
+      "category": "Research",
+      "description": "Analyzes how AI-friendly your website is, scoring from L0 to L5",
+      "features": [
+        "Website AI-friendliness scoring",
+        "L0-L5 rating system",
+        "SEO for AI optimization"
+      ],
+      "pricing": "Free",
+      "freeTier": "Free website analysis",
+      "dateAdded": "2026-03-22T21:02:28.777Z",
+      "dateUpdated": "2026-03-22T21:02:28.777Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/silicon-friendly"
+      ],
+      "buzzScore": 22,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Active on Product Hunt — niche tool for measuring how well websites work with AI crawlers and agents. Interesting angle on AI-optimized SEO/content.",
+      "ratingSummary": "No reviews found yet."
+    },
+    {
+      "name": "murmur",
+      "url": "https://www.producthunt.com/products/murmur-7",
+      "category": "Audio",
+      "description": "Practice tough phone calls with AI before making them for real",
+      "features": [
+        "AI phone call simulation",
+        "Conversation practice",
+        "Anxiety reduction for calls"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-22T21:02:35.097Z",
+      "dateUpdated": "2026-03-22T21:02:35.097Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/murmur-7"
+      ],
+      "buzzScore": 22,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Active on Product Hunt — novel concept of rehearsing difficult phone calls with AI. Targets social anxiety and call prep. Niche but clever use case.",
+      "ratingSummary": "No structured reviews found yet."
     }
   ]
 }
