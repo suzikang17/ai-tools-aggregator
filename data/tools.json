@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-21T23:30:00.173Z",
-    "totalTools": 158,
+    "lastUpdated": "2026-03-22T03:29:23.876Z",
+    "totalTools": 159,
     "trendingCount": 2
   },
   "tools": [
@@ -5202,35 +5202,36 @@
     {
       "name": "WordPress.com AI Agents",
       "url": "https://wordpress.com",
-      "category": "Writing",
-      "description": "AI agents that can write and publish WordPress posts autonomously",
+      "category": "Marketing",
+      "description": "AI agents that can write, publish, and manage posts on WordPress.com — automated content publishing",
       "features": [
         "AI content writing",
-        "Auto-publishing",
-        "Blog management",
+        "Automated publishing",
+        "Post management",
         "WordPress integration"
       ],
-      "pricing": "Included with WordPress.com plans",
-      "freeTier": "Available on WordPress.com free plan with limited AI credits",
+      "pricing": "Unknown",
+      "freeTier": "Unknown — part of WordPress.com platform",
       "dateAdded": "2026-03-20T19:28:24.379Z",
-      "dateUpdated": "2026-03-21T19:29:27.945Z",
+      "dateUpdated": "2026-03-22T03:29:23.875Z",
       "trending": false,
       "sourceUrls": [
         "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/"
       ],
-      "buzzScore": 62,
+      "buzzScore": 60,
       "reviewRating": null,
       "parentPlatform": "Automattic",
       "buzzSources": [
         {
           "platform": "TechCrunch",
-          "detail": "Mar 20 article on AI agents writing/publishing posts",
-          "sentiment": "mixed"
+          "mentions": 1,
+          "sentiment": "mixed",
+          "detail": "could lower barriers to publishing while increasing machine-generated content across the web"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "TechCrunch coverage (Mar 20) on WordPress.com letting AI agents write and publish posts. Raises concerns about machine-generated content flooding the web. Part of broader trend of CMS platforms adding agentic AI capabilities. Moderate discussion in AI circles about content quality implications.",
-      "ratingSummary": "No standalone ratings — feature within WordPress.com ecosystem. TechCrunch framing was cautiously concerned about lowering publishing barriers while increasing machine-generated content. Community reaction mixed between excitement and content quality fears."
+      "buzzSummary": "TechCrunch coverage (Mar 20) highlights WordPress.com enabling AI agents to write and publish posts. Framed as lowering barriers to publishing while raising concerns about machine-generated content flooding the web.",
+      "ratingSummary": "No reviews yet — just announced. TechCrunch frames it as both opportunity and risk for web content quality."
     },
     {
       "name": "OpenCode",
@@ -5784,7 +5785,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-21T23:29:47.074Z",
-      "dateUpdated": "2026-03-21T23:29:47.074Z",
+      "dateUpdated": "2026-03-21T23:37:07.392Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/contral"
@@ -5806,7 +5807,8 @@
         }
       ],
       "buzzSummary": "Launched on Product Hunt (Mar 20 2026) as an agentic IDE that teaches while you build. Fresh entry in the crowded AI coding tools space, differentiating with educational feedback during development.",
-      "ratingSummary": "Early PH reviews praise the learn-while-you-code approach as useful for junior developers. More experienced devs find the teaching aspect slows them down. UI is clean but feature set is limited vs Cursor/Windsurf."
+      "ratingSummary": "Early PH reviews praise the learn-while-you-code approach as useful for junior developers. More experienced devs find the teaching aspect slows them down. UI is clean but feature set is limited vs Cursor/Windsurf.",
+      "freeTier": "Free beta access (Product Hunt launch Mar 20 2026)"
     },
     {
       "name": "Novi Notes",
@@ -5816,7 +5818,7 @@
       "features": [],
       "pricing": "Unknown",
       "dateAdded": "2026-03-21T23:30:00.172Z",
-      "dateUpdated": "2026-03-21T23:30:00.172Z",
+      "dateUpdated": "2026-03-21T23:37:13.390Z",
       "trending": false,
       "sourceUrls": [
         "https://www.producthunt.com/products/novi-notes"
@@ -5838,7 +5840,60 @@
         }
       ],
       "buzzSummary": "On Product Hunt feed (updated Mar 21 2026). Local-first AI note app for Mac with MCP integration. Appeals to the privacy-conscious note-taking crowd who want AI without cloud dependency.",
-      "ratingSummary": "Mac users like the local-first approach and zero-config MCP setup. Limited platform support (Mac only) is the main criticism. Feature set is still slim compared to Obsidian+AI plugins."
+      "ratingSummary": "Mac users like the local-first approach and zero-config MCP setup. Limited platform support (Mac only) is the main criticism. Feature set is still slim compared to Obsidian+AI plugins.",
+      "freeTier": "Unknown — Mac app launched Feb 2026"
+    },
+    {
+      "name": "Tinybox",
+      "url": "https://tinygrad.org/#tinybox",
+      "category": "Data",
+      "description": "Offline AI hardware from tinygrad — run 120B parameter models locally on 4x GPU boxes starting at $12K",
+      "features": [
+        "4x GPU configurations",
+        "Run 120B+ param models offline",
+        "MLPerf Training benchmarked",
+        "Ubuntu 24.04 included",
+        "Ships worldwide"
+      ],
+      "pricing": "From $12,000",
+      "freeTier": "No free tier — hardware product starting at $12,000 (red v2) up to $65,000 (green v2 Blackwell)",
+      "dateAdded": "2026-03-22T03:29:09.092Z",
+      "dateUpdated": "2026-03-22T03:29:09.092Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://news.ycombinator.com/item?id=47470773",
+        "https://tinygrad.org/#tinybox"
+      ],
+      "buzzScore": 68,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Frontpage post, active discussion about local AI hardware and tinygrad philosophy"
+        },
+        {
+          "platform": "X/Twitter",
+          "mentions": 5,
+          "sentiment": "positive",
+          "detail": "@__tinygrad__ active with product announcements and shipping updates"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "MLPerf",
+          "rating": 4.5,
+          "reviewCount": 1
+        },
+        {
+          "platform": "HN comments",
+          "rating": 4,
+          "reviewCount": 15
+        }
+      ],
+      "buzzSummary": "Trending on HN frontpage (Mar 21). Comments praise the no-nonsense, distinctly human website tone and the local-first AI vision. Debate around the upcoming $10M exabox — skeptics question whether B2B buyers will order through a web form, supporters see it as the future of democratized AI training.",
+      "ratingSummary": "No structured reviews on G2/Capterra. HN commenters praise price-to-performance ratio (MLPerf Training 4.0 benchmarks vs 10x pricier competitors). Some criticism of the arrogant FAQ tone and lack of customization options."
     }
   ]
 }
