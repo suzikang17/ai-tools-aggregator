@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-22T21:03:14.691Z",
-    "totalTools": 169,
+    "lastUpdated": "2026-03-24T13:03:13.255Z",
+    "totalTools": 177,
     "trendingCount": 6
   },
   "tools": [
@@ -6232,6 +6232,326 @@
       "ratingSources": [],
       "buzzSummary": "Active on Product Hunt — novel concept of rehearsing difficult phone calls with AI. Targets social anxiety and call prep. Niche but clever use case.",
       "ratingSummary": "No structured reviews found yet."
+    },
+    {
+      "name": "Captions by Mirage",
+      "url": "https://captions.ai",
+      "category": "Video",
+      "description": "AI-powered video editing app with models for pacing, framing, and attention dynamics in short videos",
+      "features": [
+        "AI video editing",
+        "accent-preserving audio",
+        "bulk video creation",
+        "marketing suite",
+        "auto-captioning",
+        "video translation"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Basic video editing features with watermark, limited exports",
+      "dateAdded": "2026-03-24T13:02:08.175Z",
+      "dateUpdated": "2026-03-24T13:02:08.175Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/24/mirage-raises-75m-to-continue-building-models-for-its-ai-video-editing-app-captions/"
+      ],
+      "buzzScore": 78,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "$75M raise covered, strong growth metrics"
+        },
+        {
+          "platform": "Product Hunt",
+          "mentions": 5,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "App Store",
+          "rating": 4,
+          "reviewCount": 2500
+        }
+      ],
+      "buzzSummary": "Just raised $75M from General Catalyst. Rebranded from Captions to Mirage to position as AI lab. TechCrunch reports 3.2M downloads in past year, $28.4M in-app revenue, 200M+ videos created. Competing with CapCut and Meta Edits.",
+      "ratingSummary": "Users appreciate the mobile-first editing experience and auto-captioning features. Some complaints about export quality on free tier. International users praise accent preservation in new audio model."
+    },
+    {
+      "name": "Lovable",
+      "url": "https://lovable.dev",
+      "category": "Coding",
+      "description": "AI-powered vibe-coding platform that lets you build full apps and websites by chatting with AI",
+      "features": [
+        "natural language app building",
+        "AI code generation",
+        "instant deployment",
+        "Supabase integration",
+        "responsive design",
+        "GitHub integration"
+      ],
+      "pricing": "From $20/mo",
+      "freeTier": "Limited credits, 1 project, basic features",
+      "dateAdded": "2026-03-24T13:02:20.872Z",
+      "dateUpdated": "2026-03-24T13:02:20.872Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/"
+      ],
+      "buzzScore": 88,
+      "reviewRating": 4.3,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 3,
+          "sentiment": "positive",
+          "detail": "Multiple articles on growth, acquisitions, $400M ARR"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 20,
+          "sentiment": "mixed",
+          "detail": "r/ChatGPT and r/artificial discussions on vibe-coding"
+        },
+        {
+          "platform": "HN",
+          "mentions": 8,
+          "sentiment": "mixed"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.5,
+          "reviewCount": 200
+        },
+        {
+          "platform": "G2",
+          "rating": 4.1,
+          "reviewCount": 45
+        }
+      ],
+      "buzzSummary": "Valued at $6.6B after $330M raise. Now hunting acquisitions per CEO Anton Osika. TechCrunch reports $400M ARR (up from $200M end of 2025), 200K+ new projects daily. Competing with Cursor, Replit, Bolt.",
+      "ratingSummary": "Users love the speed of going from idea to deployed app. Criticism centers on limitations for complex backend logic and occasional hallucinated code. Growth exec publicly admits fearing competition from OpenAI/Anthropic."
+    },
+    {
+      "name": "Littlebird",
+      "url": "https://littlebird.ai",
+      "category": "Productivity",
+      "description": "AI-powered screen reader that captures context from your computer in text format, enabling you to query your digital life",
+      "features": [
+        "continuous screen reading",
+        "text-based context capture",
+        "meeting notetaker",
+        "meeting prep",
+        "daily routines",
+        "app-level privacy controls"
+      ],
+      "pricing": "Freemium",
+      "freeTier": "Free download and basic usage, limited AI queries per day",
+      "dateAdded": "2026-03-24T13:02:35.819Z",
+      "dateUpdated": "2026-03-24T13:02:35.819Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/"
+      ],
+      "buzzScore": 65,
+      "reviewRating": 3.8,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "$11M raise, detailed product coverage"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 3,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.8,
+          "reviewCount": 15
+        }
+      ],
+      "buzzSummary": "Just raised $11M. Founded by Sentieo co-founders (sold to AlphaSense). TechCrunch coverage positions it as a Rewind/Limitless alternative that stores text instead of screenshots, making it lighter and less invasive. Co-founder co-authored the viral Citrini paper on AI agents destroying the economy.",
+      "ratingSummary": "Early-stage product with limited reviews. Users appreciate the text-based approach vs screenshot storage. Privacy-conscious design with app-level ignore rules. Cloud storage requirement is a concern for some privacy-focused users."
+    },
+    {
+      "name": "cq by Mozilla",
+      "url": "https://github.com/nicholasgriffintn/cq",
+      "category": "Coding",
+      "description": "Stack Overflow for AI coding agents — shared knowledge commons where agents learn from each other to avoid repeating mistakes",
+      "features": [
+        "agent knowledge sharing",
+        "Claude Code plugin",
+        "OpenCode plugin",
+        "MCP server",
+        "team API",
+        "confidence scoring",
+        "human-in-the-loop review"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully open source and free to use",
+      "dateAdded": "2026-03-24T13:02:47.668Z",
+      "dateUpdated": "2026-03-24T13:02:47.668Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://blog.mozilla.ai/cq-stack-overflow-for-agents/",
+        "https://news.ycombinator.com/item?id=47491466"
+      ],
+      "buzzScore": 62,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Show HN post, active discussion"
+        },
+        {
+          "platform": "Mozilla AI Blog",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Detailed launch blog post"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Show HN launch by Mozilla AI. Blog post resonated with developers frustrated by agents repeating same mistakes. Andrew Ng endorsed the concept in a DeepLearning.ai newsletter. Aligns with trend of agent-to-agent knowledge sharing. Early PoC stage.",
+      "ratingSummary": "Too early for formal ratings. Developer sentiment on HN is cautiously optimistic — people like the concept but want to see adoption. Some skepticism about whether agents will actually use shared knowledge effectively."
+    },
+    {
+      "name": "Gimlet Labs",
+      "url": "https://gimletlabs.com",
+      "category": "Data",
+      "description": "AI inference platform that lets models run across NVIDIA, AMD, Intel, ARM, Cerebras, and d-Matrix chips simultaneously",
+      "features": [
+        "cross-chip inference",
+        "multi-hardware support",
+        "inference optimization",
+        "chip-agnostic deployment"
+      ],
+      "pricing": "Enterprise",
+      "freeTier": "Unknown, likely enterprise-only",
+      "dateAdded": "2026-03-24T13:02:56.869Z",
+      "dateUpdated": "2026-03-24T13:02:56.869Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/"
+      ],
+      "buzzScore": 58,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "$80M Series A, featured article"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Raised $80M Series A. TechCrunch calls their approach to cross-chip inference surprisingly elegant. Addresses major pain point of hardware vendor lock-in for AI inference. Supports NVIDIA, AMD, Intel, ARM, Cerebras, and d-Matrix.",
+      "ratingSummary": "No consumer reviews available — enterprise/infrastructure product. TechCrunch coverage is strongly positive on the technical approach."
+    },
+    {
+      "name": "BotBoard",
+      "url": "https://www.producthunt.com/products/botboard",
+      "category": "Agents",
+      "description": "Task management platform designed for the age of AI agents",
+      "features": [
+        "agent task management",
+        "workflow orchestration",
+        "agent monitoring"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-24T13:03:10.409Z",
+      "dateUpdated": "2026-03-24T13:03:10.409Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/botboard"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt Mar 23. Positioned as task management for AI agents. Very early stage, minimal buzz outside PH.",
+      "ratingSummary": "Too early for meaningful reviews. Product Hunt listing is fresh with limited upvotes."
+    },
+    {
+      "name": "DebugBase",
+      "url": "https://www.producthunt.com/products/debugbase",
+      "category": "Coding",
+      "description": "Stack Overflow for AI agents — shared debugging knowledge base",
+      "features": [
+        "agent error knowledge base",
+        "shared debugging solutions",
+        "coding agent integration"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-24T13:03:11.883Z",
+      "dateUpdated": "2026-03-24T13:03:11.883Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/debugbase"
+      ],
+      "buzzScore": 38,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt same week as Mozilla cq — part of a clear trend of Stack Overflow-for-agents tools emerging simultaneously. Interesting convergence.",
+      "ratingSummary": "No reviews yet. Very early stage Product Hunt launch."
+    },
+    {
+      "name": "Cekura",
+      "url": "https://www.producthunt.com/products/vocera",
+      "category": "Agents",
+      "description": "Observability and analytics platform for voice and chat AI agents",
+      "features": [
+        "agent monitoring",
+        "voice AI analytics",
+        "chat AI analytics",
+        "performance tracking"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown",
+      "dateAdded": "2026-03-24T13:03:13.254Z",
+      "dateUpdated": "2026-03-24T13:03:13.254Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/vocera"
+      ],
+      "buzzScore": 42,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Promoted by Garry Tan"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt, promoted by Garry Tan. Positioned as observability for AI agents (voice and chat). Fills growing need as agent deployments scale.",
+      "ratingSummary": "No formal reviews yet. Garry Tan promotion suggests YC backing/interest."
     }
   ]
 }
