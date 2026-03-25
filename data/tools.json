@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-24T17:04:21.282Z",
-    "totalTools": 182,
-    "trendingCount": 6
+    "lastUpdated": "2026-03-25T14:39:51.566Z",
+    "totalTools": 198,
+    "trendingCount": 9
   },
   "tools": [
     {
@@ -4049,36 +4049,52 @@
     },
     {
       "name": "talat",
-      "url": "https://www.producthunt.com/products/talat",
+      "url": "https://talat.app/",
       "category": "Productivity",
-      "description": "Real-time meeting notes that stay entirely on your Mac — local AI transcription with no cloud uploads",
+      "description": "Local-first AI meeting notes app for Mac. One-time purchase, no subscription — transcribes meetings in real-time using on-device AI via Apple's Neural Engine. Private alternative to Granola.",
       "features": [
-        "On-device transcription",
-        "Mac native",
-        "Real-time notes",
-        "Privacy-first",
-        "No cloud processing"
+        "On-device transcription via Apple Neural Engine",
+        "Real-time speaker diarization",
+        "Local LLM summarization (key points, decisions, action items)",
+        "No cloud processing — audio never leaves your Mac",
+        "MCP server support for AI tool integration",
+        "Auto-export to Obsidian, webhooks",
+        "One-time purchase, no subscription",
+        "20MB app, no account required"
       ],
-      "pricing": "Unknown",
-      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "pricing": "One-time purchase (no subscription)",
+      "freeTier": "One-time purchase — no subscription fees, no account required, no analytics",
       "dateAdded": "2026-03-19T23:10:17.588Z",
-      "dateUpdated": "2026-03-19T23:10:17.588Z",
-      "trending": false,
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": true,
       "sourceUrls": [
-        "https://www.producthunt.com/products/talat"
+        "https://www.producthunt.com/products/talat",
+        "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/"
       ],
-      "buzzScore": 30,
+      "buzzScore": 65,
       "reviewRating": null,
       "buzzSources": [
         {
           "platform": "Product Hunt",
           "mentions": 1,
-          "sentiment": "neutral"
+          "sentiment": "positive"
+        },
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "very positive"
         }
       ],
-      "ratingSources": [],
-      "buzzSummary": "Launched on Product Hunt Mar 18, 2026. Fits the growing trend of privacy-first, on-device AI tools. Limited engagement data so far.",
-      "ratingSummary": "No reviews yet — brand new launch. Appeals to privacy-conscious professionals who want meeting transcription without cloud dependencies."
+      "ratingSources": [
+        {
+          "platform": "TechCrunch",
+          "rating": null,
+          "count": 1,
+          "url": "https://techcrunch.com/2026/03/24/talats-ai-meeting-notes-stay-on-your-machine-not-in-the-cloud/"
+        }
+      ],
+      "buzzSummary": "TechCrunch featured talat as a privacy-first, local-only alternative to Granola ($250M-valued). Built using Apple's AudioTee library and FluidAudio framework — runs entirely on Mac's Neural Engine. Developer Nick Payne positioned it as 'your audio never leaves your Mac'.",
+      "ratingSummary": "TechCrunch coverage is favorable, highlighting the privacy angle and one-time-purchase model vs. subscription competitors. No formal star ratings yet but the local-first approach resonates with privacy-conscious developers."
     },
     {
       "name": "GB1",
@@ -5077,34 +5093,44 @@
       "name": "Claude Code Channels",
       "url": "https://www.producthunt.com/products/claude",
       "category": "Coding",
-      "description": "Push events and chat with Claude Code via Telegram and Discord — brings Claude Code notifications and interaction to messaging platforms.",
+      "description": "Auto Mode by Claude Code — let Claude make permission decisions on your behalf with built-in safety checks for risky actions and prompt injection.",
       "features": [
-        "Telegram integration",
-        "Discord integration",
-        "Push event notifications",
-        "Chat with Claude Code remotely"
+        "Auto mode for autonomous execution",
+        "Built-in safety layer",
+        "Permission decision delegation",
+        "Prompt injection detection",
+        "Enterprise/API only",
+        "Sonnet 4.6 and Opus 4.6 support"
       ],
-      "pricing": "Free",
-      "freeTier": "Free and open source",
+      "pricing": "From $20/mo",
+      "freeTier": "Available on Claude Pro ($20/mo) and API — auto mode lets AI decide which actions are safe without human approval",
       "dateAdded": "2026-03-20T19:27:07.108Z",
-      "dateUpdated": "2026-03-20T19:27:07.108Z",
+      "dateUpdated": "2026-03-25T14:39:32.764Z",
       "trending": false,
       "sourceUrls": [
-        "https://www.producthunt.com/products/claude"
+        "https://www.producthunt.com/products/claude",
+        "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/"
       ],
-      "buzzScore": 52,
+      "buzzScore": 75,
       "reviewRating": null,
       "parentPlatform": "Anthropic",
       "buzzSources": [
         {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Auto mode launch coverage Mar 24"
+        },
+        {
           "platform": "Product Hunt",
-          "detail": "Listed under Claude product family, Mar 19",
-          "sentiment": "positive"
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Auto Mode by Claude Code listing, Mar 24"
         }
       ],
       "ratingSources": [],
-      "buzzSummary": "Launched on Product Hunt (Mar 19, 2026) under Anthropic's Claude product page. Appeals to developers who want Claude Code notifications in their existing chat workflows instead of monitoring terminals.",
-      "ratingSummary": "No structured reviews yet. Product Hunt listing shows early interest from developer community."
+      "buzzSummary": "Major update: TechCrunch reports Anthropic launched auto mode for Claude Code Mar 24 — AI decides which actions are safe to execute without human approval. Also featured on Product Hunt Mar 24 as Auto Mode by Claude Code. Enterprise/API only, uses built-in safety layer to check for risky behavior and prompt injection.",
+      "ratingSummary": "Developer community excited about reduced approval friction. Some concern about autonomous execution safety. TechCrunch coverage balanced — notes keeps it on a leash with safety checks."
     },
     {
       "name": "Attention Residuals (MoonshotAI)",
@@ -6701,6 +6727,566 @@
       "ratingSources": [],
       "buzzSummary": "HN frontpage — new sparse attention mechanism from EverMind AI. Technical community discussing memory efficiency gains for large context windows.",
       "ratingSummary": "No reviews — research/open source project. Community discussion is positive on technical merits."
+    },
+    {
+      "name": "Doss",
+      "url": "https://www.doss.com/",
+      "category": "Productivity",
+      "description": "AI-native inventory management layer that integrates with existing ERP/accounting systems. Focused on mid-market consumer brands ($20M-$250M revenue).",
+      "features": [
+        "AI-powered inventory management",
+        "Plugs into existing ERP systems (Rillet, Campfire, QuickBooks)",
+        "Supply chain traceability through accounting lens",
+        "Procurement and physical goods management",
+        "Agentic inventory workflows"
+      ],
+      "pricing": "Enterprise (contact sales)",
+      "freeTier": "No free tier — enterprise SaaS for mid-market brands",
+      "dateAdded": "2026-03-24T21:04:12.522436Z",
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": true,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/"
+      ],
+      "buzzScore": 60,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch reports Doss raised $55M Series B co-led by Madrona and Premji Invest (with Intuit Ventures). Pivoted from competing with AI ERPs to partnering with them, providing the inventory management layer that Rillet/Campfire lack. Customers include Verve Coffee Roasters.",
+      "ratingSummary": "No public reviews yet — enterprise product. TechCrunch coverage frames it as solving a real gap in the AI ERP ecosystem rather than competing head-on with established players."
+    },
+    {
+      "name": "FastMCP",
+      "url": "https://gofastmcp.com/",
+      "category": "Coding",
+      "description": "The standard Python framework for building MCP (Model Context Protocol) servers, clients, and apps. Made by Prefect. Powers 70% of MCP servers across all languages.",
+      "features": [
+        "Build MCP servers with Python decorators",
+        "Auto-generated schemas, validation, docs",
+        "Client library for connecting to any MCP server",
+        "Interactive UI apps rendered in conversations",
+        "Free hosting via Prefect Horizon",
+        "Downloaded 1M+ times/day"
+      ],
+      "pricing": "Free / Open Source",
+      "freeTier": "Fully free and open source. Free hosting available via Prefect Horizon.",
+      "dateAdded": "2026-03-24T21:04:12.522436Z",
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": true,
+      "sourceUrls": [
+        "https://gofastmcp.com/",
+        "https://news.ycombinator.com/item?id=47508149"
+      ],
+      "buzzScore": 75,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Hacker News",
+          "mentions": 1,
+          "sentiment": "very positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Trending on HN frontpage. Claims to power 70% of all MCP servers and gets 1M+ downloads/day. FastMCP 1.0 was incorporated into the official MCP Python SDK in 2024. Made by Prefect, it's become the de facto standard for building MCP-compliant tools.",
+      "ratingSummary": "No formal ratings but extremely widely adopted — essentially the standard MCP framework. HN discussion indicates strong developer approval of the API design and Pythonic approach."
+    },
+    {
+      "name": "ProofShot",
+      "url": "https://github.com/AmElmo/proofshot",
+      "category": "Coding",
+      "description": "Give AI coding agents 'eyes' to visually verify the UI they build. Takes screenshots and feeds them back to the agent for visual QA.",
+      "features": [
+        "Visual verification for AI coding agents",
+        "Screenshot-based UI QA",
+        "Integrates with coding agent workflows",
+        "Open source"
+      ],
+      "pricing": "Free / Open Source",
+      "freeTier": "Fully free and open source on GitHub",
+      "dateAdded": "2026-03-24T21:04:12.522436Z",
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://github.com/AmElmo/proofshot",
+        "https://news.ycombinator.com/item?id=47499672"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Hacker News",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Show HN post — solves the 'blind coding agent' problem by giving AI agents visual feedback on UI they generate. Addresses a real pain point in vibe-coding where agents can't see what they're building.",
+      "ratingSummary": "No reviews yet — new open source project. Concept addresses a widely-felt gap in AI-assisted frontend development."
+    },
+    {
+      "name": "Maestri",
+      "url": "https://www.producthunt.com/products/maestri",
+      "category": "Coding",
+      "description": "An infinite canvas where multiple coding agents work in concert. Visual multi-agent orchestration for development workflows.",
+      "features": [
+        "Infinite canvas UI",
+        "Multi-agent orchestration",
+        "Visual coding workflow",
+        "Concurrent agent coordination"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — newly launched on Product Hunt",
+      "dateAdded": "2026-03-24T21:04:12.522436Z",
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/maestri"
+      ],
+      "buzzScore": 30,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt as 'an infinite canvas where coding agents work in concert'. Targets the emerging multi-agent development space with a visual orchestration approach.",
+      "ratingSummary": "No reviews yet. Product Hunt launch only — concept of visual multi-agent coding is novel but early."
+    },
+    {
+      "name": "CalaT",
+      "url": "https://github.com/darckneses5/CalaT",
+      "category": "Agents",
+      "description": "Fully local autonomous agent built on Ollama models with centralized permission gate, skill registry, and hardware-aware model selection. Runs entirely offline.",
+      "features": [
+        "Local-first autonomous agent",
+        "Centralized permission validation",
+        "Skill-based OS interaction",
+        "Hardware-aware model selection (1.5B to 14B+)",
+        "Dashboard + WebSocket UI",
+        "Telegram integration (text + audio)",
+        "Persistent local memory",
+        "No cloud dependency"
+      ],
+      "pricing": "Free / Open Source",
+      "freeTier": "Fully free and open source. Runs entirely on local Ollama models.",
+      "dateAdded": "2026-03-24T21:04:12.522436Z",
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://github.com/darckneses5/CalaT",
+        "https://www.reddit.com/r/LocalLLaMA/"
+      ],
+      "buzzScore": 25,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Reddit r/LocalLLaMA",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Posted on r/LocalLLaMA with detailed architecture writeup. v1.9.1 release with centralized permission gate, Telegram integration, and hardware-aware model selection. Developer planning declarative policy engine for 2.0.",
+      "ratingSummary": "No reviews yet — developer release. Architecture approach (separation of reasoning and execution, single decision point) looks thoughtful for a local agent project."
+    },
+    {
+      "name": "LelaAI",
+      "url": "https://www.producthunt.com/products/lelaai-learn-languages-naturally",
+      "category": "Productivity",
+      "description": "AI-powered language learning through reading real articles. Learn languages naturally by engaging with authentic content.",
+      "features": [
+        "Learn languages through real articles",
+        "AI-powered vocabulary assistance",
+        "Natural language learning approach",
+        "Multiple language support"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — newly launched on Product Hunt",
+      "dateAdded": "2026-03-24T21:04:12.522436Z",
+      "dateUpdated": "2026-03-24T21:04:12.522436Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/lelaai-learn-languages-naturally"
+      ],
+      "buzzScore": 20,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Launched on Product Hunt March 2026 with a learn-by-reading approach to language learning. Differentiates from Duolingo-style gamification by using real articles as learning material.",
+      "ratingSummary": "No reviews yet — fresh Product Hunt launch. The real-content approach to language learning is established (see LingQ, Readlang) but AI integration could add value."
+    },
+    {
+      "name": "Ensu by Ente",
+      "url": "https://ente.com/ensu",
+      "category": "Productivity",
+      "description": "Local-first LLM chatbot app by Ente (encrypted photos company) — fully offline, open source, cross-platform with end-to-end encrypted sync.",
+      "features": [
+        "Fully offline local LLM",
+        "Cross-platform (iOS, Android, Mac, Linux, Windows, Web)",
+        "End-to-end encrypted chat sync via Ente account",
+        "Open source (Rust core)",
+        "Image attachments",
+        "Self-hostable sync"
+      ],
+      "pricing": "Free",
+      "freeTier": "Fully free and open source — runs local models on-device, no subscription, E2E encrypted sync coming via Ente account",
+      "dateAdded": "2026-03-25T14:37:45.233Z",
+      "dateUpdated": "2026-03-25T14:37:45.233Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://ente.com/blog/ensu/",
+        "https://news.ycombinator.com/item?id=47516650"
+      ],
+      "buzzScore": 72,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Frontpage Show HN post, Mar 25 2026"
+        },
+        {
+          "platform": "Ente blog",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Detailed launch post explaining local-first LLM philosophy"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "HN frontpage on March 25, 2026. Built by Ente, the well-respected encrypted photos company (known for privacy-first approach). Core logic in Rust with native mobile and Tauri desktop apps. Positions against ChatGPT/Claude with full privacy and zero cost. Part of the growing local-first AI movement.",
+      "ratingSummary": "No formal reviews yet — just launched March 2026. Ente has strong reputation from its encrypted photos product (open source, privacy-focused). HN community reception is warm given Ente brand trust."
+    },
+    {
+      "name": "TurboQuant",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "category": "Research",
+      "description": "Google Research compression algorithm achieving extreme AI model compression with zero accuracy loss via PolarQuant rotation and QJL error correction — presented at ICLR 2026.",
+      "features": [
+        "Zero accuracy loss compression",
+        "PolarQuant random rotation step",
+        "QJL residual error correction (1-bit)",
+        "KV cache compression",
+        "Vector search optimization",
+        "Eliminates quantization constant overhead"
+      ],
+      "pricing": "Free",
+      "freeTier": "Open research — papers and techniques freely available (ICLR 2026, AISTATS 2026)",
+      "dateAdded": "2026-03-25T14:38:01.172Z",
+      "dateUpdated": "2026-03-25T14:38:01.172Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+        "https://news.ycombinator.com/item?id=47513475"
+      ],
+      "buzzScore": 68,
+      "reviewRating": null,
+      "parentPlatform": "Google",
+      "buzzSources": [
+        {
+          "platform": "HN",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Frontpage Mar 25, active discussion on compression implications"
+        },
+        {
+          "platform": "Google Research Blog",
+          "mentions": 1,
+          "sentiment": "positive"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "HN frontpage Mar 25 — Google Research publishes TurboQuant at ICLR 2026. Combines PolarQuant (random rotation + quantization) with QJL (1-bit error correction) for extreme compression without accuracy loss. Addresses KV cache bottlenecks and vector search efficiency. Three related papers published together.",
+      "ratingSummary": "Academic research — no user reviews applicable. Presented at top-tier venues (ICLR 2026, AISTATS 2026). Technical community on HN discussing implications for local inference and vector database efficiency."
+    },
+    {
+      "name": "Hark",
+      "url": "https://hark.ai",
+      "category": "Productivity",
+      "description": "Secretive AI lab by Brett Adcock (Figure AI founder) building end-to-end personal intelligence with custom multimodal models, proprietary hardware, and persistent memory — ex-Apple iPhone Air designer leading design.",
+      "features": [
+        "Custom multimodal AI models",
+        "Proprietary hardware design",
+        "Persistent life memory",
+        "Real-time listening and vision",
+        "End-to-end model + hardware co-design",
+        "Former Apple designer Abidur Chowdhury leading design"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — first AI model release expected summer 2026",
+      "dateAdded": "2026-03-25T14:38:21.162Z",
+      "dateUpdated": "2026-03-25T14:38:21.162Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/"
+      ],
+      "buzzScore": 72,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Exclusive interview with ex-Apple designer, details on vision"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "TechCrunch exclusive Mar 24 — Brett Adcock (Figure AI) secret AI lab Hark revealed with ex-Apple iPhone Air designer Abidur Chowdhury. Building AI models, hardware, and interfaces in tandem for a Jarvis/Her-style personal intelligence product. Anti-wearable stance — Chowdhury skeptical of camera pins and AR glasses. First models expected summer 2026.",
+      "ratingSummary": "Pre-product — no reviews possible. High-profile founding team (Brett Adcock, ex-Apple designer). TechCrunch exclusive signals significant industry interest. Competing in the AI hardware space alongside Jony Ive/OpenAI partnership."
+    },
+    {
+      "name": "Sift Stack",
+      "url": "https://www.siftstack.com",
+      "category": "Data",
+      "description": "Manufacturing data infrastructure platform by ex-SpaceX engineers — manages telemetry from 1.5M+ concurrent sensors for AI-powered factory automation and testing.",
+      "features": [
+        "Real-time telemetry ingestion",
+        "Multi-format sensor data management",
+        "AI-ready data infrastructure",
+        "Concurrent 1.5M+ sensor support",
+        "Manufacturing and test data analytics",
+        "Machine-readable data exposure for AI agents"
+      ],
+      "pricing": "Enterprise",
+      "freeTier": "No free tier — enterprise SaaS for advanced manufacturing companies",
+      "dateAdded": "2026-03-25T14:38:34.962Z",
+      "dateUpdated": "2026-03-25T14:38:34.962Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/"
+      ],
+      "buzzScore": 62,
+      "reviewRating": 4,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Exclusive on $42M Series B, manufacturing AI data infrastructure"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Customer testimonial",
+          "rating": 4,
+          "reviewCount": 2,
+          "detail": "Astranis VP and defense contractors"
+        }
+      ],
+      "buzzSummary": "TechCrunch exclusive Mar 25 — ex-SpaceX engineers building manufacturing data infrastructure. $42M Series B at $274M valuation led by StepStone with GV (Google Ventures). Customers include United Launch Alliance, Astranis, defense contractors. Pivoting from custom workflows to AI-ready data platform as factories automate.",
+      "ratingSummary": "Enterprise customers like Astranis VP praise cost savings and data management. No G2 or public reviews — enterprise-only product. Strong investor validation (StepStone, GV, $274M valuation)."
+    },
+    {
+      "name": "Magine",
+      "url": "https://magine.ai",
+      "category": "Agents",
+      "description": "Spawn vision-enabled AI agents that autonomously browse the web — visual browser automation platform.",
+      "features": [
+        "Vision-enabled browser agents",
+        "Autonomous web browsing",
+        "Visual task automation",
+        "Agent spawning"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-25T14:38:53.338Z",
+      "dateUpdated": "2026-03-25T14:38:53.338Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/magine"
+      ],
+      "buzzScore": 45,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured and actively updated, Mar 22-25"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Active on Product Hunt feed (Mar 22-25, updated Mar 25). Positioned as vision-enabled AI agent for autonomous web browsing. Competes with Browserbase and similar browser automation tools but focuses on visual understanding.",
+      "ratingSummary": "No structured reviews yet. Product Hunt listing actively maintained, suggesting ongoing development."
+    },
+    {
+      "name": "Keystone by Imbue",
+      "url": "https://imbue.com/keystone",
+      "category": "Coding",
+      "description": "Teach your repo how to run itself — Imbue tool that creates self-documenting repos for AI coding agents with automated test and build workflows.",
+      "features": [
+        "Self-running repos",
+        "AI agent workflow automation",
+        "Automated repo documentation",
+        "Build and test automation"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-25T14:39:03.626Z",
+      "dateUpdated": "2026-03-25T14:39:03.626Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/imbue-7"
+      ],
+      "buzzScore": 40,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured Mar 24, by Alexander Tibbets"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Product Hunt launch Mar 24 (Imbue, formerly Generally Intelligent). Keystone follows their earlier Offload product — both targeting the AI coding agent workflow space. Imbue pivoting from AI research to developer tooling.",
+      "ratingSummary": "No reviews yet — brand new Product Hunt launch. Imbue has reputation from AI research but Keystone is a new product direction."
+    },
+    {
+      "name": "Maritime",
+      "url": "https://maritime.dev",
+      "category": "Agents",
+      "description": "Deploy and host AI agents for $1/month — ultra-cheap agent hosting platform.",
+      "features": [
+        "$1/month agent hosting",
+        "One-click deployment",
+        "Cloud hosting",
+        "Agent management"
+      ],
+      "pricing": "From $1/mo",
+      "freeTier": "Unknown — pricing starts at $1/mo for agent hosting",
+      "dateAdded": "2026-03-25T14:39:11.342Z",
+      "dateUpdated": "2026-03-25T14:39:11.342Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/maritime"
+      ],
+      "buzzScore": 40,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Featured and actively updated, Mar 21-25"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Active on Product Hunt feed (Mar 21-25). Compelling price point at $1/mo for agent hosting. Part of the growing agent infrastructure space.",
+      "ratingSummary": "No structured reviews yet. Very early stage — pricing is the main differentiator."
+    },
+    {
+      "name": "CronBox",
+      "url": "https://cronbox.dev",
+      "category": "Agents",
+      "description": "Where AI agents work on a schedule in the cloud — scheduled agent execution platform.",
+      "features": [
+        "Scheduled agent runs",
+        "Cloud-based execution",
+        "Cron-style scheduling",
+        "Agent workflow automation"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-25T14:39:18.974Z",
+      "dateUpdated": "2026-03-25T14:39:18.974Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/cronbox-2"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed Mar 24"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Product Hunt launch Mar 24. Addresses the scheduled agent execution niche. Part of the growing agent infrastructure wave alongside Maritime and similar tools.",
+      "ratingSummary": "No reviews yet — freshly launched."
+    },
+    {
+      "name": "3Flow AI",
+      "url": "https://3flow.ai",
+      "category": "Design",
+      "description": "Generate design images and 3D models for product design — AI-powered industrial design tool.",
+      "features": [
+        "AI design image generation",
+        "3D model generation",
+        "Product design workflows",
+        "Industrial design"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-25T14:39:40.206Z",
+      "dateUpdated": "2026-03-25T14:39:40.206Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/3flow"
+      ],
+      "buzzScore": 35,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Listed Mar 24, updated Mar 25"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Product Hunt launch Mar 24. AI tool for industrial/product design — generates both 2D design images and 3D models. Niche but addresses a real gap in AI-powered physical product design.",
+      "ratingSummary": "No reviews yet — freshly launched on Product Hunt."
+    },
+    {
+      "name": "Pendium",
+      "url": "https://pendium.ai",
+      "category": "Marketing",
+      "description": "Help AI agents recommend you more often to the right people — AI SEO and recommendation optimization platform.",
+      "features": [
+        "AI agent recommendation optimization",
+        "Brand visibility in AI search",
+        "AI SEO tools"
+      ],
+      "pricing": "Unknown",
+      "freeTier": "Unknown — launched on Product Hunt March 2026",
+      "dateAdded": "2026-03-25T14:39:51.564Z",
+      "dateUpdated": "2026-03-25T14:39:51.564Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/pendium-ai"
+      ],
+      "buzzScore": 48,
+      "reviewRating": null,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Curated by Ryan Hoover, actively updated Mar 19-25"
+        }
+      ],
+      "ratingSources": [],
+      "buzzSummary": "Active on Product Hunt feed (Mar 19-25, curated by Ryan Hoover). Addresses the growing LLMEO (LLM Engine Optimization) space — helping brands get recommended by AI agents. Competes with Sitefire in the AI visibility space.",
+      "ratingSummary": "No reviews yet. Ryan Hoover curating suggests Product Hunt team interest. Very early market for AI recommendation optimization."
     }
   ]
 }
