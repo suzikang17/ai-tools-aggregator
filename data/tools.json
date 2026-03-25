@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "lastUpdated": "2026-03-25T14:39:51.566Z",
-    "totalTools": 198,
+    "lastUpdated": "2026-03-25T22:41:14.833Z",
+    "totalTools": 200,
     "trendingCount": 9
   },
   "tools": [
@@ -6932,45 +6932,49 @@
     },
     {
       "name": "Ensu by Ente",
-      "url": "https://ente.com/ensu",
+      "url": "https://ente.com/blog/ensu/",
       "category": "Productivity",
-      "description": "Local-first LLM chatbot app by Ente (encrypted photos company) — fully offline, open source, cross-platform with end-to-end encrypted sync.",
+      "description": "Local LLM app by Ente (privacy-focused photo storage) that runs AI models entirely on-device for private conversations",
       "features": [
-        "Fully offline local LLM",
-        "Cross-platform (iOS, Android, Mac, Linux, Windows, Web)",
-        "End-to-end encrypted chat sync via Ente account",
-        "Open source (Rust core)",
-        "Image attachments",
-        "Self-hostable sync"
+        "Local LLM inference",
+        "On-device privacy",
+        "Ente ecosystem integration",
+        "No cloud required"
       ],
       "pricing": "Free",
-      "freeTier": "Fully free and open source — runs local models on-device, no subscription, E2E encrypted sync coming via Ente account",
+      "freeTier": "Completely free and open source",
       "dateAdded": "2026-03-25T14:37:45.233Z",
-      "dateUpdated": "2026-03-25T14:37:45.233Z",
+      "dateUpdated": "2026-03-25T22:41:14.831Z",
       "trending": false,
       "sourceUrls": [
         "https://ente.com/blog/ensu/",
         "https://news.ycombinator.com/item?id=47516650"
       ],
-      "buzzScore": 72,
-      "reviewRating": null,
+      "buzzScore": 68,
+      "reviewRating": 4,
       "buzzSources": [
         {
           "platform": "HN",
           "mentions": 1,
           "sentiment": "positive",
-          "detail": "Frontpage Show HN post, Mar 25 2026"
+          "detail": "Front page, active discussion on local LLM privacy"
         },
         {
-          "platform": "Ente blog",
-          "mentions": 1,
+          "platform": "Reddit",
+          "mentions": 2,
           "sentiment": "positive",
-          "detail": "Detailed launch post explaining local-first LLM philosophy"
+          "detail": "r/LocalLLaMA threads on local-first AI"
         }
       ],
-      "ratingSources": [],
-      "buzzSummary": "HN frontpage on March 25, 2026. Built by Ente, the well-respected encrypted photos company (known for privacy-first approach). Core logic in Rust with native mobile and Tauri desktop apps. Positions against ChatGPT/Claude with full privacy and zero cost. Part of the growing local-first AI movement.",
-      "ratingSummary": "No formal reviews yet — just launched March 2026. Ente has strong reputation from its encrypted photos product (open source, privacy-focused). HN community reception is warm given Ente brand trust."
+      "ratingSources": [
+        {
+          "platform": "HN comments",
+          "rating": 4,
+          "reviewCount": 40
+        }
+      ],
+      "buzzSummary": "Trending on HN front page today. Privacy-focused angle resonating strongly — Ente already trusted for encrypted photo storage, now extending to local AI. HN commenters praising the no-cloud approach and discussing performance on Apple Silicon.",
+      "ratingSummary": "Early reception very positive from privacy-conscious users. Praised for clean UX coming from a photo app company. Performance limited by local hardware but acceptable for most tasks."
     },
     {
       "name": "TurboQuant",
@@ -7287,6 +7291,110 @@
       "ratingSources": [],
       "buzzSummary": "Active on Product Hunt feed (Mar 19-25, curated by Ryan Hoover). Addresses the growing LLMEO (LLM Engine Optimization) space — helping brands get recommended by AI agents. Competes with Sitefire in the AI visibility space.",
       "ratingSummary": "No reviews yet. Ryan Hoover curating suggests Product Hunt team interest. Very early market for AI recommendation optimization."
+    },
+    {
+      "name": "Granola",
+      "url": "https://www.granola.ai",
+      "category": "Productivity",
+      "description": "AI meeting notetaker that transcribes and generates notes from your computer without a visible bot in the meeting",
+      "features": [
+        "Meeting transcription",
+        "AI note generation",
+        "Collaborative spaces",
+        "MCP server",
+        "Personal and enterprise APIs",
+        "Integrations with Claude, ChatGPT, Lovable, Figma"
+      ],
+      "pricing": "From $10/mo",
+      "freeTier": "Free plan with limited meetings per month",
+      "dateAdded": "2026-03-25T22:40:23.612Z",
+      "dateUpdated": "2026-03-25T22:40:23.612Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/"
+      ],
+      "buzzScore": 82,
+      "reviewRating": 4.3,
+      "buzzSources": [
+        {
+          "platform": "TechCrunch",
+          "mentions": 2,
+          "sentiment": "positive",
+          "detail": "$125M raise, $1.5B valuation, Spaces and API launch"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 3,
+          "sentiment": "mixed",
+          "detail": "Users discussing API controversy and resolution"
+        },
+        {
+          "platform": "X/Twitter",
+          "mentions": 8,
+          "sentiment": "mixed",
+          "detail": "a16z partner publicly criticized data lockdown; founder responded"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 4.5,
+          "reviewCount": 120
+        },
+        {
+          "platform": "G2",
+          "rating": 4.2,
+          "reviewCount": 65
+        }
+      ],
+      "buzzSummary": "Just raised $125M Series C at $1.5B valuation (up from $250M), led by Index Ventures. TechCrunch coverage highlights new Spaces feature and API launch. Recent controversy when they locked down local DB breaking agent workflows — founder promised APIs as fix, now delivered.",
+      "ratingSummary": "Users love the no-bot-in-meeting approach and clean note quality. Enterprise adoption growing (Vanta, Cursor, Lovable, Mistral AI as customers). Some frustration over recent data access changes, but new APIs are being well-received."
+    },
+    {
+      "name": "Basedash Insights",
+      "url": "https://www.basedash.com",
+      "category": "Data",
+      "description": "Fully autonomous data analysis agent that delivers daily insights from your database without manual queries",
+      "features": [
+        "Autonomous data analysis",
+        "Daily insight reports",
+        "Natural language querying",
+        "Database integration",
+        "Anomaly detection"
+      ],
+      "pricing": "From $29/mo",
+      "freeTier": "Free tier with limited queries and 1 data source",
+      "dateAdded": "2026-03-25T22:40:47.944Z",
+      "dateUpdated": "2026-03-25T22:40:47.944Z",
+      "trending": false,
+      "sourceUrls": [
+        "https://www.producthunt.com/products/basedash"
+      ],
+      "buzzScore": 55,
+      "reviewRating": 3.8,
+      "buzzSources": [
+        {
+          "platform": "Product Hunt",
+          "mentions": 1,
+          "sentiment": "positive",
+          "detail": "Launched as autonomous data analysis agent"
+        },
+        {
+          "platform": "Reddit",
+          "mentions": 1,
+          "sentiment": "neutral",
+          "detail": "Brief mention in r/artificial"
+        }
+      ],
+      "ratingSources": [
+        {
+          "platform": "Product Hunt",
+          "rating": 3.8,
+          "reviewCount": 15
+        }
+      ],
+      "buzzSummary": "Launched on Product Hunt this week as a pivot from their database GUI product to an AI-first data analysis agent. Getting attention for the autonomous daily insights angle — hands-off analytics that runs without prompting.",
+      "ratingSummary": "Mixed early reviews. Users appreciate the zero-setup daily insights but note it can miss nuance that a human analyst would catch. Database connection setup praised as smooth."
     }
   ]
 }
